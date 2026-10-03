@@ -1,0 +1,555 @@
+{
+  "protocol": {
+    "frozen_at": "2026-09-30T17:30:30.111128+00:00",
+    "symbol": "AAOI",
+    "quote_reference": 97.538,
+    "stop": 93,
+    "target": 110,
+    "horizons_sessions": [
+      5,
+      10,
+      20
+    ],
+    "roundtrip_costs": [
+      0.002,
+      0.004
+    ],
+    "historical_entry": "next regular open following completed signal day",
+    "levels": "same percentage distance as user current entry; not historic absolute USD levels",
+    "current_feature_variants": [
+      "completed Sep29 close",
+      "Sep30 13:27 partial day proxy, not a completed signal"
+    ],
+    "features": [
+      "return5",
+      "return20",
+      "distance_ma20",
+      "distance_ma200",
+      "RSI14/100",
+      "ATR14/close",
+      "distance_low20"
+    ],
+    "scaling": "past mature rows median/IQR, equal weight Euclidean",
+    "analogues": {
+      "n": 32,
+      "selection": "nearest rows with at least21 sessions between signal days; no outcome-based selection"
+    },
+    "baseline": "all chronological nonoverlap21-session observations with mature20-session labels",
+    "outcome": "first target before stop; opening stop gap exits at actual opening price; target gap at limit; same-day ambiguity stop first; timeout exits horizon close",
+    "limitations": [
+      "Single historically selected ticker; regime changes; no untouched holdout or calibrated present probability",
+      "Partial current day proxy cannot be treated as validated close-to-next-open strategy",
+      "Daily bars do not determine intraday order if both levels reached",
+      "Bid ask, execution slippage and overnight stop guarantees unavailable"
+    ],
+    "input_sha256": {
+      "SMH-daily.json": "d9b321fe7ea3529e7b6bb7ca3fcb74fe9cb3a532dc26195c93efa2393f89e74e",
+      "AAOI-daily.json": "ca7533f6c4ec9652a09555cc46f459910a8af085b43282e53fdb46097cf636e6",
+      "LITE-daily.json": "520ad009c785d9a2332277af9812dd36bf80489b52e1bce39abbfe0fe9ba0f37",
+      "AAOI-5m.json": "e50e53cec2623b5152f66d72c9b31036d387b35883679baa517f3a595cc70305",
+      "AAOI-live.json": "f91bbda31b4da705c994395512201fcb4ac9c2a9218bcd62829cddb7ae8edd68",
+      "QQQ-daily.json": "46add82e625ed092871083d49576d3340d1f80313dac6e84f9db91f2f63cf093",
+      "COHR-daily.json": "e3ab93c058ff2eea150b4f0809d894db1eb83c145d33f52baf3245b9d4f0e9b5"
+    }
+  },
+  "complete_data_range": [
+    "2016-09-30",
+    "2026-09-29"
+  ],
+  "mature_candidate_n": 2293,
+  "quote": 97.538,
+  "last_completed": {
+    "features": {
+      "return5": -0.05915889561733356,
+      "return20": -0.0651871493482461,
+      "distance_ma20": -0.017004938371974143,
+      "distance_ma200": -0.06502477457276967,
+      "rsi2": 59.86296467525396,
+      "rsi14": 45.04000491024323,
+      "RSI14/100": 0.4504000491024323,
+      "atr14": 8.136620073902153,
+      "ATR14/close": 0.0808246768838438,
+      "distance_low20": 0.0753043710268495
+    },
+    "selected": [
+      {
+        "signal_date": "2022-10-24",
+        "distance": 0.31736682087670937
+      },
+      {
+        "signal_date": "2024-04-03",
+        "distance": 0.33198750110347336
+      },
+      {
+        "signal_date": "2022-12-12",
+        "distance": 0.34601155849207477
+      },
+      {
+        "signal_date": "2021-02-25",
+        "distance": 0.5567756595073367
+      },
+      {
+        "signal_date": "2019-11-21",
+        "distance": 0.5648084778847061
+      },
+      {
+        "signal_date": "2020-09-24",
+        "distance": 0.5867613738329935
+      },
+      {
+        "signal_date": "2024-05-14",
+        "distance": 0.5912528802027844
+      },
+      {
+        "signal_date": "2025-06-10",
+        "distance": 0.6423832359782161
+      },
+      {
+        "signal_date": "2021-03-26",
+        "distance": 0.6481431899880464
+      },
+      {
+        "signal_date": "2018-08-16",
+        "distance": 0.6633397377351985
+      },
+      {
+        "signal_date": "2020-06-24",
+        "distance": 0.6925418592287377
+      },
+      {
+        "signal_date": "2023-03-21",
+        "distance": 0.6926356903368031
+      },
+      {
+        "signal_date": "2018-11-23",
+        "distance": 0.6969905275815537
+      },
+      {
+        "signal_date": "2017-09-25",
+        "distance": 0.713455453609024
+      },
+      {
+        "signal_date": "2025-07-28",
+        "distance": 0.714457500000566
+      },
+      {
+        "signal_date": "2025-09-26",
+        "distance": 0.7161771250290121
+      },
+      {
+        "signal_date": "2023-05-17",
+        "distance": 0.7211585604009817
+      },
+      {
+        "signal_date": "2019-10-22",
+        "distance": 0.7282918417719889
+      },
+      {
+        "signal_date": "2024-06-14",
+        "distance": 0.7398975526080973
+      },
+      {
+        "signal_date": "2020-05-20",
+        "distance": 0.7556718086321563
+      },
+      {
+        "signal_date": "2018-07-18",
+        "distance": 0.7610977055317223
+      },
+      {
+        "signal_date": "2020-02-20",
+        "distance": 0.7614075017391387
+      },
+      {
+        "signal_date": "2020-08-18",
+        "distance": 0.7674981421562028
+      },
+      {
+        "signal_date": "2019-08-14",
+        "distance": 0.7988996362863586
+      },
+      {
+        "signal_date": "2022-03-02",
+        "distance": 0.8127265821453499
+      },
+      {
+        "signal_date": "2021-05-14",
+        "distance": 0.8156071101244736
+      },
+      {
+        "signal_date": "2020-12-03",
+        "distance": 0.8583029017951684
+      },
+      {
+        "signal_date": "2024-11-06",
+        "distance": 0.8804564802037764
+      },
+      {
+        "signal_date": "2021-12-17",
+        "distance": 0.8823973557469147
+      },
+      {
+        "signal_date": "2022-04-05",
+        "distance": 0.8825034774305175
+      },
+      {
+        "signal_date": "2017-11-22",
+        "distance": 0.8843071966994537
+      },
+      {
+        "signal_date": "2024-07-26",
+        "distance": 0.8848378857270555
+      }
+    ],
+    "outcomes": {
+      "5": {
+        "n": 32,
+        "target": 3,
+        "stop": 16,
+        "timeout": 13,
+        "target_first_rate": 0.09375,
+        "target_first_wilson95_descriptive": [
+          0.032400962626319516,
+          0.24218499335778831
+        ],
+        "target_touched_ignoring_stop": 0.125,
+        "mean_net": 0.0027491424933485803,
+        "median_net": -0.029913886521223676,
+        "positive_net_rate": 0.46875,
+        "mean_net_double_cost": 0.0007491424933485803,
+        "ambiguous": 0,
+        "mean_held_sessions": 3.4375
+      },
+      "10": {
+        "n": 32,
+        "target": 8,
+        "stop": 22,
+        "timeout": 2,
+        "target_first_rate": 0.25,
+        "target_first_wilson95_descriptive": [
+          0.1325224398262155,
+          0.42106891770246624
+        ],
+        "target_touched_ignoring_stop": 0.34375,
+        "mean_net": -0.00033318935449701964,
+        "median_net": -0.04852545674506348,
+        "positive_net_rate": 0.3125,
+        "mean_net_double_cost": -0.0023331893544970197,
+        "ambiguous": 0,
+        "mean_held_sessions": 4.90625
+      },
+      "20": {
+        "n": 32,
+        "target": 8,
+        "stop": 23,
+        "timeout": 1,
+        "target_first_rate": 0.25,
+        "target_first_wilson95_descriptive": [
+          0.1325224398262155,
+          0.42106891770246624
+        ],
+        "target_touched_ignoring_stop": 0.40625,
+        "mean_net": -0.0008327619077915724,
+        "median_net": -0.04852545674506348,
+        "positive_net_rate": 0.28125,
+        "mean_net_double_cost": -0.0028327619077915724,
+        "ambiguous": 0,
+        "mean_held_sessions": 5.28125
+      }
+    }
+  },
+  "partial_today_proxy": {
+    "features": {
+      "return5": -0.034850560495528704,
+      "return20": -0.05660121311727517,
+      "distance_ma20": -0.044858488103091565,
+      "distance_ma200": -0.09668126053710413,
+      "rsi2": 31.125772813239834,
+      "rsi14": 42.64264585778008,
+      "RSI14/100": 0.4264264585778008,
+      "atr14": 8.115425579749266,
+      "ATR14/close": 0.08320270642979419,
+      "distance_low20": 0.04185000147910167
+    },
+    "selected": [
+      {
+        "signal_date": "2022-12-07",
+        "distance": 0.2599679729100239
+      },
+      {
+        "signal_date": "2022-10-24",
+        "distance": 0.40778039548903494
+      },
+      {
+        "signal_date": "2024-04-04",
+        "distance": 0.4727585068083019
+      },
+      {
+        "signal_date": "2024-06-12",
+        "distance": 0.4839455492201187
+      },
+      {
+        "signal_date": "2020-05-20",
+        "distance": 0.5445604702034867
+      },
+      {
+        "signal_date": "2020-09-24",
+        "distance": 0.5456240475948348
+      },
+      {
+        "signal_date": "2024-05-09",
+        "distance": 0.5629328189356615
+      },
+      {
+        "signal_date": "2023-05-04",
+        "distance": 0.5662912372860911
+      },
+      {
+        "signal_date": "2025-06-10",
+        "distance": 0.5764548476534953
+      },
+      {
+        "signal_date": "2021-03-29",
+        "distance": 0.628190656126554
+      },
+      {
+        "signal_date": "2018-11-20",
+        "distance": 0.6915909921922299
+      },
+      {
+        "signal_date": "2019-11-21",
+        "distance": 0.7097029504753642
+      },
+      {
+        "signal_date": "2023-03-22",
+        "distance": 0.7137387682622142
+      },
+      {
+        "signal_date": "2021-02-25",
+        "distance": 0.7244875285714969
+      },
+      {
+        "signal_date": "2022-03-02",
+        "distance": 0.743145077474768
+      },
+      {
+        "signal_date": "2020-08-18",
+        "distance": 0.7579820885321625
+      },
+      {
+        "signal_date": "2025-07-29",
+        "distance": 0.7609070058307642
+      },
+      {
+        "signal_date": "2018-08-16",
+        "distance": 0.7787704815889928
+      },
+      {
+        "signal_date": "2017-09-08",
+        "distance": 0.7973328285452373
+      },
+      {
+        "signal_date": "2021-05-13",
+        "distance": 0.8269870943939487
+      },
+      {
+        "signal_date": "2020-02-06",
+        "distance": 0.8281247645393387
+      },
+      {
+        "signal_date": "2019-10-22",
+        "distance": 0.8365404519781359
+      },
+      {
+        "signal_date": "2019-08-14",
+        "distance": 0.8369908281037235
+      },
+      {
+        "signal_date": "2022-04-05",
+        "distance": 0.8481139587825828
+      },
+      {
+        "signal_date": "2021-12-21",
+        "distance": 0.8710575659391281
+      },
+      {
+        "signal_date": "2018-07-18",
+        "distance": 0.8780813508716049
+      },
+      {
+        "signal_date": "2025-09-04",
+        "distance": 0.8836020540519159
+      },
+      {
+        "signal_date": "2020-06-24",
+        "distance": 0.8930614861426024
+      },
+      {
+        "signal_date": "2024-11-06",
+        "distance": 0.8970452655490719
+      },
+      {
+        "signal_date": "2022-09-08",
+        "distance": 0.9159019703047101
+      },
+      {
+        "signal_date": "2024-07-26",
+        "distance": 0.9232450293052572
+      },
+      {
+        "signal_date": "2018-03-15",
+        "distance": 0.930622646310353
+      }
+    ],
+    "outcomes": {
+      "5": {
+        "n": 32,
+        "target": 5,
+        "stop": 14,
+        "timeout": 13,
+        "target_first_rate": 0.15625,
+        "target_first_wilson95_descriptive": [
+          0.06864319106627216,
+          0.31754492553566527
+        ],
+        "target_touched_ignoring_stop": 0.21875,
+        "mean_net": 0.013074849243751192,
+        "median_net": 0.0005862003194874194,
+        "positive_net_rate": 0.5,
+        "mean_net_double_cost": 0.011074849243751192,
+        "ambiguous": 0,
+        "mean_held_sessions": 3.3125
+      },
+      "10": {
+        "n": 32,
+        "target": 10,
+        "stop": 18,
+        "timeout": 4,
+        "target_first_rate": 0.3125,
+        "target_first_wilson95_descriptive": [
+          0.17952352116618736,
+          0.4856699969803239
+        ],
+        "target_touched_ignoring_stop": 0.40625,
+        "mean_net": 0.014651996710259813,
+        "median_net": -0.04852545674506337,
+        "positive_net_rate": 0.40625,
+        "mean_net_double_cost": 0.012651996710259813,
+        "ambiguous": 0,
+        "mean_held_sessions": 4.65625
+      },
+      "20": {
+        "n": 32,
+        "target": 10,
+        "stop": 21,
+        "timeout": 1,
+        "target_first_rate": 0.3125,
+        "target_first_wilson95_descriptive": [
+          0.17952352116618736,
+          0.4856699969803239
+        ],
+        "target_touched_ignoring_stop": 0.46875,
+        "mean_net": 0.010142567179233421,
+        "median_net": -0.04852545674506348,
+        "positive_net_rate": 0.34375,
+        "mean_net_double_cost": 0.008142567179233421,
+        "ambiguous": 0,
+        "mean_held_sessions": 5.21875
+      }
+    }
+  },
+  "unconditional_nonoverlap_baseline": {
+    "5": {
+      "n": 110,
+      "target": 15,
+      "stop": 70,
+      "timeout": 25,
+      "target_first_rate": 0.13636363636363635,
+      "target_first_wilson95_descriptive": [
+        0.0844108182606438,
+        0.2128583698041761
+      ],
+      "target_touched_ignoring_stop": 0.19090909090909092,
+      "mean_net": -0.008386476865055288,
+      "median_net": -0.04852545674506348,
+      "positive_net_rate": 0.3181818181818182,
+      "mean_net_double_cost": -0.010386476865055288,
+      "ambiguous": 0,
+      "mean_held_sessions": 2.909090909090909
+    },
+    "10": {
+      "n": 110,
+      "target": 22,
+      "stop": 79,
+      "timeout": 9,
+      "target_first_rate": 0.2,
+      "target_first_wilson95_descriptive": [
+        0.13595004455478174,
+        0.2842970355986948
+      ],
+      "target_touched_ignoring_stop": 0.3181818181818182,
+      "mean_net": -0.008255621556471407,
+      "median_net": -0.04852545674506348,
+      "positive_net_rate": 0.2818181818181818,
+      "mean_net_double_cost": -0.010255621556471407,
+      "ambiguous": 0,
+      "mean_held_sessions": 3.772727272727273
+    },
+    "20": {
+      "n": 110,
+      "target": 27,
+      "stop": 83,
+      "timeout": 0,
+      "target_first_rate": 0.24545454545454545,
+      "target_first_wilson95_descriptive": [
+        0.17452312248223445,
+        0.33356530916313953
+      ],
+      "target_touched_ignoring_stop": 0.4909090909090909,
+      "mean_net": -0.008779271060680787,
+      "median_net": -0.04852545674506348,
+      "positive_net_rate": 0.24545454545454545,
+      "mean_net_double_cost": -0.010779271060680787,
+      "ambiguous": 0,
+      "mean_held_sessions": 4.009090909090909
+    }
+  },
+  "peer_snapshot": {
+    "AAOI": {
+      "price": 97.538,
+      "prior_close": 100.66999816894531,
+      "change": -0.031111534974791244
+    },
+    "COHR": {
+      "price": 283.83,
+      "prior_close": 292.2099914550781,
+      "change": -0.028677977140170507
+    },
+    "LITE": {
+      "price": 958.625,
+      "prior_close": 973.489990234375,
+      "change": -0.015269792584920339
+    },
+    "QQQ": {
+      "price": 741.74,
+      "prior_close": 737.9299926757812,
+      "change": 0.005163101326730812
+    },
+    "SMH": {
+      "price": 607.24,
+      "prior_close": 606.9000244140625,
+      "change": 0.0005601838396129821
+    }
+  },
+  "trade_math": {
+    "risk_usd": 4.537999999999997,
+    "reward_usd": 12.462000000000003,
+    "risk_pct": 0.046525456745063476,
+    "reward_pct": 0.1277655887961615,
+    "rr": 2.7461436756280326,
+    "breakeven_no_cost": 0.266941176470588,
+    "breakeven_cost_02": 0.27841623529411746,
+    "max_entry_rr25": 97.85714285714286,
+    "risk_atr_ratio": 0.557725438668991
+  }
+}

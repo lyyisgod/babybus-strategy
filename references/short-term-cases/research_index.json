@@ -1,0 +1,969 @@
+{
+  "reports": [
+    {
+      "path": "sources/研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "original_path": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "title": "CRWV、CBRS暴涨前形态与9月10日观察名单",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-09-DDOG-secondary",
+        "2026-09-09-MRVL-secondary",
+        "2026-09-09-MU-secondary",
+        "2026-09-09-AMD-secondary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-FOMC周空仓计划/单股反弹候选.md",
+      "original_path": "研究记录/2026-09-14-FOMC周空仓计划/单股反弹候选.md",
+      "title": "单股博反弹：2026-09-14 17:21 ET",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-FOMC周空仓计划/研究结论.md",
+      "original_path": "研究记录/2026-09-14-FOMC周空仓计划/研究结论.md",
+      "title": "2026年9月14—18日：FOMC周美股与半导体空仓计划",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-半导体尾盘反弹/AVGO-35股持仓计划.md",
+      "original_path": "研究记录/2026-09-14-半导体尾盘反弹/AVGO-35股持仓计划.md",
+      "title": "AVGO 持仓更新",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-半导体尾盘反弹/交易结论.md",
+      "original_path": "研究记录/2026-09-14-半导体尾盘反弹/交易结论.md",
+      "title": "半导体尾盘反弹交易研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-无人机彩票仓/明日大涨概率.md",
+      "original_path": "研究记录/2026-09-14-无人机彩票仓/明日大涨概率.md",
+      "title": "9月15日下一交易日概率估算",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-无人机彩票仓/研究结论.md",
+      "original_path": "研究记录/2026-09-14-无人机彩票仓/研究结论.md",
+      "title": "AVAV、KTOS、RCAT、ONDS：彩票仓与期权成本模型",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-14-盘后建仓筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-14-盘后建仓筛选/研究结论.md",
+      "title": "2026-09-14 盘后建仓筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-15-AVGO-MU次日概率/次日概率结论.md",
+      "original_path": "研究记录/2026-09-15-AVGO-MU次日概率/次日概率结论.md",
+      "title": "AVGO / MU：2026-09-16 次日下跌概率研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-15-今日建仓因子筛选/今日建仓结论.md",
+      "original_path": "研究记录/2026-09-15-今日建仓因子筛选/今日建仓结论.md",
+      "title": "2026-09-15 今日美股建仓：抓取、因子检验与执行条件",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-15-盘中市场扫描/市场扫描.md",
+      "original_path": "研究记录/2026-09-15-盘中市场扫描/市场扫描.md",
+      "title": "2026-09-15 美股盘中市场扫描",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-16-午盘建仓快扫/建仓结论.md",
+      "original_path": "研究记录/2026-09-16-午盘建仓快扫/建仓结论.md",
+      "title": "2026-09-16 午盘建仓快扫",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-16-盘前反弹建模/研究结论.md",
+      "original_path": "研究记录/2026-09-16-盘前反弹建模/研究结论.md",
+      "title": "2026-09-16 美股盘前反弹建模",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-Babybus洗盘反抽/改进与回测报告.md",
+      "original_path": "研究记录/2026-09-17-Babybus洗盘反抽/改进与回测报告.md",
+      "title": "Babybus 洗盘反抽 V1：实现与验收报告",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/adjacent_growth.md",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/adjacent_growth.md",
+      "title": "AI基建、电力与高增长股：基本面反证",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/audit.md",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/audit.md",
+      "title": "独立审计：日内归因与CLS/LITE/ALAB取舍",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/market_drivers.md",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/market_drivers.md",
+      "title": "2026-09-17 盘中上涨驱动核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/replay.txt",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/replay.txt",
+      "title": "symbol    price  change_pct   ret20   ret63  same_time_volume_ratio  extension_now_atr above_vwap  live_above_ema50  market_model_residual_today_pp",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/semis_fundamental.md",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/semis_fundamental.md",
+      "title": "半导体及光互连基本面比较",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-全市场进攻选股/研究结论.md",
+      "original_path": "研究记录/2026-09-17-全市场进攻选股/研究结论.md",
+      "title": "9月17日盘中：上涨原因与今日直接买入选择",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-夜盘次日爆发/verification.txt",
+      "original_path": "研究记录/2026-09-17-夜盘次日爆发/verification.txt",
+      "title": "PASS: 29/29 complete, 8/8 finite daily factors, 60 prior analog dates, three event abstentions, trade arithmetic >=2R, original score suppressed. No overnight execution backtest.",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "original_path": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "title": "9 月 17 日夜盘至常规盘：CRDO 型机会筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-17-LITE-primary",
+        "2026-09-17-ALAB-secondary",
+        "2026-09-17-VICR-secondary",
+        "2026-09-17-CRDO-secondary",
+        "2026-09-17-WULF-secondary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-截图十股建仓/研究报告.md",
+      "original_path": "研究记录/2026-09-17-截图十股建仓/研究报告.md",
+      "title": "截图十股：今日入场与持续创新高潜力",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-17-高胜率操作/研究结论.md",
+      "original_path": "研究记录/2026-09-17-高胜率操作/研究结论.md",
+      "title": "本轮单一候选：LRCX收盘竞价反弹方案；未通过高置信认证",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-17-LRCX-different_horizon"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-18-Babybus周末交易/周末交易结论.md",
+      "original_path": "研究记录/2026-09-18-Babybus周末交易/周末交易结论.md",
+      "title": "周末战术首选 NBIS；“大概率暴涨”没有证据支持",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-18-NBIS-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-18-同规则建仓筛选/今日买或不买.md",
+      "original_path": "研究记录/2026-09-18-同规则建仓筛选/今日买或不买.md",
+      "title": "今日明确结论：不新增建仓",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-双模型短线筛选/今日结论.md",
+      "original_path": "研究记录/2026-09-21-双模型短线筛选/今日结论.md",
+      "title": "2026-09-21 盘前双模型：单一研究候选 VICR，正式结论不买",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-双模型短线筛选/必须选一只/选择与执行.md",
+      "original_path": "研究记录/2026-09-21-双模型短线筛选/必须选一只/选择与执行.md",
+      "title": "必须只选一只：VICR；条件性投机选择，不是高置信信号",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-VICR-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+      "original_path": "研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+      "title": "9/21 夜盘重抓：ALAB 相对第一，当前不满足高置信买入条件",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-ALAB-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/AAOI-CRDO核验.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/AAOI-CRDO核验.md",
+      "title": "AAOI / CRDO：基本面、事件与融资核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/低追价备选/观察结论.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/低追价备选/观察结论.md",
+      "title": "用户不愿追 CRDO 后：WDC 作为低追价观察备选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-WDC-secondary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/内部人核验.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/内部人核验.md",
+      "title": "AAOI 内部人交易与融资性质核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/唯一选择与执行.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/唯一选择与执行.md",
+      "title": "排除 VICR 后的唯一条件首选：AAOI",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/备选催化.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/备选催化.md",
+      "title": "排除 VICR 后：NBIS、CIFR、BE、COHR、SMTC 的新增催化核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/恢复原模型/ALAB条件首选.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/恢复原模型/ALAB条件首选.md",
+      "title": "恢复原模型：ALAB为相对首选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-ALAB-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/排除AAOI/CRDO选择.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/排除AAOI/CRDO选择.md",
+      "title": "排除 AAOI、VICR 后：综合首选 CRDO",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-CRDO-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/追问-暴涨可能与融资.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/追问-暴涨可能与融资.md",
+      "title": "AAOI 追问：短线暴涨可能性与融资约束",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-排除VICR必选一只/选择审计.md",
+      "original_path": "研究记录/2026-09-21-排除VICR必选一只/选择审计.md",
+      "title": "排除 VICR 后必选一只：独立选择审计",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/calendar-risks.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/calendar-risks.md",
+      "title": "2026-09-21 隔夜至 9 月 22 日事件与日历风险核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/case-evidence.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/case-evidence.md",
+      "title": "VICR / LRCX / WDAY 既往案例证据索引",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/catalysts.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/catalysts.md",
+      "title": "9 月 21 日盘后至 9 月 22 日盘中：催化核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/model-audit.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/model-audit.md",
+      "title": "次日盘中模型独立审计",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/prior-audit.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/prior-audit.md",
+      "title": "既往 WDAY／LRCX 与隔夜模型审计",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "WDAY-original-not-located"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/vicr-followup.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/vicr-followup.md",
+      "title": "VICR 收盘后异动核验；ALAB / ARM 去重",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/vicr-fundamentals.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/vicr-fundamentals.md",
+      "title": "VICR：9 月 21 日盘后指引上调的基本面核验",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+      "original_path": "研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+      "title": "9 月 21 日盘后至 9 月 22 日盘中：爆发候选与置信边界",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-VICR-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-盘前下跌与AVGO/机会筛选/筛选结论.md",
+      "original_path": "研究记录/2026-09-22-盘前下跌与AVGO/机会筛选/筛选结论.md",
+      "title": "2026-09-22 盘前筛选：ALAB 相对第一，尚无绝对买入确认",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-21-ALAB-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+      "original_path": "研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+      "title": "2026-09-22 21:58 EDT 夜盘更新：9/23 短线大涨候选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-22-VICR-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-隔夜至次日爆发/强制单选-未大涨-UMAC.md",
+      "original_path": "研究记录/2026-09-22-隔夜至次日爆发/强制单选-未大涨-UMAC.md",
+      "title": "2026-09-22 17:27 EDT：强制单选、近五日未大涨",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-22-UMAC-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+      "original_path": "研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+      "title": "2026-09-22 17:12 EDT：从现在买入，次日盘中再赚至少 5% 的复核",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-22-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-隔夜至次日爆发/筛选结论.md",
+      "original_path": "研究记录/2026-09-22-隔夜至次日爆发/筛选结论.md",
+      "title": "2026-09-22 盘后至 9/23 盘中：VICR 相对第一，未达到买入门槛",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-22-VICR-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-22-隔夜至次日爆发/非暴涨候选复筛.md",
+      "original_path": "研究记录/2026-09-22-隔夜至次日爆发/非暴涨候选复筛.md",
+      "title": "2026-09-22 17:05 EDT：剔除近期暴涨后的替代候选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-22-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-23-美股盘中与AVGO/研究结论.md",
+      "original_path": "研究记录/2026-09-23-美股盘中与AVGO/研究结论.md",
+      "title": "2026-09-23 美股早盘与 AVGO：点时决策记录",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-24-次日涨5未暴涨筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-24-次日涨5未暴涨筛选/研究结论.md",
+      "title": "2026-09-24 美股未暴涨股次日 +5% 筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-24-SCHL-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-COHR建仓策略/industry.md",
+      "original_path": "研究记录/2026-09-25-COHR建仓策略/industry.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-COHR建仓策略/建仓结论.md",
+      "original_path": "研究记录/2026-09-25-COHR建仓策略/建仓结论.md",
+      "title": "COHR：2026-09-25盘中更新与建仓策略",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-COHR深度复核/industry.md",
+      "original_path": "研究记录/2026-09-25-COHR深度复核/industry.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-COHR深度复核/分析结论.md",
+      "original_path": "研究记录/2026-09-25-COHR深度复核/分析结论.md",
+      "title": "COHR 收盘后深度复核：价格仍可研究，不存在已证实的最大胜率",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-尾盘必须选一只/1951-update/建仓细化.md",
+      "original_path": "研究记录/2026-09-25-尾盘必须选一只/1951-update/建仓细化.md",
+      "title": "COHR尾盘建仓细化：15:51快照",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-尾盘必须选一只/最终选择.md",
+      "original_path": "研究记录/2026-09-25-尾盘必须选一只/最终选择.md",
+      "title": "2026年9月25日尾盘：必须现在选一只",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-现价建仓筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-25-现价建仓筛选/研究结论.md",
+      "title": "2026-09-25 14:00 EDT：现价买点复筛",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-25-盘中潜力筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-25-盘中潜力筛选/研究结论.md",
+      "title": "2026-09-25 盘中潜力筛选：COHR 相对第一，绝对暴涨门槛未过",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-28-Babybus多策略建仓扫描/研究结论.md",
+      "original_path": "研究记录/2026-09-28-Babybus多策略建仓扫描/研究结论.md",
+      "title": "2026-09-28 盘中美股建仓扫描：Babybus、趋势反弹与事件动量",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-28-夜盘次日暴涨筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-28-夜盘次日暴涨筛选/研究结论.md",
+      "title": "9 月 28 日夜盘至美股周一盘中短线筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-28-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-尾盘双目标筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-29-尾盘双目标筛选/研究结论.md",
+      "title": "2026-09-29 尾盘：次日大涨与20个后续交易日净涨20%",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-29-ALAB-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/AAOI.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/AAOI.md",
+      "title": "AAOI.md",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/ALAB.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/ALAB.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/COHR.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/COHR.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/CRDO.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/CRDO.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/MU.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/semiconductor-final/MU.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+      "title": "9/29 20:33 EDT 夜盘重新筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-29-ALAB-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/AAOI.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/AAOI.md",
+      "title": "No semiconductor classification",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/ALAB.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/ALAB.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/CBRS.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/CBRS.md",
+      "title": "No semiconductor classification",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/COHR.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/COHR.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/CRDO.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/CRDO.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/LRCX.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/LRCX.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/MRVL.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/MRVL.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/MU.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/MU.md",
+      "title": "Semiconductor Industry Context",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/VICR.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/semiconductor-final/VICR.md",
+      "title": "No semiconductor classification",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "original_path": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "title": "9月29日盘后：Babybus与次日高弹性五股筛选",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-29-ALAB-primary",
+        "2026-09-29-NBIS-secondary",
+        "2026-09-29-CRDO-secondary",
+        "2026-09-29-COHR-secondary",
+        "2026-09-29-AAOI-secondary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-AAOI-AVGO盘中最新因子/最新比较与交易判断.txt",
+      "original_path": "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/最新比较与交易判断.txt",
+      "title": "AAOI / AVGO 盘中最新因子与十日比较，2026-09-30",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-AAOI-W底与93止损/研究结论.txt",
+      "original_path": "研究记录/2026-09-30-AAOI-W底与93止损/研究结论.txt",
+      "title": "AAOI 现价买入、93止损、110止盈：2026-09-30研究结论",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-AAOI因子模型修正v2/修正结果与验证.txt",
+      "original_path": "研究记录/2026-09-30-AAOI因子模型修正v2/修正结果与验证.txt",
+      "title": "AAOI因子模型修正v2：实现与对照结果",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+      "original_path": "研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+      "title": "AAOI 建议失误复盘与客观修正",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-30-AAOI-missed_entry_advice"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-盘中0935更新/盘中结论与条件计划.txt",
+      "original_path": "研究记录/2026-09-30-盘中0935更新/盘中结论与条件计划.txt",
+      "title": "2026-09-30 美东09:41盘中更新",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-09-30-盘中净赚5筛选/筛选结论与执行边界.txt",
+      "original_path": "研究记录/2026-09-30-盘中净赚5筛选/筛选结论与执行边界.txt",
+      "title": "2026-09-30 盘中净赚至少5%筛选（截至美东09:25）",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-AAOI因子修复v3/修复结果与验证.txt",
+      "original_path": "研究记录/2026-10-01-AAOI因子修复v3/修复结果与验证.txt",
+      "title": "AAOI 因子修复 v3｜2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-APLD-IREN次日风险概率/AAOI昨日与APLD今日条件对照.txt",
+      "original_path": "研究记录/2026-10-01-APLD-IREN次日风险概率/AAOI昨日与APLD今日条件对照.txt",
+      "title": "AAOI昨日劝退理由与APLD今日条件对照",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+      "original_path": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+      "title": "APLD跟进｜2026-10-01T15:43:44-04:00",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-01-APLD-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-APLD-IREN次日风险概率/风险概率与置信说明.txt",
+      "original_path": "研究记录/2026-10-01-APLD-IREN次日风险概率/风险概率与置信说明.txt",
+      "title": "APLD/IREN次日暴涨与探底风险｜2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-Babybus低涨幅次日机会/strict-original/日报.md",
+      "original_path": "研究记录/2026-10-01-Babybus低涨幅次日机会/strict-original/日报.md",
+      "title": "Babybus 洗盘反抽日报｜完整交易日 2026-09-30",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+      "original_path": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+      "title": "2026-10-01 Babybus低涨幅次日机会｜行情约15:31 EDT",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-01-APLD-primary",
+        "2026-10-01-IREN-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-今日买入次日5pct筛选/latest-final-directory.txt",
+      "original_path": "研究记录/2026-10-01-今日买入次日5pct筛选/latest-final-directory.txt",
+      "title": "研究记录/2026-10-01-今日买入次日5pct筛选/final-171748",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "original_path": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "title": "今日买入、次日+5%筛选｜2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-01-COHR-primary",
+        "2026-10-01-LITE-secondary",
+        "2026-10-01-AAOI-secondary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-夜盘Babybus全面筛选/strict-original/日报.md",
+      "original_path": "研究记录/2026-10-01-夜盘Babybus全面筛选/strict-original/日报.md",
+      "title": "Babybus 洗盘反抽日报｜完整交易日 2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-夜盘Babybus全面筛选/筛选结论与夜盘条件计划.txt",
+      "original_path": "研究记录/2026-10-01-夜盘Babybus全面筛选/筛选结论与夜盘条件计划.txt",
+      "title": "10月1日夜盘买入、10月2日盘中大涨：Babybus与优先策略综合研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-01-IREN-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+      "original_path": "研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+      "title": "发布前14:33最新核验（下文14:28阶段价格保留；当前入场只用本段）",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-01-COHR-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-01-次日5pct筛选1425/阶段报告1428.txt",
+      "original_path": "研究记录/2026-10-01-次日5pct筛选1425/阶段报告1428.txt",
+      "title": "今天买入、明天至少5%：14:25固定时点更新研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-APLD-IREN昨日建模存档/存档说明.txt",
+      "original_path": "研究记录/2026-10-02-APLD-IREN昨日建模存档/存档说明.txt",
+      "title": "APLD / IREN 昨日建模筛选存档",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus今日至下个交易日/strict-original/日报.md",
+      "original_path": "研究记录/2026-10-02-Babybus今日至下个交易日/strict-original/日报.md",
+      "title": "Babybus 洗盘反抽日报｜完整交易日 2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus今日至下个交易日/筛选结论与条件计划.txt",
+      "original_path": "研究记录/2026-10-02-Babybus今日至下个交易日/筛选结论与条件计划.txt",
+      "title": "2026-10-02 今天买入、下个交易日暴涨机会：Babybus因子与执行研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-02-APLD-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus建仓加仓-1500更新/建仓加仓判断.txt",
+      "original_path": "研究记录/2026-10-02-Babybus建仓加仓-1500更新/建仓加仓判断.txt",
+      "title": "Babybus 今日建仓与 AVGO 加仓判断",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-02-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus推荐后次日命中复核/复核说明.txt",
+      "original_path": "研究记录/2026-10-02-Babybus推荐后次日命中复核/复核说明.txt",
+      "title": "Babybus发布后次日选股命中复核｜2026-10-02",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus次日筛选-1438更新/strict-original/日报.md",
+      "original_path": "研究记录/2026-10-02-Babybus次日筛选-1438更新/strict-original/日报.md",
+      "title": "Babybus 洗盘反抽日报｜完整交易日 2026-10-01",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-02-Babybus次日筛选-1438更新/筛选结论与条件计划.txt",
+      "original_path": "研究记录/2026-10-02-Babybus次日筛选-1438更新/筛选结论与条件计划.txt",
+      "title": "2026-10-02 Babybus 今天买入、下个交易日暴涨筛选：下午更新",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-10-02-AAOI-primary"
+      ]
+    },
+    {
+      "path": "sources/研究记录/2026-10-03-Babybus周日夜盘至周一/strict-original/日报.md",
+      "original_path": "研究记录/2026-10-03-Babybus周日夜盘至周一/strict-original/日报.md",
+      "title": "Babybus 洗盘反抽日报｜完整交易日 2026-10-02",
+      "outcome": "pending_next_regular_session_2026-10-05",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-03-Babybus周日夜盘至周一/筛选结论与条件计划.txt",
+      "original_path": "研究记录/2026-10-03-Babybus周日夜盘至周一/筛选结论与条件计划.txt",
+      "title": "Babybus：周日夜盘买入、周一常规盘观察（2026-10-03研究）",
+      "outcome": "pending_next_regular_session_2026-10-05",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-03-周日夜盘至周一筛选/筛选结论.txt",
+      "original_path": "研究记录/2026-10-03-周日夜盘至周一筛选/筛选结论.txt",
+      "title": "周日夜盘至周一盘中筛选",
+      "outcome": "macro_data_gate_failed_no_formal_new_selection_future_watch_only",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究记录/2026-10-03-次日暴涨推荐复盘/复盘结果.txt",
+      "original_path": "研究记录/2026-10-03-次日暴涨推荐复盘/复盘结果.txt",
+      "title": "次日暴涨推荐复盘｜2026-10-03",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究输出/2026-09-09-次日建仓/今日建仓与次日弹性.md",
+      "original_path": "研究输出/2026-09-09-次日建仓/今日建仓与次日弹性.md",
+      "title": "2026-09-09：今日建仓与次日弹性",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-09-WDC-primary"
+      ]
+    },
+    {
+      "path": "sources/研究输出/2026-09-10午后建仓调查/调查报告.md",
+      "original_path": "研究输出/2026-09-10午后建仓调查/调查报告.md",
+      "title": "2026-09-10午后建仓调查",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究输出/MU-2026-09-10-盘中建仓/建仓判断.md",
+      "original_path": "研究输出/MU-2026-09-10-盘中建仓/建仓判断.md",
+      "title": "MU 盘中建仓判断｜2026-09-10",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/研究输出/TSLA-2026-09-08/特斯拉建仓模型分析.md",
+      "original_path": "研究输出/TSLA-2026-09-08/特斯拉建仓模型分析.md",
+      "title": "特斯拉建仓模型分析",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/量化参考/BABYBUS-夜盘研究-2026-09-07.md",
+      "original_path": "量化参考/BABYBUS-夜盘研究-2026-09-07.md",
+      "title": "BABYBUS 持仓夜盘条件研究",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-07-AMD-missing_entry_quote"
+      ]
+    },
+    {
+      "path": "sources/量化参考/优先策略/VICR-LRCX-WDAY策略.md",
+      "original_path": "量化参考/优先策略/VICR-LRCX-WDAY策略.md",
+      "title": "VICR / LRCX / WDAY：用户指定优先参考策略",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": []
+    },
+    {
+      "path": "sources/量化参考/夜盘扫描-2026-09-07-报告.md",
+      "original_path": "量化参考/夜盘扫描-2026-09-07-报告.md",
+      "title": "美股夜盘条件扫描：2026-09-07 → 2026-09-08",
+      "outcome": "see_case_index_if_matched_else_not_independently_audited",
+      "related_case_ids": [
+        "2026-09-07-MU-missing_entry_quote"
+      ]
+    }
+  ],
+  "included_research_folders": [
+    "研究记录/2026-09-09-暴涨前形态筛选",
+    "研究记录/2026-09-14-FOMC周空仓计划",
+    "研究记录/2026-09-14-半导体尾盘反弹",
+    "研究记录/2026-09-14-无人机彩票仓",
+    "研究记录/2026-09-14-盘后建仓筛选",
+    "研究记录/2026-09-15-AVGO-MU次日概率",
+    "研究记录/2026-09-15-今日建仓因子筛选",
+    "研究记录/2026-09-15-盘中市场扫描",
+    "研究记录/2026-09-16-午盘建仓快扫",
+    "研究记录/2026-09-16-盘前反弹建模",
+    "研究记录/2026-09-17-Babybus洗盘反抽",
+    "研究记录/2026-09-17-全市场进攻选股",
+    "研究记录/2026-09-17-夜盘次日爆发",
+    "研究记录/2026-09-17-截图十股建仓",
+    "研究记录/2026-09-17-高胜率操作",
+    "研究记录/2026-09-18-Babybus周末交易",
+    "研究记录/2026-09-18-同规则建仓筛选",
+    "研究记录/2026-09-21-双模型短线筛选",
+    "研究记录/2026-09-21-夜盘重新建模",
+    "研究记录/2026-09-21-排除VICR必选一只",
+    "研究记录/2026-09-21-隔夜至次日爆发",
+    "研究记录/2026-09-22-盘前下跌与AVGO",
+    "研究记录/2026-09-22-隔夜至次日爆发",
+    "研究记录/2026-09-23-美股盘中与AVGO",
+    "研究记录/2026-09-24-次日涨5未暴涨筛选",
+    "研究记录/2026-09-25-COHR建仓策略",
+    "研究记录/2026-09-25-COHR深度复核",
+    "研究记录/2026-09-25-尾盘必须选一只",
+    "研究记录/2026-09-25-现价建仓筛选",
+    "研究记录/2026-09-25-盘中潜力筛选",
+    "研究记录/2026-09-28-Babybus多策略建仓扫描",
+    "研究记录/2026-09-28-夜盘次日暴涨筛选",
+    "研究记录/2026-09-29-尾盘双目标筛选",
+    "研究记录/2026-09-29-盘后Babybus五股",
+    "研究记录/2026-09-30-AAOI-AVGO盘中最新因子",
+    "研究记录/2026-09-30-AAOI-W底与93止损",
+    "研究记录/2026-09-30-AAOI因子模型修正v2",
+    "研究记录/2026-09-30-AAOI建议失误复盘",
+    "研究记录/2026-09-30-盘中0935更新",
+    "研究记录/2026-09-30-盘中净赚5筛选",
+    "研究记录/2026-10-01-AAOI因子修复v3",
+    "研究记录/2026-10-01-APLD-IREN次日风险概率",
+    "研究记录/2026-10-01-Babybus低涨幅次日机会",
+    "研究记录/2026-10-01-今日买入次日5pct筛选",
+    "研究记录/2026-10-01-夜盘Babybus全面筛选",
+    "研究记录/2026-10-01-次日5pct筛选1425",
+    "研究记录/2026-10-02-APLD-IREN昨日建模存档",
+    "研究记录/2026-10-02-Babybus今日至下个交易日",
+    "研究记录/2026-10-02-Babybus建仓加仓-1500更新",
+    "研究记录/2026-10-02-Babybus推荐后次日命中复核",
+    "研究记录/2026-10-02-Babybus次日筛选-1438更新",
+    "研究记录/2026-10-03-Babybus周日夜盘至周一",
+    "研究记录/2026-10-03-周日夜盘至周一筛选",
+    "研究记录/2026-10-03-次日暴涨推荐复盘",
+    "研究输出/2026-09-09-次日建仓",
+    "研究输出/2026-09-10午后建仓调查",
+    "研究输出/MU-2026-09-10-盘中建仓",
+    "研究输出/TSLA-2026-09-08"
+  ],
+  "historical_code_is_reference_only": true,
+  "unaudited_reports_do_not_inherit_other_cases_returns": true
+}

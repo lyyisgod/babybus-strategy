@@ -1,0 +1,42 @@
+{
+  "frozen_at": "2026-09-25T20:11:17.439635+00:00",
+  "purpose": "Descriptive audit of current short-horizon plan, not optimization or calibrated current win probability",
+  "signal": "prior fixed close>SMA200, RSI2<=20, ret3<0; next session close>signal close, above signal SMA200 and <= signal close+.5ATR; all known by next session close",
+  "entries": {
+    "auction": "reference only: next-session close",
+    "delayed_open": "second session open <= original signal close+.5ATR and > signal SMA200",
+    "confirmed": "within second through fourth session first close above first-session high; buy following open > signal SMA200 and <= first-session close+.5ATR; otherwise unfilled"
+  },
+  "exits": {
+    "hold10": "10th subsequent close, no stop",
+    "risk_control": "net20 target (entry*1.202), fixed signal SMA200 close invalidation executed next open; third session after entry close <= first-session high => exit next open; otherwise 10th subsequent close. Open gap target uses open; intraday target uses limit. No entry-day target for conservative treatment."
+  },
+  "cost": 0.002,
+  "cost_stress": 0.004,
+  "segments": {
+    "development": [
+      "2016-01-01",
+      "2022-12-31"
+    ],
+    "validation": [
+      "2023-01-01",
+      "2024-12-31"
+    ],
+    "viewed_recent": [
+      "2025-01-01",
+      "2026-09-25"
+    ]
+  },
+  "embargo": "shared 20-session nonoverlapping signal anchors; mature entire window within segment",
+  "primary_metrics": [
+    "realized positive net return",
+    "mean and worst net return",
+    "closed trade drawdown",
+    "net20 final rate",
+    "paired mean excess versus hold10"
+  ],
+  "secondary": "10-session high net20 touch and maximum adverse excursion, explicitly not realized profit",
+  "tests": "6 variants, no select winner to certify probability; all periods previously viewed; bootstrap block3; single current survivor; no historical afterhours fills",
+  "selection_principle": "do not claim maximum win rate; recommend only if compatible with risk budget and execution; may choose no new trade",
+  "daily_cutoff": "2026-09-25 complete regular session; retrieve timestamp after16:00EDT"
+}

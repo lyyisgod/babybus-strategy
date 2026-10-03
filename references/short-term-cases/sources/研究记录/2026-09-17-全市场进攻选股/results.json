@@ -1,0 +1,51 @@
+{
+  "asof": "2026-09-17T16:43:02.331681+00:00",
+  "requested_symbols": 73,
+  "candidate_count": 44,
+  "success_count": 73,
+  "errors": {},
+  "groups": {
+    "compute_memory": {
+      "n": 10,
+      "up": 10,
+      "above_vwap": 5,
+      "above_ema20": 6,
+      "median_today_pct": 3.746011152592932,
+      "median_ret20_pct": -4.528516774300412,
+      "median_time_volume_ratio": 1.0292716609269381
+    },
+    "connectivity_equipment": {
+      "n": 12,
+      "up": 9,
+      "above_vwap": 3,
+      "above_ema20": 5,
+      "median_today_pct": 2.5587326815719402,
+      "median_ret20_pct": -16.74137458044895,
+      "median_time_volume_ratio": 1.032808409871088
+    },
+    "ai_infra_power": {
+      "n": 11,
+      "up": 9,
+      "above_vwap": 4,
+      "above_ema20": 5,
+      "median_today_pct": 2.924378167684316,
+      "median_ret20_pct": -7.773630357990246,
+      "median_time_volume_ratio": 1.2769149903635166
+    },
+    "other_growth": {
+      "n": 11,
+      "up": 11,
+      "above_vwap": 4,
+      "above_ema20": 11,
+      "median_today_pct": 2.205111347235733,
+      "median_ret20_pct": 6.989675168987453,
+      "median_time_volume_ratio": 1.2742851631251864
+    }
+  },
+  "notes": [
+    "Snapshot not synchronized ticks; market data may be delayed.",
+    "Daily factors end previous session. Intraday volume uses four prior sessions only.",
+    "QQQ OLS residual is an association, not causal news attribution. Macro futures can have different settlement/roll conventions.",
+    "No calibrated explosion probability; no proxy substituted for earnings revisions, options skew or prime brokerage leverage."
+  ]
+}

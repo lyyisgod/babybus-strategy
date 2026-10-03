@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-09-30T09:23:32.590736-04:00",
+  "features": [
+    "premarket return",
+    "premarket relative vs QQQ",
+    "prior14 simple ATR fraction",
+    "prior3day return"
+  ],
+  "fixed_logistic_C": 0.5,
+  "hist_stock_days": 769,
+  "hist_dates": 58,
+  "oos_stock_days": 441,
+  "oos_dates": 33,
+  "brier_model": 0.13329613004010948,
+  "brier_expanding_rate_baseline": 0.13632418289977985,
+  "daily_top1_target_hit_fraction": 0.18181818181818182,
+  "daily_top1_mean_plan_net": -0.010267680233337037,
+  "same_date_equal_pool_mean_plan_net": -0.005057237945271102,
+  "current_candidates": [
+    {
+      "symbol": "FSLY",
+      "date": "2026-09-30",
+      "anchor": 25.82,
+      "premarket_return": 0.013343817263421709,
+      "features": [
+        0.013343817263421709,
+        0.010105189212873622,
+        0.10791938310039034,
+        -0.04497753932583948
+      ],
+      "model_output_unverified": 0.20428650318628236,
+      "history_n": 45,
+      "hit_before_stop_count": 14,
+      "hit_before_stop_fraction": 0.3111111111111111,
+      "hit_wilson95_descriptive": [
+        0.1952869926365341,
+        0.45664805577366824
+      ],
+      "touch_ignoring_stop_fraction": 0.35555555555555557,
+      "plan_mean_net_return": 0.0012133699335744573,
+      "plan_profitable_fraction": 0.4222222222222222,
+      "matching_premarket_n": 16,
+      "matching_target_before_stop_count": 5,
+      "gross_target_price": 27.162640000000003,
+      "stop_price": 25.0454
+    },
+    {
+      "symbol": "AEHR",
+      "date": "2026-09-30",
+      "anchor": 102.5,
+      "premarket_return": 0.0170668906681557,
+      "features": [
+        0.0170668906681557,
+        0.013828262617607612,
+        0.08096136731348712,
+        0.03448984472905314
+      ],
+      "model_output_unverified": 0.2014425056239363,
+      "history_n": 57,
+      "hit_before_stop_count": 15,
+      "hit_before_stop_fraction": 0.2631578947368421,
+      "hit_wilson95_descriptive": [
+        0.16645786597973072,
+        0.3897657926348382
+      ],
+      "touch_ignoring_stop_fraction": 0.3684210526315789,
+      "plan_mean_net_return": -0.009781732946283024,
+      "plan_profitable_fraction": 0.2807017543859649,
+      "matching_premarket_n": 9,
+      "matching_target_before_stop_count": 2,
+      "gross_target_price": 107.83,
+      "stop_price": 99.425
+    },
+    {
+      "symbol": "CIFR",
+      "date": "2026-09-30",
+      "anchor": 16.974,
+      "premarket_return": 0.02810416503244295,
+      "features": [
+        0.02810416503244295,
+        0.024865536981894865,
+        0.08413948945210804,
+        -0.0878453104462743
+      ],
+      "model_output_unverified": 0.16250202575174766,
+      "history_n": 58,
+      "hit_before_stop_count": 15,
+      "hit_before_stop_fraction": 0.25862068965517243,
+      "hit_wilson95_descriptive": [
+        0.16345545204296963,
+        0.38377385764740424
+      ],
+      "touch_ignoring_stop_fraction": 0.3448275862068966,
+      "plan_mean_net_return": -0.003895941121227007,
+      "plan_profitable_fraction": 0.3620689655172414,
+      "matching_premarket_n": 8,
+      "matching_target_before_stop_count": 4,
+      "gross_target_price": 17.856648,
+      "stop_price": 16.46478
+    },
+    {
+      "symbol": "NBIS",
+      "date": "2026-09-30",
+      "anchor": 243.85,
+      "premarket_return": 0.0273640934017525,
+      "features": [
+        0.0273640934017525,
+        0.02412546535120441,
+        0.0646488000656166,
+        -0.025156070755209203
+      ],
+      "model_output_unverified": 0.16066170780874395,
+      "history_n": 58,
+      "hit_before_stop_count": 14,
+      "hit_before_stop_fraction": 0.2413793103448276,
+      "hit_wilson95_descriptive": [
+        0.14958874356669494,
+        0.36529980253013417
+      ],
+      "touch_ignoring_stop_fraction": 0.27586206896551724,
+      "plan_mean_net_return": -0.005234362309134014,
+      "plan_profitable_fraction": 0.3275862068965517,
+      "matching_premarket_n": 8,
+      "matching_target_before_stop_count": 2,
+      "gross_target_price": 256.5302,
+      "stop_price": 236.53449999999998
+    },
+    {
+      "symbol": "AAOI",
+      "date": "2026-09-30",
+      "anchor": 101.87,
+      "premarket_return": 0.011920153500359021,
+      "features": [
+        0.011920153500359021,
+        0.008681525449810934,
+        0.06453334454391368,
+        -0.0035633041146322375
+      ],
+      "model_output_unverified": 0.1592499166286901,
+      "history_n": 58,
+      "hit_before_stop_count": 14,
+      "hit_before_stop_fraction": 0.2413793103448276,
+      "hit_wilson95_descriptive": [
+        0.14958874356669494,
+        0.36529980253013417
+      ],
+      "touch_ignoring_stop_fraction": 0.3275862068965517,
+      "plan_mean_net_return": -0.004638403658093996,
+      "plan_profitable_fraction": 0.3620689655172414,
+      "matching_premarket_n": 9,
+      "matching_target_before_stop_count": 3,
+      "gross_target_price": 107.16724,
+      "stop_price": 98.8139
+    },
+    {
+      "symbol": "MSTR",
+      "date": "2026-09-30",
+      "anchor": 160.66,
+      "premarket_return": 0.03872762592595258,
+      "features": [
+        0.03872762592595258,
+        0.03548899787540449,
+        0.05799445187722822,
+        -0.04294290214216934
+      ],
+      "model_output_unverified": 0.15249591429323053,
+      "history_n": 58,
+      "hit_before_stop_count": 10,
+      "hit_before_stop_fraction": 0.1724137931034483,
+      "hit_wilson95_descriptive": [
+        0.09644292662938801,
+        0.2890825650932622
+      ],
+      "touch_ignoring_stop_fraction": 0.1724137931034483,
+      "plan_mean_net_return": -0.0004994108566776353,
+      "plan_profitable_fraction": 0.46551724137931033,
+      "matching_premarket_n": 6,
+      "matching_target_before_stop_count": 1,
+      "gross_target_price": 169.01432,
+      "stop_price": 155.84019999999998
+    },
+    {
+      "symbol": "VKTX",
+      "date": "2026-09-30",
+      "anchor": 31.98,
+      "premarket_return": 0.005344248252491468,
+      "features": [
+        0.005344248252491468,
+        0.002105620201943381,
+        0.0993330986701436,
+        -0.13442178323966303
+      ],
+      "model_output_unverified": 0.1508016169601688,
+      "history_n": 40,
+      "hit_before_stop_count": 1,
+      "hit_before_stop_fraction": 0.025,
+      "hit_wilson95_descriptive": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "touch_ignoring_stop_fraction": 0.05,
+      "plan_mean_net_return": -0.011452958291174866,
+      "plan_profitable_fraction": 0.275,
+      "matching_premarket_n": 24,
+      "matching_target_before_stop_count": 0,
+      "gross_target_price": 33.64296,
+      "stop_price": 31.020599999999998
+    },
+    {
+      "symbol": "HOOD",
+      "date": "2026-09-30",
+      "anchor": 122.0681,
+      "premarket_return": 0.050319211132955344,
+      "features": [
+        0.050319211132955344,
+        0.04708058308240726,
+        0.04967182275211954,
+        -0.038073154161066824
+      ],
+      "model_output_unverified": 0.1507906411379027,
+      "history_n": 58,
+      "hit_before_stop_count": 7,
+      "hit_before_stop_fraction": 0.1206896551724138,
+      "hit_wilson95_descriptive": [
+        0.059709660482407195,
+        0.22879354045960884
+      ],
+      "touch_ignoring_stop_fraction": 0.1206896551724138,
+      "plan_mean_net_return": -0.006577791025520989,
+      "plan_profitable_fraction": 0.3448275862068966,
+      "matching_premarket_n": 5,
+      "matching_target_before_stop_count": 2,
+      "gross_target_price": 128.4156412,
+      "stop_price": 118.406057
+    },
+    {
+      "symbol": "NVTS",
+      "date": "2026-09-30",
+      "anchor": 11.7961,
+      "premarket_return": 0.005635162859611631,
+      "features": [
+        0.005635162859611631,
+        0.002396534809063544,
+        0.06066861945166756,
+        -0.0092905919707712
+      ],
+      "model_output_unverified": 0.14865957913092195,
+      "history_n": 58,
+      "hit_before_stop_count": 11,
+      "hit_before_stop_fraction": 0.1896551724137931,
+      "hit_wilson95_descriptive": [
+        0.10934251661120264,
+        0.3085237387049922
+      ],
+      "touch_ignoring_stop_fraction": 0.20689655172413793,
+      "plan_mean_net_return": -0.002224274904705958,
+      "plan_profitable_fraction": 0.39655172413793105,
+      "matching_premarket_n": 13,
+      "matching_target_before_stop_count": 2,
+      "gross_target_price": 12.409497199999999,
+      "stop_price": 11.442217
+    },
+    {
+      "symbol": "WULF",
+      "date": "2026-09-30",
+      "anchor": 15.42,
+      "premarket_return": 0.021868776943353208,
+      "features": [
+        0.021868776943353208,
+        0.01863014889280512,
+        0.06778376690498984,
+        -0.07366486774077674
+      ],
+      "model_output_unverified": 0.14378901848013248,
+      "history_n": 58,
+      "hit_before_stop_count": 12,
+      "hit_before_stop_fraction": 0.20689655172413793,
+      "hit_wilson95_descriptive": [
+        0.12251483969490558,
+        0.3276921792148341
+      ],
+      "touch_ignoring_stop_fraction": 0.22413793103448276,
+      "plan_mean_net_return": -0.006685427081116494,
+      "plan_profitable_fraction": 0.3103448275862069,
+      "matching_premarket_n": 15,
+      "matching_target_before_stop_count": 4,
+      "gross_target_price": 16.22184,
+      "stop_price": 14.9574
+    },
+    {
+      "symbol": "RCAT",
+      "date": "2026-09-30",
+      "anchor": 6.57,
+      "premarket_return": 0.018604681284251967,
+      "features": [
+        0.018604681284251967,
+        0.01536605323370388,
+        0.06245847212921052,
+        -0.05147064289007064
+      ],
+      "model_output_unverified": 0.14337375579228823,
+      "history_n": 58,
+      "hit_before_stop_count": 10,
+      "hit_before_stop_fraction": 0.1724137931034483,
+      "hit_wilson95_descriptive": [
+        0.09644292662938801,
+        0.2890825650932622
+      ],
+      "touch_ignoring_stop_fraction": 0.20689655172413793,
+      "plan_mean_net_return": -0.006811633704120689,
+      "plan_profitable_fraction": 0.3103448275862069,
+      "matching_premarket_n": 20,
+      "matching_target_before_stop_count": 2,
+      "gross_target_price": 6.91164,
+      "stop_price": 6.3729000000000005
+    },
+    {
+      "symbol": "LUNR",
+      "date": "2026-09-30",
+      "anchor": 14.8692,
+      "premarket_return": 0.021938130933386146,
+      "features": [
+        0.021938130933386146,
+        0.01869950288283806,
+        0.06699067591181727,
+        -0.0732483842357512
+      ],
+      "model_output_unverified": 0.14304194597257075,
+      "history_n": 58,
+      "hit_before_stop_count": 11,
+      "hit_before_stop_fraction": 0.1896551724137931,
+      "hit_wilson95_descriptive": [
+        0.10934251661120264,
+        0.3085237387049922
+      ],
+      "touch_ignoring_stop_fraction": 0.2413793103448276,
+      "plan_mean_net_return": -0.006908416214002325,
+      "plan_profitable_fraction": 0.3103448275862069,
+      "matching_premarket_n": 13,
+      "matching_target_before_stop_count": 3,
+      "gross_target_price": 15.6423984,
+      "stop_price": 14.423124
+    },
+    {
+      "symbol": "AVGO",
+      "date": "2026-09-30",
+      "anchor": 358.8,
+      "premarket_return": 0.010419582745390787,
+      "features": [
+        0.010419582745390787,
+        0.0071809546948427005,
+        0.02792974054878037,
+        0.013529001456021872
+      ],
+      "model_output_unverified": 0.12220290584763237,
+      "history_n": 58,
+      "hit_before_stop_count": 0,
+      "hit_before_stop_fraction": 0.0,
+      "hit_wilson95_descriptive": [
+        0.0,
+        0.062117855787202914
+      ],
+      "touch_ignoring_stop_fraction": 0.0,
+      "plan_mean_net_return": -0.005912311409377259,
+      "plan_profitable_fraction": 0.3275862068965517,
+      "matching_premarket_n": 25,
+      "matching_target_before_stop_count": 0,
+      "gross_target_price": 377.4576,
+      "stop_price": 348.036
+    },
+    {
+      "symbol": "MDB",
+      "date": "2026-09-30",
+      "anchor": 338.84,
+      "premarket_return": 0.004893376276422723,
+      "features": [
+        0.004893376276422723,
+        0.001654748225874636,
+        0.08244841498475615,
+        -0.19983386966010264
+      ],
+      "model_output_unverified": 0.11159182798383657,
+      "history_n": 47,
+      "hit_before_stop_count": 12,
+      "hit_before_stop_fraction": 0.2553191489361702,
+      "hit_wilson95_descriptive": [
+        0.152531540350547,
+        0.3950817553041745
+      ],
+      "touch_ignoring_stop_fraction": 0.2765957446808511,
+      "plan_mean_net_return": 0.004501322975382785,
+      "plan_profitable_fraction": 0.5319148936170213,
+      "matching_premarket_n": 17,
+      "matching_target_before_stop_count": 4,
+      "gross_target_price": 356.45968,
+      "stop_price": 328.67479999999995
+    },
+    {
+      "symbol": "SMR",
+      "date": "2026-09-30",
+      "anchor": 7.8695,
+      "premarket_return": 0.014110794830987095,
+      "features": [
+        0.014110794830987095,
+        0.010872166780439008,
+        0.08321060541287408,
+        -0.08382526750451136
+      ],
+      "model_output_unverified": null,
+      "history_n": 0,
+      "reason": "No valid complete historical paths; excluded from model interpretation"
+    },
+    {
+      "symbol": "BE",
+      "date": "2026-09-30",
+      "anchor": 297.4,
+      "premarket_return": 0.02111587982832619,
+      "features": [
+        0.02111587982832619,
+        0.017877251777778103,
+        0.07149382029333998,
+        0.09225579098668768
+      ],
+      "model_output_unverified": null,
+      "history_n": 0,
+      "reason": "No valid complete historical paths; excluded from model interpretation"
+    },
+    {
+      "symbol": "JBL",
+      "date": "2026-09-30",
+      "anchor": 306.42,
+      "premarket_return": -0.03895369615024247,
+      "features": [
+        -0.03895369615024247,
+        -0.042192324200790554,
+        0.03874310970853968,
+        0.02623191551849624
+      ],
+      "model_output_unverified": null,
+      "history_n": 0,
+      "reason": "No valid complete historical paths; excluded from model interpretation"
+    }
+  ],
+  "certified_win_rate": null,
+  "actual_execution_bid_ask_verified": false,
+  "limitations": [
+    "chosen current survivors, selected high-volatility candidates: selection bias",
+    "33 or fewer unseen-by-fit market dates not independent across stocks",
+    "cost .2% assumed; actual spread unknown",
+    "five-minute stop/target order conservative but not tick reconstruction",
+    "current 09:20 anchor is not executable ask",
+    "no untouched prospective audit; no reliable high-win certification"
+  ]
+}

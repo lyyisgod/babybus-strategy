@@ -1,0 +1,32 @@
+{
+  "frozen_at": "2026-09-25T18:17:21.395049+00:00",
+  "symbol": "COHR",
+  "signal": "completed close>SMA200, Wilder RSI2<=20, return3<0; raw split-adjusted price, no dividend backfill",
+  "entry_variants": {
+    "open": "next regular open <= signal close + .5ATR",
+    "auction": "next regular close <= signal close + .5ATR",
+    "pullback": "next session buy limit at signal close; if opens lower fill at open; otherwise low must trade strictly below limit",
+    "breakout": "next session stop-limit above signal high, entry capped at signal close+.5ATR; gap open above cap is unfilled"
+  },
+  "same_day": "for intraday fill, entry-day lows can stop immediately; no entry-day upside exits counted, conservative ordering; close auction no entry-day barriers",
+  "exit": "stop/target +-2 signal ATR; time exit20 sessions after entry; gap at open; both touched same day stop first",
+  "primary": "net positive realized return with expectancy and loss, not win rate alone",
+  "secondary": "actual fill to 10th subsequent close net return>=10%; distinct no-barrier label",
+  "cost_round_trip": [
+    0.002,
+    0.004
+  ],
+  "nonoverlap": "within each variant, no new signal while position active",
+  "segments": {
+    "development": "2016-2022",
+    "validation": "2023-2024",
+    "descriptive_recent": "2025-2026-09-24"
+  },
+  "limitations": [
+    "all periods previously potentially inspected; no untouched audit",
+    "single currently selected survivor; no PIT all-market universe",
+    "no historical intraday orderbook; all daily variants are execution proxies",
+    "no hyperparameter search; no causal news or calibrated current probability"
+  ],
+  "default_decision": "no certified maximum win probability; select transparent conditional execution only"
+}

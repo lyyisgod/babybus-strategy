@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-09-30-AAOI-AVGO-latest-factor-1401",
+  "decision_at": "2026-09-30T18:05:01.760560+00:00",
+  "symbols": [
+    "AAOI",
+    "AVGO"
+  ],
+  "relative_first": "AVGO",
+  "absolute_verified_buy_gate_passed": false,
+  "latest_prices": {
+    "AAOI": 99.185,
+    "AVGO": 353.505
+  },
+  "ten_session_centers": {
+    "AAOI": 97.36649983646143,
+    "AVGO": 362.0536365814526
+  },
+  "recommendation": "Prefer AVGO relatively; do not chase AAOI with unchanged93/110; no reliable trading edge certified and no automatic AVGO reduction after debt cleared",
+  "report": "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/最新比较与交易判断.txt",
+  "protocol": "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/protocol.json",
+  "results": "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/results.json",
+  "current_win_probability_certified": null,
+  "actual_bought_shares": "[REDACTED: unrelated personal account information]",
+  "actual_execution_price": null,
+  "outcome": "future_unknown",
+  "no_orders_executed": true
+}

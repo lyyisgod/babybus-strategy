@@ -1,0 +1,30 @@
+{
+  "frozen_at": "2026-10-02T14:05:27.722042+00:00",
+  "names": [
+    "IREN",
+    "CIFR",
+    "APLD",
+    "AAOI",
+    "COHR",
+    "VICR",
+    "RDW",
+    "UMAC",
+    "CRWV",
+    "NBIS",
+    "ON",
+    "WULF",
+    "QQQ",
+    "SMH",
+    "JNK",
+    "SPY"
+  ],
+  "clock": "10:10 America/New_York; completed 10:05 bar close",
+  "live_rvol": "20 prior full 09:30-10:10 five-minute paths",
+  "historical_entry": "signal prior completed daily gates >=5; previous 90d RV >=60%; ADV>=50m; same-clock price>VWAP; no fitted coefficients",
+  "exit": "first +5% limit or -3% stop through next session15:55, next-session15:55 time exit",
+  "same_bar_dual_hit": "stop first",
+  "overnight_gap": "adverse stop gap at open; positive take-profit gap capped at target",
+  "cost_roundtrip": 0.002,
+  "historical_test": "price-only diagnostic/current surviving eight names, reused period/no calibration",
+  "current_probability": null
+}

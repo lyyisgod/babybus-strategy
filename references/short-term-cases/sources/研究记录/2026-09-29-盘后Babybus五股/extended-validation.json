@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "symbols_prefix_checked": 117,
+  "source_hashes_checked": 284,
+  "original_inference_reproduced": true,
+  "oil_neutralization": "diagnostic only; no re-selection or retraining",
+  "oil_roll_caution": "Vendor BZ continuous futures front contract discontinuity; current last day excluded from model using lag, older rolls still potential contamination",
+  "cost_base20bps_mean": -0.005434311267309016,
+  "cost_double40bps_mean": -0.007434311267309017,
+  "cost_double40bps_dateblock95": [
+    -0.010583543303761694,
+    -0.004344288295102622
+  ],
+  "probability_certified": false
+}

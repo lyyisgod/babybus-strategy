@@ -1,0 +1,53 @@
+{
+  "frozen_at": "2026-09-30T17:30:30.111128+00:00",
+  "symbol": "AAOI",
+  "quote_reference": 97.538,
+  "stop": 93,
+  "target": 110,
+  "horizons_sessions": [
+    5,
+    10,
+    20
+  ],
+  "roundtrip_costs": [
+    0.002,
+    0.004
+  ],
+  "historical_entry": "next regular open following completed signal day",
+  "levels": "same percentage distance as user current entry; not historic absolute USD levels",
+  "current_feature_variants": [
+    "completed Sep29 close",
+    "Sep30 13:27 partial day proxy, not a completed signal"
+  ],
+  "features": [
+    "return5",
+    "return20",
+    "distance_ma20",
+    "distance_ma200",
+    "RSI14/100",
+    "ATR14/close",
+    "distance_low20"
+  ],
+  "scaling": "past mature rows median/IQR, equal weight Euclidean",
+  "analogues": {
+    "n": 32,
+    "selection": "nearest rows with at least21 sessions between signal days; no outcome-based selection"
+  },
+  "baseline": "all chronological nonoverlap21-session observations with mature20-session labels",
+  "outcome": "first target before stop; opening stop gap exits at actual opening price; target gap at limit; same-day ambiguity stop first; timeout exits horizon close",
+  "limitations": [
+    "Single historically selected ticker; regime changes; no untouched holdout or calibrated present probability",
+    "Partial current day proxy cannot be treated as validated close-to-next-open strategy",
+    "Daily bars do not determine intraday order if both levels reached",
+    "Bid ask, execution slippage and overnight stop guarantees unavailable"
+  ],
+  "input_sha256": {
+    "SMH-daily.json": "d9b321fe7ea3529e7b6bb7ca3fcb74fe9cb3a532dc26195c93efa2393f89e74e",
+    "AAOI-daily.json": "ca7533f6c4ec9652a09555cc46f459910a8af085b43282e53fdb46097cf636e6",
+    "LITE-daily.json": "520ad009c785d9a2332277af9812dd36bf80489b52e1bce39abbfe0fe9ba0f37",
+    "AAOI-5m.json": "e50e53cec2623b5152f66d72c9b31036d387b35883679baa517f3a595cc70305",
+    "AAOI-live.json": "f91bbda31b4da705c994395512201fcb4ac9c2a9218bcd62829cddb7ae8edd68",
+    "QQQ-daily.json": "46add82e625ed092871083d49576d3340d1f80313dac6e84f9db91f2f63cf093",
+    "COHR-daily.json": "e3ab93c058ff2eea150b4f0809d894db1eb83c145d33f52baf3245b9d4f0e9b5"
+  }
+}

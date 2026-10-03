@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-03T12:26:35.659009+00:00",
+  "stocks": 154,
+  "requested": 154,
+  "loader_errors": {
+    "BTC-USD": "OHLCV 不合法"
+  },
+  "factor_errors": {},
+  "last_completed": "2026-10-02T00:00:00",
+  "next_session": "2026-10-05T00:00:00",
+  "truncation_checks": {
+    "IREN": true,
+    "APLD": true,
+    "COHR": true,
+    "AAOI": true,
+    "CIFR": true
+  },
+  "raw_hashes": {
+    "daily-raw": true,
+    "live-raw": true
+  },
+  "independent_numeric_checks": {
+    "IREN": true,
+    "APLD": true,
+    "AAOI": true
+  },
+  "incomplete_week_excluded": true,
+  "latest_week_is_complete": true,
+  "probability_validation": false,
+  "overnight_execution_validation": false
+}

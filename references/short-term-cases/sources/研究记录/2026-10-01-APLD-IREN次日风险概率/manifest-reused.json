@@ -1,0 +1,39 @@
+[
+  {
+    "symbol": "APLD",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:26:02.595599+00:00",
+    "sha256": "77437bd336cd9fc267b098eb34608122b6085fcf44a6e710860fcce872740d9a",
+    "reused_from": "研究记录/2026-10-01-Babybus低涨幅次日机会/raw/APLD-history.json"
+  },
+  {
+    "symbol": "APLD",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:26:01.974292+00:00",
+    "sha256": "3b7c972e0d333b31ad541f94005b1ed0052c8ac96b0752026c152d559c0be8e9",
+    "reused_from": "研究记录/2026-10-01-Babybus低涨幅次日机会/raw/APLD-daily.json"
+  },
+  {
+    "symbol": "IREN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.737117+00:00",
+    "sha256": "f65450135337dc2c4d042b35a1cd4ec0b8a8a3f71fb10e90a4d1c31694da8dd1",
+    "reused_from": "研究记录/2026-10-01-Babybus低涨幅次日机会/raw/IREN-history.json"
+  },
+  {
+    "symbol": "IREN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.198033+00:00",
+    "sha256": "a586c47ed389d4588f4f6701a1dcba26e763466a5f63dece62066a515e25a0c9",
+    "reused_from": "研究记录/2026-10-01-Babybus低涨幅次日机会/raw/IREN-daily.json",
+    "source_timestamp_not_refreshed": true
+  }
+]

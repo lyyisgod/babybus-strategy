@@ -1,0 +1,15 @@
+{
+  "unit_test_command": "python3 -m unittest tests.test_short_term_factors_v3 tests.test_aaoi_factor_repair_v3 tests.test_short_term_factors tests.test_aaoi_factor_repair tests.test_forecast_evidence",
+  "tests_passed": 25,
+  "old_code_and_v2_json_hashes_unchanged": true,
+  "integration_assertions": {
+    "mature_training_labels": true,
+    "separate_original_and_current_daily_cutoff": true,
+    "current_pivot_preserved_and_confirmed": true,
+    "model_abstention_not_buy_veto": true,
+    "sameclock_today_excluded": true
+  },
+  "historical_windows": 85,
+  "untouched_profitability_validation": false,
+  "orders_sent": false
+}

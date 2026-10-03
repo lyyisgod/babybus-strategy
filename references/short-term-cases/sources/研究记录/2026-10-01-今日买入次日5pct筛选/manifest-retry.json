@@ -1,0 +1,13 @@
+[
+  {
+    "symbol": "COIN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COIN?range=1mo&interval=5m&includePrePost=true",
+    "requested_initial_range": "60d",
+    "fallback_range": "1mo",
+    "reason": "Initial public request422; ordinary shorter supported range, missing history retained",
+    "ok": true,
+    "sha256": "be463ce6c6d2439705a6d07f5e99016e4495ec1c60dde9d310d831fc40e4395e",
+    "fetched_at": "2026-10-01T17:08:40.293770+00:00"
+  }
+]

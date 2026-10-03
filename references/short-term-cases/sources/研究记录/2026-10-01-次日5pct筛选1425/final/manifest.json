@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "COHR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.167347+00:00",
+    "sha256": "e5f162249c8560356c9c8c76718577874512b909727f230c62e35786237bac12"
+  },
+  {
+    "symbol": "VICR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VICR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.177056+00:00",
+    "sha256": "cbed0e55da01a47ea162072f923ae4afb09668e2f79be7a5daa4dbd73265ef29"
+  },
+  {
+    "symbol": "LITE",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.182087+00:00",
+    "sha256": "31569d88186e0e4e91da43dd4344bac132328cbf74e97be0f88fca80e3662973"
+  },
+  {
+    "symbol": "AAOI",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.176561+00:00",
+    "sha256": "32d0b294f251cd3d3c79865f551b1a195ad46f18d68c8eb65f80b1c763d2eb06"
+  },
+  {
+    "symbol": "CRDO",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRDO?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.182122+00:00",
+    "sha256": "bf4f4d591e2110f1b14bf88ec84b5975ffe195b739601147655539915679eec5"
+  },
+  {
+    "symbol": "TSEM",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSEM?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.177233+00:00",
+    "sha256": "6f03d50ff0e025c22c265135bc0d1f25b92d506fcb89e7206e7a9df32aa034c0"
+  },
+  {
+    "symbol": "NVTS",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVTS?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.323224+00:00",
+    "sha256": "f78e15e6fe61f265fa2675c752a91aec40734e1109bf53e6dbd735adc37cd52a"
+  },
+  {
+    "symbol": "AEHR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AEHR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.512003+00:00",
+    "sha256": "4c1a129a0baed6d5b5c65eb4c28a0ea2dc45b8c3600ddfe8e6be771c2ed52110"
+  },
+  {
+    "symbol": "ACN",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACN?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.511840+00:00",
+    "sha256": "c7ed3d60720d06bfb4a43ecb4f9c4e7a91fe1465b589e82be67c74e73921de34"
+  },
+  {
+    "symbol": "VKTX",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VKTX?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.512101+00:00",
+    "sha256": "96925ffab58cc8c02af98485a0c5cc62cfddd49a8b366cb01cf35a4b33d5c9e0"
+  },
+  {
+    "symbol": "CIFR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CIFR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.511896+00:00",
+    "sha256": "215e02efd5cce3e49ec531532275b346d223611554f69a70538b3a787199535c"
+  },
+  {
+    "symbol": "WULF",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WULF?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.511878+00:00",
+    "sha256": "e01e494c75d375beefb2341b3472380dff497a9693c3e3a77026c871949358f6"
+  },
+  {
+    "symbol": "RIOT",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RIOT?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.562219+00:00",
+    "sha256": "ab0b59f0e54137ff84e547cd0c1d664838ea240e4c2e8911464338bc8c3107b4"
+  },
+  {
+    "symbol": "QQQ",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.644190+00:00",
+    "sha256": "1e3275c139e02d5af1a1cec1d7d2cdb2cc118c8aa872763683d06b6da14a3d12"
+  },
+  {
+    "symbol": "SOXX",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T18:28:12.655128+00:00",
+    "sha256": "fa721049a812d1b02b6e65ec0059f4a36834c2c78ce50959fff732a5c1434248"
+  }
+]

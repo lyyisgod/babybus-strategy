@@ -1,0 +1,14 @@
+[
+  {
+    "label": "VICR-options",
+    "url": "https://query2.finance.yahoo.com/v7/finance/options/VICR",
+    "fetched_at": "2026-09-21T12:41:10.303287+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "label": "VICR-summary",
+    "url": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/VICR?modules=defaultKeyStatistics%2CfinancialData%2CcalendarEvents",
+    "fetched_at": "2026-09-21T12:41:10.417977+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  }
+]

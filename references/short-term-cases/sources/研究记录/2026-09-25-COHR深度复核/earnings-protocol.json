@@ -1,0 +1,17 @@
+{
+  "source": "https://ir.coherent.com/news-events/events",
+  "dates": [
+    "2024-11-06",
+    "2025-02-05",
+    "2025-05-07",
+    "2025-08-13",
+    "2025-11-05",
+    "2026-02-04",
+    "2026-05-06",
+    "2026-08-12"
+  ],
+  "scope": "8 consecutive most recent quarters, after-close; earnings price reaction descriptive only, no signal parameter search",
+  "data": "COHR-1d.json",
+  "return_definition": "release-date regular close to next / fifth regular close, gross price return",
+  "source_warning": "IR list duplicate FY2025 item mislabeled November6 2025 excluded; FY2026 actual November5 2025 matched duplicated FY2026 entries"
+}

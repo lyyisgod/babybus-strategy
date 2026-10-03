@@ -1,0 +1,26 @@
+[
+  {
+    "entry_definition": "signal_close_to_day4",
+    "n": 46,
+    "profitable": 27,
+    "win_pct": 58.69565217391305,
+    "wilson95_pct": [
+      44.339497779846155,
+      71.71139677518723
+    ],
+    "mean_return_pct": 0.11652522043910024,
+    "median_return_pct": 0.3615408262615971
+  },
+  {
+    "entry_definition": "next_open_to_day4",
+    "n": 46,
+    "profitable": 23,
+    "win_pct": 50.0,
+    "wilson95_pct": [
+      36.11893708270325,
+      63.88106291729675
+    ],
+    "mean_return_pct": 0.431011615892194,
+    "median_return_pct": 0.15392134119285306
+  }
+]

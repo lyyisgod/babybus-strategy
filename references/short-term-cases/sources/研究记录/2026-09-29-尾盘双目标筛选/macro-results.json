@@ -1,0 +1,18 @@
+[
+  {
+    "series": "DFII10",
+    "last_date": "2026-09-25",
+    "value": 2.83,
+    "prior_date": "2026-08-27",
+    "prior": 2.34,
+    "change20_bp": 49.00000000000002
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "last_date": "2026-09-28",
+    "value": 3.02,
+    "prior_date": "2026-08-28",
+    "prior": 2.6,
+    "change20_bp": 41.99999999999999
+  }
+]

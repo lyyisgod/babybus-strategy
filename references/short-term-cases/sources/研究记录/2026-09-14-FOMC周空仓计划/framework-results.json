@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "score": null,
+  "coverage_pct": 25,
+  "status": "数据不足",
+  "factors": {
+    "real_yield_change_bp": 24.0,
+    "hy_oas_change_bp": 74.67,
+    "verified_catalyst_count": 33.33
+  },
+  "excluded": {
+    "eps_revision_breadth": "缺失或非有限数值",
+    "fcf_margin_change_pp": "缺失或非有限数值",
+    "net_leverage_percentile": "缺失或非有限数值",
+    "gross_leverage_percentile": "缺失或非有限数值",
+    "iv_percentile": "缺失或非有限数值",
+    "iv_rv_ratio": "缺失或非有限数值",
+    "relative_return_20d_pp": "缺失或非有限数值",
+    "breakout_breadth_pct": "缺失或非有限数值",
+    "capex_revision_pct": "缺失或非有限数值"
+  },
+  "risk_layer": "未自动核验；必须按参考框架单独检查",
+  "proxy_factors": [],
+  "valid_groups": [
+    "催化",
+    "宏观"
+  ]
+}

@@ -1,0 +1,1077 @@
+[
+  {
+    "path": "研究记录/2026-09-21-半月一月潜力/infra-review.md",
+    "sha256": "54feb0e3500a645936d5ff341c180b32c648ef2af7f92b0fc120a32c9158366f",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 基建、电力与成长候选：官方因子核验"
+  },
+  {
+    "path": "研究记录/2026-09-18-沙特半导体周风险/研究报告.md",
+    "sha256": "69b9fb027ce1803c9405f2666d8dfbd102d8294df9ad4a2f86725cb0d972425b",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 沙特事件与下周美股半导体风险"
+  },
+  {
+    "path": "研究记录/2026-10-02-AVGO同策略盘前/AVGO同策略结论.txt",
+    "sha256": "40cd2231caa50ce97066d86ae067f6dd0eea121922fd78d9f0348dcfddc4149b",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO 同策略量化分析｜2026-10-02 美东盘前"
+  },
+  {
+    "path": "研究记录/2026-10-01-MU好财报弱反应回溯/历史回溯与原因判断.txt",
+    "sha256": "9378381422bf16a1e374dc74dd73c881ea606a1d18c9f50f85dd85523dc1675b",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "MU：好财报为何不涨——历史事件回溯"
+  },
+  {
+    "path": "研究记录/2026-09-18-Babybus周末交易/周末交易结论.md",
+    "sha256": "713e3005629dd3fe9c9b41bb79ec8f4b5584ffbddccb270880e748f62721f05c",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-18-NBIS-primary"
+    ],
+    "title": "# 周末战术首选 NBIS；“大概率暴涨”没有证据支持"
+  },
+  {
+    "path": "研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+    "sha256": "6c2ffef5271a8eaf3492dfee084089cccbcaf61584ee7aa4a114ef5e90aeaa4e",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-ALAB-primary"
+    ],
+    "title": "# 9/21 夜盘重抓：ALAB 相对第一，当前不满足高置信买入条件"
+  },
+  {
+    "path": "研究记录/2026-09-22-盘前下跌与AVGO/AVGO风险复核.md",
+    "sha256": "a83c1265b9f800e8776c272887d7f532451280f9b54d977d009494875ca21ddf",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 持仓与历史模型风险复核"
+  },
+  {
+    "path": "研究记录/2026-09-22-盘前下跌与AVGO/新闻核验.md",
+    "sha256": "b2073b748a4ea9c88e4ba0c61c3dbf1f9fb2df8bfb1ca996d4bd1a678ff0a36e",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-22 盘前新闻与事件核验"
+  },
+  {
+    "path": "研究记录/2026-10-01-AVGO清仓与风险取舍/清仓取舍说明.txt",
+    "sha256": "1eb7b14608c62247a11585d84d17f593b83c9eb1eb94598fb62ef6e9b6454dce",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO清仓与风险取舍：2026-10-01"
+  },
+  {
+    "path": "研究记录/2026-09-24-次日涨5未暴涨筛选/研究结论.md",
+    "sha256": "e83a3ab82162715b56855b6483af3da3dbbd31624cfbfd5ece1f8bc67ab1a1ec",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-24-SCHL-primary"
+    ],
+    "title": "# 2026-09-24 美股未暴涨股次日 +5% 筛选"
+  },
+  {
+    "path": "研究记录/2026-09-25-尾盘必须选一只/最终选择.md",
+    "sha256": "42bcebded760d4840af679baea6f5b33621db339df22d8258d47be45c79b8976",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026年9月25日尾盘：必须现在选一只"
+  },
+  {
+    "path": "研究记录/2026-10-01-夜盘Babybus全面筛选/筛选结论与夜盘条件计划.txt",
+    "sha256": "a2ff1312fab2ae38c06644ed026745021af2d3459232ac16b83d2cfc53ff12c1",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-01-IREN-primary"
+    ],
+    "title": "10月1日夜盘买入、10月2日盘中大涨：Babybus与优先策略综合研究"
+  },
+  {
+    "path": "研究记录/2026-10-01-AVGO十日大涨与估值/研究结论.txt",
+    "sha256": "f4c7f499bd95d9b03f0bb970853525901b1ef5ccffc0adfac1f83d2491c0ae67",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO：最近单日大涨、未来十交易日尾部事件与合理股权市值"
+  },
+  {
+    "path": "研究记录/2026-10-02-Babybus今日至下个交易日/筛选结论与条件计划.txt",
+    "sha256": "2428b8ff74fd81e083728ad1f51156d52d096328e21cad7f5195b9d78f89be1c",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-02-APLD-primary"
+    ],
+    "title": "2026-10-02 今天买入、下个交易日暴涨机会：Babybus因子与执行研究"
+  },
+  {
+    "path": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+    "sha256": "774cb6e885e7875b203204ab83b95bda815af1b8af91b13051ea5851c8dc1b49",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-01-COHR-primary",
+      "2026-10-01-LITE-secondary",
+      "2026-10-01-AAOI-secondary"
+    ],
+    "title": "今日买入、次日+5%筛选｜2026-10-01"
+  },
+  {
+    "path": "研究记录/2026-10-01-今日买入次日5pct筛选/latest-final-directory.txt",
+    "sha256": "27a6132dbf2c7e1359e98e9e3576d3ac20917187f2aa390d10cd58236e12ba2d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "研究记录/2026-10-01-今日买入次日5pct筛选/final-171748"
+  },
+  {
+    "path": "研究记录/2026-09-15-AVGO建仓评估/AVGO建仓评估.md",
+    "sha256": "ab6f8c77825e6dbc149c2f52d5612da96ea61d3dad0678f3fcc71579e7abb1b9",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：2026-09-15建仓评估"
+  },
+  {
+    "path": "研究记录/2026-09-22-一月强势建仓/研究结论.md",
+    "sha256": "343c068737b8c6082a2dc392ec85072479375498505ceec888b384612c9e8982",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-22 收盘：未来约一个月强势股条件建仓"
+  },
+  {
+    "path": "研究记录/2026-09-30-MU财报方向1556/方向判断与建模边界.txt",
+    "sha256": "cf99e2c1cf341c5e936e60f9221d56aae1a5294185b7e3f61f2702dc87e6d3d0",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "MU 财报方向：2026-09-30 15:56快照"
+  },
+  {
+    "path": "研究记录/2026-09-15-尾盘反弹与MU振幅/尾盘判断.md",
+    "sha256": "c4f90c6f01a01ea548b01c8aab354b7f9a439054271ec320778a042970067ace",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO、MU 尾盘反弹与次日振幅"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/calendar-risks.md",
+    "sha256": "9f1d8c60e7bf443bd3c076df86db5fa814cd8d3d86c25b8abc7e8544c6fd61a0",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-21 隔夜至 9 月 22 日事件与日历风险核验"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/vicr-followup.md",
+    "sha256": "199fee4f8cc44ae6680619580bb9e3cbc788ac59aa8ce50aef8deb95d35da8ce",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VICR 收盘后异动核验；ALAB / ARM 去重"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/model-audit.md",
+    "sha256": "097d91d88665e4f488182665302f0f284e90127c4af5b7958b7d27af5689283a",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 次日盘中模型独立审计"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/vicr-fundamentals.md",
+    "sha256": "519efa75666a1316f4ae6ccf061dca0058add865aa25cf9b14c49c529f15a490",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VICR：9 月 21 日盘后指引上调的基本面核验"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/catalysts.md",
+    "sha256": "acc5c844dd93314852b17c265320b30ccdc3da37f8012479b634cad0684512c1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 9 月 21 日盘后至 9 月 22 日盘中：催化核验"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/prior-audit.md",
+    "sha256": "2ba8b75f4196141b0ab6ca32849d637552765bdbdff5867c823a35c3033c72f9",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "WDAY-original-not-located"
+    ],
+    "title": "# 既往 WDAY／LRCX 与隔夜模型审计"
+  },
+  {
+    "path": "研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+    "sha256": "b8e4197e371129ae0b053cd51c550623c0b6c56d766586f168d3d4344b3e026f",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-VICR-primary"
+    ],
+    "title": "# 9 月 21 日盘后至 9 月 22 日盘中：爆发候选与置信边界"
+  },
+  {
+    "path": "研究记录/2026-09-15-FOMC半导体波动窗口/研究结论.md",
+    "sha256": "fea11166ad4c04a3bdfdfd55454a23b329aafd11ace5e5e489c0ba31d09bfa11",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# FOMC 当天是否是半导体前后五日波动最高的一天？"
+  },
+  {
+    "path": "研究记录/2026-10-02-Babybus建仓加仓-1500更新/建仓加仓判断.txt",
+    "sha256": "1b0b8d89d966bf28eb0bda5a28dfded8f949f1dd39de36cbf9b8dd3d956af913",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-02-AAOI-primary"
+    ],
+    "title": "Babybus 今日建仓与 AVGO 加仓判断"
+  },
+  {
+    "path": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+    "sha256": "4f8337df4897d75952224152088fb7fdc34746c3b4d0d3a4ed5b8b702f4b6084",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-09-DDOG-secondary",
+      "2026-09-09-MRVL-secondary",
+      "2026-09-09-MU-secondary",
+      "2026-09-09-AMD-secondary"
+    ],
+    "title": "# CRWV、CBRS暴涨前形态与9月10日观察名单"
+  },
+  {
+    "path": "研究记录/2026-10-02-APLD-IREN昨日建模存档/存档说明.txt",
+    "sha256": "dd932a34ae44675df5469268d951cc2e4fe73995593576445b9664b89660fb51",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "APLD / IREN 昨日建模筛选存档"
+  },
+  {
+    "path": "研究记录/2026-09-25-AVGO-下周五日复核/综合判断.md",
+    "sha256": "60f8b636356add9e7b70654d58c88154749a40430a0b61531684b9dba1282f8a",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：MACD 金叉是否代表止跌，以及 9/28—10/2 五日判断"
+  },
+  {
+    "path": "研究记录/2026-10-01-APLD-IREN次日风险概率/风险概率与置信说明.txt",
+    "sha256": "86f4c6f8d01bacd69ced75718eb08cf35e045cd79d1f4005e60b4ddeb09a4041",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "APLD/IREN次日暴涨与探底风险｜2026-10-01"
+  },
+  {
+    "path": "研究记录/2026-10-01-APLD-IREN次日风险概率/AAOI昨日与APLD今日条件对照.txt",
+    "sha256": "9412e48ed84b1b08ec5d7a6c25419859aa85f9acc2cc3c773ce543b4c51f4b3d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AAOI昨日劝退理由与APLD今日条件对照"
+  },
+  {
+    "path": "研究记录/2026-10-01-AVGO继续跌20风险/研究结论.txt",
+    "sha256": "6a1a61eeedbdbb223a7210083ae969223cd0fb5b0d86b9a60606fe692e3e8c26",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO 从当前价再跌20%的风险研究"
+  },
+  {
+    "path": "研究记录/2026-09-17-Babybus洗盘反抽/改进与回测报告.md",
+    "sha256": "6286669b1cb7d256e0181c284df85f72e9d92298c39cfbc0b139e3eb7fa485e7",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# Babybus 洗盘反抽 V1：实现与验收报告"
+  },
+  {
+    "path": "研究记录/2026-09-25-COHR建仓策略/建仓结论.md",
+    "sha256": "da12491446895e4d9b43fcb3b1d123441894818cc7f5ab2a01b3d19ce25a4f11",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# COHR：2026-09-25盘中更新与建仓策略"
+  },
+  {
+    "path": "研究记录/2026-09-28-AVGO次日高低点/盘前接回-0916-成交低点权衡.md",
+    "sha256": "7d807282fc874aa97cf78364cd3834a7bf2d6c57b177b5a0b44e027e0c2528a1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-28 09:16 EDT：50 股接回的成交与低价权衡"
+  },
+  {
+    "path": "研究记录/2026-09-28-AVGO次日高低点/持仓操作方案.md",
+    "sha256": "9f7ab81f2056ee9ad13c8b3a21d11ccd36f305390faa7a51afd86ebd20da8fc1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 持仓操作方案：2026-09-27 夜盘至 09-28 常规盘"
+  },
+  {
+    "path": "研究记录/2026-09-28-AVGO次日高低点/研究结论.md",
+    "sha256": "756647eb9623a7eb52a9bc7fbc325da0186aa79354ecb7bd58d60e39638ce830",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：2026-09-28 常规盘高低点与条件交易计划"
+  },
+  {
+    "path": "研究记录/2026-09-28-AVGO次日高低点/相似日回溯与次日情景.md",
+    "sha256": "8065041e1c1fbe94a156ec1406260bcb6f59be3ab5f62ce6b56d71b2f71abcc4",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 相似日回溯与 2026-09-28 常规盘情景"
+  },
+  {
+    "path": "研究记录/2026-09-23-AVGO次日下跌概率/研究结论.md",
+    "sha256": "846e4f2086cc3f65eb249649d5e2e19969c2b7148590b24b33057d7d868f8fa6",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：9 月 24 日再跌 2% 的条件分析"
+  },
+  {
+    "path": "研究记录/2026-09-23-半导体次日概率/研究结论.md",
+    "sha256": "d654ca3900ff226418bccbfd2e4685017ca650c38a68f230f3bbf1783cf14f55",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-24 半导体次日续跌概率：SOXX 与 AVGO"
+  },
+  {
+    "path": "研究记录/2026-09-30-AAOI-W底与93止损/研究结论.txt",
+    "sha256": "691c2ab5c8b0012f6e7b1cebdabdd53d1859cbf20958a82225fe4590eaa44df9",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AAOI 现价买入、93止损、110止盈：2026-09-30研究结论"
+  },
+  {
+    "path": "研究记录/2026-09-25-AVGO次日涨3概率/研究结论.md",
+    "sha256": "92d6933a46038df4d065882b187fadb1962db16972f17c3eb13d1c33c56fa14e",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：2026-09-25 常规收盘较 2026-09-24 收盘涨至少 3%"
+  },
+  {
+    "path": "研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+    "sha256": "9f7b109ed649c71b67ca353897db91ac54e988cd6a77231d20964b012770477e",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-22-VICR-primary"
+    ],
+    "title": "# 2026-09-22 21:58 EDT 夜盘更新：9/23 短线大涨候选"
+  },
+  {
+    "path": "研究记录/2026-09-22-隔夜至次日爆发/非暴涨候选复筛.md",
+    "sha256": "5699cb358f53b822598ec0676de5783db783e195e074a108fc07a218c0e2aa29",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-22-AAOI-primary"
+    ],
+    "title": "# 2026-09-22 17:05 EDT：剔除近期暴涨后的替代候选"
+  },
+  {
+    "path": "研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+    "sha256": "84d719a55ff7273ab9768696fa47ec5b4255a6ceb1f061230932a2db7aed0052",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-22-AAOI-primary"
+    ],
+    "title": "# 2026-09-22 17:12 EDT：从现在买入，次日盘中再赚至少 5% 的复核"
+  },
+  {
+    "path": "研究记录/2026-09-22-隔夜至次日爆发/强制单选-未大涨-UMAC.md",
+    "sha256": "9413893d3692f339fa3d4cadd5587ccaa4803e985bb7b52cafca3343e3bddc0d",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-22-UMAC-primary"
+    ],
+    "title": "# 2026-09-22 17:27 EDT：强制单选、近五日未大涨"
+  },
+  {
+    "path": "研究记录/2026-09-22-隔夜至次日爆发/筛选结论.md",
+    "sha256": "1f16ac088c92993562662bbcec77dc71f05b9634196669833ce5fe12ac9116e7",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-22-VICR-primary"
+    ],
+    "title": "# 2026-09-22 盘后至 9/23 盘中：VICR 相对第一，未达到买入门槛"
+  },
+  {
+    "path": "研究记录/2026-09-28-夜盘次日暴涨筛选/研究结论.md",
+    "sha256": "d7d38e453912e65d0436020611a3ec22003590aea7f2b0664a7d06ef13c369f0",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-28-AAOI-primary"
+    ],
+    "title": "# 9 月 28 日夜盘至美股周一盘中短线筛选"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO历史阶段回溯/研究结论.md",
+    "sha256": "95d3c1970e375fa6e2d91aac84269d31b166bf4b37454f8bdf05016fffe6b3bd",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO历史阶段与暴涨概率：2026-09-24"
+  },
+  {
+    "path": "研究记录/2026-09-21-双模型短线筛选/今日结论.md",
+    "sha256": "890be36cab41e5a493cccfee1c1523a8fa52b4ee353db164090848d736eb8b35",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-21 盘前双模型：单一研究候选 VICR，正式结论不买"
+  },
+  {
+    "path": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+    "sha256": "3912ad494bb629179644d560a13e73650cabcbb803734e7e5da29f23274bd177",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-29-ALAB-primary",
+      "2026-09-29-NBIS-secondary",
+      "2026-09-29-CRDO-secondary",
+      "2026-09-29-COHR-secondary",
+      "2026-09-29-AAOI-secondary"
+    ],
+    "title": "# 9月29日盘后：Babybus与次日高弹性五股筛选"
+  },
+  {
+    "path": "研究记录/2026-09-26-三周主升浪/研究结论.md",
+    "sha256": "0021ce572e59d40f957a394b27ea0dca27d336d7cd28dc95cf367ffc6376cc5c",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 三周主升浪筛选：9/28—10/16"
+  },
+  {
+    "path": "研究记录/2026-09-29-MU财报与AVGO再审/完整分析与操作.txt",
+    "sha256": "869c22a2f5707a93e76139e40e0a199033a585ab0568f9eb4471d14a27df2e0d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "研究截止：2026-09-29美东晚间；新增公开快照抓取时间2026-09-29 22:23美东。行情与数据各自注明观察时间，不把抓取时间当行情时间。"
+  },
+  {
+    "path": "研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+    "sha256": "582e45bb0c6ffaab69ad8be1ea8b9318c6c2018c543973ea80428535d48f9b6b",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-30-AAOI-missed_entry_advice"
+    ],
+    "title": "AAOI 建议失误复盘与客观修正"
+  },
+  {
+    "path": "研究记录/2026-09-15-VIX次日预测/预测结论.md",
+    "sha256": "578308654c47691b10833fd8770be3c51ab63a2177f41480a84a379556c9d53a",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VIX：2026-09-16 盘中高点与收盘预测"
+  },
+  {
+    "path": "研究记录/2026-09-30-MU十股财报风险/六股止损与财报判断.txt",
+    "sha256": "576225bfe99bb942127e39a6a4d58ccbea53b286472e53d2c8bb2b9c026ef709",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "MU 财报投机：已买 6 股，成本与风险预算未知"
+  },
+  {
+    "path": "研究记录/2026-09-21-AVGO对比META/判断.md",
+    "sha256": "29d3bea447e91afcc27bebad0c45bdbb9f9bc918dd7ec7b5104e59befb72e47e",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 能否复制 META 8/18 以来的涨势"
+  },
+  {
+    "path": "研究记录/2026-09-25-AVGO下交易日/判断.md",
+    "sha256": "224b3896d5fd7d473e18b8e9ffde4e09506ff5b7fe686c1988724e961e90aeeb",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 下个交易日与客户风险（2026-09-25 16:50 EDT）"
+  },
+  {
+    "path": "研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+    "sha256": "ba439af2d4228b765e952dc2a9a537a399dca31ff012c23d7b1b129a20bf1a2b",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-01-COHR-primary"
+    ],
+    "title": "发布前14:33最新核验（下文14:28阶段价格保留；当前入场只用本段）"
+  },
+  {
+    "path": "研究记录/2026-10-01-次日5pct筛选1425/阶段报告1428.txt",
+    "sha256": "d507fe018dd6161e3c60390b52e5875f02e962762aae8ee5fd8d560544ea95b3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "今天买入、明天至少5%：14:25固定时点更新研究"
+  },
+  {
+    "path": "研究记录/2026-10-02-Babybus次日筛选-1438更新/筛选结论与条件计划.txt",
+    "sha256": "78f55cc989f3b7c0ab93c1eb91fc0a973539909e353137fbeaa4a005a31aaa8d",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-02-AAOI-primary"
+    ],
+    "title": "2026-10-02 Babybus 今天买入、下个交易日暴涨筛选：下午更新"
+  },
+  {
+    "path": "研究记录/2026-09-15-股债背离历史回溯/历史回溯结论.md",
+    "sha256": "38157443827df4f0640934cd4887a89e188f33ca4c3e53f7c897bf6d88522ce2",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 股债背离历史回溯：JNK 走弱是否预示标普下跌？"
+  },
+  {
+    "path": "研究记录/2026-09-29-AVGO一二五日严审/完整分析与操作.txt",
+    "sha256": "9f904a2d8f8c92e9aa07462fad9b1e20882d3f3eaf78282aff4ff9317c587a46",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO未来1、2、5个交易日：方向模型、宏观与去杠杆操作"
+  },
+  {
+    "path": "研究记录/2026-09-23-A股一月强势建仓/研究结论.md",
+    "sha256": "3ce430cb6ff68d7b43660e80948a12e64656986e189f72fc92f23b1163d8a74d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# A 股约一个月持有期强势候选：2026 年 9 月 23 日盘中"
+  },
+  {
+    "path": "研究记录/2026-10-01-AVGO次日涨跌1550/明日涨跌与条件判断.txt",
+    "sha256": "0b528647762d40e18e05f5151971235bc1b7722f8b651df0e70e86163250103d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AVGO 明日（2026-10-02）涨跌研究；保留 2026-10-01 尾盘快照"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO次日减仓决策/研究结论.md",
+    "sha256": "1a2458cb71069aa014c363aab0b4d6972dbf3d7a0ddde08a7d30762e688569b6",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：9月25日起短线判断与减仓方案"
+  },
+  {
+    "path": "研究记录/2026-09-28-AVGO夜盘因子复核/报告.md",
+    "sha256": "c1c76b90163ade1b815270ab70fbe9f0b15a13f09fd7365356b1b65cea859af3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 夜盘下跌与因子复核"
+  },
+  {
+    "path": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+    "sha256": "2e914e35d9ed0b6249814c2f443ab28dfb2b5b9cf4ca0c31f3ee39c7b4c307e8",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-17-LITE-primary",
+      "2026-09-17-ALAB-secondary",
+      "2026-09-17-VICR-secondary",
+      "2026-09-17-CRDO-secondary",
+      "2026-09-17-WULF-secondary"
+    ],
+    "title": "# 9 月 17 日夜盘至常规盘：CRDO 型机会筛选"
+  },
+  {
+    "path": "研究记录/2026-09-24-META0818盲截断对照/audit-plan.md",
+    "sha256": "ca21ea7e985293d0381da80b582c72fe8da484a6a275e6c9c6472debf867706c",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 独立审计计划：META 2026-08-18 与 AVGO 对照"
+  },
+  {
+    "path": "研究记录/2026-09-24-META0818盲截断对照/研究结论.md",
+    "sha256": "37a6c6b6688a5ac46222031a1bbe5e3a5526ec65b305a193885e5a9cc6642039",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# META 2026年8月18日视角重建，与当前AVGO比较"
+  },
+  {
+    "path": "研究记录/2026-09-24-META0818盲截断对照/audit-result.md",
+    "sha256": "7bbb24a23287c738a77d6c9ab37ad7e098241ac6f9e29e7d057f74a3e6ec9a89",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 独立审计结果"
+  },
+  {
+    "path": "研究记录/2026-09-29-尾盘双目标筛选/研究结论.md",
+    "sha256": "687c6b010403845ab36348e0b12620b4554e7666158d2f888dbf05459c8468ed",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-29-ALAB-primary"
+    ],
+    "title": "# 2026-09-29 尾盘：次日大涨与20个后续交易日净涨20%"
+  },
+  {
+    "path": "研究记录/2026-09-14-无人机彩票仓/研究结论.md",
+    "sha256": "b121ed7d0c04435e7af9833e8614d4a30880b3ae38ce0ccb2d101f72a3bc35f6",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVAV、KTOS、RCAT、ONDS：彩票仓与期权成本模型"
+  },
+  {
+    "path": "研究记录/2026-09-14-无人机彩票仓/明日大涨概率.md",
+    "sha256": "a4674d00fca9c2a33264b6cb930ed7bce82b9295a90e19fa937c077c1dbd4ced",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 9月15日下一交易日概率估算"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/追问-暴涨可能与融资.md",
+    "sha256": "328689bd58c7bb25b51b058ac72e42fc2b21d536490f6b2a441b15016cf59378",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AAOI 追问：短线暴涨可能性与融资约束"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/备选催化.md",
+    "sha256": "a7756958a9ade3e5d859832633f5f8909216dc3561b226a096504790c63210da",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 排除 VICR 后：NBIS、CIFR、BE、COHR、SMTC 的新增催化核验"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/AAOI-CRDO核验.md",
+    "sha256": "672179ba203ff2798b14d230ad32edfd39418bf6c205c6eeaf6f79a49c3863c1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AAOI / CRDO：基本面、事件与融资核验"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/唯一选择与执行.md",
+    "sha256": "87adeee04c07f17299d42427bb8837960da4d0250fb6067df61982cd53d51896",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-AAOI-primary"
+    ],
+    "title": "# 排除 VICR 后的唯一条件首选：AAOI"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/选择审计.md",
+    "sha256": "3124788021e3378a125d719a527a0fe9b195a20d8562a3dc80122a83bfacc296",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 排除 VICR 后必选一只：独立选择审计"
+  },
+  {
+    "path": "研究记录/2026-09-23-跨市场防泄露复筛/研究结论.md",
+    "sha256": "8f2a112504cb0cee6befc79f04bee6ed1a6607d6dcc61cb31346125b6da3bfbe",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-23 跨市场十交易日复筛：防泄露与过拟合审计"
+  },
+  {
+    "path": "研究记录/2026-10-01-Babybus二十日候选/二十日候选与建仓条件.txt",
+    "sha256": "540799513ffa51f1e878029be6cccbdd88a477175e32adcf16da517fe71acba1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "2026-10-01 Babybus风格20交易日条件候选"
+  },
+  {
+    "path": "研究记录/2026-09-30-AAOI十交易日走势/研究结论.txt",
+    "sha256": "3f345e9854a79c21b05cbc6eded7d4fac303c319e142e6e2f55d174bf5595901",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AAOI 十个交易日走势研究：2026-09-30"
+  },
+  {
+    "path": "研究记录/2026-09-27-周一十日10pct筛选/研究结论.md",
+    "sha256": "5f50287021a97703a7454aaa645faa93620de40e153654a62fb62bd4ad3c6a2f",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 9/27 夜盘或 9/28 买入，十个持仓交易日净涨 10% 筛选"
+  },
+  {
+    "path": "研究记录/2026-10-01-午间市场与AVGO/研究结论与建仓计划.txt",
+    "sha256": "f0e451aee2ba7f2fa17b19e03dd1ba3218417e21691774b7a6bd513f2e4163ca",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "午间市场、顶级股票建仓与AVGO｜2026-10-01"
+  },
+  {
+    "path": "研究记录/2026-09-25-COHR深度复核/分析结论.md",
+    "sha256": "53fbf6feb9519491fbeadc19fdd17544ddcca2a6b98ea776a3dce798fd8b4e02",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# COHR 收盘后深度复核：价格仍可研究，不存在已证实的最大胜率"
+  },
+  {
+    "path": "研究记录/2026-09-11-七日期权筛选/研究结论.md",
+    "sha256": "b472ae91ff873fd7ce25fb65157c46c6b227b232ccaae9c8647cec01021ec275",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-11：样本池七日期权右尾筛选"
+  },
+  {
+    "path": "研究记录/2026-09-25-MU财报事件研究/研究结论.md",
+    "sha256": "497b97f23751967c6c130d056a2a6c8e5d2ebca3f94a15a3ebd4447c8ac3f550",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# MU：下周前高与财报事件研究"
+  },
+  {
+    "path": "研究记录/2026-09-25-MU财报事件研究/板块周展望.md",
+    "sha256": "a1e8aeda524f680086328c515ebe07c4946a329dd05b52d56d6a35ae530da81a",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-28 至 10-02 半导体周展望"
+  },
+  {
+    "path": "研究记录/2026-10-01-AAOI因子修复v3/修复结果与验证.txt",
+    "sha256": "4f4879b7b9936bd0d925623e599f2227d895e5220dbe29e61a637f9991d49d08",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "AAOI 因子修复 v3｜2026-10-01"
+  },
+  {
+    "path": "研究记录/2026-09-30-MU财报后1724/分析与建模结果.txt",
+    "sha256": "2ed71338c1d0c082fdb295298f3ea3d71a9f069292936433a5b08dffa56453a2",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "MU 财报后核验与估值敏感性更新"
+  },
+  {
+    "path": "研究记录/2026-09-21-AVGO相对强弱/AVGO当前结论.md",
+    "sha256": "832692bad5655f1739fd49d83059886b72e5ec1fe55e901be82387561743c6a3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "**AVGO当前相对弱势与价格区间：2026年9月21日**"
+  },
+  {
+    "path": "研究记录/2026-09-28-Babybus多策略建仓扫描/研究结论.md",
+    "sha256": "43876d6edb0a445389c104f702abb8ff7839ad2ea164f7086d4135499c238a9b",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-28 盘中美股建仓扫描：Babybus、趋势反弹与事件动量"
+  },
+  {
+    "path": "研究记录/2026-09-23-AVGO-348五日触及风险/研究结论.md",
+    "sha256": "143df715826237e381c8fe31b45f703f924cfae7f3d9dd9de3abf31f6251e726",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 未来五个交易日盘中跌破 $348 的风险"
+  },
+  {
+    "path": "研究记录/2026-09-29-AVGO全因子预测/options_macro.md",
+    "sha256": "2c6c44f45a2a46963069ced38a0787bf031490112df6dd00fee9a1e036a41f74",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 期权、宏观与行业背景核验"
+  },
+  {
+    "path": "研究记录/2026-09-29-AVGO全因子预测/研究结论.md",
+    "sha256": "2ba66f7d97d3382e4010e7551bb846a276a6852c5228a44888a0d98d19658c49",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：下一交易日与20交易日收盘预测"
+  },
+  {
+    "path": "研究记录/2026-09-14-Anthropic-AVGO因子模型/分析报告.md",
+    "sha256": "cef40d32fa505ba44c39ab38b9cb7c5ffe2c651bc4bab9b270b9255bf83b15f3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# Anthropic—AVGO 因子建模分析"
+  },
+  {
+    "path": "研究记录/2026-09-21-1751最新盘面与持仓/最新结论.md",
+    "sha256": "f78b3b915c94fc3e8c6721b0751fe27766a6ab3a57fa532e13d9c31f76b6e647",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-21 盘后刷新：候选排名与现有持仓"
+  },
+  {
+    "path": "研究记录/2026-09-15-AVGO-MU次日概率/次日概率结论.md",
+    "sha256": "d7896dffbb03a1056e2b9345ebcd53c02326ea479d62e1fc96a6b286b4d62504",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO / MU：2026-09-16 次日下跌概率研究"
+  },
+  {
+    "path": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+    "sha256": "29fa2b958fe925a936880d301699080ca0f082774225f4167d5ca856cc04f913",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-01-APLD-primary",
+      "2026-10-01-APLD-primary",
+      "2026-10-01-IREN-primary"
+    ],
+    "title": "2026-10-01 Babybus低涨幅次日机会｜行情约15:31 EDT"
+  },
+  {
+    "path": "研究记录/2026-09-15-高收益债广度与套息风险/研究结论.md",
+    "sha256": "b1214510924319df0de0d50b4522c509e22dbc0b7605c9c079420b3327ba0086",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 高收益债背离、FOMC与套息风险：可信度检验"
+  },
+  {
+    "path": "研究记录/2026-09-09-CRWV重新建仓/重新买入判断.md",
+    "sha256": "01dd57983017e80e6833734ac804451defef3283e1ef961e87c597e6c4db9e0d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# CRWV清仓后重新建仓模型"
+  },
+  {
+    "path": "研究记录/2026-09-11-五倍期权复盘/调查结论.md",
+    "sha256": "79b9acb7d292354f857fcc472fe0d146a3305810b57eb5045d367da1fe53ffd3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 最近五倍以上看涨期权复盘"
+  },
+  {
+    "path": "研究记录/2026-09-30-MU财报前建模/研究结论.txt",
+    "sha256": "ffdc45afc0ae3432573f353b07abdb90a0144d8b8c52c2876b48689947d3502d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "美光 MU：2026-09-30 财报前建模"
+  },
+  {
+    "path": "研究记录/2026-09-14-FOMC周空仓计划/单股反弹候选.md",
+    "sha256": "343fde4b1037486d457ed4490b9bf088dc79dad2223cd8c833b9d1d91c55bbf0",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 单股博反弹：2026-09-14 17:21 ET"
+  },
+  {
+    "path": "研究记录/2026-09-29-AVGO全因子预测/quant/量化结论.md",
+    "sha256": "b147ba8405982b6d0f105529754777b7ce214a22be45feb07b3fc116bf557f2f",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：固定量价模型及核验记录"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/排除AAOI/CRDO选择.md",
+    "sha256": "08ff8cf3fb47c92688af047c8b59f1e9d2b4df12b1d5d1786cda1b0d098fbc19",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-CRDO-primary"
+    ],
+    "title": "# 排除 AAOI、VICR 后：综合首选 CRDO"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/恢复原模型/ALAB条件首选.md",
+    "sha256": "63a4b3f73b57d113bc731f1818dc030887e53d2d991f51069e4487c8fcd1f601",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-ALAB-primary"
+    ],
+    "title": "# 恢复原模型：ALAB为相对首选"
+  },
+  {
+    "path": "研究记录/2026-09-21-排除VICR必选一只/低追价备选/观察结论.md",
+    "sha256": "5f9b86e903d37b56437773a8cf7ca38e91b9fb4c1acd50c390dcafa1048c7ac2",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-WDC-secondary"
+    ],
+    "title": "# 用户不愿追 CRDO 后：WDC 作为低追价观察备选"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO次日减仓决策/quant/研究结论.md",
+    "sha256": "c528a087eba0c30e3b077650e84734cdd0c6985154bbf740298661ec942ef17e",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO：9月24日收盘后的次日及五日量价模型"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO次日减仓决策/news/消息核验.md",
+    "sha256": "1638eeb4ef303cd86e6be936928ed06b1a79806a4bf2f053061efbbcc539d244",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO消息与基本面核验"
+  },
+  {
+    "path": "[REDACTED: unrelated personal account information]",
+    "sha256": "675aa43e342186f12f9cd883cb34a6f0f10682f828129ff69a09d86d8a2a2ad7",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "[REDACTED: unrelated personal account information]"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO次日减仓决策/risk/量化独立审核.md",
+    "sha256": "2dfe839560e4ce80f475632a97c17fbe18c643fb6bc7e2c1f761e997ca3be842",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 量化模型有界独立审核"
+  },
+  {
+    "path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+    "sha256": "a12e18615cfafa3edd1b0b18e723bb3120a03f34dab6d72c1db2796f2b509081",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-29-ALAB-primary"
+    ],
+    "title": "# 9/29 20:33 EDT 夜盘重新筛选"
+  },
+  {
+    "path": "研究记录/2026-09-21-双模型短线筛选/必须选一只/选择与执行.md",
+    "sha256": "5742bfa00ae6530e3882b1a8010eedcb32ed9033d64d158e8c9f7df0f91e082a",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-21-VICR-primary"
+    ],
+    "title": "# 必须只选一只：VICR；条件性投机选择，不是高置信信号"
+  },
+  {
+    "path": "研究记录/2026-09-24-AVGO历史阶段回溯/episodes/历史阶段回溯.md",
+    "sha256": "f32fdcbe695aac2f8f872f0c8cf0f1f45febc48e6ca0e8a93b4e740e91a46cd3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# AVGO 历史深回撤阶段：固定事件回溯"
+  },
+  {
+    "path": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+    "sha256": "068466fdc2cf4953975830807b0894231e7c160e83657ada3bc77d7f3b6cb84c",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-10-01-APLD-primary"
+    ],
+    "title": "APLD跟进｜2026-10-01T15:43:44-04:00"
+  },
+  {
+    "path": "研究输出/美联储加息与A股历史回溯-2026-09-16/研究报告.md",
+    "sha256": "98887c5402f4fde08659a53a74d1cd40c75023ab40e151d2f8f00269eae6d5db",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 美联储加息后沪深市场历史事件回溯"
+  },
+  {
+    "path": "研究输出/TSLA-2026-09-08/特斯拉建仓模型分析.md",
+    "sha256": "3a6517128014933a52998251aeeb8ab39c9f2311f66b849cefa150f21bda2ec1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 特斯拉建仓模型分析"
+  },
+  {
+    "path": "研究输出/A股强势股-2026-09-17/分析报告.md",
+    "sha256": "6697b3c318a56ca21c8da7003e015e4b3a78bb944ab15bebf5b99aa7075d66c3",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# A股强势股建模分析｜2026年9月17日收盘"
+  },
+  {
+    "path": "研究输出/A股议息前减仓-2026-09-16/研究结论.md",
+    "sha256": "a1a38300532da9789b13307d49029d44e0c967ce8c331d43530ae5a6f15612fe",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# A 股议息前拉升与减仓评估"
+  },
+  {
+    "path": "研究输出/2026-09-09-长期建仓/长期建仓分析.md",
+    "sha256": "4a28bc1f28aaeed8c251b9d2c5a8638c708a9a118ebdeb579652ea9ceb4924f2",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 长期建仓分析：2026年9月9日"
+  },
+  {
+    "path": "研究输出/2026-09-09-次日建仓/今日建仓与次日弹性.md",
+    "sha256": "169c65a8341084f8eec51ddd71e9a09a37130fcbd2ce816747b4170be7afe246",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-09-WDC-primary"
+    ],
+    "title": "# 2026-09-09：今日建仓与次日弹性"
+  },
+  {
+    "path": "研究输出/2026-09-10-短线抗跌筛选/结论.md",
+    "sha256": "d4f0fe54ee95cf45078fbfcbcd7ba8bc631f54603b6035c4489ab63a639f0a95",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-10 短线抗跌筛选"
+  },
+  {
+    "path": "研究输出/2026-09-10午后建仓调查/调查报告.md",
+    "sha256": "0e77388a215ff0f5a7108a52519fa8cf3b15b352439a158ffbfc8587d65582b1",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 2026-09-10午后建仓调查"
+  },
+  {
+    "path": "研究输出/A股建仓候选-2026-09-21/即买筛选/必须择一.md",
+    "sha256": "792a7554e83153e93cdf61d3fa74448af7f25c0a818759c0aef8b6cc015cf715",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 必须择一：香农芯创300475"
+  },
+  {
+    "path": "研究输出/A股建仓候选-2026-09-21/即买筛选/立即买入结论.md",
+    "sha256": "381a134b3be5ecfbe9319069e62db079502042aa208979643ff34ed171c6e1ef",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 立即买入筛选：结论不买"
+  },
+  {
+    "path": "研究输出/VST-2026-09-09/复盘审计/复盘结论.md",
+    "sha256": "da5d7c10d25cc9cd1991649c31a98a8effadf18727a3480453c71b4498fb49f0",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "**VST 9月9日盘中建议审计**"
+  },
+  {
+    "path": "研究输出/VST-2026-09-09/午盘1215/午盘量价与明日风险.md",
+    "sha256": "5187b5ccef5fb935109e198088f5e04ad2cc68a044bf9e4cf4ae35179caf5ea7",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VST午盘量价与明日风险：2026-09-09"
+  },
+  {
+    "path": "研究输出/VST-2026-09-09/尾盘1530/尾盘与周五收盘预测.md",
+    "sha256": "b22cf8931837c254b15e8f38961ed42f5c66724b98b65ee4c32f7c4b081fde9c",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VST 尾盘、通胀事件与本周收盘"
+  },
+  {
+    "path": "研究输出/VST-2026-09-09/午盘1240/买点判断.md",
+    "sha256": "a58a948f9878bf484a040115c8f6f03c0ed3cb7abcb3b3064f23185ed40e1708",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VST买点判断：2026-09-09美东12:43"
+  },
+  {
+    "path": "量化参考/BABYBUS-夜盘研究-2026-09-07.md",
+    "sha256": "d11b1663bd6ee8c6c0887ebc587db51fb549920e792afad6e3766446172cf284",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-07-AMD-missing_entry_quote"
+    ],
+    "title": "# BABYBUS 持仓夜盘条件研究"
+  },
+  {
+    "path": "量化参考/夜盘扫描-2026-09-07-报告.md",
+    "sha256": "f230b12652bdac25d4a21a518e948ac7314b270307f5280cdf3d2bcf290a8586",
+    "disposition": "used_as_original_recommendation_or_refresh",
+    "linked_cases": [
+      "2026-09-07-MU-missing_entry_quote"
+    ],
+    "title": "# 美股夜盘条件扫描：2026-09-07 → 2026-09-08"
+  },
+  {
+    "path": "量化参考/优先策略/VICR-LRCX-WDAY策略.md",
+    "sha256": "9ba2933f0c5e823ab5b06d6c86fea63ed86855728408907dfb6fe6dee1e60036",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# VICR / LRCX / WDAY：用户指定优先参考策略"
+  },
+  {
+    "path": "量化参考/周一瀑布压力测试-2026-09-13/分析.md",
+    "sha256": "928f1fe376116fd4f8af6e630024270d6383a44036efb884ea1deaa3b1865633",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 周一“历史性瀑布”压力测试"
+  },
+  {
+    "path": "量化参考/周度建模-2026-09-14/下周美股建模报告.md",
+    "sha256": "ab1e322e2dd9d5e26de9923de482689b1b739158fbf9713f7cbcac3896fa453e",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "# 美股周度建模：2026年9月14—18日"
+  },
+  {
+    "path": "归档/历史文档/2026-08/2026-08-14-MU多因子历史回溯与下日回调概率.md",
+    "sha256": "4e29c18a3d1eede50a287ba25ea202d801afdb57c3b936c6a7bad651f0273e6d",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "> 历史归档：本文保留原日期的行情、持仓与判断，不代表当前状态；2026-09-15 仅整理位置与本地链接。"
+  },
+  {
+    "path": "归档/历史文档/2026-08/2026-08-15-MU-AMD-INTC-SPCX下周交易模型.md",
+    "sha256": "63fa4fba15b27bdff5b764cb31154dcad773fad73701b1e01197b1f77add7abe",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "> 历史归档：本文保留原日期的行情、持仓与判断，不代表当前状态；2026-09-15 仅整理位置与本地链接。"
+  },
+  {
+    "path": "归档/历史文档/2026-08/2026-08-15-下周美股多因子高潜力机会.md",
+    "sha256": "de39269c3a3b4d421b930696666e2e1504836c362dedcff5e729ba4c22186539",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "> 历史归档：本文保留原日期的行情、持仓与判断，不代表当前状态；2026-09-15 仅整理位置与本地链接。"
+  },
+  {
+    "path": "归档/历史文档/2026-09/2026-09-04-下周与九月高潜力建仓多因子扫描.md",
+    "sha256": "8d6e63e28d14775eddc37eb02bb9af831c0802db8b4ad70ecd5a2d320798a40a",
+    "disposition": "not_in_main_picks_other_horizon_account_direction_backtest_or_support_material",
+    "linked_cases": [],
+    "title": "> 历史归档：本文保留原日期的行情、持仓与判断，不代表当前状态；2026-09-15 仅整理位置与本地链接。"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "AAOI_prefix_features": true,
+  "AAOI_eval_nonoverlap": true,
+  "AAOI_neighbor_mature_nonoverlap": true,
+  "AAOI_terminal_return_labels": true,
+  "AAOI_iv_totalvariance_interpolation": true,
+  "AAOI_iv_rv_units": true,
+  "AVGO_prefix_features": true,
+  "AVGO_eval_nonoverlap": true,
+  "AVGO_neighbor_mature_nonoverlap": true,
+  "AVGO_terminal_return_labels": true,
+  "AVGO_iv_totalvariance_interpolation": true,
+  "AVGO_iv_rv_units": true,
+  "AAOI_RR_declines_when_entry_rises": true
+}

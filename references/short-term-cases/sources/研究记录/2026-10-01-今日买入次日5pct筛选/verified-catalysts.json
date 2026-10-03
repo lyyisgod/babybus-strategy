@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-10-01T17:09:41.609911+00:00",
+  "sources": [
+    {
+      "symbol": "VICR",
+      "source": "https://vicorcorporation.gcs-web.com/news-releases/news-release-details/vicor-corporation-raises-q3-2026-revenue-guidance-0",
+      "published_at": "2026-09-30T16:00:00-04:00",
+      "verified": true,
+      "type": "financial guidance upgrade",
+      "fact": "Q3sequentialrevenuegrowth raised >20%to>30% because increased royalties from already-announced firstnonexclusiveVPDlicense; market alreadyreacted tonight/today, not futureunannouncedcatalyst."
+    },
+    {
+      "symbol": "COHR",
+      "source": "https://ir.coherent.com/news-releases/news-release-details/coherent-launches-photonlinktm-integrated-optics-platform-ai",
+      "published_at": "2026-09-21T16:05:00-04:00",
+      "verified": true,
+      "type": "platform/customer engagement announcement",
+      "fact": "PhotonLink launch: >10CPO and>10NPO customerengagements;anchorcustomers andlongtermagreementscaptured;expectedrampCY2026Q4. NotnewOct2financialrelease, engagementnotrealizedrevenue."
+    },
+    {
+      "symbol": "AAOI",
+      "source": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-second-quarter-2026-results",
+      "published_at": "2026-08-06",
+      "verified": true,
+      "type": "existing quarterly outlook",
+      "fact": "Q3revenueguide255-290mUSD;nonGAAPEPS.11-.26; existingbackgroundnotcurrentEPSrevision."
+    },
+    {
+      "symbol": "AAOI",
+      "source": "https://investors.ao-inc.com/news-events/press-releases",
+      "published_at": "2026-09-29",
+      "verified": true,
+      "type": "product/show/shipmentmilestone",
+      "fact": "SCTETechExpo andmillionth1.8GHz amplifier shipped; notverifiednewAItransceiverpurchaseorder orraisedrevenueguide."
+    },
+    {
+      "symbol": "ACN",
+      "source": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm",
+      "published_at": "2026-10-01",
+      "verified": true,
+      "type": "quarterlyfinancialresults",
+      "fact": "Q4revenues aboveguidanceupperend;currentquarterbookingstrength; todaypricealreadyupabout18%atinitialsnapshot, nextdaycontinuationnotguaranteed."
+    },
+    {
+      "symbol": "AEHR",
+      "source": "https://www.aehr.com/category/news/financial-news/",
+      "published_at": "2026-07-14",
+      "verified": true,
+      "type": "existingfinancialoutlook",
+      "fact": "FY27revenue130-150mUSDrecordbacklog100mUSD; notconfirmedOct1earnings. ThirdpartyestimateddatesOct1orOct5conflict, excludeasverifiedtonightcatalyst."
+    },
+    {
+      "symbol": "CRDO",
+      "source": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm",
+      "published_at": "2026-09-01",
+      "verified": true,
+      "type": "existingfinancialoutlook",
+      "fact": "Q2FY27guide525-535mUSD; montholdnotnewtomorrowevent."
+    },
+    {
+      "symbol": "market",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "published_at": "2026-02-18",
+      "scheduled_at": "2026-10-02T08:30:00-04:00",
+      "verified": true,
+      "type": "macroevent",
+      "fact": "SeptemberEmploymentSituation scheduledtomorrow8:30EDT; no actualdata availableyet; gapriskbothdirections."
+    }
+  ],
+  "rumors_excluded": [
+    "No sourceverifiedtomorrowAIorder/contract announcement",
+    "AEHRearningsdates fromestimateaggregators",
+    "Unverifiedbuyouts/brokerflow"
+  ]
+}

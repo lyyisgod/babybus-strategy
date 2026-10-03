@@ -1,0 +1,79 @@
+{
+  "verified_at": "2026-10-01T19:33:15.222981+00:00",
+  "facts": [
+    {
+      "ticker": "IREN",
+      "source": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+      "published": "2026-08-27",
+      "quarter_revenue_musd": 137.2,
+      "year_revenue_musd": 707.0,
+      "prior_year_revenue_musd": 501.0,
+      "annual_yoy": 0.4111776447105788,
+      "ai_revenue_musd": 70.5,
+      "prior_quarter_ai_musd": 33.6,
+      "operating_arr_busd": 1,
+      "contracted_arr_busd": 4,
+      "arr_is_not_gaap": true,
+      "interpretation": "AI ramp operating narrative; not current newcatalyst or tomorrowpromise"
+    },
+    {
+      "ticker": "IREN",
+      "source": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-full-year-fy25-results",
+      "published": "2025-08-28",
+      "prior_year_quarter_revenue_musd": 187.3,
+      "latest_quarter_yoy": -0.26748531767218375,
+      "original_revenue_gate": false
+    },
+    {
+      "ticker": "APLD",
+      "source": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+      "published": "2026-07-27",
+      "quarter_revenue_musd": 258.748,
+      "prior_quarter_same_year_musd": 51.076,
+      "quarter_yoy": 4.065940950740074,
+      "tenant_fitout_musd": 152.4,
+      "base_rent_musd": 44.1,
+      "net_loss_common_musd": 110.6,
+      "original_revenue_gate": true,
+      "not_profit_growth": true
+    },
+    {
+      "ticker": "APLD",
+      "source": "https://ir.applieddigital.com/news-events",
+      "published": "2026-09-28T16:05:00-04:00",
+      "earnings": "2026-10-07T17:00:00-04:00",
+      "not_tomorrow_catalyst": true
+    },
+    {
+      "ticker": "CBRS",
+      "source": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-fast-inference-cloud-business-nearly-quadruples",
+      "published": "2026-08-12",
+      "gaap_rev_yoy": 0.7431911887110199,
+      "core_non_gaap_rev_yoy": 1.03,
+      "rpo_busd": 25.4,
+      "raised_core_full_year_outlook": true,
+      "price_confirmation_today": false
+    },
+    {
+      "ticker": "NBIS",
+      "source": "https://nebius.com/newsroom/nebius-acquires-inferize-to-strengthen-nebius-token-factorys-production-inference-stack",
+      "published": "2026-10-01",
+      "claim": "Inferize acquisition to strengthen production inference stack",
+      "verified_method": "official searchindex; direct open inaccessible",
+      "new_today": true,
+      "financial_impact_not_quantified": true
+    },
+    {
+      "ticker": "CRWV",
+      "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx",
+      "published": "2026-09-18",
+      "convertible_busd": 3.7,
+      "not_current_Tminus3_veto": true
+    },
+    {
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "employment_report": "2026-10-02T08:30:00-04:00"
+    }
+  ],
+  "event_coverage_complete": false
+}

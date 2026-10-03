@@ -1,0 +1,51 @@
+{
+  "AAOI-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:27:04.743435+00:00",
+    "price": 97.538,
+    "quote_time": 1790789221,
+    "previousClose": null
+  },
+  "COHR-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:27:04.635461+00:00",
+    "price": 283.83,
+    "quote_time": 1790789206,
+    "previousClose": null
+  },
+  "LITE-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:27:04.635168+00:00",
+    "price": 958.625,
+    "quote_time": 1790789223,
+    "previousClose": null
+  },
+  "QQQ-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:27:04.643537+00:00",
+    "price": 741.74,
+    "quote_time": 1790789222,
+    "previousClose": null
+  },
+  "SMH-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMH?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:27:04.778159+00:00",
+    "price": 607.24,
+    "quote_time": 1790789223,
+    "previousClose": null
+  },
+  "AAOI-live": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "retrieved_at": "2026-09-30T17:27:04.783551+00:00",
+    "price": 97.538,
+    "quote_time": 1790789221,
+    "previousClose": 100.67
+  },
+  "AAOI-5m": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=5d&interval=5m&includePrePost=true",
+    "retrieved_at": "2026-09-30T17:27:04.796476+00:00",
+    "price": 97.538,
+    "quote_time": 1790789221,
+    "previousClose": 100.67
+  }
+}

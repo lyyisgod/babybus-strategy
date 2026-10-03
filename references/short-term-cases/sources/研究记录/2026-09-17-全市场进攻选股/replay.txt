@@ -1,0 +1,125 @@
+  symbol    price  change_pct   ret20   ret63  same_time_volume_ratio  extension_now_atr above_vwap  live_above_ema50  market_model_residual_today_pp
+    NVDA  218.880       2.328  -2.549   3.244                   1.021              0.160       True              True                           0.332
+    AVGO  348.990       2.792 -10.655  -9.732                   0.996             -1.145       True             False                           0.440
+     AMD  549.270       7.175   5.803   1.027                   1.437              2.478       True              True                           2.355
+      MU  976.000       5.337  -1.510  -9.215                   1.078              0.493      False              True                          -0.317
+    SNDK 1591.405       4.700  -6.508 -23.679                   1.037              0.144      False              True                          -1.779
+    MRVL  242.450       5.546   6.347 -17.549                   1.388              1.243      False              True                           0.085
+    ALAB  283.550       5.338 -11.291 -25.581                   1.134             -0.133      False             False                          -0.372
+     TSM  427.115       2.249   1.314  -1.641                   0.726              0.584       True              True                          -0.358
+     WDC  423.850       1.650 -15.934 -38.758                   0.985             -1.017      False             False                          -2.668
+     STX  801.500       2.339 -13.334 -24.008                   0.903             -0.605       True             False                          -1.429
+    CRDO  166.065       2.833 -34.346 -32.482                   0.970             -1.374      False             False                          -1.868
+    LITE  917.410      -0.216   5.278   5.031                   1.038              0.391      False              True                          -4.039
+    COHR  295.890       2.056  -5.385 -24.263                   1.028              0.276      False             False                          -2.403
+    AAOI   98.950       2.284 -26.383 -43.364                   1.473             -0.899      False             False                          -2.911
+    AMAT  415.125      -0.061 -19.152 -26.821                   1.246             -2.093      False             False                          -3.903
+    LRCX  267.510      -0.639 -17.898 -27.054                   1.214             -1.951      False             False                          -4.989
+    KLAC  167.885       0.314 -14.082 -29.402                   0.940             -1.397      False             False                          -3.546
+    ONTO  250.835       2.953 -22.757 -22.935                   0.611             -1.132      False             False                          -1.519
+    CAMT  143.295       3.395 -11.069 -23.952                   0.703              0.050      False             False                          -0.404
+     TER  358.615       5.119 -15.585 -16.629                   0.706             -0.046       True             False                           0.639
+    SMTC  181.380       8.254  23.900   3.688                   1.953              2.918       True              True                           3.534
+    VICR  213.095      15.869 -24.133 -42.611                   2.591              1.314       True             False                          11.196
+     CLS  333.300       2.924   4.263 -15.230                   1.166              0.754      False              True                          -0.669
+      FN  384.345      -2.123 -18.631 -33.221                   1.556             -1.469      False             False                          -5.076
+     VRT  242.870       1.445 -12.134 -20.071                   0.750             -1.039      False             False                          -1.442
+    NBIS  216.640       3.472 -15.723 -21.022                   3.174             -0.114       True              True                          -1.651
+    CRWV   80.980      -2.843 -10.540 -28.779                   4.424             -1.047       True             False                          -6.589
+    IREN   43.450       1.947   1.476 -27.982                   1.613              0.448      False              True                          -2.900
+      BE  280.090       3.729  29.190  -3.866                   0.970              1.928      False              True                          -1.531
+     GEV  940.130       1.626  -7.908  -5.829                   1.277             -0.001      False             False                          -0.650
+     ETN  411.490       3.441  -7.774  -2.191                   1.450              0.127      False             False                           1.277
+     CEG  268.720       3.541  -2.736  -3.012                   1.121             -0.831       True             False                           2.797
+     VST  145.340       3.526  -0.093 -11.363                   1.140              0.274       True             False                           2.454
+    RKLB   67.650       6.201 -19.530 -39.119                   1.445              0.403       True             False                           2.349
+    ASTS   63.157       6.558 -11.630 -27.939                   1.557              0.309       True             False                           2.934
+    PLTR  175.590       0.717   1.632  30.837                   1.093              0.531      False              True                          -0.949
+    IOVA   10.360       4.965  40.398 158.377                   2.445              3.868      False              True                           3.501
+    ABCL   12.790       9.597   4.946 129.273                   2.621              2.604       True              True                           6.313
+    CDNA   54.175       1.167  15.959 130.323                   1.274              1.962      False              True                          -0.739
+    TEAM  191.930       0.867  16.736 116.350                   0.953              1.604      False              True                          -0.427
+    AMPL   13.500       0.223   6.990 102.556                   0.985              0.921      False              True                          -0.902
+     RNG   74.050       0.693  12.809  93.666                   1.062              1.573      False              True                           0.023
+    ATRC   58.400       2.205  24.869 104.217                   1.326              3.646      False              True                           1.942
+     PBF   77.673       2.296   0.971  94.666                   0.352              0.988       True              True                           2.469
+     SPY  762.480       1.118  -1.746   0.755                   1.097             -0.078       True              True                           0.149
+     QQQ  716.650       1.693  -1.783  -3.338                   1.094              0.492       True              True                          -0.000
+     IWM  287.025       1.094  -5.186  -2.540                   0.820             -1.365      False             False                           0.031
+     RSP  213.680       0.660  -3.417   0.439                   0.991             -1.694       True             False                           0.138
+     SMH  560.460       2.731  -4.249 -11.435                   0.979              0.115       True             False                          -0.506
+    SOXX  519.510       3.476  -5.458 -15.028                   0.853              0.243       True             False                          -0.286
+     IGV  105.650       0.657   2.942  14.874                   0.818              0.663       True              True                          -0.451
+     XBI  158.120       2.555  -3.704  14.032                   1.378             -0.355      False              True                           1.501
+     XHE   91.260      -0.066  -3.793  11.611                   1.676             -0.920       True              True                          -0.511
+     XLK  188.135       2.286  -0.910  -1.229                   0.916              0.885       True              True                           0.022
+     XLF   56.030       0.179  -3.302   3.268                   0.974             -1.753       True             False                          -0.096
+     XLE   64.195       0.258   0.550  16.495                   0.927              0.289       True              True                           0.807
+     XLI  169.310       0.356  -8.095  -5.963                   0.928             -2.049      False             False                          -0.476
+     XLU   41.670       0.847  -6.134  -7.715                   0.958             -1.636       True             False                           1.040
+     XLY  111.710       1.389  -5.311  -6.804                   0.857             -1.526       True             False                           0.551
+     XLP   83.350       0.024  -2.629  -1.965                   0.734             -1.117       True             False                           0.344
+     XLV  168.535       0.456  -1.155  10.180                   0.728             -0.103       True              True                           0.532
+     XLB   50.780       0.834  -2.742  -4.119                   0.908             -1.212       True             False                           0.355
+    XLRE   43.025       0.502  -4.078  -4.246                   0.726             -1.541       True             False                           0.536
+     XLC  112.425      -0.509   2.281   0.867                   0.916              0.079      False              True                          -0.852
+     TLT   81.655       0.958  -0.576  -5.072                   0.923             -0.034       True             False                           0.801
+     IEF   91.170       0.485  -2.017  -3.015                   1.020             -1.820       True             False                           0.369
+     HYG   78.705       0.363  -0.855  -0.537                   1.096             -0.941       True             False                           0.166
+     LQD  104.990       0.517  -0.899  -3.122                   0.763             -0.341       True             False                           0.342
+    ^VIX   15.590     -11.971  18.939  -3.959                     NaN             -0.365       None             False                          -6.195
+    ^TNX    4.943      -1.258   6.375  13.053                     NaN              1.801       None              True                          -1.010
+DX-Y.NYB  100.244      -0.066   0.662   0.774                     NaN              1.755       None              True                           0.058
+    BZ=F  104.100      -1.635  16.271  34.030                     NaN              1.359       None              True                          -0.382
+    GC=F 4401.500       0.319  -0.749   0.760                     NaN             -0.287       None              True                          -0.353
+{
+  "asof": "2026-09-17T16:43:02.331681+00:00",
+  "requested_symbols": 73,
+  "candidate_count": 44,
+  "success_count": 73,
+  "errors": {},
+  "groups": {
+    "compute_memory": {
+      "n": 10,
+      "up": 10,
+      "above_vwap": 5,
+      "above_ema20": 6,
+      "median_today_pct": 3.746011152592932,
+      "median_ret20_pct": -4.528516774300412,
+      "median_time_volume_ratio": 1.0292716609269381
+    },
+    "connectivity_equipment": {
+      "n": 12,
+      "up": 9,
+      "above_vwap": 3,
+      "above_ema20": 5,
+      "median_today_pct": 2.5587326815719402,
+      "median_ret20_pct": -16.74137458044895,
+      "median_time_volume_ratio": 1.032808409871088
+    },
+    "ai_infra_power": {
+      "n": 11,
+      "up": 9,
+      "above_vwap": 4,
+      "above_ema20": 5,
+      "median_today_pct": 2.924378167684316,
+      "median_ret20_pct": -7.773630357990246,
+      "median_time_volume_ratio": 1.2769149903635166
+    },
+    "other_growth": {
+      "n": 11,
+      "up": 11,
+      "above_vwap": 4,
+      "above_ema20": 11,
+      "median_today_pct": 2.205111347235733,
+      "median_ret20_pct": 6.989675168987453,
+      "median_time_volume_ratio": 1.2742851631251864
+    }
+  },
+  "notes": [
+    "Snapshot not synchronized ticks; market data may be delayed.",
+    "Daily factors end previous session. Intraday volume uses four prior sessions only.",
+    "QQQ OLS residual is an association, not causal news attribution. Macro futures can have different settlement/roll conventions.",
+    "No calibrated explosion probability; no proxy substituted for earnings revisions, options skew or prime brokerage leverage."
+  ]
+}

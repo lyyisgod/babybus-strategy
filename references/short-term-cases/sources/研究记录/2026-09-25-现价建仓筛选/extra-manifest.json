@@ -1,0 +1,20 @@
+[
+  {
+    "name": "COHR-intraday",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=1m&includePrePost=false",
+    "fetched_at": "2026-09-25T18:00:39.108220+00:00",
+    "sha256": "036d4eb8483ba5600327b540692879329cb599af9c736ca969bf97efa0d05f13"
+  },
+  {
+    "name": "DFII10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2026-07-01",
+    "fetched_at": "2026-09-25T18:00:39.357086+00:00",
+    "sha256": "8a577614cc2fc8b4fe2bf23f1bbbec03893f6f8cc87dc1d777364b5bd328d279"
+  },
+  {
+    "name": "BAMLH0A0HYM2",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-07-01",
+    "fetched_at": "2026-09-25T18:00:39.335658+00:00",
+    "sha256": "858814ee1bea1d7a5ac2ebbf49b18bcc3ee064f39f20105d9cb47e14ede60fb7"
+  }
+]

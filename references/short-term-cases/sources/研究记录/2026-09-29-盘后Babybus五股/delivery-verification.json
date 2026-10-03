@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "checked_at": "2026-09-30T00:00:12.548220+00:00",
+  "checks": [
+    "5-stock rows agree with underlying ranking and final quotes",
+    "execution cap and net target arithmetic",
+    "121 universe,117 liquid",
+    "credit OFF and strict 0/14",
+    "framework coverage20",
+    "ledger exactly one new run",
+    "fresh sector snapshot dated independently"
+  ],
+  "sha256": {
+    "protocol.json": "e21d7ec56700beaf6c6fbed3ed8dd3be091b0c9d929ecea0ac5cf18713ad35e2",
+    "model.py": "08d4ec6ef82e900e0f2bc07af6a79c496231be4933d81d75c6fadd80f2880d80",
+    "supplement.py": "8371f3c253e87c7d6c556a8b1ccfd171a1f70cc2641888633f3cdfcc4ae7f912",
+    "run_babybus.py": "11e0d17178fcc22fba5a8e732149ca3cbf84d48aa08a4faf4d8f95ca6f6d3a6b",
+    "sensitivity_verify.py": "d74173add75f2ad427a81424775d61237d5c4e1bf59bd8f09cc92dde78f989a6",
+    "研究结论.md": "3912ad494bb629179644d560a13e73650cabcbb803734e7e5da29f23274bd177",
+    "five-stock-plans.json": "22a9cb19a0dd817940db187a93621c67d103cec1a5f18c24f79006e7d96d6ccb",
+    "ranking-enriched.csv": "9f05a3ad78ce6520e934040927c8bb09db06081c5504033588e1f4806b2ce97d"
+  },
+  "probability_certified": false
+}

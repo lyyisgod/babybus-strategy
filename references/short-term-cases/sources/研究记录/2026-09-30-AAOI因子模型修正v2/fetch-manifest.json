@@ -1,0 +1,20 @@
+{
+  "AAOI": {
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-30T19:30:33.455439+00:00",
+    "price": 99.7,
+    "quote_epoch": 1790796619
+  },
+  "QQQ": {
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-30T19:30:33.576866+00:00",
+    "price": 743.47,
+    "quote_epoch": 1790796631
+  },
+  "SOXX": {
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-30T19:30:33.686811+00:00",
+    "price": 570.01,
+    "quote_epoch": 1790796631
+  }
+}

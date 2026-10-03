@@ -1,0 +1,200 @@
+{
+  "decision_at": "2026-10-01T19:39:36.989804+00:00",
+  "symbols": [
+    "APLD",
+    "IREN"
+  ],
+  "focus": "APLD",
+  "direction_model_abstains": true,
+  "calibrated_current_probability": null,
+  "empirical_baseline": {
+    "APLD": {
+      "even": {
+        "n": 29,
+        "hitup5": {
+          "count": 9,
+          "frequency": 0.3103448275862069,
+          "wilson95": [
+            0.17275616744483216,
+            0.4923013423309317
+          ]
+        },
+        "hitdown5": {
+          "count": 9,
+          "frequency": 0.3103448275862069,
+          "wilson95": [
+            0.17275616744483216,
+            0.4923013423309317
+          ]
+        },
+        "close16net5": {
+          "count": 5,
+          "frequency": 0.1724137931034483,
+          "wilson95": [
+            0.07597857252891227,
+            0.34548439890195237
+          ]
+        },
+        "close16gross5": {
+          "count": 5,
+          "frequency": 0.1724137931034483,
+          "wilson95": [
+            0.07597857252891227,
+            0.34548439890195237
+          ]
+        },
+        "close16negative": {
+          "count": 14,
+          "frequency": 0.4827586206896552,
+          "wilson95": [
+            0.3138609015268349,
+            0.6556897811800528
+          ]
+        }
+      },
+      "odd": {
+        "n": 29,
+        "hitup5": {
+          "count": 7,
+          "frequency": 0.2413793103448276,
+          "wilson95": [
+            0.12218422442520088,
+            0.42107601617811335
+          ]
+        },
+        "hitdown5": {
+          "count": 11,
+          "frequency": 0.3793103448275862,
+          "wilson95": [
+            0.2268802210080984,
+            0.5599745579401147
+          ]
+        },
+        "close16net5": {
+          "count": 4,
+          "frequency": 0.13793103448275862,
+          "wilson95": [
+            0.05497439964111964,
+            0.30558993720352023
+          ]
+        },
+        "close16gross5": {
+          "count": 4,
+          "frequency": 0.13793103448275862,
+          "wilson95": [
+            0.05497439964111964,
+            0.30558993720352023
+          ]
+        },
+        "close16negative": {
+          "count": 18,
+          "frequency": 0.6206896551724138,
+          "wilson95": [
+            0.4400254420598852,
+            0.7731197789919015
+          ]
+        }
+      }
+    },
+    "IREN": {
+      "even": {
+        "n": 29,
+        "hitup5": {
+          "count": 13,
+          "frequency": 0.4482758620689655,
+          "wilson95": [
+            0.28413168023037194,
+            0.6245203678902909
+          ]
+        },
+        "hitdown5": {
+          "count": 9,
+          "frequency": 0.3103448275862069,
+          "wilson95": [
+            0.17275616744483216,
+            0.4923013423309317
+          ]
+        },
+        "close16net5": {
+          "count": 6,
+          "frequency": 0.20689655172413793,
+          "wilson95": [
+            0.09846070197841039,
+            0.38390090403867905
+          ]
+        },
+        "close16gross5": {
+          "count": 6,
+          "frequency": 0.20689655172413793,
+          "wilson95": [
+            0.09846070197841039,
+            0.38390090403867905
+          ]
+        },
+        "close16negative": {
+          "count": 13,
+          "frequency": 0.4482758620689655,
+          "wilson95": [
+            0.28413168023037194,
+            0.6245203678902909
+          ]
+        }
+      },
+      "odd": {
+        "n": 29,
+        "hitup5": {
+          "count": 9,
+          "frequency": 0.3103448275862069,
+          "wilson95": [
+            0.17275616744483216,
+            0.4923013423309317
+          ]
+        },
+        "hitdown5": {
+          "count": 11,
+          "frequency": 0.3793103448275862,
+          "wilson95": [
+            0.2268802210080984,
+            0.5599745579401147
+          ]
+        },
+        "close16net5": {
+          "count": 4,
+          "frequency": 0.13793103448275862,
+          "wilson95": [
+            0.05497439964111964,
+            0.30558993720352023
+          ]
+        },
+        "close16gross5": {
+          "count": 4,
+          "frequency": 0.13793103448275862,
+          "wilson95": [
+            0.05497439964111964,
+            0.30558993720352023
+          ]
+        },
+        "close16negative": {
+          "count": 18,
+          "frequency": 0.6206896551724138,
+          "wilson95": [
+            0.4400254420598852,
+            0.7731197789919015
+          ]
+        }
+      }
+    }
+  },
+  "similar_state_not_stable": true,
+  "conditional_rebound_confidence": "low",
+  "not_95pct_up_probability": true,
+  "absolute_buy_certification": false,
+  "full_session_endpoints_reporting_extension": true,
+  "known_sources": [
+    "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "https://ir.applieddigital.com/news-events"
+  ],
+  "user_execution": "unknown",
+  "outcome": "pending",
+  "orders": false
+}

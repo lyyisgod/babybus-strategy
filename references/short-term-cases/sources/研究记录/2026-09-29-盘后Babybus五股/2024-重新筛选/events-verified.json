@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "BA",
+    "known_by": "2026-09-30T00:36:44.402800+00:00",
+    "source": "https://boeing.mediaroom.com/2026-09-29-U-S-Navy-Selects-Boeing-for-F-A-XX-Program",
+    "announcement_date": "2026-09-29",
+    "primary_verified": true,
+    "claim": "Boeing selected for multibillion-dollar Navy F/A-XX fighter program",
+    "not_claimed": [
+      "current EPS upgrade",
+      "contract margin",
+      "tomorrow surge probability"
+    ],
+    "status": "new-event-watch"
+  },
+  {
+    "symbol": "MARKET",
+    "source": "https://www.bea.gov/news/schedule",
+    "announcement_at": "2026-09-30T08:30:00-04:00",
+    "claim": "August personal income/outlays including PCE; Q2 GDP third estimate"
+  },
+  {
+    "symbol": "NBIS",
+    "source": "https://nebius.com/prices",
+    "effective_at": "2026-10-01",
+    "claim": "on-demand GPU price increases, not whole company earnings upgrade",
+    "first_announced_tonight": false
+  }
+]

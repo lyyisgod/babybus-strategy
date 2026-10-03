@@ -1,0 +1,80 @@
+[
+  {
+    "symbol": "VICR",
+    "last": 268.9,
+    "last_at": "2026-09-22T16:59:07-04:00",
+    "age_minutes": 1.4358791166666667,
+    "session": "after_hours",
+    "after_hours_change_pct": 0.20869183489300447,
+    "after_hours_volume": 1840.0,
+    "after_hours_high": 269.5,
+    "after_hours_low": 265.39,
+    "regular_quote_at": "2026-09-22T16:00:00-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  },
+  {
+    "symbol": "ALAB",
+    "last": 362.08,
+    "last_at": "2026-09-22T16:59:18-04:00",
+    "age_minutes": 1.2526217333333334,
+    "session": "after_hours",
+    "after_hours_change_pct": -0.3796818047437589,
+    "after_hours_volume": null,
+    "after_hours_high": 364.05,
+    "after_hours_low": 361.09,
+    "regular_quote_at": "2026-09-22T16:00:01-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  },
+  {
+    "symbol": "VKTX",
+    "last": 41.1494,
+    "last_at": "2026-09-22T16:59:34-04:00",
+    "age_minutes": 0.98605105,
+    "session": "after_hours",
+    "after_hours_change_pct": 0.7329290992962534,
+    "after_hours_volume": 471178.0,
+    "after_hours_high": 41.5,
+    "after_hours_low": 40.75,
+    "regular_quote_at": "2026-09-22T16:00:00-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  },
+  {
+    "symbol": "AAOI",
+    "last": 106.74,
+    "last_at": "2026-09-22T16:59:30-04:00",
+    "age_minutes": 1.0528193166666666,
+    "session": "after_hours",
+    "after_hours_change_pct": -0.2429906542056104,
+    "after_hours_volume": null,
+    "after_hours_high": 107.54,
+    "after_hours_low": 106.63,
+    "regular_quote_at": "2026-09-22T16:00:01-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  },
+  {
+    "symbol": "WDAY",
+    "last": 188.68,
+    "last_at": "2026-09-22T16:57:08-04:00",
+    "age_minutes": 3.419585016666667,
+    "session": "after_hours",
+    "after_hours_change_pct": 0.23907149905710856,
+    "after_hours_volume": 460335.0,
+    "after_hours_high": 189.5,
+    "after_hours_low": 188.23,
+    "regular_quote_at": "2026-09-22T16:00:00-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  },
+  {
+    "symbol": "KBH",
+    "last": 47.79,
+    "last_at": "2026-09-22T16:59:27-04:00",
+    "age_minutes": 1.1030094833333335,
+    "session": "after_hours",
+    "after_hours_change_pct": -1.6464296153028135,
+    "after_hours_volume": 2742949.0,
+    "after_hours_high": 50.5,
+    "after_hours_low": 47.2,
+    "regular_quote_at": "2026-09-22T16:02:43-04:00",
+    "quote_note": "Vendor latest observation, no executable bid/ask or overnight-session venue feed; after-hours bar volumes and extremes may include late regular-session batches and are not reliable liquidity/support measures"
+  }
+]

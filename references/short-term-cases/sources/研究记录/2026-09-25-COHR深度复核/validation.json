@@ -1,0 +1,12 @@
+{
+  "feature_prefix_consistency": true,
+  "daily_ohlc_consistency": true,
+  "close_stop_next_open_gap_case": true,
+  "intraday_breach_not_close_stop": true,
+  "target_arithmetic": true,
+  "nonoverlap": true,
+  "hashes": true,
+  "data_last_complete_day": "2026-09-25",
+  "current_probability_validated": false,
+  "afterhours_execution_validated": false
+}

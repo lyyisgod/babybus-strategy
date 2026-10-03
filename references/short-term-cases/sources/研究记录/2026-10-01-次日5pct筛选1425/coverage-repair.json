@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-01T18:27:25.056898+00:00",
+  "issue": "251 accepted reference windows had54-58 of59 slots; flags described references as full. Current1m aggregation lacked5-count test.",
+  "repair": "prior20 volume references require exact59 ordered slots and nonmissingvol; aggregated current5m requires5 actual completed1m OHLC observations",
+  "result_before_repair": "研究记录/2026-10-01-次日5pct筛选1425/preliminary-coverage",
+  "not_retuned": "entryclock targets factors penalty costs and selection preferences unchanged",
+  "code_sha256": "f2ee9013a252d2eb74636acae300e5987295a7c00ab9abd316acc5cded84b03f"
+}

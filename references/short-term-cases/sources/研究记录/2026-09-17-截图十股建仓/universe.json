@@ -1,0 +1,28 @@
+{
+  "asof": "2026-09-17T16:30:17.400573+00:00",
+  "pool": [
+    "IOVA",
+    "ABCL",
+    "TXG",
+    "CDNA",
+    "TEAM",
+    "ATRC",
+    "AMPL",
+    "UTZ",
+    "PBF",
+    "RNG"
+  ],
+  "benchmarks": {
+    "IOVA": "XBI",
+    "ABCL": "XBI",
+    "TXG": "XBI",
+    "CDNA": "XBI",
+    "TEAM": "IGV",
+    "ATRC": "XHE",
+    "AMPL": "IGV",
+    "UTZ": "XLP",
+    "PBF": "CRAK",
+    "RNG": "IGV"
+  },
+  "note": "Current screenshot-selected surviving stocks; selection bias. Sector ETFs are imperfect proxies."
+}

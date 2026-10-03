@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-01T19:47:03.898654+00:00",
+  "files": [
+    {
+      "path": "研究记录/2026-09-30-AAOI-W底与93止损/研究结论.txt",
+      "sha256": "691c2ab5c8b0012f6e7b1cebdabdd53d1859cbf20958a82225fe4590eaa44df9"
+    },
+    {
+      "path": "研究记录/2026-09-30-AAOI十交易日走势/研究结论.txt",
+      "sha256": "3f345e9854a79c21b05cbc6eded7d4fac303c319e142e6e2f55d174bf5595901"
+    },
+    {
+      "path": "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/最新比较与交易判断.txt",
+      "sha256": "76a87bdbdddc367b2409c1fd700551862627584b6623354df415244ccdb25f2f"
+    },
+    {
+      "path": "研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+      "sha256": "582e45bb0c6ffaab69ad8be1ea8b9318c6c2018c543973ea80428535d48f9b6b"
+    },
+    {
+      "path": "研究记录/2026-10-01-AAOI因子修复v3/修复结果与验证.txt",
+      "sha256": "4f4879b7b9936bd0d925623e599f2227d895e5220dbe29e61a637f9991d49d08"
+    }
+  ],
+  "apld_snapshot": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/snapshot.json",
+  "original_buy_instruction": "wait;smalltrialallowed;notabsoluteban",
+  "shared_conditions": [
+    "belowmajorMAs",
+    "unconfirmedreversal",
+    "unvalidatedprobability",
+    "stopinsidecommonvolatility"
+  ],
+  "original_model_veto_wrong": true,
+  "apld_sameW_not_verified": true,
+  "atr_proxy_definitions_differ": true,
+  "probabilities_not_crosshorizon_comparable": true,
+  "orders_sent": false
+}

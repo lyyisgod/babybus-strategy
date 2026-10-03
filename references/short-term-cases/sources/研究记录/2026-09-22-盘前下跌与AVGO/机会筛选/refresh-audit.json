@@ -1,0 +1,40 @@
+{
+  "raw_hashes_checked": 236,
+  "daily_date": "2026-09-21 00:00:00-04:00",
+  "features": 32,
+  "calculated": 105,
+  "eligible": 102,
+  "relative_first": "ALAB",
+  "a_first": "ALAB",
+  "b_first": "ALAB",
+  "lrcx_qualified": [
+    {
+      "symbol": "SMMT",
+      "rsi2": 16.831693175437792,
+      "ret3_pct": -2.3121366252628617,
+      "above_sma200": true,
+      "signal": true
+    },
+    {
+      "symbol": "CRM",
+      "rsi2": 6.20549065744931,
+      "ret3_pct": -5.469809346884147,
+      "above_sma200": true,
+      "signal": true
+    },
+    {
+      "symbol": "FDX",
+      "rsi2": 10.007312741025585,
+      "ret3_pct": -1.9653959471661153,
+      "above_sma200": true,
+      "signal": true
+    }
+  ],
+  "max_probability_change": 2.4178773151417587e-06,
+  "manifest_start": "2026-09-22T12:45:22.505422+00:00",
+  "manifest_end": "2026-09-22T12:45:29.937824+00:00",
+  "overnight_executable_quote_coverage": 0,
+  "premarket_executable_quote_coverage": 0,
+  "premarket_latest_trade_count": 104,
+  "warning": "No historical overnight entry prices. No probability or confidence interval for actual overnight fills can be claimed."
+}

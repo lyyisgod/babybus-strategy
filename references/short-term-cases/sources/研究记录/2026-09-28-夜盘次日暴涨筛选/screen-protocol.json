@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-09-28T04:40:00+00:00",
+  "signal_cutoff": "2026-09-25 US regular close",
+  "target": "2026-09-28 US regular high / US regular open - 1 >= 5%, plus 10% tail, -3% intraday low, and net close gain 3%",
+  "overnight_entry_target": "Actual executable overnight buy P to Monday regular high >=5%; unavailable historically for calibration, must not be equated with model target",
+  "candidate_pool_source": "Intersection in original 2026-09-21 frozen 105-name pool and locally saved 2026-09-25 complete daily raw files; missing 35 names excluded transparently rather than silently assumed bad",
+  "market_proxies": "SPY QQQ IWM SMH JNK TLT ^VIX ^TNX BZ=F as saved on 2026-09-25",
+  "model": "Reuse original 2026-09-21 frozen 32-feature equal-weight calibrated linear/nonlinear logistic model, 2016-22 train, 2023-24 calibration, 2025-26 retrospective assessment, next regular open proxy; no tuning to current outcomes",
+  "liquidity": "signal close >= $5 and trailing 20-session mean traded value >= $50 million",
+  "ranking": "[REDACTED: unrelated personal account information]",
+  "decision": "[REDACTED: unrelated personal account information]",
+  "risk_controls": "[REDACTED: unrelated personal account information]",
+  "historical_limitations": [
+    "Purposefully chosen surviving 2026 watchlist, not reconstructed daily point-in-time all-market universe",
+    "Prior 2025-26 assessment has been inspected in earlier research",
+    "Historical BOATS fills and overnight volume/bid-ask absent",
+    "Current after-hours news cannot be backfilled into historical model",
+    "Historical high-touch can happen after stop loss and is not realized return"
+  ]
+}

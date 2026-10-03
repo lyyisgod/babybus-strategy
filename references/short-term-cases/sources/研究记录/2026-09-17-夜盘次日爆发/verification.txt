@@ -1,0 +1,1 @@
+PASS: 29/29 complete, 8/8 finite daily factors, 60 prior analog dates, three event abstentions, trade arithmetic >=2R, original score suppressed. No overnight execution backtest.

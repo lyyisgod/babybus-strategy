@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-10-03T18:46:47.873313+00:00",
+  "last_completed": "2026-10-02T00:00:00",
+  "requested": 154,
+  "factor_count": 154,
+  "errors": {},
+  "prefix_checks": {
+    "IREN": true,
+    "APLD": true,
+    "LRCX": true,
+    "VICR": true
+  },
+  "macro_version": "v1.1",
+  "current_probability": null,
+  "overnight_orderbook": null
+}

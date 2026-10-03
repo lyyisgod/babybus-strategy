@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-09-21T21:28:12.946237+00:00",
+  "user_request": "Return to original model; ignore prior discretionary ticker exclusions and no-chase preferences",
+  "original_model": "研究记录/2026-09-21-隔夜至次日爆发/model.py",
+  "model_retrained": false,
+  "overlays_removed": [
+    "explicit AAOI/VICR exclusions",
+    "regular daily gain >=10% exclusion",
+    "afterhours gain >=5% exclusion",
+    "financial-quality preference overriding raw rank",
+    "low daily gain preference"
+  ],
+  "preserved": [
+    "original price and liquidity eligibility",
+    "historical numerical and statistical limitations",
+    "current quote verification",
+    "entry price risk assessment"
+  ],
+  "rank_target": "next regular high / next regular open - 1 >=5%",
+  "top1": "ALAB",
+  "not_claimed": [
+    "positive expected trading return",
+    "afterhours-entry calibrated probability",
+    "guaranteed next-day rally",
+    "all market stocks evaluated"
+  ],
+  "new_quote_hashes_verified": 7
+}

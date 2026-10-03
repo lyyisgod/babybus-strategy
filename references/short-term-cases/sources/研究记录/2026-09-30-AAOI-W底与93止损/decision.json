@@ -1,0 +1,22 @@
+{
+  "run_id": "2026-09-30-AAOI-W-bottom-93-110",
+  "decision_at": "2026-09-30T17:35:18.558733+00:00",
+  "symbol": "AAOI",
+  "reference_price": 97.781,
+  "quote_at": "2026-09-30T13:33:24-04:00",
+  "model_reference_price": 97.538,
+  "absolute_normal_position_buy_gate_passed": false,
+  "preference": "wait for stabilization; only speculative small exposure if user accepts path risk",
+  "stop": 93,
+  "target": 110,
+  "entry_ceiling_rr25": 97.85714285714286,
+  "certified_current_win_probability": null,
+  "actual_bought_shares": "[REDACTED: unrelated personal account information]",
+  "actual_execution_price": null,
+  "outcome": "future_unknown",
+  "no_orders_executed": true,
+  "report": "研究记录/2026-09-30-AAOI-W底与93止损/研究结论.txt",
+  "protocol": "研究记录/2026-09-30-AAOI-W底与93止损/protocol.json",
+  "results": "研究记录/2026-09-30-AAOI-W底与93止损/results.json",
+  "verification": "研究记录/2026-09-30-AAOI-W底与93止损/verification.json"
+}

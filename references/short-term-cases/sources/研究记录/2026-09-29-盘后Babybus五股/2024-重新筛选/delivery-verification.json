@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "raw_hashes": 284,
+  "minute_quote_hashes": 12,
+  "macro_hashes": 2,
+  "frozen_scores_match": true,
+  "ceilings_preserved": true,
+  "ledger_run_id": "2026-09-29-2033-overnight-refresh",
+  "orders_placed": false,
+  "fallback_source_hashes": 138
+}

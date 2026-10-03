@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-10-02T14:12:09.045722+00:00",
+  "quote_window": "2026-10-02 10:09 EDT",
+  "target_session": "2026-10-05",
+  "relative_first": "APLD",
+  "relative_first_basis": "fresh operational delivery and strongest same-clock volume among primaryinfra candidates; manual catalyst/execution judgment, not statistical superiority",
+  "strict_babybus_signals": 0,
+  "strict_babybus_universe_count": 14,
+  "expanded_stocks": 154,
+  "credit": "OFF",
+  "absolute_high_probability_gate": false,
+  "current_probability": null,
+  "trade_now": "do not chase26.82; conditional pullback25.80-26.10 only",
+  "backup": [
+    "IREN",
+    "CIFR",
+    "AAOI"
+  ],
+  "all_candidates": "all-factors.json",
+  "price_only_historical_events": 129,
+  "known_evidence": "primary-facts.json",
+  "actual_user_purchase": "unknown",
+  "future_outcome": "unmatured",
+  "orders_placed": false
+}

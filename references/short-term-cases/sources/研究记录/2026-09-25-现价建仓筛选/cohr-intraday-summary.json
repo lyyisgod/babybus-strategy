@@ -1,0 +1,11 @@
+{
+  "price": 300.03,
+  "quote_at": "2026-09-25T14:00:24-04:00",
+  "approx_vwap": 295.46811141449285,
+  "vwap_note": "1-minute typical-price volume weighted approximation; not trade-by-trade VWAP",
+  "open": 297.9200134277344,
+  "high": 301.7699890136719,
+  "low": 290.2799987792969,
+  "last_completed_bar": "2026-09-25 14:00:24-04:00",
+  "bid_ask": "unavailable"
+}

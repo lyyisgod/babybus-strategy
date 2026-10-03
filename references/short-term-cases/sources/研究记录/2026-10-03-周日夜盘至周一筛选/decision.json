@@ -1,0 +1,227 @@
+{
+  "as_of": "2026-10-03T18:52:14.602296+00:00",
+  "target_entry": "2026-10-04 Sunday overnight",
+  "target_exit": "2026-10-05 intraday",
+  "screened": 154,
+  "macro_version": "v1.1",
+  "regime": "HIKING",
+  "policy_basis": "Sep16 official +25bp to3.75-4.00%; not price inference",
+  "policy_source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+  "formal_cleared_count": 0,
+  "formal_count_basis": "Oct2 snapshot invalid; no claimed current core entry signal",
+  "macro_error": {
+    "error": "快照日必需序列缺失；禁止前值填充或回退日期",
+    "whole_snapshot_unavailable": true
+  },
+  "mandatory_macro_missing": {
+    "BAMLH0A0HYM2": {
+      "last_nonmissing": "2026-10-01",
+      "target": "2026-10-02",
+      "target_exists": false
+    },
+    "DGS2": {
+      "last_nonmissing": "2026-10-01",
+      "target": "2026-10-02",
+      "target_exists": false
+    },
+    "DGS10": {
+      "last_nonmissing": "2026-10-01",
+      "target": "2026-10-02",
+      "target_exists": false
+    },
+    "DFF": {
+      "last_nonmissing": "2026-10-01",
+      "target": "2026-10-02",
+      "target_exists": false
+    }
+  },
+  "older_macro_reference": "macro_reference_2026-10-01.json; explicitly dated older context, not substitute",
+  "manual_research_first": "ALAB",
+  "research_watch": [
+    {
+      "symbol": "ALAB",
+      "research_rank": 1,
+      "strategy_family": "LRCX型趋势内回撤",
+      "friday_close": 350.3299865722656,
+      "friday_return_pct": -1.7086657948582107,
+      "last_available_extended_proxy": {
+        "symbol": "ALAB",
+        "source": "https://query2.finance.yahoo.com/v8/finance/chart/ALAB?range=5d&interval=5m&includePrePost=true",
+        "fetched_at": "2026-10-03T18:50:45.434655+00:00",
+        "sha256": "f786fcc0bc530f7dcd75287db76cbe0ee47c07379c7960cdf1333e3e7f895a69",
+        "last_extended_bar_price": 350.6846,
+        "last_extended_bar_at": "2026-10-02T19:59:58-04:00",
+        "regular_market_at": "2026-10-02T20:00:01+00:00",
+        "regular_market_price": 350.33,
+        "overnight_bid_ask": null,
+        "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+      },
+      "known_oct1_beta_reference": {
+        "as_of": "2026-10-01",
+        "hike_beta": -0.24916014760875252,
+        "latest_oct2_eligibility": null
+      },
+      "current_core_eligibility": null,
+      "formal_macro_signal": null,
+      "status": "conditional research watch; not a cleared macro core entry",
+      "hypothetical_price_zone": [
+        348,
+        352
+      ],
+      "hypothetical_ceiling": 352,
+      "structure_invalidation": 342,
+      "nearby_resistance": 363.78,
+      "target_from_actual_fill": {
+        "touch5": "actual_fill*1.05",
+        "touch10": "actual_fill*1.10"
+      },
+      "entry_gates": [
+        "Oct2 mandatory macro inputs valid and policy/core eligibility checked",
+        "actual Sunday executable ask <= ceiling; spread <=0.3% (research preference, unvalidated)",
+        "no new adverse company/sector announcement; structure holds"
+      ],
+      "exit_deadline": "2026-10-05T15:55:00-04:00",
+      "current_probability": null,
+      "user_execution": null
+    },
+    {
+      "symbol": "IREN",
+      "research_rank": 2,
+      "strategy_family": "高波动洗盘观察",
+      "friday_close": 41.7599983215332,
+      "friday_return_pct": 2.730619321004557,
+      "last_available_extended_proxy": {
+        "symbol": "IREN",
+        "source": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=5d&interval=5m&includePrePost=true",
+        "fetched_at": "2026-10-03T18:50:45.434810+00:00",
+        "sha256": "15fa0c5df55140708b21bf0688dc28d22b8a3d7c901960f652b0aea1cbaca32a",
+        "last_extended_bar_price": 41.72,
+        "last_extended_bar_at": "2026-10-02T19:59:49-04:00",
+        "regular_market_at": "2026-10-02T20:00:01+00:00",
+        "regular_market_price": 41.76,
+        "overnight_bid_ask": null,
+        "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+      },
+      "known_oct1_beta_reference": {
+        "as_of": "2026-10-01",
+        "hike_beta": -0.30451487859263826,
+        "latest_oct2_eligibility": null
+      },
+      "current_core_eligibility": null,
+      "formal_macro_signal": null,
+      "status": "conditional research watch; not a cleared macro core entry",
+      "hypothetical_price_zone": [
+        41.4,
+        42
+      ],
+      "hypothetical_ceiling": 42,
+      "structure_invalidation": 40.95,
+      "nearby_resistance": 43.91,
+      "target_from_actual_fill": {
+        "touch5": "actual_fill*1.05",
+        "touch10": "actual_fill*1.10"
+      },
+      "entry_gates": [
+        "Oct2 mandatory macro inputs valid and policy/core eligibility checked",
+        "actual Sunday executable ask <= ceiling; spread <=0.3% (research preference, unvalidated)",
+        "no new adverse company/sector announcement; structure holds"
+      ],
+      "exit_deadline": "2026-10-05T15:55:00-04:00",
+      "current_probability": null,
+      "user_execution": null
+    },
+    {
+      "symbol": "APLD",
+      "research_rank": 3,
+      "strategy_family": "VICR型事件观察",
+      "friday_close": 25.3799991607666,
+      "friday_return_pct": 5.049666063988711,
+      "last_available_extended_proxy": {
+        "symbol": "APLD",
+        "source": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=5d&interval=5m&includePrePost=true",
+        "fetched_at": "2026-10-03T18:50:45.434901+00:00",
+        "sha256": "8f18525cd6d49eabe87b1c12747510db0cc86a1820a41ada7bea47a75d01e027",
+        "last_extended_bar_price": 25.4916,
+        "last_extended_bar_at": "2026-10-02T19:59:53-04:00",
+        "regular_market_at": "2026-10-02T20:00:01+00:00",
+        "regular_market_price": 25.38,
+        "overnight_bid_ask": null,
+        "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+      },
+      "known_oct1_beta_reference": {
+        "as_of": "2026-10-01",
+        "hike_beta": -0.36222271692729335,
+        "latest_oct2_eligibility": null
+      },
+      "current_core_eligibility": null,
+      "formal_macro_signal": null,
+      "status": "conditional research watch; not a cleared macro core entry",
+      "hypothetical_price_zone": [
+        25.1,
+        25.6
+      ],
+      "hypothetical_ceiling": 25.6,
+      "structure_invalidation": 24.82,
+      "nearby_resistance": 26.85,
+      "target_from_actual_fill": {
+        "touch5": "actual_fill*1.05",
+        "touch10": "actual_fill*1.10"
+      },
+      "entry_gates": [
+        "Oct2 mandatory macro inputs valid and policy/core eligibility checked",
+        "actual Sunday executable ask <= ceiling; spread <=0.3% (research preference, unvalidated)",
+        "no new adverse company/sector announcement; structure holds"
+      ],
+      "exit_deadline": "2026-10-05T15:55:00-04:00",
+      "current_probability": null,
+      "user_execution": null
+    }
+  ],
+  "chase_block": {
+    "AAOI": {
+      "r5": 0.13994077513292935,
+      "reason": "core 5-day return above 8%: chase block, not a sell instruction"
+    },
+    "COHR": {
+      "r5": 0.13930305865930004,
+      "reason": "core 5-day return above 8%: chase block, not a sell instruction"
+    },
+    "ON": {
+      "r5": 0.09961143452585786,
+      "reason": "core 5-day return above 8%: chase block, not a sell instruction"
+    },
+    "LRCX": {
+      "r5": 0.10240791743397892,
+      "reason": "core 5-day return above 8%: chase block, not a sell instruction"
+    },
+    "VICR": {
+      "r5": 0.0955454789964354,
+      "reason": "core 5-day return above 8%: chase block, not a sell instruction"
+    }
+  },
+  "STX_WDC_risk": "Reported Toshiba HDD expansion affects competitive/supply outlook; rebound gate is not evidence news is fully priced",
+  "statistics": {
+    "macro_paper_N": 0,
+    "overnight_audit_N": 0,
+    "validated_probability": null,
+    "framework_coverage_pct": 20,
+    "framework_score": null
+  },
+  "source_links": {
+    "ALAB_results": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
+    "APLD_capacity": "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+    "IREN_releases": "https://iren.gcs-web.com/news-releases",
+    "HDD_risk": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-tumbling-today-93CH-4929856"
+  },
+  "risk_unknowns": [
+    "Sunday bid/ask and execution eligibility",
+    "EPS revisions",
+    "PB leverage",
+    "options IV/skew",
+    "weekend new announcements"
+  ],
+  "sector": "AI sentiment81 asofOct3 source Semiconductor Fear & Greed; memory/policy stale excluded; MU memory read-through Mixed",
+  "user_execution": null,
+  "outcomes": null,
+  "no_orders": true
+}

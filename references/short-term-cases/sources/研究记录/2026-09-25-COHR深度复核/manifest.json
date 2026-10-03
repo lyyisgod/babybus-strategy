@@ -1,0 +1,58 @@
+[
+  {
+    "file": "COHR-1d.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.317237+00:00",
+    "sha256": "07c477dad02e2622dfb18792ad60961f64f0ddc720ff9c6110db6ed9407bd299",
+    "price": 295.78,
+    "markettime": 1790366398
+  },
+  {
+    "file": "COHR-5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=5d&interval=5m&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.238718+00:00",
+    "sha256": "9c449b65ee1fdbedff8e95b11d4a0eb4500c40ce102d526151d14d188a0fbdfc",
+    "price": 295.78,
+    "markettime": 1790366398
+  },
+  {
+    "file": "COHR-1m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.251757+00:00",
+    "sha256": "95b90782981ea0a08a11d3b2eaecc167ca17c23f6b7a8ecd0f7e119cbd9de44a",
+    "price": 295.78,
+    "markettime": 1790366398
+  },
+  {
+    "file": "SMH-1d.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=10y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.336457+00:00",
+    "sha256": "5d42b1f185d0c736648d650db52ade3694eb085f3a06b430a5088046bb9234b1",
+    "price": 606.56,
+    "markettime": 1790366400
+  },
+  {
+    "file": "QQQ-1d.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.336941+00:00",
+    "sha256": "f27d995840d7d9b3751a4953340f0f1abdd8eb3e84b122c3bfbea24e5e7d86af",
+    "price": 744.5,
+    "markettime": 1790366400
+  },
+  {
+    "file": "LITE-1d.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=1y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.350754+00:00",
+    "sha256": "dd207e2603476b001628ff85c321867a65e4a1d3a5fd05cd9e5529a7e6c26887",
+    "price": 941.65,
+    "markettime": 1790366401
+  },
+  {
+    "file": "FN-1d.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FN?range=1y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-25T20:11:34.380289+00:00",
+    "sha256": "c86e29505aa57db8dcf4a074fa81b1e00ff6d2aa63cd4e4bd1f82a6d690e1ca6",
+    "price": 417.69,
+    "markettime": 1790366399
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "source": "Semiconductor Fear & Greed",
+  "url": "https://semiconductor.feargreedchart.com",
+  "website_as_of": "2026-10-01T02:02:10+00:00",
+  "retrieved_at": "2026-10-01T14:37:50.780674+00:00",
+  "ai_sentiment": {
+    "score": 77,
+    "label": "Extreme greed",
+    "daily_change": 3,
+    "components": {
+      "technical_subscore": 73.1,
+      "fundamental_subscore": 81.7,
+      "rsi_14": 66.5,
+      "distance_50dma_pct": 13.3,
+      "distance_200dma_pct": 41.7,
+      "breadth_above_50dma_pct": 87,
+      "rs_vs_spy_20d_pct": 21.6,
+      "realized_vol_30d_pct": 40.5,
+      "revisions_breadth_score": 100,
+      "memory_direction_score": 80,
+      "rev_momentum_score": 62.1,
+      "subscores": {
+        "rsi": 66.5,
+        "dist_50": 58.1,
+        "dist_200": 73.6,
+        "breadth": 87,
+        "rs_vs_spy": 88.4,
+        "vol": 50,
+        "revisions": 100,
+        "memory_pricing": 80,
+        "revenue_momentum": 62.1
+      }
+    }
+  },
+  "broad_sentiment": {
+    "score": 70,
+    "label": "Greed",
+    "daily_change": 3,
+    "components": {
+      "technical_subscore": 65.8,
+      "fundamental_subscore": 76.3,
+      "rsi_14": 64,
+      "distance_50dma_pct": 10.8,
+      "distance_200dma_pct": 33.5,
+      "breadth_above_50dma_pct": 78.6,
+      "rs_vs_spy_20d_pct": 17,
+      "realized_vol_30d_pct": 37.9,
+      "revisions_breadth_score": 100,
+      "memory_direction_score": 80,
+      "rev_momentum_score": 45.4,
+      "subscores": {
+        "rsi": 64,
+        "dist_50": 51.7,
+        "dist_200": 56.6,
+        "breadth": 78.6,
+        "rs_vs_spy": 77.3,
+        "vol": 55,
+        "revisions": 100,
+        "memory_pricing": 80,
+        "revenue_momentum": 45.4
+      }
+    }
+  },
+  "cycle": {
+    "score": 83,
+    "stage": "Peak conditions"
+  },
+  "warnings": [
+    "memory: website data more than 48 hours old (62.55h)",
+    "policy_events: website data more than 48 hours old (593.14h)"
+  ],
+  "module_times": {
+    "sentiment": {
+      "as_of": "2026-10-01T02:02:10+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 15.11,
+      "is_stale": false
+    },
+    "cycle": {
+      "as_of": "2026-10-01T02:03:23+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 15.09,
+      "is_stale": false
+    },
+    "memory": {
+      "as_of": "2026-09-29T02:35:41+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 62.55,
+      "is_stale": true
+    },
+    "analyst_revisions": {
+      "as_of": "2026-10-01T02:15:50+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 14.88,
+      "is_stale": false
+    },
+    "movers": {
+      "as_of": "2026-10-01T02:01:35+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 15.12,
+      "is_stale": false
+    },
+    "relative_performance": {
+      "as_of": "2026-10-01T02:01:35+00:00",
+      "fetched_at": "2026-10-01T14:37:47.108337+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=overview",
+      "age_hours": 15.12,
+      "is_stale": false
+    },
+    "companies": {
+      "as_of": "2026-10-01T02:01:35+00:00",
+      "fetched_at": "2026-10-01T14:37:47.829254+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=companies",
+      "age_hours": 15.12,
+      "is_stale": false
+    },
+    "earnings": {
+      "as_of": "2026-10-01T02:05:13+00:00",
+      "fetched_at": "2026-10-01T14:37:48.756985+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=earnings",
+      "age_hours": 15.06,
+      "is_stale": false
+    },
+    "headlines": {
+      "as_of": "2026-10-01T02:11:02+00:00",
+      "fetched_at": "2026-10-01T14:37:49.803530+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=news",
+      "age_hours": 14.96,
+      "is_stale": false
+    },
+    "policy_events": {
+      "as_of": "2026-09-07",
+      "fetched_at": "2026-10-01T14:37:50.780668+00:00",
+      "available": true,
+      "endpoint": "https://semiconductor.feargreedchart.com/api/?action=policy",
+      "age_hours": 593.14,
+      "is_stale": true
+    }
+  },
+  "no_probability_adjustment": true,
+  "classification_note": "COHR/LITE localregistryopticalAIexposure; AAOI/VICR/AEHR/NVTS/TSEM caller suppliedrelatedindustrymetadata ismixed, localbusinessassessment separate; neitherwebsitegroup norcallerlabel equalscompanypureAI orEPSrevision."
+}

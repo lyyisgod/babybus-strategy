@@ -1,0 +1,21 @@
+{
+  "prefix": {
+    "IREN": true,
+    "CIFR": true,
+    "APLD": true,
+    "AAOI": true,
+    "COHR": true,
+    "VICR": true,
+    "RDW": true,
+    "UMAC": true,
+    "CRWV": true,
+    "NBIS": true,
+    "ON": true,
+    "WULF": true
+  },
+  "hashes": true,
+  "not_mature_today_excluded": true,
+  "nonoverlap_per_ticker": true,
+  "cost_roundtrip": 0.002,
+  "current_probability_certified": false
+}

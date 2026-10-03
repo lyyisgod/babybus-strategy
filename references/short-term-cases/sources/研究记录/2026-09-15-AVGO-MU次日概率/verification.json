@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": [
+    "logistic monotonic synthetic / constant midpoint",
+    "AUC known/tied",
+    "Wilson bounds",
+    "45 official scheduled FOMC meetings before current date",
+    "AVGO/MU OHLC integrity",
+    "unfinished outcome excluded",
+    "future-price perturbation leaves earlier features unchanged",
+    "OOS timestamp boundaries",
+    "21 OOS FOMC observations per stock"
+  ],
+  "quality": {
+    "AVGO": {
+      "rows": 2513,
+      "earliest": "2016-09-15",
+      "latest": "2026-09-15",
+      "invalid_ohlc": 0
+    },
+    "MU": {
+      "rows": 2513,
+      "earliest": "2016-09-15",
+      "latest": "2026-09-15",
+      "invalid_ohlc": 0
+    }
+  },
+  "investment_effectiveness": "direction and down2 models fail stable OOS edge; break-low models pass broad-history discrimination but event-day calibration unproven"
+}

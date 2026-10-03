@@ -1,0 +1,22 @@
+{
+  "prefix_factor_checks": {
+    "IREN": true,
+    "APLD": true,
+    "COHR": true,
+    "ON": true
+  },
+  "live_hashes": true,
+  "daily_hashes_checked_by_loader": true,
+  "last_completed": "2026-10-01T00:00:00",
+  "full_babybus_investment_validation": false,
+  "overnight_execution_validation": false,
+  "macro_units_and_20session_boundary": true,
+  "date_block_stats_checked": true,
+  "price_snapshots_match_original_bytes": true,
+  "stocks_available": 154,
+  "daily_loader_excluded_proxies": {
+    "BTC-USD": "OHLCV 不合法",
+    "^MOVE": "OHLCV 不合法"
+  },
+  "csv_retry_kept": true
+}

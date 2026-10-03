@@ -1,0 +1,230 @@
+{
+  "audited_at_utc": "2026-09-30T19:19:11.428342+00:00",
+  "quote": {
+    "price": 100.35,
+    "observed_at": "2026-09-30T15:16:18-04:00",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "regular_bar_approx_vwap": 98.944187535286,
+    "last_completed_bar": "2026-09-30T15:15:00-04:00",
+    "return_from_original_model_reference": 0.02882978941540726
+  },
+  "original_plan_geometry": {
+    "entry": 97.538,
+    "stop": 93,
+    "target": 110,
+    "risk_pct": 0.04652545674506343,
+    "reward_pct": 0.12776558879616154,
+    "reward_risk": 2.7461436756280326,
+    "ideal_binary_breakeven_with_cost": 0.27841623529411746,
+    "actual_expected_return": null,
+    "risk_budget_shares_formula": "floor(allowed_loss / (entry - stop))",
+    "gap_slippage_can_exceed_budget": true,
+    "note": "Geometry alone proves neither positive expectation nor a universal entry threshold; binary breakeven excludes timeouts and gaps."
+  },
+  "original_final_quote_geometry": {
+    "entry": 97.781,
+    "stop": 93,
+    "target": 110,
+    "risk_pct": 0.04889497959726333,
+    "reward_pct": 0.12496292735807563,
+    "reward_risk": 2.5557414766785147,
+    "ideal_binary_breakeven_with_cost": 0.2927389411764709,
+    "actual_expected_return": null,
+    "risk_budget_shares_formula": "floor(allowed_loss / (entry - stop))",
+    "gap_slippage_can_exceed_budget": true,
+    "note": "Geometry alone proves neither positive expectation nor a universal entry threshold; binary breakeven excludes timeouts and gaps."
+  },
+  "current_geometry": {
+    "entry": 100.35,
+    "stop": 93,
+    "target": 110,
+    "risk_pct": 0.07324364723467858,
+    "reward_pct": 0.09616342800199308,
+    "reward_risk": 1.312925170068029,
+    "ideal_binary_breakeven_with_cost": 0.44415882352941144,
+    "actual_expected_return": null,
+    "risk_budget_shares_formula": "floor(allowed_loss / (entry - stop))",
+    "gap_slippage_can_exceed_budget": true,
+    "note": "Geometry alone proves neither positive expectation nor a universal entry threshold; binary breakeven excludes timeouts and gaps."
+  },
+  "corrected_original_assessment": {
+    "strategy": "unconfirmed_W_left_side_risk_bounded_trial",
+    "model_buy_veto": false,
+    "statistically_certified_buy": false,
+    "normal_position_assessment": null,
+    "position_size": null,
+    "reason": "At about97.5 user plan can be assessed as a conditional left-side trial, with93 invalidation and110 exit. No validated evidence supported a strong no-buy conclusion; positive expectation and risk budget remain unknown.",
+    "w_confirmed": false,
+    "neckline": 110.74,
+    "right_bottom_low": 93.62,
+    "stop_noise_risk_retained": true
+  },
+  "model_evidence": {
+    "AAOI": {
+      "status": "model_abstains",
+      "forecast_interpretation_weight": 0,
+      "model_point_may_lead_decision": false,
+      "standalone_buy_veto": false,
+      "standalone_buy_approval": false,
+      "certified_current_win_probability": null,
+      "mae_relative_to_baseline": 1.0501095761215928,
+      "reasons": [
+        "does_not_beat_simple_baseline",
+        "reliable_improvement_not_established",
+        "entry_time_horizon_or_execution_not_validated",
+        "no_untouched_audit"
+      ],
+      "market_direction": null,
+      "note": "Model abstention says nothing about market direction. Risk and the user trade plan require separate assessment."
+    },
+    "AVGO": {
+      "status": "model_abstains",
+      "forecast_interpretation_weight": 0,
+      "model_point_may_lead_decision": false,
+      "standalone_buy_veto": false,
+      "standalone_buy_approval": false,
+      "certified_current_win_probability": null,
+      "mae_relative_to_baseline": 0.9864447068132658,
+      "reasons": [
+        "reliable_improvement_not_established",
+        "entry_time_horizon_or_execution_not_validated",
+        "no_untouched_audit"
+      ],
+      "market_direction": null,
+      "note": "Model abstention says nothing about market direction. Risk and the user trade plan require separate assessment."
+    }
+  },
+  "findings": [
+    {
+      "id": "decision_mapping",
+      "finding": "Model without reliable edge still led a negative entry judgment.",
+      "correction": "Set model interpretation weight to zero; no-edge never sets buy=false or market=bearish."
+    },
+    {
+      "id": "horizon_and_execution",
+      "finding": "Daily close/next-open labels do not validate intraday left-side entry; ten-session outcome ends Oct14.",
+      "correction": "Separate entry risk plan from terminal forecast. Intraday outcome is recorded separately, not as final ten-session win/loss."
+    },
+    {
+      "id": "feature_scope",
+      "finding": "Seven fitted factors are price-derived; no explicit W geometry or intraday VWAP/flow. Latest macro/options were diagnostics outside the fitted forecast.",
+      "correction": "Disclose each factor role and observation time. Do not imply diagnostics update model coefficients or probabilities."
+    },
+    {
+      "id": "strategy_scope",
+      "finding": "W confirmation and LRCX trend conditions received excessive influence on a user-defined left-side plan. Neckline110.74 is above user target110.",
+      "correction": "Unconfirmed W is a structure status; do not require neckline breakout or LRCX conditions as universal left-side entry gates."
+    },
+    {
+      "id": "threshold_ownership",
+      "finding": "RR>=2.5 was analyst-selected, not user-specified or backtested. Missing global opportunity score does not reject this specific trade.",
+      "correction": "Show RR as arithmetic; label analyst preferences and restrict certification gates to claims they validate."
+    },
+    {
+      "id": "regime_and_dependence",
+      "finding": "All32 current neighbors predate2026; several price features are correlated. These are limitations, not proven causal attributions for today.",
+      "correction": "No retrospective factor reweighting on one rebound; new structure/flow model requires frozen objectives, incremental tests and future independent data."
+    }
+  ],
+  "feature_correlation_diagnostic": [
+    {
+      "a": "return5",
+      "b": "distance_ma20",
+      "correlation": 0.7753442997926515
+    },
+    {
+      "a": "return5",
+      "b": "RSI14/100",
+      "correlation": 0.6707199349795501
+    },
+    {
+      "a": "return20",
+      "b": "distance_ma20",
+      "correlation": 0.8435616902751281
+    },
+    {
+      "a": "return20",
+      "b": "RSI14/100",
+      "correlation": 0.807362697789403
+    },
+    {
+      "a": "return20",
+      "b": "distance_low20",
+      "correlation": 0.8908279236236318
+    },
+    {
+      "a": "distance_ma20",
+      "b": "RSI14/100",
+      "correlation": 0.8937011098277753
+    },
+    {
+      "a": "distance_ma20",
+      "b": "distance_low20",
+      "correlation": 0.8318994927732688
+    },
+    {
+      "a": "distance_ma200",
+      "b": "distance_low20",
+      "correlation": 0.6753656765172458
+    },
+    {
+      "a": "RSI14/100",
+      "b": "distance_low20",
+      "correlation": 0.73081706273774
+    }
+  ],
+  "current_neighbor_years": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "factor_roles": {
+    "fitted": [
+      "return5",
+      "return20",
+      "distance_ma20",
+      "distance_ma200",
+      "RSI14/100",
+      "ATR14/close",
+      "distance_low20"
+    ],
+    "intraday_diagnostic": [
+      "VWAP",
+      "price recovery",
+      "relative strength",
+      "volume"
+    ],
+    "background_not_fitted": [
+      "macro",
+      "options IV",
+      "semiconductor site"
+    ]
+  },
+  "user_report": {
+    "literal_entry_text": "07",
+    "interpretation_confirmed": false,
+    "claims_missed_purchase_due_to_advice": true,
+    "actual_fill_verified": false,
+    "shares": null,
+    "realized_or_lost_profit": null
+  },
+  "ten_session_outcome": {
+    "terminal_date": "2026-10-14",
+    "mature": false
+  },
+  "no_orders_executed": true,
+  "verification": {
+    "historical_files_unchanged": true,
+    "historical_file_count": 85,
+    "saved_metrics_independently_recomputed": true,
+    "no_today_refit": true,
+    "completed_minutes_only_vwap": true,
+    "no_verified_trading_edge_created": true
+  }
+}

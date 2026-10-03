@@ -1,0 +1,14 @@
+[
+  {
+    "series": "BAMLH0A0HYM2",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-06-01&coed=2026-09-22",
+    "fetched_at": "2026-09-22T20:58:54.368065+00:00",
+    "bytes": 1310
+  },
+  {
+    "series": "DFII10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2026-06-01&coed=2026-09-22",
+    "fetched_at": "2026-09-22T20:58:54.771715+00:00",
+    "bytes": 1308
+  }
+]

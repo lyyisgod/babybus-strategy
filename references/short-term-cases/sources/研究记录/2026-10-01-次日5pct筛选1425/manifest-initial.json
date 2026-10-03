@@ -1,0 +1,2856 @@
+[
+  {
+    "symbol": "NVDA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.568134+00:00",
+    "sha256": "2e903038b1e7cdbd0faa7ce53013bf5c756a4e95979a3656db7a8c842888c203",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AVGO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.570736+00:00",
+    "sha256": "e9a6abf82d8d928f8a90ec0c404bc0577cbd8da7192999ed3ed73428b3771d9b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AMD",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMD?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.538226+00:00",
+    "sha256": "8add0711beaa9de5f8ce37af99ccf71dbc604a330982747a25c6986573f2d707",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MU",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MU?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.750425+00:00",
+    "sha256": "5a0c6ba7d15373ecb639e238a293e631b8dcdab29d28d4ac9545bcfc57ec334e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SNDK",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNDK?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.637971+00:00",
+    "sha256": "fbb3566a24e7cf3911a4374906454d923ad0d183c3ab215b04efbd7d2d22176e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MRVL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MRVL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.898539+00:00",
+    "sha256": "e2c04ca36d55f4e12c4b34c2ed00c7629673814f815027dc3f50af1f0cdea6bc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ALAB",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ALAB?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.809451+00:00",
+    "sha256": "7a732dc5143ae128bca1250cdb473b26001816aaf9b3cb2190828e1dedfd2cdf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "TSM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.939336+00:00",
+    "sha256": "9dd6c7d616347bc1f0ae30ad49d1b498fcbbed0089b4fa45ab83c9b7c13f5471",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "WDC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WDC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:23.929617+00:00",
+    "sha256": "c7b4650bcc8ed31e31ccc9076926b2247798e2752f2a8818f558149b718d68c9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "STX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/STX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.049046+00:00",
+    "sha256": "13f4a38d29f7b91f243499513fca8f1121bef25ec751ce785c0361efc8c31e8b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CRDO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRDO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.077717+00:00",
+    "sha256": "8c758498a7ae964055a2f106d3f90407fb1eaa04654d4b6223511bfcf6913b76",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LITE",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.154685+00:00",
+    "sha256": "e020555bb9a209447c8f907996369fe9378beccaa50b75fd4d4da2e9bef0898f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "COHR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.237037+00:00",
+    "sha256": "04f4fc84da90ee6d46d0431ef4b916e6ad173392a0d545836725fe70a09e3395",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AAOI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.287645+00:00",
+    "sha256": "5501293dc8e587413c69e35693464b2504a6dca8f20cb57b467592880be52c15",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AMAT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMAT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.299400+00:00",
+    "sha256": "782cc0d14b489f7ca875818c8621a8ea65f498f28e8cc7a79cfe5fdf5c746eaf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LRCX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LRCX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.398030+00:00",
+    "sha256": "74e1b4c3472d10f40ff18f4691c39d9eb1cebf154ff761b4fe936a20ae9cb478",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "KLAC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KLAC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.434802+00:00",
+    "sha256": "43f36b9d061c9b6163b1f056e7ceeb5aa7fd8178f8bc1ec3ac7e517c1226ec61",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ONTO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ONTO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.429481+00:00",
+    "sha256": "14637635980cfc16747c7b881befb3bc963fbef664d6f37cdeb07547b7b00054",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CAMT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CAMT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.603132+00:00",
+    "sha256": "cd128c820d1aa8c2527d508dd668bf265ca227a7fb4eedda0cdb1da58657e0ac",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "TER",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TER?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.626149+00:00",
+    "sha256": "b83e97ec13f86100a90525baaaee9cc05b09a4ded4bc1be842d3e3bc069c2e4e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SMTC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMTC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.623817+00:00",
+    "sha256": "d059711e0ea3255aa2b3cdaad53e3b229e88c67a1b3c1cb7b3fb865989b3362b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "VICR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VICR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.814681+00:00",
+    "sha256": "25f73797106b5d54a63eedcce66da89b30816ce5a67f4e0e090f1c4e9f1c4022",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "INTC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.850714+00:00",
+    "sha256": "62c4a38db2e3fa524711aabd7c365680cb875d5f10831609a37ab9376782a5bf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CIEN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CIEN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.886699+00:00",
+    "sha256": "4aff46b64d14c9be12a70eac74b4904e11cc4ab6818d2bc589f79cf18bf597e8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NVTS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVTS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.664788+00:00",
+    "sha256": "9dbd02311178b65fc9d17981e0f113acf6ac19c050a032b9ba562dab9ed0fd93",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CLS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CLS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.883395+00:00",
+    "sha256": "355612fdbd8e7fa6cf56db6b3b05b453dd9398a4d173160931eb00f5b1b4746f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "FN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:24.989741+00:00",
+    "sha256": "4596ce6ba1be448776b376e2d096d33626025f726b41069cd7a5731f0485aed4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "VRT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VRT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.101855+00:00",
+    "sha256": "56acba5e3ed232f11a812b66cb8e150f754d9ec5b28d6184a16a23fd77ed83f8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NBIS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NBIS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.000568+00:00",
+    "sha256": "56f72f9240ee7ad484ec9e46226833586a60d353ffbee4d844f77241eb2d07ca",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CRWV",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.153529+00:00",
+    "sha256": "5d3fd6bbc297b55edfa81b16480e4bc2110ad3cf95d3db27a8d65e41df375191",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "IREN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.198033+00:00",
+    "sha256": "a586c47ed389d4588f4f6701a1dcba26e763466a5f63dece62066a515e25a0c9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "BE",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BE?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.338756+00:00",
+    "sha256": "ef32653841954018fdf48f9a87fd64c847de83ef9e072e79b537fe3f808b30d9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "GEV",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GEV?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.384049+00:00",
+    "sha256": "02ebb38442732ac68b59ab629c2a44800d5a4b0d91ab66096fe08c6bdc403cbf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ETN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ETN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.533046+00:00",
+    "sha256": "5292403173dca59486d329ea1775b1f570034333db21d48962bd47e7c9104b45",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CEG",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CEG?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.452852+00:00",
+    "sha256": "f7ed4baa67d5f073ccce119de0b9e8f92987164bb1bc937ba70f2026ac0f4bd7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "VST",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VST?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.524663+00:00",
+    "sha256": "a33646d2a0dbed1e263b80be347ca583d89111df34d6ac194f5ff1de5b44226f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RKLB",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RKLB?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.535157+00:00",
+    "sha256": "6b058950438b4da5910ec20fd06e5891956e9b0b7a3291247954c21b7eab5b44",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ASTS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ASTS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.650263+00:00",
+    "sha256": "dfed27ee2a55db1a38114f441068035407783fa517d91c6a464983de08e94803",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LUNR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LUNR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.356208+00:00",
+    "sha256": "b9ce52828a22e3811d41639e8ae5a6ecfb28d8ab522ef016dd604c9695efa322",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RDW",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RDW?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.318887+00:00",
+    "sha256": "c665ce5d8c7cca03a896d6870f6cb812af191c9ce411e4349082e4840cebe3a5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "PL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.294171+00:00",
+    "sha256": "69ba0d4ed2a8832b1807857bedc1e63cd00ede01aac7527227300e977cd0462d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RCAT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RCAT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.135446+00:00",
+    "sha256": "92034317d21b9cd4fdc526545f62fbc7f96aa7668d54fa76feac40f88efdb4bb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ONDS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ONDS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.029288+00:00",
+    "sha256": "95bc64ba784ef5494780382a54e3aee63089acd59ae0ad237ab8506e880c7adb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "PLTR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PLTR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.822427+00:00",
+    "sha256": "bacb0eb5c3b9ac2dfa0ad9260ce23c710be57c9b70c98a05bb0f2db6be2117de",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ORCL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ORCL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.932003+00:00",
+    "sha256": "8ebba75e9a4bb79305eeac0b04ffc06dd1fdd6c38b36433fb7a35c6ffcddda8b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "WDAY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WDAY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.092866+00:00",
+    "sha256": "05d34043e7760ac1a5eaeb6d9356416175e6e11ad3defdda6dbba092deff51be",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CRM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.080639+00:00",
+    "sha256": "c993d17dfe7de4a6ed9df2c0c864373e2456aeb78bced1259c244baf4c8d1fab",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NOW",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOW?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.182884+00:00",
+    "sha256": "f0915d7ad2f11685cdc11aa8286ff384c57e06d2cc3e69a4bfae160d95bdec42",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SNOW",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNOW?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.045129+00:00",
+    "sha256": "0ac3461305cb0d56a57cd28bc6252b175eea3aebfdffcbbb46a3e8683fc061a7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "DDOG",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DDOG?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.949047+00:00",
+    "sha256": "5448559c4b9b29efe4256eeace5ee7321df211d6889b76361f0905c5584af18f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NET",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NET?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.817088+00:00",
+    "sha256": "88b17bf4c13c207491508e195666be350308a0664d3f43da3695245f8f068fdb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MDB",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MDB?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.078321+00:00",
+    "sha256": "44083d1527358931537353b4ef6d01860cf23244f958126421c4f39d487947b9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "APP",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APP?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.095264+00:00",
+    "sha256": "8290e67d9cff694df8bb778a44773610795613dacfa6d7094d751bd443c245f7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "TEAM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TEAM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.040316+00:00",
+    "sha256": "50b7b9e5c0d44a051d5083ca0995ba7572153cea7b6c4d8db9d670df07d5a85b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AMPL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMPL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.471518+00:00",
+    "sha256": "eea6bc0537851935e416633071158629ae4c550b8da7855f78acb91653132577",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RNG",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RNG?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.183520+00:00",
+    "sha256": "9ae2e80f23500fa9504af6ee6bc49b79bc69a1b46adfcbd7fe8828ab8b03bd84",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MSTR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSTR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.381690+00:00",
+    "sha256": "d9f2e4b87de78cf1d055fcaa2dd6155a1721591c534c8d433be249aa07825bcc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "COIN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COIN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.370533+00:00",
+    "sha256": "7a150e6a606bfb9b784332f61feae55ef6e8623bf1f7cf58e656bce5146a8e96",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "HOOD",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HOOD?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.469744+00:00",
+    "sha256": "dad79149fe01e28a6d2c8e424a3f0d01daaead1fa0e491c18e446a319bad3f7f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CIFR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CIFR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.186490+00:00",
+    "sha256": "240cf087089bf958568f984875512967981f262deb9e13c3febf8bee942faae0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "WULF",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WULF?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.186549+00:00",
+    "sha256": "1a5a9f0fdd8543b2201b2b3a04948635dfa67f73b1bdacdd8f4450f8cd218643",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AFRM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AFRM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.270268+00:00",
+    "sha256": "2bd607c3d7553e9e38c3a8296f19353c7fd574376e959ad531aa8b2ca83935db",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SOFI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOFI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.332353+00:00",
+    "sha256": "ceb722989772766f08eafdba94d8158da9396d82211eccf349ebb3446a4ce30c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "UPST",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UPST?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.269893+00:00",
+    "sha256": "c76fd742cdd6d7028e8705560d785dc811984fa35400bed6ac654a026de82e8b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RDDT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RDDT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.098110+00:00",
+    "sha256": "7b045ffb592c034c36b04568139b1270c284023b421c8d0091161b7fee13ebc2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "HIMS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HIMS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.000708+00:00",
+    "sha256": "4e4fd078176dfea0f8f06a5a2ee5311d99b79f2fc9696e48efb8ac860d530ea0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "IOVA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IOVA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.838519+00:00",
+    "sha256": "60396702834b30fb02ff2dad98ee0c2ac9d47b2abe014e766d13fe8f9369013b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ABCL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ABCL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.850504+00:00",
+    "sha256": "aa36f83215887f31eca70fbbccf6104ec211fe60fc263297ea85721561eabfdd",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CDNA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CDNA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:25.956549+00:00",
+    "sha256": "0650b5680594a54c197136464856b86f5d4ef8560da2dbed02dcc2ae43944391",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "VKTX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VKTX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.865339+00:00",
+    "sha256": "80142266591bc783aa8a90f646157acd9e1a56b47eb593f3130631ed563cf377",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "COST",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COST?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.303102+00:00",
+    "sha256": "6f75258823fdf4b5a2afb6b48a2873a39822b4fadaa6ba8bb7bc17ada741dee0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ATRC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ATRC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.180595+00:00",
+    "sha256": "c4c459a544b2dd80786aaa5113dd9ca9fe223316c347bdc116a0d62248020cc8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "PBF",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PBF?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.432938+00:00",
+    "sha256": "06940eadfa346b3af25de9b4fcad6825da6f62f221ba239d1c973afaf0164dc6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MSFT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.561588+00:00",
+    "sha256": "c8eec73099693ec5d393b9367844765d5d9d0c829de57528871a643c9340b635",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "META",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.724031+00:00",
+    "sha256": "854570667f92aa8a05a494d799b769f8e1864d2ebd463aca9e5d9fb20948d471",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "GOOGL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.706866+00:00",
+    "sha256": "ba245a8b6b66bbbc0ee57b1c4164858691588995e7e9405372aa471770cc49d5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AMZN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.873015+00:00",
+    "sha256": "1706f09372e2e9d5cfbf5f1de0301954ff66c413c3720d9ac182334e21ed91b3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AAPL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:26.965899+00:00",
+    "sha256": "bfda789f1ff893e748fd266ddc3a471666d2aef836a707e2c522d7e4d7768e71",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AKAM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AKAM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.379052+00:00",
+    "sha256": "b89749405896a24a3a5d422f970f850709922f0e7ec283e42eb736f0bc5bd4bb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "JPM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.429034+00:00",
+    "sha256": "54eb56f1f48a711e5ba2ce03aacd65651924195a58a288a20e82705f6ac8855c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LLY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LLY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.577977+00:00",
+    "sha256": "6241bd0956784b6b437ab9fd3709e196ef75183fac21843ae3acae9512e0d1b3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ANET",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ANET?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.556678+00:00",
+    "sha256": "5e740047e73332d9cb71dfbaedc227736749f36975ad150e5c875264be708ab6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "DELL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DELL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.592775+00:00",
+    "sha256": "6ac94a7928047e2e6219fc6f6293563852271e5b9614e4273afecd06b062734f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SMCI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMCI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.596568+00:00",
+    "sha256": "241063f4d7eaa61c35f015da112178eb7fbe56268218d807f2caf0b320e57e9f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "HPE",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HPE?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.904239+00:00",
+    "sha256": "dd36fae89e66ee8f675bacefd1db5c4d107801115791c62749f72a2620616e6a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NTNX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NTNX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:27.816966+00:00",
+    "sha256": "465a4bf9783a6259235d08c99ee1dd09f8b44155afc7782855bc7ce857425e50",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RGTI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RGTI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.471456+00:00",
+    "sha256": "f57b52932a225058d62bc8965810285bf0be7b95e9e1a730f17744e663a7115b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "IONQ",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IONQ?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.467778+00:00",
+    "sha256": "a869761c7210d063018591e4c426dcd22114ebb48803a4f44467e5be701ca660",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "QBTS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QBTS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.546265+00:00",
+    "sha256": "6cf00667b1cd74d0be11d5b39bab9c409dfb641c60c6fdc52d126defd22bc5f4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "OKLO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/OKLO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.592793+00:00",
+    "sha256": "085c4557375014968b67e795efb3cc28ec479e460566fc6bb9b5ac246348f773",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SMR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.607035+00:00",
+    "sha256": "d318f9d506a585a725703ee6e08c215c3578d3aee40dbcf3b3901221e168fbfe",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LEU",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LEU?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.675486+00:00",
+    "sha256": "6d8568d43f037e8ae83aa2b60235367c30a0f0a85cf1ed1710b2a4e91d978797",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CCJ",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CCJ?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.811939+00:00",
+    "sha256": "96d8fc276a3ee21a9c6bf59e2597d64df3301aa0e07624d7ff66678c62e0ac38",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "UEC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UEC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.808809+00:00",
+    "sha256": "2241c0eecd60a834685154b648843dfa62a9d2aa1bd8e99cbc41da75cb6b27cb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MP",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MP?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.795455+00:00",
+    "sha256": "386e0811db0da100b919e538951569a82b328b62db831017790d001b5f73cbcc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "LAC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LAC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:28.978851+00:00",
+    "sha256": "e133d0041b9af84cedd4b5bed354c94e835a8c27cdf576685b6e650ef22c78ed",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "UUUU",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UUUU?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.037191+00:00",
+    "sha256": "d9f46632f22a0b534e308cbd532196c85092d5f12f4024fe9a7ac19933be3d88",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AVAV",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVAV?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.129304+00:00",
+    "sha256": "dc6fa8aeb1095e2ddbfbca0020cd43cd7720ef5a4db51fa42df9b3da8381ac1b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "KTOS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KTOS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.292514+00:00",
+    "sha256": "ec9395a95a18cbd0b7b948e02900630579f9f1e660a6574aa001a2411f52bd6b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "BKSY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BKSY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.535357+00:00",
+    "sha256": "26b50738f3dbf6b5ed254cb6aea99fd0e478cbb7629b32cf12332aeb7c615cab",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "JOBY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/JOBY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.547897+00:00",
+    "sha256": "5d52a9e29fbd0296c235d8c232ddc7e8f1f75e5724ad1b686396c13b0458f40c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "ACHR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACHR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.543717+00:00",
+    "sha256": "e60cbc8c23713eb58628c8ae358f9d8a3341c375fb44ecb46baa9be82ca9c5a6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RXRX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RXRX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.665960+00:00",
+    "sha256": "96d36b2404ec7c2eeeee8dbacaf607eb5a37d009c3f5a697f6e89b12b972b61d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MIRM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MIRM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.688075+00:00",
+    "sha256": "047e26b1a4f6fe12f2795ae9e33bd7119c54ecc15e36381a558b7d9faf0cc8e8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "CRSP",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRSP?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.712524+00:00",
+    "sha256": "11b352e6c7e2384d180273af2168d2f362f77e626b9c1a8fe87439ee4289f02e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NTLA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NTLA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:29.890488+00:00",
+    "sha256": "cfa97eacf826f48d47bfe8b9f47ddd52c9f6a34ec25681a2eae2adea9337d9f5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "MARA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MARA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.049354+00:00",
+    "sha256": "a472591be94ea58811f5884959df64cf4f662d92a0542e0497636f912210dc71",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "RIOT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RIOT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.208089+00:00",
+    "sha256": "3bac9ede529566f1510f512e45ec8ab8f52cd50a10e6a7f6bd5acf1e7b4b6b1b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NEM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NEM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.326386+00:00",
+    "sha256": "d50a1b85b95fb85993fd3f6079c3274e694eb87f72969df2692f432989632652",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "FCX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FCX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.569854+00:00",
+    "sha256": "3058daf1bb4560ef2db4d4f7245cc602cb30831d651e8127c6c74279dfb178b3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "XOM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/XOM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.576459+00:00",
+    "sha256": "4eefad0052cb38d857bdcaafced016ce38b2d574ec1a0ff36bf0f37d1dd3a215",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "OXY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/OXY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.586394+00:00",
+    "sha256": "01a2d70866b7e45af7cea4849664432c3355d1e7885b80271e58c5676d302b1a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "AEHR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AEHR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.636788+00:00",
+    "sha256": "f4dac651f28396f46e8a4913bdc8cdf2b4289327337ab4ebd8c08966ade1f3d2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "QQQ",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:30.853496+00:00",
+    "sha256": "b3f52f646fddafb771b1e29eba90fbcc41c07a867bb39885f8544a4e57ea8d48",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "SOXX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T14:37:31.762105+00:00",
+    "sha256": "98611c9ff0fa4d90b882132da4e84d6e9f400b5f9bcf9283550742a0627f1320",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json",
+    "source_timestamp_not_refreshed": true
+  },
+  {
+    "symbol": "NVDA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.137902+00:00",
+    "sha256": "400f502c14c2c0efb3fb50ef79ac814acf5dffe46d10d2e036ea10a7b9cb06bd",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AVGO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.147359+00:00",
+    "sha256": "d264b67c4078280faefe13ec99566d37abf50767c8da670b291076bed400084b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AMD",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMD?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.164021+00:00",
+    "sha256": "34cade4edb6b142a771275c3aa41d0fb9660dc041353a15609ff0e7ab0323e63",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MU",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MU?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.233372+00:00",
+    "sha256": "c91e8b3f727065e438621d193cfc8537ad02adba6869a9bb70cc63dcfa34fde1",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SNDK",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNDK?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.170073+00:00",
+    "sha256": "91e2a5fa5c7a0120e2e4c81bf0bc2977bf9a7964614c1f31f75cb1081d72cf89",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MRVL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MRVL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.205251+00:00",
+    "sha256": "052ec12d25001b190631e1bd51406eaaf433836b6d33601bb6699997e8a50de2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ALAB",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ALAB?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.624051+00:00",
+    "sha256": "cd42962a507330ad95b06b28b6e54923ad56b1ad12528043eb939a365ef510a5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TSM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.694637+00:00",
+    "sha256": "a3f0563470e27edd575d9d4b66e23bf2fdd32b2c1f3d30cea73d68b7fd9002d4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "WDC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WDC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.090853+00:00",
+    "sha256": "f6140bfe71c06a470e98aade544af6aa4c2c485f6e9d495bd89b4eab76b971af",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "STX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/STX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.919203+00:00",
+    "sha256": "44b5dab1b3f05ff7557303f7dde94c9acee42cd6fdaf8cdefb5452f274e4b29d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRDO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRDO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:53.788108+00:00",
+    "sha256": "c58f61841ae4eed28c0ef307dfaaa926aa7c6d9a3f3ce529fc4fbf0a149c84fc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LITE",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.070615+00:00",
+    "sha256": "db6661871c2df0b8fb40806c79794f004f6ed78cb20f8579e726ad6c38450e5f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "COHR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.193980+00:00",
+    "sha256": "a1b7b97939f516d7aecffbd7318e4a44fc47b0d8bd56d80b4090b521b0c04d5f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AAOI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.219484+00:00",
+    "sha256": "9556fdf4ef94cfac427bb8e3783c5799aab688f269e39f5f42069ff1d6cfe731",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AMAT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMAT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.241580+00:00",
+    "sha256": "0db6aa351016d37e515beeebaf38d111f537ee1020b9a87b0694a3514d9064d6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LRCX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LRCX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.544554+00:00",
+    "sha256": "88bd8bace0bb5eb1c2048c5c54f135fb0b42bf861bb5878fa1ca7d46d2fbd259",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KLAC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KLAC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.069510+00:00",
+    "sha256": "0e6b502e2ae7559ce3f52084f9b359b1748dfb10a5c74caafb47dfa76f69a9f2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ONTO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ONTO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.431889+00:00",
+    "sha256": "1775e754cdfc30eae5acfd2408b27fcf30d7928832476dea7e0b9a292fd696a4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CAMT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CAMT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.560707+00:00",
+    "sha256": "15d0824911d33e9552ac2751be3bad10477dccbdafed4e0bd935e4b0180dce62",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TER",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TER?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.697981+00:00",
+    "sha256": "b97ee511485564189f4a759df307f4dc29ac7dda4a76caed23561a9c845f4e13",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SMTC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMTC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.658138+00:00",
+    "sha256": "a6c074df04eca81c4b4f5f712b86d82fbc448458b346151adf0b0c8b8783eb8e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VICR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VICR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.835126+00:00",
+    "sha256": "2e139e48a122f1b0d6432eaa40ca686331b24f6cbe5fb27bff7e9c1d8f364824",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "INTC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.119928+00:00",
+    "sha256": "dab434ac8a6fe420ffca54dfaba32029c67ca9b6d1fb409a4f983b8ce37361c0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CIEN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CIEN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.456543+00:00",
+    "sha256": "ed0a72e956503a734919d3a6ab1e9fe2108a00f213f08f414dcf4777a05fed77",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ARM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ARM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:54.777198+00:00",
+    "sha256": "edb24babe59003b763f6ff6d649a9673773b5c7dc377411dd1ef0197c13407e6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ARM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ARM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.296314+00:00",
+    "sha256": "fac874020be3e397bfa42ab58995ab77a3bdaa5662d9187b321227c5c35bdf63",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "QCOM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QCOM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.069624+00:00",
+    "sha256": "446ec3bd0c94170e74069213b6a951dcaa801ee5ccf9d365ca796fdb6b1f2ee4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "QCOM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QCOM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.388279+00:00",
+    "sha256": "c5f22529f1c0818256bdd8c2998fdff6c1043bd8625e2e0eb3e77b45e394a494",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ASML",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ASML?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.300985+00:00",
+    "sha256": "8db2a2a274df1685bfcd7d43222619eae95a06c5e54e02ab26250f70361f0336",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ASML",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ASML?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.654875+00:00",
+    "sha256": "6612d8a241ee7174e802d0a7499385c6cb00d19399d90164b37c81975f75d70a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MPWR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MPWR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.323509+00:00",
+    "sha256": "fc31619d1dfa110ca4f2e4f96fba33702760eb4e3acddaa411af74c38a62c9f5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MPWR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MPWR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.682147+00:00",
+    "sha256": "7d129432687d91039a863ee4eef1b5d791b18980f65d6b29f3b10212e79c564b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MTSI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MTSI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.586636+00:00",
+    "sha256": "fc703d44e3eb155b6728b650a681b3f181d8fe24b6441c2fed9e133920df2282",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MTSI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MTSI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.648024+00:00",
+    "sha256": "4b3479c64abe6454ef7d863f199895c6198f86630256dcf83f5d1556ba701a8e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ACMR",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACMR?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.611667+00:00",
+    "sha256": "f791436f370e2fcd5e99431f3a13ef961fa625be48fd17738200f0dd278432cf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ACMR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACMR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.826265+00:00",
+    "sha256": "f211600760f66c423842a2961940778553ff792bb369ab14b2a88b9f8347aa9f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TSEM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSEM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:55.766762+00:00",
+    "sha256": "58b209eb1f771c833c0c61fbc74a9ec144c56e9b4dfd4db4e64a905d4fa72ef7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TSEM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSEM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.184691+00:00",
+    "sha256": "12b6b1720c8dd703dfe7d4a8c9ee920d1aec98ed2729ffd02b6a868e50a4d0a6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NVTS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVTS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.194949+00:00",
+    "sha256": "879beeb5364286eb390783870d1812567572a655aa0f904ce90c29eafbf6b471",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CLS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CLS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.468776+00:00",
+    "sha256": "7cf6040661545cb6e5df0581474c88dc688c9293cd2280cc4f7ecee24ffd46ea",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.355927+00:00",
+    "sha256": "03f7fba9a8d2d408703726adbcc5bde65bbfe9c85b37c1e35ad6f26cf13e60ff",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VRT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VRT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.229592+00:00",
+    "sha256": "57ff5b2e9c33e016930889c5419c755ef64ed50b5b8e206447b87a57c124b5c3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NBIS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NBIS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.266423+00:00",
+    "sha256": "614549db95e4ce32998c1b61bfb77076110cc71e24a1c2a2b2f43073ffdc3ac2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRWV",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWV?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.738280+00:00",
+    "sha256": "ea5409b256bc8cfee3ddc3f4c01ff19d583b06be30794cf0b6c566a00157cf00",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "IREN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.737117+00:00",
+    "sha256": "f65450135337dc2c4d042b35a1cd4ec0b8a8a3f71fb10e90a4d1c31694da8dd1",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BE",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BE?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.862983+00:00",
+    "sha256": "1e8703a1211c2a23a69e10134387a3236f1886b67420ded05c87f006b4b3e898",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "GEV",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GEV?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.834803+00:00",
+    "sha256": "5c7ac59fb384568bc573e33673f626241a51ba99e19ca75b8e809299be263c2c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ETN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ETN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.885613+00:00",
+    "sha256": "4f18d0c9b7da57ce1f9dffa377d16ddbc3ae775af1bfb5d66529b9cee3ac226e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CEG",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CEG?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.937163+00:00",
+    "sha256": "32301f3c6ae44c20355f85a4694495a899c1e978573e7f33bb4298bce43b7de4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VST",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VST?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.266397+00:00",
+    "sha256": "96a907b175d286f376fd42f0394b3162d8923893a65510d590e381db2c3bbb01",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KGS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KGS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:56.913984+00:00",
+    "sha256": "22b7d8f28dd8d68f20d103ad7ad70e70fa0d46d3ab036080be0f29426dd18c6a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KGS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KGS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.177100+00:00",
+    "sha256": "a47e08eeb835aaaed2bb341f0b67dafe703ea5ba0ebc323d8908a0fa592798e8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RKLB",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RKLB?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.762149+00:00",
+    "sha256": "7a92d465f8ec91b0111ba31b3258495983f95847ac93bedacd94355ccdfe57e9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ASTS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ASTS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.458906+00:00",
+    "sha256": "90eab87768d6ce8c7ac3a5bd74b40ca39f6c6a11df73eeebb188f3c1cac3c8ae",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LUNR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LUNR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.400322+00:00",
+    "sha256": "4fc05ca83af279688adbc608ca0d37dad1f5988cf1aab06afe68515d790410fc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RDW",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RDW?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.446699+00:00",
+    "sha256": "9102ad63553dd7776332cd72e3b33abfac38010218bc2cebe7ca96062f591da2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.856875+00:00",
+    "sha256": "0a7cbc784cefd04894118d6d1f4941f5e46c237575e3e8cdd14c7b907835bfcf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RCAT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RCAT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.830051+00:00",
+    "sha256": "40d4ffa6ab7c9b6cea7bc6678b4fcf9350b5e788b3a6d57a4d5513d69e34d0f2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ONDS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ONDS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.882555+00:00",
+    "sha256": "24f22c33569d33c2917870d3ef93439be7363c3b247752a62faeb395183effef",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "UMAC",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UMAC?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.578946+00:00",
+    "sha256": "6c86ef6e8bbd0b1fc292ac90389913a54579a449752b63d024ab4d5ea8414369",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "UMAC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UMAC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:57.850967+00:00",
+    "sha256": "327781af2ca27d8541af9a7e00a3abfe202d9a61c0aaf28bcd0b7db78f77ae91",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PLTR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PLTR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.354382+00:00",
+    "sha256": "ed95ed5effc8fc442e8decc0683862b602df4e087f2487bb8f231f2322dabdca",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ORCL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ORCL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.355010+00:00",
+    "sha256": "60d5531f3b2c90aa8668770f8fe2f5ba34de7bd66cb325f45e365822c1640139",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "WDAY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WDAY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.304642+00:00",
+    "sha256": "b4c5468e9afe5ee73d416672c764a436eeea6539cfba5e1f52f6865247d260ab",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.337988+00:00",
+    "sha256": "05035aa56ac5cedd032f88359a7a9da2df1fe709d1792ce6f189d287926a0084",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NOW",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOW?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.398838+00:00",
+    "sha256": "38d0497b347a569aa1668a1a6d54735e78e4577681f131e9010d20a6df60be4b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SNOW",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNOW?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.329598+00:00",
+    "sha256": "050e1d69c1507039e8b0fb8c19441c292b747b52d56a46418a9539b5de1a0ca3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "DDOG",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DDOG?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.862525+00:00",
+    "sha256": "1293af0974b2d1989c9ccb1719aa7c3fc771a8700d300115e3881113464838fc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NET",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NET?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.937844+00:00",
+    "sha256": "721df311bb88600cd3e35886d6c0cd25032966402a1fce5392672ae7bfa97a9d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRWD",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWD?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.540643+00:00",
+    "sha256": "3187c9276f68efb2289cfef7ffdd7891762d0e8d822528ab0ce11fcf47e03eba",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRWD",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWD?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.862502+00:00",
+    "sha256": "03dce84301ee3f4ce699a2d571d178dd32684bb8b10d4a7d7d3bf9afd00a8845",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PANW",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PANW?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.775404+00:00",
+    "sha256": "4aee267485856bb8d8ebdfbc0463adf8e59629973f89ad00423a91df2a0967b0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PANW",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PANW?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.000994+00:00",
+    "sha256": "371e26c90ab2c4cdd8e807acbae9c478e8741f143855d3abe51f5078840d814e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ZS",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ZS?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.776106+00:00",
+    "sha256": "0dc9e694939dc4434ef36411262279ff3d81392e23075ef4f6e1bcaeec45919f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ZS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ZS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.313091+00:00",
+    "sha256": "deb06cb6bf9c2628a7afd5b20ff809e509f1ba59970a7c0761a7d6f91dd9dc54",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "S",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/S?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:58.981121+00:00",
+    "sha256": "6d53276a43dd3f309594b451357fbc1c51a601076db3843575b5878921505256",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "S",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/S?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.627264+00:00",
+    "sha256": "b82627e8bbdc59f251d66e509b9c58c0b92c6be54263b90943ea694f48f2190f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MDB",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MDB?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.324855+00:00",
+    "sha256": "02f273a42be76872facfc7da4f4add8d0ac20fa01b873510cf8d7ef84a503e35",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RBRK",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RBRK?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.091023+00:00",
+    "sha256": "e56284a9199aef7eba22fb55454cc5df931885921225aeac7c712be52488c914",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RBRK",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RBRK?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.399851+00:00",
+    "sha256": "50b3fdc7d49af3649c7d9704b4e43f7ded003a01e89f3a5c6f7fa11d88c4f1eb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "APP",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APP?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.410537+00:00",
+    "sha256": "c2dae268f89ed5e9303f058b3ea36d1807ce64eb1f825c56b5f1c8c9c8dec05a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SHOP",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SHOP?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.301233+00:00",
+    "sha256": "cda8991afc3e11107b963c3734dc92f36c676e94044adf3e6b692b5faacf424e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SHOP",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SHOP?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.859723+00:00",
+    "sha256": "79f79aaafaaf00d5336c764a5ca5f61c1923117e6a5c3dd3e58fa55937f20f32",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TEAM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TEAM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.803255+00:00",
+    "sha256": "eb51c1f502460a2716f52145031dd03da3d0dfdf0996a5112f1915393815eff0",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AMPL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMPL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.649723+00:00",
+    "sha256": "b4668100059619ab60f800c212618c77c01dace4133348707a9b7067529b6096",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RNG",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RNG?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.868522+00:00",
+    "sha256": "5cd495f93b6d7a74f72e6140b90c174fc01c8693a62ed2faa0f6b9b26a9d5012",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PATH",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PATH?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.626925+00:00",
+    "sha256": "84375985d85360b972bcdb0b37e3c46df6b6d02f24551916593295933352b8b2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PATH",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PATH?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.381042+00:00",
+    "sha256": "fc192146d1ca2c96957b91fdc4f209d6c8ac9bd88507032122f990c3fce8b043",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TWLO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TWLO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.899715+00:00",
+    "sha256": "9ccb7164ac3c30d2847564f1662e4f1246272c943db0499d42cc7aefc4b5ed99",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TWLO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TWLO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.054817+00:00",
+    "sha256": "50f32b14a7516fbe3d27997ddffabf1406992ceae1259015f92c9c308d19afb5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FSLY",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FSLY?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:03:59.965581+00:00",
+    "sha256": "a63c7e76c10cb9979fb447d3d5d51b9b8e1bb8e0569c6e7eb0d2ace58b4709a3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FSLY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FSLY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.499056+00:00",
+    "sha256": "a9fa3ddff6533999591b2167279c30f25813f5d44e7075bcf113747ca177388b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MSTR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSTR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.425176+00:00",
+    "sha256": "e8d0ac7a35e767636ff69b19c43229ec9abb4b8c4d1f365ee800933fc26de0a9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "HOOD",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HOOD?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.491170+00:00",
+    "sha256": "fec9997f128e1fad219b351478d277c5c9cac6c6fc702cbc3e4c12ce202886ea",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CIFR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CIFR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.525226+00:00",
+    "sha256": "639ea9509deaaca3f72134cf27886bdf653aa179eefb014151008a4ea343e9ca",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "WULF",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WULF?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.874800+00:00",
+    "sha256": "7e67e6154edebf9f177bd89814a55028d0c07dc6a461b91e93eca2dc63a8cb84",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AFRM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AFRM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.866000+00:00",
+    "sha256": "edaff0a8115c842385ccbee450f79633f5f2d1c69b55dd65352c56354f7cf9ef",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SOFI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOFI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.117402+00:00",
+    "sha256": "296aa469a23454d8e92b232f2e55410b1fb8ff8c1bf0d89d23f7367f9b6e94be",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "UPST",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UPST?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.906158+00:00",
+    "sha256": "37039238b4cc70848da45b9c934c0df7a33fbfbfd42648c6edaeecc0e9f7fc3f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RDDT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RDDT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.999231+00:00",
+    "sha256": "25f0ab71de764178ff6bab43585d69e33ae6680bf17575c1ca457587879e76ec",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RBLX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RBLX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:00.659132+00:00",
+    "sha256": "1944d05953305d7b823294aba75b9ba08bc2bb27d06425bb668278411a5333f7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RBLX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RBLX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.452212+00:00",
+    "sha256": "3a74d9d5c75947f8ad8d3f09939b4e18ecd8e6e432bdb3e14ad870810235a30d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TEM",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TEM?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.007502+00:00",
+    "sha256": "35826aa2dea09b91707c89b421dd04ba1bab872a2a8595339d8defba436c5280",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "TEM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TEM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.439950+00:00",
+    "sha256": "3114a548dd7b7d9ff3a7436edd873e1187407955849ad7611a380a141d70de05",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "DUOL",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DUOL?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.083122+00:00",
+    "sha256": "62fbb8c3525055ac4cf36c84fe19d37c01a9a0eeee6d58b477cebb54986fcfbf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "DUOL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DUOL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.421769+00:00",
+    "sha256": "a6fc9c4fe8e07141adea81038e4c66d9f9859be5b3045768489db1e954a878b5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "HIMS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HIMS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.497597+00:00",
+    "sha256": "5f501f65521062cabc97f67193b453aa25c323f0d0574e7d09aa37a2954c8786",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "IOVA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IOVA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.522520+00:00",
+    "sha256": "f0c68c8f633a321c82e9e232b9674cc1dea13ecf20d71ca9d4dcacc3e45e75ad",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ABCL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ABCL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.549293+00:00",
+    "sha256": "0ccf7c196e71ffababdf45af3adac1cd0a815dc7b79394aede5ed2d92ba926b7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CDNA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CDNA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.795323+00:00",
+    "sha256": "65898d7caf30d0c34f1fcf601fdd9996fa69a84bb6b7d4376a9238016dc8c63c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SMMT",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMMT?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.646408+00:00",
+    "sha256": "c31e07ecd0c29bc6a8d04ef4011f05295d3fab257979e03e7b5a3fee52ca57fe",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SMMT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMMT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.911976+00:00",
+    "sha256": "f21198d0c8efc9bcaf01d05058fef5b26b7c34c929b6c6d13bd1d341811eb62d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VKTX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VKTX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.902526+00:00",
+    "sha256": "7db51c3ba21e0acb67a1583f79b95b2bd02656a7b16bef62a6a640faaf7ac818",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VERA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VERA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.679864+00:00",
+    "sha256": "2f0dc47b1d8310cf11b5e993853a24ecd5b443a2f94412fb4485c80b3476a212",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "VERA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VERA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.919707+00:00",
+    "sha256": "62266c93cc60440da7ab2a19e60daeae17f2848a7a3720177d82c607e8dffbb6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AZO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AZO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:01.914944+00:00",
+    "sha256": "e241567789b9b801593bbf726295716eb90288ab19df370563620f25245c78e1",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AZO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AZO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.000976+00:00",
+    "sha256": "d65137b9de09ba5a3d9a0c4a3654fc72df48487c1e482ec243ef95c405052aea",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "THO",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/THO?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.062338+00:00",
+    "sha256": "77b9b6653de0e95ec2156481812078c882f9a316b1a77ca39d96d081f168e817",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "THO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/THO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.182937+00:00",
+    "sha256": "b17a46d934550000356e43d47aea6afbc74010aa76e3ce14123f7fa7215bc72d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MLKN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MLKN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.164922+00:00",
+    "sha256": "bf2d92a1fcbd9f79cc8fb8848e9ad5f6b13bc23fd559b5b30e3208a7de1c66d9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MLKN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MLKN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.190691+00:00",
+    "sha256": "456e0d1dc187510a894b32222687e1d4b334a7c23784db3469199647d33a65f7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FERG",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FERG?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.129948+00:00",
+    "sha256": "8fd878e30d916c066891bc94c05c7f21949acd9e184431d44eee29060181a0c3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FERG",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FERG?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.475495+00:00",
+    "sha256": "82c7594c1c184b287d24bdbb42e871705363e1e39e2f3f0085640016c94613ab",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KBH",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KBH?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.266371+00:00",
+    "sha256": "3bf554b2862f6b957e45f06b8057e9145244492b2f9c8325907b4af95ccf0343",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KBH",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KBH?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.462236+00:00",
+    "sha256": "c2a54fbfa54989dd33bc8e51d26ac10706997e720d456e50b34d240715e50242",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "COST",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COST?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.707241+00:00",
+    "sha256": "ed91ee5a03c6755df7dabc542eb04f6729151ce82cc939476d8593dfe4a1a1b3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FDX",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FDX?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.430083+00:00",
+    "sha256": "1f2a81033ca3a4739febf4ba1d11b3e8c02982458ccc956ad68eed3c8673d066",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FDX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FDX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.665114+00:00",
+    "sha256": "640c4f0d15dfd74e4f5c7ce6046b723b9ef51213807732b4f23f61ce69d014a4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NKE",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NKE?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.653120+00:00",
+    "sha256": "9d4fb8eae280c0e34e2a15a417044f83080d88845aa3227f2cf20cff3afb112f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NKE",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NKE?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.925235+00:00",
+    "sha256": "99838d5b7db2e2b3129cd3a7ab167f649233c27f102e7f5bf4b8e8398b4f2774",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BABA",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BABA?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.707266+00:00",
+    "sha256": "70c95d0318b2e828b34b43c15483d93879002078fa4cddb0dbfcbad6785965fc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BABA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BABA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.067198+00:00",
+    "sha256": "a22299873359083a39e809075ec808ea5eae2ad1af39863b5d6bcb046f230ddf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PDD",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PDD?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.825063+00:00",
+    "sha256": "a1421ed03baea18714afaf9ba0fe84d6d054a53e490090bd4feba10a94b3bde2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PDD",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PDD?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.058965+00:00",
+    "sha256": "df69b3ffe57999f85c68325a3c501f2b14b91577338457f4d67ddd8ef5a5aba8",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BILI",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BILI?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:02.939382+00:00",
+    "sha256": "b447edebf8e0d321f8b7c86b8c2cb46ec186e0fc230710fce91c2a2b4f4737fa",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BILI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BILI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.118687+00:00",
+    "sha256": "49d622dfb0726bc9805075b04c35c2e9b870a14ffb11f9b1d1c99f3f69dc77c3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SE",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SE?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.107622+00:00",
+    "sha256": "ccbc6b2867b6a29fa933fc79f0aafa4a394c81a0603a30d342c6a35bc4e7114d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SE",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SE?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.316740+00:00",
+    "sha256": "cd160dc7985116b57378a326284472e5a0156675424356c81c723b838f0ccb5a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ATRC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ATRC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.514521+00:00",
+    "sha256": "91e36299113a6acc096403846408e65c3ce4bff63b2db090f682f3ca9989fa9c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "PBF",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PBF?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.507650+00:00",
+    "sha256": "b45baca6e16bf0b60db4c70796c3a7252cc8ad126c1cd2be56b7ba047cfd07e7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MSFT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.996301+00:00",
+    "sha256": "771fbd2715fb8e3acf16cbd04e918f8587de9ea276543168dd9d6530a5125afa",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "META",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.587570+00:00",
+    "sha256": "1cc42eb6577204ace4287d4a9412fb390b17255cb07d54b619e628001bc5bdd2",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "GOOGL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.052678+00:00",
+    "sha256": "ea1a649f5f5259e0017f3fd3fd95a9abf13ec1261b71a5530e2d5c8eabd31cfc",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AMZN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.863947+00:00",
+    "sha256": "2984289ccb2c481ffb0fa30e3b2b79e54cabf3766373d4e9c742103e6128c900",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AAPL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.084936+00:00",
+    "sha256": "d58a13d80d39e2851f55b820aa2e8c60af7b8487dea963fc9cd164ee5950f104",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AKAM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AKAM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:03.996120+00:00",
+    "sha256": "d2c07ac870c4652ce910ae159be27d28a4087de94609cbccfe8ff8da4ed05e81",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "JPM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/JPM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.137708+00:00",
+    "sha256": "ecc1d03a02ded8687e28ed0cd4d2b7452cc2e85ef1c8a80df2cb91f87b14d9db",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LLY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LLY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.504901+00:00",
+    "sha256": "778129d0963703b1778ce0ddc29e45039afffdc56e963e41ea13d1aed71da0d9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ANET",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ANET?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.552057+00:00",
+    "sha256": "c9dda4b24a5976cb6e4e68b983247b6240361100113495e64788bbc01b55cc74",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "DELL",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DELL?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.790424+00:00",
+    "sha256": "eb0bdf21a06df7e16ed119e4260c2de14a42b7c32bc335579e3e94c2e5ff9ad7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SMCI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMCI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.754113+00:00",
+    "sha256": "cd2a3abc192256ee177a1bcfa18f1d1f27bf9acf250bbfe45f96f03e01777572",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "HPE",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HPE?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.577243+00:00",
+    "sha256": "f11b7569e1b8787d72ac3721fa1d8a5ccef6cd257499fc7dfe2050f125b2b14a",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NTNX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NTNX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:04.394352+00:00",
+    "sha256": "c2773d453da118294332bd769c4c1cb37797f551604c67cc3be29f1008e406bd",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RGTI",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RGTI?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.056684+00:00",
+    "sha256": "b5df04ad3a21c6ac14cf86a32d6ba73e5d6739ebf052b60504d2df3b83f04af6",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "IONQ",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IONQ?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.387165+00:00",
+    "sha256": "81e68947c7ff7deb25c965cd6f3912a3b46afc69e4fb5b22977e89d6ea27f37d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "QBTS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QBTS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.101892+00:00",
+    "sha256": "bab90f48fbd2f613626567dc0d4ce847ecdc52bba7f931b304d3aa29ef87f1eb",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "OKLO",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/OKLO?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.112740+00:00",
+    "sha256": "54d8a65b3bc50858308511fad2bcf6101bc172f5de66d0926149ee5050a2995d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SMR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.255704+00:00",
+    "sha256": "a1223a80666a957520de8b9a4307c92154891560664a73a6c96215b26204d95e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LEU",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LEU?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.404542+00:00",
+    "sha256": "f9aea279bdbaa4814a3b0d3b0572e9dd7dc9b156240e8484a0810e9b04ac18d1",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CCJ",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CCJ?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.539146+00:00",
+    "sha256": "0b6eafc2812303ce621b2ff2e2a16165ccbad149e75b75314e0f320d8a47ff4f",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "UEC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UEC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.619719+00:00",
+    "sha256": "2f548454ac4587bf051db3e3ec968ce1f4b9c70ff403a1f18722499bf7e01bc7",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MP",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MP?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.985719+00:00",
+    "sha256": "d6a5d739ff8517fef1f51665b8aa2d1a914d827e13bfca38631f1f63b4147c88",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "LAC",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LAC?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.752713+00:00",
+    "sha256": "867f20f6341b0e24641974cfd469cb81bcd4dc0b0c8a52f5d956812e67c7deba",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "UUUU",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UUUU?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.930706+00:00",
+    "sha256": "9554f2a8bf0b6f42279f08de38c9a5d9c1495a4cae7b5881e6761f13f7dba383",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AVAV",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVAV?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:05.865646+00:00",
+    "sha256": "c8a1549ccabd909ec60f1cd6b3bca8e4fa75845cd04f9c6ab316f501e9f33a2b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "KTOS",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KTOS?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.097917+00:00",
+    "sha256": "d2817fee9b321099f577e958c308db79da6cbf163275002d9269e39c7f2f09b4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "BKSY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BKSY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.246539+00:00",
+    "sha256": "3182f1b6fbe70c3bfcca94fdc36629b43d04e793151d675f0726f89feef696d9",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "JOBY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/JOBY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.673284+00:00",
+    "sha256": "f26d8f04446c33ec759c0f9361c5dead25dc72dcdf73eff1e43913f7a074e3c3",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ACHR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACHR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.452439+00:00",
+    "sha256": "a0ebce059f6dac55a5b4452995f23bfa509aece40fdfee707fc42f1f39cf65b4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RXRX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RXRX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.472378+00:00",
+    "sha256": "8e971ba30d2be4a75ee0eb039ad559a3a050d3b3b3f5fe859cd0d3bccc4c8aa4",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MIRM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MIRM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.308249+00:00",
+    "sha256": "b384cb67ebf02154c143e781b305630b23a1f2c8d2cdb268bba82a6650d51249",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "CRSP",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRSP?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.621629+00:00",
+    "sha256": "98bacfdff8d0b7a11bf8fe7188d15420657a7c8fb1103bec247986ff11828128",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NTLA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NTLA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.655256+00:00",
+    "sha256": "109bf447969b45ab9f8ed64017026c28f6a67f4210cc7dfb651446fe84556361",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "MARA",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MARA?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.841003+00:00",
+    "sha256": "dbfe7d24420806b33e26a7fa6d5723349ed462e7572ac78f657faf8272981c58",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "RIOT",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RIOT?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.997265+00:00",
+    "sha256": "b0dca83fa2fda00ab9d954d192b32addae4e79525cfa005b1ba24cc81906a67e",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "NEM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NEM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:06.965547+00:00",
+    "sha256": "401fff493743ace5004b17180c55833551f4a9bcee4bf2c88909130ab5160d27",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "FCX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FCX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.226256+00:00",
+    "sha256": "fb509c4858395f1c196c592b6ba0d7c8610ebd137c323dbd5d246429884bcaf5",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "XOM",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/XOM?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.191451+00:00",
+    "sha256": "9e82e1a24a466d8152a6c6aa054418d99b7341798978efdc73d7d3075b8084bf",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "OXY",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/OXY?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.182269+00:00",
+    "sha256": "74948e2f64125edc62223f592caae7a456c8290ddd123d86a2293d2bd419d52d",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "AEHR",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AEHR?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.414703+00:00",
+    "sha256": "d11321a68035ffecdb074791c4530f295df91d542eaa71bc2293db1ffc4a0c02",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "POET",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/POET?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.165556+00:00",
+    "sha256": "ffd8c41cf625df110602d37bd5ac3fb763f31a8097517d6a8c795df0c84c4487",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "POET",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/POET?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.556232+00:00",
+    "sha256": "8b0401640e12124f9c0f51b46762370852fc81d37c64cb9e37828cbd38d8d242",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SOUN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOUN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.305444+00:00",
+    "sha256": "63a780b7bd23e653460cd83dd27b97deed08f46c3c0da32d73b7d2d9c4e88011",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SOUN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOUN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.732350+00:00",
+    "sha256": "05b6191ecc702790d19a06d050079f3169ea4b5989bf8ce2d2bdf389af636a09",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ACN",
+    "mode": "daily",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACN?range=10y&interval=1d&events=div%2Csplits",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.398559+00:00",
+    "sha256": "75d7abfa9c875dd061833786a1d230f5a8e73e7ac671597b7e4ea0574711e4af",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "ACN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ACN?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.775454+00:00",
+    "sha256": "ef8adb66307244cfebea4d9d2f0705f847fbf4766dcb270fcebe9c74735cb73c",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "QQQ",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.922440+00:00",
+    "sha256": "ddb60fa1e3cd04258ee5580fb24992eaed43b5270d4edbd6aa7fe6d740ee71ca",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "SOXX",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=60d&interval=5m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:04:07.990953+00:00",
+    "sha256": "d9f3f6985645d90c286fc21c738fcdf783f1f946f3da70da916d21510032b67b",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-initial.json"
+  },
+  {
+    "symbol": "COIN",
+    "mode": "history",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COIN?range=1mo&interval=5m&includePrePost=true",
+    "requested_initial_range": "60d",
+    "fallback_range": "1mo",
+    "reason": "Initial public request422; ordinary shorter supported range, missing history retained",
+    "ok": true,
+    "sha256": "be463ce6c6d2439705a6d07f5e99016e4495ec1c60dde9d310d831fc40e4395e",
+    "fetched_at": "2026-10-01T17:08:40.293770+00:00",
+    "reused_from": "研究记录/2026-10-01-今日买入次日5pct筛选/manifest-retry.json"
+  }
+]

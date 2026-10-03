@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "APLD",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:36:22.817935+00:00",
+    "sha256": "444cdd4b0eeabcc222590689e413c93de7e4bb6d5026e039290324a089e873cd"
+  },
+  {
+    "symbol": "IREN",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:36:22.822222+00:00",
+    "sha256": "3b02983c5f5c3f7657b8bcdbfc77526fbb76989908c66160f7f294675ef056b9"
+  },
+  {
+    "symbol": "QQQ",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:36:22.824287+00:00",
+    "sha256": "0ea821655c5a1f3cb4467e7178501b544626b6af3e51fc21e1412706e70f56b7"
+  }
+]

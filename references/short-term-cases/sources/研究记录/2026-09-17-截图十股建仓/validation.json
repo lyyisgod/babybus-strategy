@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "rising RSI/ATR/volume passed",
+    "falling RSI/ATR/volume passed",
+    "flat RSI/ATR/volume passed",
+    "current high excluded from prior breakout threshold",
+    "18 daily histories end at prior complete session; index unique",
+    "all historical forward endpoints precede snapshot"
+  ],
+  "ohlc_warnings": [],
+  "technical_coverage_symbols": "10/10",
+  "raw_requests": 31
+}

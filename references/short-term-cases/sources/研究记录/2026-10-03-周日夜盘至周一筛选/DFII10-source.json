@@ -1,0 +1,6 @@
+{
+  "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+  "fetched_at": "2026-10-03T18:50:46.061497+00:00",
+  "sha256": "4254decae9c981d312db77336e09b80624cd2aaf0b616c82f14c6fc4bc403407",
+  "pit_verified": false
+}

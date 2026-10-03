@@ -1,0 +1,21 @@
+{
+  "original_source_hashes_verified": 8640,
+  "export_hashes_verified": 714,
+  "case_decisions_and_outcomes_preserved": 38,
+  "linked_original_reports_exist": true,
+  "future_outcomes_not_inferred": true,
+  "offline_price_audit_reproduced": true,
+  "frozen_macro_hashes_unchanged": true,
+  "credential_and_local_path_scan_passed": true,
+  "account_field_and_text_redactions_recorded": true,
+  "code_changes": false,
+  "case_status_counts": {
+    "matured_primary_selection": 16,
+    "pending": 2,
+    "secondary": 15,
+    "missing_entry_quote": 2,
+    "different_horizon": 1,
+    "missed_entry_advice": 1,
+    "original_not_located": 1
+  }
+}

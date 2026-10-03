@@ -1,0 +1,246 @@
+{
+  "purpose": "Endpoint censoring audit; not re-optimization. Open trades not counted as successes.",
+  "results": [
+    {
+      "symbol": "AMAT",
+      "completed": {
+        "n": 17,
+        "wins": 11,
+        "win": 0.6470588235294118,
+        "mean": 0.01938963387901807,
+        "median": 0.06025662685878763,
+        "pf": 1.5197938864405376,
+        "mean_win": 0.08761518268407507,
+        "mean_loss": -0.10569053893025311,
+        "win_loss_ratio": 0.8289784835130204,
+        "win_ci95": [
+          0.41300363485218694,
+          0.8269027960275627
+        ],
+        "max_trade_loss": -0.15927602603751934,
+        "closed_trade_equity_max_drawdown": -0.2200546032432954,
+        "median_hold": 7.0,
+        "target_count": 11,
+        "stop_count": 6,
+        "family_adjusted_win_lower": 0.4130036348521871,
+        "mean_return_block_ci95": [
+          -0.018965707951149605,
+          0.053984090835992454
+        ],
+        "open_trade_count": 1,
+        "win_fraction_if_open_all_lose": 0.6111111111111112,
+        "accepted": false,
+        "last5": {
+          "n": 5,
+          "wins": 3,
+          "win": 0.6,
+          "mean": 0.01615525790841561,
+          "median": 0.07570959421288426,
+          "pf": 1.2673672662323756,
+          "mean_win": 0.12763121267104194,
+          "mean_loss": -0.15105867423552388,
+          "win_loss_ratio": 0.8449115108215838,
+          "win_ci95": [
+            0.2307242812760128,
+            0.882379225767352
+          ],
+          "max_trade_loss": -0.15927602603751934,
+          "closed_trade_equity_max_drawdown": -0.15927602603751934,
+          "median_hold": 10.0,
+          "target_count": 3,
+          "stop_count": 2
+        }
+      },
+      "pending": [
+        {
+          "symbol": "AMAT",
+          "signal": "2026-09-14",
+          "entry_date": "2026-09-15",
+          "entry": 421.1700134277344,
+          "atr": 22.49811914333173,
+          "hold": 1,
+          "asof": "2026-09-16",
+          "marked_return": -0.015747437757496763,
+          "stop": 376.1737751410709,
+          "target": 466.16625171439784
+        }
+      ],
+      "recent_closed": [
+        {
+          "symbol": "AMAT",
+          "signal": "2026-04-16",
+          "entry_date": "2026-04-17",
+          "entry": 396.94000244140625,
+          "atr": 15.423023258291503,
+          "hold": 13,
+          "exit_date": "2026-05-06",
+          "exit": 427.78604895798924,
+          "ret": 0.07570959421288426,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAT",
+          "signal": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "entry": 406.9100036621094,
+          "atr": 18.755076634682595,
+          "hold": 4,
+          "exit_date": "2026-05-26",
+          "exit": 444.739990234375,
+          "ret": 0.09096892735937501,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "AMAT",
+          "signal": "2026-07-02",
+          "entry_date": "2026-07-06",
+          "entry": 592.7899780273438,
+          "atr": 46.615826009504545,
+          "hold": 15,
+          "exit_date": "2026-07-27",
+          "exit": 499.5583260083347,
+          "ret": -0.15927602603751934,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAT",
+          "signal": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "entry": 436.45001220703125,
+          "atr": 42.619506222328894,
+          "hold": 2,
+          "exit_date": "2026-07-31",
+          "exit": 531.6900024414062,
+          "ret": 0.21621511644086655,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "AMAT",
+          "signal": "2026-08-19",
+          "entry_date": "2026-08-20",
+          "entry": 496.2099914550781,
+          "atr": 34.94343570063151,
+          "hold": 10,
+          "exit_date": "2026-09-03",
+          "exit": 426.3231200538151,
+          "ret": -0.14284132243352843,
+          "reason": "stop"
+        }
+      ]
+    },
+    {
+      "symbol": "LRCX",
+      "completed": {
+        "n": 20,
+        "wins": 14,
+        "win": 0.7,
+        "mean": 0.03295885967397571,
+        "median": 0.0613488295573128,
+        "pf": 2.0434701507492874,
+        "mean_win": 0.09220668431351901,
+        "mean_loss": -0.10528606448495868,
+        "win_loss_ratio": 0.8757729217496946,
+        "win_ci95": [
+          0.4810271816464765,
+          0.8545227551323956
+        ],
+        "max_trade_loss": -0.16705369312554186,
+        "closed_trade_equity_max_drawdown": -0.16705369312554186,
+        "median_hold": 6.5,
+        "target_count": 14,
+        "stop_count": 6,
+        "family_adjusted_win_lower": 0.4810271816464765,
+        "mean_return_block_ci95": [
+          0.0045549193995510565,
+          0.061394293480763334
+        ],
+        "open_trade_count": 0,
+        "win_fraction_if_open_all_lose": 0.7,
+        "accepted": false,
+        "last5": {
+          "n": 5,
+          "wins": 3,
+          "win": 0.6,
+          "mean": 0.028996618216367898,
+          "median": 0.09611805287186592,
+          "pf": 1.4669464756459807,
+          "mean_win": 0.151824991787718,
+          "mean_loss": -0.15524594214065723,
+          "win_loss_ratio": 0.9779643170973206,
+          "win_ci95": [
+            0.2307242812760128,
+            0.882379225767352
+          ],
+          "max_trade_loss": -0.16705369312554186,
+          "closed_trade_equity_max_drawdown": -0.16705369312554175,
+          "median_hold": 4.0,
+          "target_count": 3,
+          "stop_count": 2
+        }
+      },
+      "pending": [],
+      "recent_closed": [
+        {
+          "symbol": "LRCX",
+          "signal": "2026-04-28",
+          "entry_date": "2026-04-29",
+          "entry": 248.75,
+          "atr": 12.203432825938341,
+          "hold": 4,
+          "exit_date": "2026-05-05",
+          "exit": 273.15686565187667,
+          "ret": 0.09611805287186592,
+          "reason": "target"
+        },
+        {
+          "symbol": "LRCX",
+          "signal": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "entry": 273.3800048828125,
+          "atr": 13.949648649386035,
+          "hold": 2,
+          "exit_date": "2026-05-21",
+          "exit": 301.27930218158457,
+          "ret": 0.10005317433779193,
+          "reason": "target"
+        },
+        {
+          "symbol": "LRCX",
+          "signal": "2026-07-02",
+          "entry_date": "2026-07-06",
+          "entry": 350.20001220703125,
+          "atr": 28.900902673690176,
+          "hold": 15,
+          "exit_date": "2026-07-27",
+          "exit": 292.3982068596509,
+          "ret": -0.16705369312554186,
+          "reason": "stop"
+        },
+        {
+          "symbol": "LRCX",
+          "signal": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "entry": 252.35000610351562,
+          "atr": 24.87656656623067,
+          "hold": 1,
+          "exit_date": "2026-07-30",
+          "exit": 318.2900085449219,
+          "ret": 0.2593037481534961,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "LRCX",
+          "signal": "2026-08-19",
+          "entry_date": "2026-08-20",
+          "entry": 310.5299987792969,
+          "atr": 21.960400663474026,
+          "hold": 17,
+          "exit_date": "2026-09-15",
+          "exit": 266.60919745234884,
+          "ret": -0.1434381911557726,
+          "reason": "stop"
+        }
+      ]
+    }
+  ]
+}

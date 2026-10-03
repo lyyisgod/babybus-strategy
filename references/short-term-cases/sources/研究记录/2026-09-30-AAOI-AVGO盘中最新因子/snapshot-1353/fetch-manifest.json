@@ -1,0 +1,119 @@
+{
+  "AAOI-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:56.069192+00:00",
+    "status": "ok",
+    "bytes": 268316,
+    "price": 98.92,
+    "quote_time": 1790790834,
+    "previousClose": null
+  },
+  "AVGO-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:55.992879+00:00",
+    "status": "ok",
+    "bytes": 279634,
+    "price": 353.43,
+    "quote_time": 1790790834,
+    "previousClose": null
+  },
+  "QQQ-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:56.064801+00:00",
+    "status": "ok",
+    "bytes": 277482,
+    "price": 743.8,
+    "quote_time": 1790790835,
+    "previousClose": null
+  },
+  "SMH-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMH?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:56.050712+00:00",
+    "status": "ok",
+    "bytes": 274074,
+    "price": 609.175,
+    "quote_time": 1790790832,
+    "previousClose": null
+  },
+  "SOXX-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:56.023925+00:00",
+    "status": "ok",
+    "bytes": 277602,
+    "price": 567.445,
+    "quote_time": 1790790834,
+    "previousClose": null
+  },
+  "COHR-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:55.966464+00:00",
+    "status": "ok",
+    "bytes": 261712,
+    "price": 285.74,
+    "quote_time": 1790790835,
+    "previousClose": null
+  },
+  "LITE-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=10y&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-09-30T17:53:56.059382+00:00",
+    "status": "ok",
+    "bytes": 258064,
+    "price": 966.98,
+    "quote_time": 1790790835,
+    "previousClose": null
+  },
+  "AAOI-live": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "retrieved_at": "2026-09-30T17:53:55.936744+00:00",
+    "status": "ok",
+    "bytes": 33675,
+    "price": 98.92,
+    "quote_time": 1790790834,
+    "previousClose": 100.67
+  },
+  "AAOI-options": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/AAOI.json",
+    "retrieved_at": "2026-09-30T17:53:56.476868+00:00",
+    "status": "ok",
+    "bytes": 640474
+  },
+  "AVGO-live": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=1d&interval=1m&includePrePost=true",
+    "retrieved_at": "2026-09-30T17:53:56.313411+00:00",
+    "status": "ok",
+    "bytes": 38544,
+    "price": 353.43,
+    "quote_time": 1790790834,
+    "previousClose": 355.1
+  },
+  "AVGO-options": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/AVGO.json",
+    "retrieved_at": "2026-09-30T17:53:56.446617+00:00",
+    "status": "ok",
+    "bytes": 1412612
+  },
+  "DFII10": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=DFII10&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.036274+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "BAMLH0A0HYM2": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.063641+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "DCOILBRENTEU": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=DCOILBRENTEU&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.063893+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "CPILFESL": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=CPILFESL&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.067737+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  }
+}

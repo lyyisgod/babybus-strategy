@@ -1,0 +1,13 @@
+{
+  "price": 298.639,
+  "quote_at": "2026-09-25T14:19:32-04:00",
+  "previous_close": 290.6099853515625,
+  "change_pct": 2.7628144431184998,
+  "vwap_1m_proxy": 295.58894925580734,
+  "stop_if_filled_at_reference": 256.9513528911957,
+  "target_if_filled_at_reference": 340.3266471088043,
+  "risk_pct": 13.959210655274195,
+  "hard_entry_ceiling": 301.03,
+  "quote_field_warning": "fulldayChange/fulldayChangePercent disagree with regular price; ignored, change recomputed against official daily previous close",
+  "bid_ask": null
+}

@@ -1,0 +1,39 @@
+{
+  "frozen_at": "2026-09-30T13:22:43.770005+00:00",
+  "before_historical_result_inspection": true,
+  "selection": [
+    "CIFR",
+    "FSLY",
+    "AEHR",
+    "VKTX",
+    "SMR",
+    "AAOI",
+    "MDB",
+    "BE",
+    "WULF",
+    "NBIS",
+    "LUNR",
+    "RCAT"
+  ],
+  "additional_strategy_contrasts": [
+    "HOOD",
+    "MSTR",
+    "NVTS",
+    "JBL",
+    "AVGO"
+  ],
+  "contrast_reason": "HOOD/MSTR satisfy previous-close LRCX core; NVTS known program catalyst; JBL current earnings release; AVGO existing holding; kept separate from frozen top12 screen selection",
+  "classifier_features": [
+    "premarket return",
+    "premarket relative to QQQ",
+    "previous14day simple ATR/close",
+    "previous3day return"
+  ],
+  "classifier": "standardized logistic C0.5, no tuning",
+  "min_training_market_dates": 25,
+  "target": "gross+5.2% in regular hours before -3% stop after9:20; .2% roundtrip cost assumption",
+  "current_snapshot": "completed09:15 bar at09:20",
+  "counterfactual_prices": "not actual executable bid/ask",
+  "unseen_audit": false,
+  "high_win_rate_certification": false
+}

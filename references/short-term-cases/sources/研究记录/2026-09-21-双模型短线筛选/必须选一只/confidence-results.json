@@ -1,0 +1,462 @@
+{
+  "protocol": {
+    "asof": "2026-09-21T12:56:30.177344+00:00",
+    "objective": "Forced one-name comparison of frozen next-day +5% target, not reversal of original no-buy decision",
+    "bootstrap_replicates": 120,
+    "seed": 9212026,
+    "resampling": "Calendar-month blocks, all stocks jointly, training <=2022 only; same fixed train feature scaling and ridge 0.01",
+    "comparison": "All 49 current stocks. No changes to model labels, weights or shortlist based on bootstrap output.",
+    "limitations": "Conditional fitting uncertainty only: excludes calibration error, new information, model misspecification and survivor universe. First-place frequency is not trade success probability."
+  },
+  "train_rows": 53460,
+  "month_blocks": 73,
+  "rows": [
+    {
+      "symbol": "VICR",
+      "point_output": 0.18838095912998645,
+      "conditional_bootstrap95": [
+        0.15489006995915988,
+        0.21091784552023005
+      ],
+      "first_place_fraction": 0.7416666666666667
+    },
+    {
+      "symbol": "BE",
+      "point_output": 0.16898106576232372,
+      "conditional_bootstrap95": [
+        0.13784905941091286,
+        0.1962576657572871
+      ],
+      "first_place_fraction": 0.14166666666666666
+    },
+    {
+      "symbol": "ALAB",
+      "point_output": 0.1615065755837842,
+      "conditional_bootstrap95": [
+        0.1311923436496316,
+        0.1792570923748694
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "MSTR",
+      "point_output": 0.15824988478799812,
+      "conditional_bootstrap95": [
+        0.13307302026638976,
+        0.18723931524348544
+      ],
+      "first_place_fraction": 0.10833333333333334
+    },
+    {
+      "symbol": "AAOI",
+      "point_output": 0.15702690806555278,
+      "conditional_bootstrap95": [
+        0.13436892728401692,
+        0.1773992660534939
+      ],
+      "first_place_fraction": 0.008333333333333333
+    },
+    {
+      "symbol": "COHR",
+      "point_output": 0.14650059224843104,
+      "conditional_bootstrap95": [
+        0.1244488175842084,
+        0.1620631897052128
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "SNDK",
+      "point_output": 0.14638983303669237,
+      "conditional_bootstrap95": [
+        0.12464916568730891,
+        0.16086069973951855
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CRDO",
+      "point_output": 0.1400390633903238,
+      "conditional_bootstrap95": [
+        0.11896158673283376,
+        0.15966178815563956
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "SMTC",
+      "point_output": 0.13748214517544763,
+      "conditional_bootstrap95": [
+        0.1089659881169709,
+        0.15627366129174677
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "ASTS",
+      "point_output": 0.1360110568071571,
+      "conditional_bootstrap95": [
+        0.11833649272803225,
+        0.14934266862638856
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CIEN",
+      "point_output": 0.1325461749367621,
+      "conditional_bootstrap95": [
+        0.11738482198471187,
+        0.14664067972714862
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "ONTO",
+      "point_output": 0.12316280796242839,
+      "conditional_bootstrap95": [
+        0.10806163555851105,
+        0.1378293343110494
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "NBIS",
+      "point_output": 0.12232369647363224,
+      "conditional_bootstrap95": [
+        0.10402705040111941,
+        0.13739534754819233
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "LITE",
+      "point_output": 0.12117129151544515,
+      "conditional_bootstrap95": [
+        0.10596976981292015,
+        0.13368906786151094
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "COIN",
+      "point_output": 0.12019040867643929,
+      "conditional_bootstrap95": [
+        0.1036254241802392,
+        0.13835471295540944
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "WDC",
+      "point_output": 0.11978540461571613,
+      "conditional_bootstrap95": [
+        0.10504230044984482,
+        0.1320380619832007
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "HOOD",
+      "point_output": 0.11370567835890939,
+      "conditional_bootstrap95": [
+        0.10142861716373827,
+        0.1259120754508895
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CRWV",
+      "point_output": 0.1128559109667293,
+      "conditional_bootstrap95": [
+        0.09650564617727289,
+        0.12943516275594005
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "FN",
+      "point_output": 0.11210903250199117,
+      "conditional_bootstrap95": [
+        0.09761278473597942,
+        0.1287479402294904
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "INTC",
+      "point_output": 0.11174734860651081,
+      "conditional_bootstrap95": [
+        0.09192293267604505,
+        0.12611286974398261
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "RKLB",
+      "point_output": 0.10847055066351152,
+      "conditional_bootstrap95": [
+        0.09154952342476293,
+        0.12339123513255457
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "IREN",
+      "point_output": 0.10617307873897347,
+      "conditional_bootstrap95": [
+        0.09112719509296474,
+        0.1193977429989026
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "ABCL",
+      "point_output": 0.10399541534208204,
+      "conditional_bootstrap95": [
+        0.08218112740408623,
+        0.13136839094576092
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "LRCX",
+      "point_output": 0.10234566610913083,
+      "conditional_bootstrap95": [
+        0.0897749593200411,
+        0.11353263022397739
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CLS",
+      "point_output": 0.10226482899054476,
+      "conditional_bootstrap95": [
+        0.08913789994458261,
+        0.11470474798392083
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "TER",
+      "point_output": 0.10225234812441975,
+      "conditional_bootstrap95": [
+        0.08792780302899059,
+        0.11290542961593701
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "STX",
+      "point_output": 0.10050739456399237,
+      "conditional_bootstrap95": [
+        0.08894377188211963,
+        0.11310038975069554
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "KLAC",
+      "point_output": 0.0985887132845561,
+      "conditional_bootstrap95": [
+        0.08421498675897898,
+        0.11171239122218563
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "ATRC",
+      "point_output": 0.09639395615869495,
+      "conditional_bootstrap95": [
+        0.07574851146978419,
+        0.12175004866525156
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "IOVA",
+      "point_output": 0.09454375436557962,
+      "conditional_bootstrap95": [
+        0.07071629312125406,
+        0.124737136173352
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "MRVL",
+      "point_output": 0.09421066553787417,
+      "conditional_bootstrap95": [
+        0.07691764497372341,
+        0.10658453051873013
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "AMAT",
+      "point_output": 0.09383121391571136,
+      "conditional_bootstrap95": [
+        0.08175136839694136,
+        0.10582655686383309
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "VRT",
+      "point_output": 0.09315397986103015,
+      "conditional_bootstrap95": [
+        0.08191784298177188,
+        0.1027803791098296
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "PBF",
+      "point_output": 0.09041750073073797,
+      "conditional_bootstrap95": [
+        0.07836687335584325,
+        0.1035896578524949
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CAMT",
+      "point_output": 0.08022514723712021,
+      "conditional_bootstrap95": [
+        0.06960702620932532,
+        0.08874528953727075
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "TEAM",
+      "point_output": 0.08002967039931469,
+      "conditional_bootstrap95": [
+        0.06638546200103077,
+        0.09681819794417601
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "AMPL",
+      "point_output": 0.07938987431999149,
+      "conditional_bootstrap95": [
+        0.07022848026326745,
+        0.09081040933365934
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "MU",
+      "point_output": 0.07866443569362133,
+      "conditional_bootstrap95": [
+        0.06680174952117567,
+        0.08655698893392016
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "RNG",
+      "point_output": 0.07695625653148863,
+      "conditional_bootstrap95": [
+        0.06638754672633781,
+        0.09242475108545421
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "GEV",
+      "point_output": 0.07506452824943739,
+      "conditional_bootstrap95": [
+        0.0672558751823623,
+        0.08326879757600286
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "AMD",
+      "point_output": 0.06895612666701317,
+      "conditional_bootstrap95": [
+        0.05813030913309843,
+        0.07616482544183217
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CDNA",
+      "point_output": 0.06438331164254668,
+      "conditional_bootstrap95": [
+        0.05412698756870579,
+        0.07518021548527822
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "CEG",
+      "point_output": 0.06420210514658267,
+      "conditional_bootstrap95": [
+        0.05421781879157845,
+        0.07550639484475254
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "VST",
+      "point_output": 0.06373757382917108,
+      "conditional_bootstrap95": [
+        0.05266844494166711,
+        0.07471010033710834
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "AVGO",
+      "point_output": 0.05964180397357119,
+      "conditional_bootstrap95": [
+        0.05341982896139901,
+        0.0674613356466018
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "ETN",
+      "point_output": 0.05780246208305992,
+      "conditional_bootstrap95": [
+        0.05053475436611889,
+        0.06398899684107923
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "PLTR",
+      "point_output": 0.055489801784006546,
+      "conditional_bootstrap95": [
+        0.04913830571382984,
+        0.06195807027973697
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "NVDA",
+      "point_output": 0.044525280253885864,
+      "conditional_bootstrap95": [
+        0.039645635239550045,
+        0.04882199479905485
+      ],
+      "first_place_fraction": 0.0
+    },
+    {
+      "symbol": "TSM",
+      "point_output": 0.042677412350727646,
+      "conditional_bootstrap95": [
+        0.03710670719994654,
+        0.046708962073371045
+      ],
+      "first_place_fraction": 0.0
+    }
+  ],
+  "leader_vs_runner_difference95": [
+    -0.010500721649894148,
+    0.05020413149001502
+  ],
+  "leader_vs_runner_fraction": 0.8416666666666667,
+  "checks": "original point outputs reproduced; all 120 weighted fits converged; no current outcomes used"
+}

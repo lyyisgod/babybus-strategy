@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "frozen_at": "2026-10-01T16:05:18.563384+00:00",
+  "prior_versions_preserved": true,
+  "cutoff": "2026-09-29",
+  "today_outcome_known": true,
+  "untouched_audit": false,
+  "core": [
+    "return20",
+    "distance_ma200",
+    "ATR14/close",
+    "relative_return20_QQQ",
+    "volume_ratio5_20"
+  ],
+  "new_factors": [
+    "w_active",
+    "support_distance_ATR",
+    "neckline_headroom_ATR",
+    "bottom_symmetry_ATR",
+    "volume_pressure5",
+    "relative_return20_optical"
+  ],
+  "structure": "causal 60-bar replay of v2 valley discovery; retain latest right valley up to20 sessions until support breached; report provisional/confirmed/breakout separately; no neckline buy gate",
+  "optical_basket": [
+    "COHR",
+    "LITE"
+  ],
+  "pressure": "5-day signed close-location weighted volume; proxy, not institutional flows",
+  "intraday": "completed minutes; 30m relative volume against median of preceding20 sessions at same six completed5m slots; stale>180sec and missing-bar coverage<80% explicit unavailable",
+  "label": "next regular open; 10 sessions; stop ratio93/97.538, target110/97.538; gap at actualopen, samebar both stopfirst; .2% roundtrip cost; netpositive binary and netreturn separate",
+  "evaluation": "original85 nonoverlapping daily signal dates; mature labels through2026-09-29; only prior labels exiting before query allowed; no intraday certification",
+  "variants": [
+    "fixed core",
+    "fixed core plus six v3 factors"
+  ],
+  "model": "train-only median/IQR clip5; ridge linear-probability lambda100; intercept unpenalized; probabilities clipped[0,1]; no tuning/calibration/selection",
+  "benchmark": "expanding mature training mean outcome",
+  "claim": "exploratory historical ablation; no certified current probability; deployment directionweight0 until independent audit; factor absence never automatically no-buy",
+  "future_audit": "signals strictly after freeze, mature10-session outcomes; append-only, no retuning on those outcomes"
+}

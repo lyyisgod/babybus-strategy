@@ -1,0 +1,70 @@
+{
+  "status": "model_abstains",
+  "forecast_interpretation_weight": 0,
+  "certified_current_probability": null,
+  "standalone_buy_veto": false,
+  "standalone_buy_approval": false,
+  "relative_speculative_first": "COHR",
+  "alternatives": [
+    "LITE",
+    "AAOI"
+  ],
+  "choice_basis": "current price/volume/trend and source-verified PhotonLink commercial ramp; no classifier direction or success probability",
+  "absolute_high_probability_validation": false,
+  "classifier_evidence": {
+    "independent_nonoverlap_signals": 15,
+    "all_signal_dates": 38,
+    "training_rows": 5216,
+    "first_signal": "2026-08-06",
+    "last_mature_signal": "2026-09-29",
+    "hit5_rate_descriptive": 0.13333333333333333,
+    "firstwin_rate_descriptive": 0.13333333333333333,
+    "close5_rate_descriptive": 0.06666666666666667,
+    "down3_rate_descriptive": 0.6666666666666666,
+    "selected_net_mean": -0.02498210644639609,
+    "selected_net_mean_ci95": [
+      -0.03677485377725679,
+      -0.013515947758967101
+    ],
+    "selected_hit5_ci95": [
+      0.0,
+      0.26666666666666666
+    ],
+    "same_date_pool_hit5": 0.13109367499380656,
+    "same_date_pool_net": -0.008746149156584703,
+    "simple_highest_rv20_hit5": 0.0,
+    "simple_highest_rv20_net": -0.028841644634867047,
+    "model_minus_simple_net_ci95": [
+      -0.004321487542905859,
+      0.012045632145631369
+    ],
+    "model_minus_pool_net_ci95": [
+      -0.02635938455810304,
+      -0.006573677515188614
+    ],
+    "brier_daily_mean": 0.11594481453978514,
+    "baseline_brier_daily_mean": 0.12020974835603165,
+    "double_cost_selected_net": -0.026982106446396092,
+    "adverse_entry25bp_selected_net": -0.027109685359004234,
+    "not_untouched_audit": true,
+    "universe_survivorship_bias": true,
+    "certification_pass": false,
+    "probability_scope": "Historical14:25open proxy; no executable-spread/available_at event history. Few independent dates; numbers descriptive, not current-stock winrates."
+  },
+  "not_whole_market": "150 saved attention names, current factors complete112 and liquid109; missing candidates retained",
+  "unknown": [
+    "point-in-time historical pool including delisted",
+    "untouched audit",
+    "actual executable bid/ask",
+    "historic available_at events",
+    "current EPS revision series/options/institutional flow"
+  ],
+  "prior_trials": "13:15 same date; coverage repairs archived; this clock shift does not supply independent audit",
+  "actual_user_buy": "unknown",
+  "tomorrow_outcome": "pending",
+  "no_orders": true,
+  "publication_quote_at": "2026-10-01T14:33:03-04:00",
+  "reference_price": 317.14,
+  "entry_cap": 318.73,
+  "price_volume_gate": true
+}

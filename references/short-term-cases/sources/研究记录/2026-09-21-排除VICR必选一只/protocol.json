@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-21",
+  "prediction_session": "2026-09-22",
+  "frozen_before_first_run": false,
+  "universe": "NVDA AVGO AMD MU SNDK MRVL ALAB TSM WDC STX CRDO LITE COHR AAOI AMAT LRCX KLAC ONTO CAMT TER SMTC VICR INTC CIEN ARM QCOM ASML MPWR MTSI ACMR TSEM NVTS CLS FN VRT NBIS CRWV IREN BE GEV ETN CEG VST KGS RKLB ASTS LUNR RDW PL RCAT ONDS UMAC PLTR ORCL WDAY CRM NOW SNOW DDOG NET CRWD PANW ZS S MDB RBRK APP SHOP TEAM AMPL RNG PATH TWLO FSLY MSTR COIN HOOD CIFR WULF AFRM SOFI UPST RDDT RBLX TEM DUOL HIMS IOVA ABCL CDNA SMMT VKTX VERA AZO THO MLKN FERG KBH COST FDX NKE BABA PDD BILI SE",
+  "proxies": "SPY QQQ IWM SMH IGV XBI JNK TLT ^VIX ^TNX BZ=F NQ=F ES=F",
+  "scope": "Purposive liquid/high-attention US-listed survivors; not the whole market and not historical point-in-time membership",
+  "features": "Completed daily price-volume and market variables, no future-open inputs; current fundamental/event review kept separate",
+  "targets": {
+    "hit5": "next regular-session high / next regular-session open - 1 >= 5%",
+    "hit10": "next regular-session high / next regular-session open - 1 >= 10%",
+    "close3": "next regular-session close / open - 1 - 0.2% >= 3%",
+    "down3": "next regular-session low / open - 1 <= -3%"
+  },
+  "not_target": "High versus prior close is reported only as gap-including diagnostic. No historical after-hours fills available: do not call next-open predictions after-hours trade probabilities. High touch does not guarantee realized profit and may occur after a stop loss.",
+  "train": "2016-2022, outcomes mature before 2023",
+  "calibration": "2023-2024, outcomes mature before 2025",
+  "evaluation": "2025 through latest mature outcome; retrospective temporal evaluation, not virgin untouched holdout",
+  "model_a": "Standardized ridge logistic, penalty .01, features clipped at 8 train standard deviations; Platt calibration on 2023-2024",
+  "model_b": "Fixed nonlinear ridge logistic, penalty .03; base features plus squared standardized features and fixed interactions: ret1*volume_ratio, range_position*volume_ratio, ret1*QQQ_r1, atr_pct*VIX_level, ret20*rs20. Platt calibration on 2023-2024.",
+  "ensemble": "Equal average calibrated probabilities; no best-model cherry-pick",
+  "liquidity_filter": "Signal close >=5 USD and prior20 average traded dollar volume >=50m USD",
+  "selection": "Rank by ensemble hit5; report hit10, close3 and down3 jointly. Event/financial quality and current after-hours entry premium independently reviewed, not forged into probability. Compare historical daily top1 to same-day pool baseline and fixed volatility ranking.",
+  "confidence": "Calibration bins and chronological daily top1 hit rate; 5-session date-block bootstrap for selected event hit rate and close-to-open net return. 95% confidence interval is historical frequency uncertainty, not confidence of any one forecast.",
+  "entry_overlay": "Current after-hours quote with timestamp; no live spread or overnight venue access assumed; no chasing >1% above quoted reference or >0.2 ATR without fresh reassessment. Trading plans are analyst overlay, not model-tested fill strategy.",
+  "limitations": [
+    "survivorship and universe selection bias",
+    "news/EPS/options point-in-time histories unavailable",
+    "no market depth/borrow-cost/overnight broker quote feed",
+    "IPO stock regimes sparse",
+    "pooled cross-stock outcomes correlated",
+    "no trade execution"
+  ],
+  "implementation_note": "sklearn unavailable in local runtime; model B changed to explicit nonlinear logistic before any model outcomes were computed. Both models are related estimators, not independent evidence.",
+  "correctness_revision": "Before publication, numerical audit required damped Newton with logaddexp line search and convergence checks; BZ futures return shifted one full vendor session to avoid an unfinished current day; ineligible names remain diagnostic only.",
+  "amended_at": "2026-09-21T21:08:21.423716+00:00",
+  "parent_run": "研究记录/2026-09-21-隔夜至次日爆发",
+  "retraining": false,
+  "explicit_exclusion": [
+    "VICR"
+  ],
+  "entry_overlay_revised": "Human overlay after seeing technical ranking: user excludes VICR and wants remaining upside. Exclude regular-day gains >=10% or latest after-hours gains >=5%; latest vendor quote must be <=15 minutes old and regular close must be today. This overlay is not independently backtested; no probabilities revised by it. Keep original ranking for audit.",
+  "decision_priority": "After eligibility and no-chase overlay, rank existing calibrated hit5; verify fundamentals and news independently. AAOI/CRDO absence of next-day hard catalyst prevents high-confidence statement; no new numerical event weights.",
+  "quote_policy": "Refresh all existing universe stocks plus QQQ and SMH. Disallow stale quote candidates for immediate entry shortlist."
+}

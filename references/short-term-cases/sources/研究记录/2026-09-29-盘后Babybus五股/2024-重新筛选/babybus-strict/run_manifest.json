@@ -1,0 +1,106 @@
+{
+  "as_of": "2026-09-30T00:33:46.854527+00:00",
+  "last": "2026-09-29 00:00:00",
+  "errors": {
+    "THO": "OHLCV 不合法",
+    "CL=F": "OHLCV 不合法"
+  },
+  "source_manifest": "bb-raw/manifest.json",
+  "trim": "2021 onward for existing calendar; no change to stored raw data",
+  "universe": {
+    "scope": "预先固定的AI基础设施研究候选池，含核仓/周期负对照；不是完整美股含退市证券库",
+    "effective_from": "2026-09-17",
+    "securities": [
+      {
+        "ticker": "CRWV",
+        "company_type": "infra_growth",
+        "theme": "neocloud",
+        "verified": true,
+        "ipo_date": "2025-03-28",
+        "source": "https://investors.coreweave.com/overview/default.aspx"
+      },
+      {
+        "ticker": "CBRS",
+        "company_type": "infra_growth",
+        "theme": "ai_chip",
+        "verified": true,
+        "ipo_date": "2026-05-14",
+        "ipo_price": 185,
+        "source": "https://investors.cerebras.ai/shareholder-services/investor-faqs"
+      },
+      {
+        "ticker": "NBIS",
+        "company_type": "infra_growth",
+        "theme": "neocloud",
+        "verified": true,
+        "source": "https://nebius.com/investor-hub"
+      },
+      {
+        "ticker": "IREN",
+        "company_type": "infra_growth",
+        "theme": "neocloud",
+        "verified": false
+      },
+      {
+        "ticker": "APLD",
+        "company_type": "infra_growth",
+        "theme": "neocloud",
+        "verified": false
+      },
+      {
+        "ticker": "ALAB",
+        "company_type": "infra_growth",
+        "theme": "optical",
+        "verified": false
+      },
+      {
+        "ticker": "CRDO",
+        "company_type": "infra_growth",
+        "theme": "optical",
+        "verified": false
+      },
+      {
+        "ticker": "LITE",
+        "company_type": "infra_growth",
+        "theme": "optical",
+        "verified": false
+      },
+      {
+        "ticker": "COHR",
+        "company_type": "hybrid_cyclical",
+        "theme": "optical",
+        "verified": false
+      },
+      {
+        "ticker": "OKLO",
+        "company_type": "infra_growth",
+        "theme": "nuclear",
+        "verified": false
+      },
+      {
+        "ticker": "SMR",
+        "company_type": "infra_growth",
+        "theme": "nuclear",
+        "verified": false
+      },
+      {
+        "ticker": "VRT",
+        "company_type": "infra_growth",
+        "theme": "power_equipment",
+        "verified": false
+      },
+      {
+        "ticker": "AVGO",
+        "company_type": "core",
+        "theme": "ai_chip",
+        "verified": true
+      },
+      {
+        "ticker": "MU",
+        "company_type": "cyclical",
+        "theme": "memory",
+        "verified": true
+      }
+    ]
+  }
+}

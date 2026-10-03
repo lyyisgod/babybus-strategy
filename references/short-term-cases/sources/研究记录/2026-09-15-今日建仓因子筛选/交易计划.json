@@ -1,0 +1,78 @@
+[
+  {
+    "symbol": "XOM",
+    "entry_low": 167.8,
+    "entry_high": 168.5,
+    "stop": 164.5,
+    "targets": [
+      175.5,
+      179.0
+    ],
+    "condition": "回踩167.8–168.5后，三根完整5分钟K线收回更新后的VWAP；不追169.6上方；放量收盘突破169.65后再复核加仓",
+    "interpretation": "priority conditional pullback; oil reversal risk",
+    "reference_entry": 168.15,
+    "risk_pct": 2.170680939637232,
+    "target_R": [
+      2.0136986301369815,
+      2.972602739726021
+    ],
+    "target_note": "XOM/CVX/CRWD levels are planned reward scenarios, not model price forecasts. TSLA targets are historical highs."
+  },
+  {
+    "symbol": "CVX",
+    "entry_low": 215.0,
+    "entry_high": 216.0,
+    "stop": 211.8,
+    "targets": [
+      223.0,
+      228.0
+    ],
+    "condition": "XOM替代：回踩215–216后重回VWAP；217.65为上方近期阻力。与XOM二选一",
+    "interpretation": "same energy exposure, not diversification",
+    "reference_entry": 215.5,
+    "risk_pct": 1.7169373549883937,
+    "target_R": [
+      2.0270270270270334,
+      3.3783783783783887
+    ],
+    "target_note": "XOM/CVX/CRWD levels are planned reward scenarios, not model price forecasts. TSLA targets are historical highs."
+  },
+  {
+    "symbol": "CRWD",
+    "entry_low": 238.5,
+    "entry_high": 240.0,
+    "stop": 231.0,
+    "targets": [
+      256.0,
+      265.0
+    ],
+    "condition": "回踩前高239.37和VWAP约238.86并止跌；三根完整5分钟K线重回更新VWAP；跌破239.37后不能收回则撤单",
+    "interpretation": "higher volatility, stretched momentum, no chase at 243",
+    "reference_entry": 239.25,
+    "risk_pct": 3.4482758620689653,
+    "target_R": [
+      2.0303030303030303,
+      3.121212121212121
+    ],
+    "target_note": "XOM/CVX/CRWD levels are planned reward scenarios, not model price forecasts. TSLA targets are historical highs."
+  },
+  {
+    "symbol": "TSLA",
+    "entry_low": 355.0,
+    "entry_high": 358.0,
+    "stop": 348.0,
+    "targets": [
+      375.44,
+      384.04
+    ],
+    "condition": "用户左侧框架：TSLL低于10且TSLA停止创新低，355–358试计划份额1/3；收回359.3附近VWAP且回踩守住再1/3；FOMC后站稳362.4再1/3。跌破354.63先暂停加仓，跌破348退出。",
+    "interpretation": "user-specified unvalidated left-side framework; stop 348 is risk-budget line, not proven support",
+    "reference_entry": 356.5,
+    "risk_pct": 2.3842917251051894,
+    "target_R": [
+      2.228235294117647,
+      3.2400000000000024
+    ],
+    "target_note": "XOM/CVX/CRWD levels are planned reward scenarios, not model price forecasts. TSLA targets are historical highs."
+  }
+]

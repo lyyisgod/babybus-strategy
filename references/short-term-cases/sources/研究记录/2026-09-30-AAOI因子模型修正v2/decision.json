@@ -1,0 +1,9 @@
+{
+  "actionable_forecast": null,
+  "certified_current_win_probability": null,
+  "model_buy_veto": false,
+  "automatic_buy": false,
+  "left_side_plan": "conditional_risk_bounded_trial_not_confirmed_W_breakout",
+  "forecast_default_weight": 0,
+  "unvalidated_models_not_selected_by_today_result": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "ATRC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATRC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "sha256": "ed1388df0024ef6cb4af36daffa93774226f1e64151d37eb58f1f19ae47aa057",
+    "fetched_at_approx": "2026-09-22T20:57:45.458505+00:00"
+  },
+  {
+    "symbol": "ATRC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATRC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "sha256": "5eebfea3749d6e8af97da762a9c7c188a9de1eef4fdc8358411ab8e1ba6d77d4",
+    "fetched_at_approx": "2026-09-22T20:57:45.591635+00:00"
+  },
+  {
+    "symbol": "PBF",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PBF?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "sha256": "4cdfbb2acab0ce8939b77c5edfed7d2a7035db382dfdee64fdb06e023b486437",
+    "fetched_at_approx": "2026-09-22T20:57:45.809042+00:00"
+  },
+  {
+    "symbol": "PBF",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PBF?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "sha256": "5567a5a956ff0d894ffa6c8fd33ab96c9ce747508779f427a098b730d7b33f27",
+    "fetched_at_approx": "2026-09-22T20:57:45.943299+00:00"
+  }
+]

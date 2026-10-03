@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-18T17:54:13.284029+00:00",
+  "names": [
+    "CBRS",
+    "NBIS",
+    "IREN",
+    "APLD",
+    "ALAB",
+    "CRDO",
+    "LITE",
+    "VRT",
+    "OKLO",
+    "SMR"
+  ],
+  "features": [
+    "r3",
+    "r20",
+    "dd252",
+    "rv90",
+    "volume_ratio",
+    "close_range",
+    "rs20",
+    "sector5",
+    "credit20"
+  ],
+  "k": 40,
+  "min_history": 60,
+  "signal": "Thursday completed close",
+  "entry": "Following Friday official close proxy",
+  "exit": "Immediately following calendar Monday close",
+  "outcomes": {
+    "strong_close": 0.05,
+    "strong_high": 0.08,
+    "loss_low": -0.05
+  },
+  "cost": 0.002,
+  "rank": "Among live price above intraday VWAP, +0% to +6% today, >=SMH today, no known dilution, sort neighbor mean net return divided by negative P10 magnitude. Diagnostic ranking only; no parameter selection.",
+  "caveat": "Current universe survivorship and repeated research; current-Friday filters not included in historical probability. Thursday-state model only. Strict Babybus eligibility reported separately."
+}

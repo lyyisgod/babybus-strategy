@@ -1,0 +1,48 @@
+{
+  "SPY": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "QQQ": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "SMH": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "AMD": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "NVDA": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "MU": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "AVGO": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "TSLA": {
+    "bars": 1254,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "TSLL": {
+    "bars": 1029,
+    "invalid_ohlc": 0,
+    "invalid_dates": []
+  },
+  "formula_checks": "PASS: identity beta/residual, win-rate, sample partitions and time cutoff"
+}

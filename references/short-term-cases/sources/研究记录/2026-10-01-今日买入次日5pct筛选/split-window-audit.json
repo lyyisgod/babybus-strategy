@@ -1,0 +1,11 @@
+{
+  "splits": [
+    {
+      "symbol": "CRWD",
+      "day": "2026-07-02",
+      "ratio": "4:1"
+    }
+  ],
+  "crossing_entry_exit_dates_excluded": true,
+  "daily_features_use_split_consistent_OHLC": true
+}

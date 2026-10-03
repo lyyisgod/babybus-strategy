@@ -1,0 +1,92 @@
+2026-09-30 美东09:41盘中更新
+结论：综合已核实消息与开盘量价，相对观察首选MDB；没有任何候选得到大概率“当前买入后今天净赚5%”认证。当前不立即买入。
+
+最终快照（Yahoo公开一分钟图表，抓取时间13:41:24UTC）：
+{
+  "MDB": {
+    "price": 358.510009765625,
+    "observed_at": "2026-09-30T09:41:23-04:00",
+    "fetched_at": "2026-09-30T13:41:24.319321+00:00",
+    "regular_high": 370.42950439453125,
+    "regular_low": 340.2300109863281
+  },
+  "FSLY": {
+    "price": 25.645000457763672,
+    "observed_at": "2026-09-30T09:41:23-04:00",
+    "fetched_at": "2026-09-30T13:41:24.314857+00:00",
+    "regular_high": 26.1200008392334,
+    "regular_low": 25.200000762939453
+  },
+  "JBL": {
+    "price": 318.9100036621094,
+    "observed_at": "2026-09-30T09:41:23-04:00",
+    "fetched_at": "2026-09-30T13:41:24.317025+00:00",
+    "regular_high": 328.0,
+    "regular_low": 305.04998779296875
+  },
+  "AVGO": {
+    "price": 354.45001220703125,
+    "observed_at": "2026-09-30T09:41:22-04:00",
+    "fetched_at": "2026-09-30T13:41:24.344081+00:00",
+    "regular_high": 357.8999938964844,
+    "regular_low": 354.45001220703125
+  },
+  "QQQ": {
+    "price": 740.969970703125,
+    "observed_at": "2026-09-30T09:41:23-04:00",
+    "fetched_at": "2026-09-30T13:41:24.327745+00:00",
+    "regular_high": 742.7493286132812,
+    "regular_low": 739.760009765625
+  }
+}
+报价不是可成交卖一价；可能延迟，未验证实际买卖价差。日内高低只统计09:30以后。
+覆盖：118股票固定池，先前完整日线及流动性有效114；本次完整开盘五分钟数据有效107/118=90.7%。历史路径模型27股票。未扫描全部美股。框架总机会分未输出：实时价差、现时期权IV、空仓等因子缺失，不编造覆盖全因子或高置信评分。
+
+消息核验：
+[
+  {
+    "symbol": "MDB",
+    "published_date": "2026-09-29",
+    "exact_publication_time_unverified": true,
+    "facts": "MongoDB9.0 released; Atlas Infinite and Atlas Agent Engine announced. Product release is not confirmed EPS raise.",
+    "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-launches-mongodb-9-0-the-best-version-ever-built-and-atlas-infinite-for-ai-scale-demand"
+  },
+  {
+    "symbol": "MDB",
+    "published_date": "2026-09-28",
+    "facts": "CEO CJ Desai stepped down; Dev Ittycheria appointed interim. CEO transition remains an independent risk.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/pressreleasedatedseptemb.htm"
+  },
+  {
+    "symbol": "HOOD",
+    "published_date": "2026-09-29",
+    "facts": "Announced Robinhood Agents and planned weekend equities trading early next year; not already launched today.",
+    "url": "https://robinhood.com/us/en/newsroom/hood-summit-2026/"
+  },
+  {
+    "symbol": "IOVA",
+    "published_date": "2026-09-29",
+    "facts": "Revenue guidance410–420m vs350–370m; midpoint +15.28%; released yesterday, not new intraday today.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926111583/tm2626507d1_ex99-1.htm"
+  },
+  {
+    "symbol": "JBL",
+    "published_date": "2026-09-30",
+    "facts": "Official schedule confirms 08:30 earnings call; current actual result original text inaccessibleHTTP403. Do not claim beat/miss or raise.",
+    "url": "https://investors.jabil.com/news/news-details/2026/Jabil-Announces-Date-for-Fourth-Quarter-and-Fiscal-Year-2026-Earnings-Release-and-Investor-Briefing/default.aspx"
+  }
+]
+没有核实到首选公司在今日开盘之后新发布的实质公告。昨日消息可以影响今日交易，但不能伪装成刚发布的新消息。
+MDB：AI数据产品扩展+CEO冲击后的反弹，是合理的交易叙事；不能证明今日EPS上修，更不能证明再次上涨5%。09:30–09:34从341.36升至357.575，+4.75%，比QQQ强4.54个百分点；开盘5分钟量是过去20同时间均值2.11倍。09:41已从日内高370.43回落358.51，回落约3.22%，动量需重新确认。
+FSLY：开盘量只有历史同时间0.47倍，09:41价格25.645已失去早先突破状态。原26上限不应为了追价上调；之前的条件没有变成当前强制买入信号。
+CIFR、AAOI首5分钟负收益且弱于QQQ；HOOD虽有已核实产品公告，但盘前高价不能代替开盘强势。IOVA昨日指引上调为实质催化，但今日首5分钟动量门槛未通过。
+
+模型：协议13:34:11UTC记录在完整首五分钟数据抓取之前；固定4因子为开盘5分钟收益、相对QQQ收益、前14日简单ATR比例、首5分钟同时间20日量比。训练仅使用截至09/29已知历史，逐日期扩展窗口，训练内标准化，固定logistic C0.5。模型收益口径从09:35价开始，剩余时段先+5.2%目标、后-3%止损；成本假定0.2%，同一5分钟K线两者均触及按止损先发生，跳空止损按实际开盘价。不能用早于买入时的高价算成功。
+39日期1053股票日，滚动检验14日期378股票日；每日原始排名第一4/14先到目标（28.57%），盈利7/14，平均净收益+0.4547%；日期bootstrap均值95%区间[-1.1610%,+2.1409%]跨零。Brier模型0.10968，扩展基准0.11527。功能验证6/6通过，不证明投资有效。
+当前原始模型第一JBL输出68.7%，不采纳成真实胜率：15.16倍成交量极端（全池历史99分位7.84倍，但未超全池最大值，不可称数学样本范围外），JBL自身历史39日0次目标，最新财报正文未核实，模型对事件和个股尚无独立校准。MDB原始输出23.6%、FSLY19.2%同样只是09:35锚点的探索性输出，不能当09:41实际买入胜率。
+选择当前幸存者及当日强势候选导致选择偏差；小样本按股票日不可当独立样本；无未触碰的前瞻审计。新的条件单尚未回测。
+
+条件计划（不立即交易）：MDB在357–360附近稳定后，两根连续已完成1分钟K线收盘重站362之上，且实际买入价<=363，才观察小仓现金试单；不得融资，15:00后不开新仓。目标实际成交价×1.055，止损×0.97，15:55前退出。例362买入，目标381.91，止损351.14；成本假设0.2%下目标净收益约5.3%，止损净损失约3.2%，滑点与跳空会改变实际结果。若价格走坏或实际价超上限则不买。不因无买入优势而要求卖掉现有120股AVGO。
+[已移除本行无关个人账户信息；原文件校验值保留于 manifest.json]
+半导体背景：NVTS使用已缓存行业模块，输出NVTS-sector.json；行业情绪不改模型概率，过期模块不作为今天新增消息。无当前NVTS一手合同金额证据，不用二手政府项目新闻提高其胜率。
+实际是否交易：未知；未执行任何订单；事后结果未成熟。

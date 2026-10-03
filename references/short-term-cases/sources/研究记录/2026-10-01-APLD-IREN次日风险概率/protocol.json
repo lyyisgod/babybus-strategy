@@ -1,0 +1,32 @@
+{
+  "frozen_at": "2026-10-01T19:36:18.685794+00:00",
+  "symbols": [
+    "APLD",
+    "IREN"
+  ],
+  "history_origin": "2026-10-01-Babybus低涨幅次日机会",
+  "clock": "15:30 EDT;lastcompleted5mclose15:25, entryat15:30",
+  "exit": "nextregularsession15:55;bar15:50close",
+  "targets": [
+    "nextregularsessionhigh>=5pctgross",
+    "next15:55netreturn>=5pct cost.2pct",
+    "nextregularsessionlow<=-5pct",
+    "nextregularsessionlow<=-3pct",
+    "nextregularsessionlow<signaldayslowknownat15:30",
+    "next15:55close<entry",
+    "nextregularsessionlow<priorcompleted20daylow"
+  ],
+  "strategy": "empiricalsingleasset historical scenario distribution, no tunedparameters andNOTfullBabybus ortrainedconditionalprobability",
+  "coverage": "requireexact78complete5mbars bothdays; calendar nextsession;todayexcluded labelsnotmatured",
+  "ci": "95pctWilson on prespecifiedeven calendarposition nonoverlappingwindows;oddwindows sensitivity;allwindows diagnosticonly",
+  "nonoverlap": "position in chronological exchange-session candidatecalendar modulo2even; no selectionbasedoutcome",
+  "similar_state": "intradayreturn<=0,entrybelowpriorSMA200,RSI14<50;prespecifieddiagnosticonly;missing nofill",
+  "fit": "no fitting/calibration;simple baseline; no claimed predictiveadvantage",
+  "entry_sensitivity": [
+    -0.0025,
+    0,
+    0.0025
+  ],
+  "prior_trials": "earlierintradayforecasts andBabybus shapeselector alreadyexamined overlappinghistory;notuntouchedaudit",
+  "orders": false
+}

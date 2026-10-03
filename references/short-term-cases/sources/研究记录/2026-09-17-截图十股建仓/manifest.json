@@ -1,0 +1,191 @@
+{
+  "asof": "2026-09-17T16:30:17.400573+00:00",
+  "requests": [
+    {
+      "symbol": "IOVA",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/IOVA?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.586264+00:00"
+    },
+    {
+      "symbol": "ABCL",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.558864+00:00"
+    },
+    {
+      "symbol": "TXG",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TXG?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.589863+00:00"
+    },
+    {
+      "symbol": "CDNA",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/CDNA?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.567307+00:00"
+    },
+    {
+      "symbol": "TEAM",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.652725+00:00"
+    },
+    {
+      "symbol": "ATRC",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/ATRC?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.567760+00:00"
+    },
+    {
+      "symbol": "AMPL",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMPL?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.697135+00:00"
+    },
+    {
+      "symbol": "UTZ",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/UTZ?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.723319+00:00"
+    },
+    {
+      "symbol": "PBF",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/PBF?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.831082+00:00"
+    },
+    {
+      "symbol": "RNG",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/RNG?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.794545+00:00"
+    },
+    {
+      "symbol": "SNDK",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.701264+00:00"
+    },
+    {
+      "symbol": "SPY",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.837468+00:00"
+    },
+    {
+      "symbol": "QQQ",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.936343+00:00"
+    },
+    {
+      "symbol": "XBI",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/XBI?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.981938+00:00"
+    },
+    {
+      "symbol": "IGV",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/IGV?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.968385+00:00"
+    },
+    {
+      "symbol": "XHE",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/XHE?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:17.951104+00:00"
+    },
+    {
+      "symbol": "XLP",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:18.011419+00:00"
+    },
+    {
+      "symbol": "CRAK",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRAK?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:30:18.080129+00:00"
+    },
+    {
+      "symbol": "IOVA",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/IOVA?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.112755+00:00"
+    },
+    {
+      "symbol": "ABCL",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.095247+00:00"
+    },
+    {
+      "symbol": "TXG",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TXG?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.107348+00:00"
+    },
+    {
+      "symbol": "CDNA",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/CDNA?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.106860+00:00"
+    },
+    {
+      "symbol": "TEAM",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.187718+00:00"
+    },
+    {
+      "symbol": "ATRC",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/ATRC?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.205693+00:00"
+    },
+    {
+      "symbol": "AMPL",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMPL?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.201997+00:00"
+    },
+    {
+      "symbol": "UTZ",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/UTZ?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.222509+00:00"
+    },
+    {
+      "symbol": "PBF",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/PBF?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.315741+00:00"
+    },
+    {
+      "symbol": "RNG",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/RNG?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.222328+00:00"
+    },
+    {
+      "symbol": "SNDK",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.350918+00:00"
+    },
+    {
+      "symbol": "SPY",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.422494+00:00"
+    },
+    {
+      "symbol": "QQQ",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:30:18.422684+00:00"
+    }
+  ]
+}

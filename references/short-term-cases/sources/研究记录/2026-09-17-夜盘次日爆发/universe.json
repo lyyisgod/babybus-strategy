@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-17T00:15:08.211330-04:00",
+  "symbols": [
+    "CRDO",
+    "ALAB",
+    "COHR",
+    "LITE",
+    "AAOI",
+    "MRVL",
+    "MU",
+    "SNDK",
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "SMTC",
+    "VICR",
+    "GNRC",
+    "VRT",
+    "BE",
+    "CEG",
+    "VST",
+    "ETN",
+    "POWL",
+    "CRWV",
+    "NBIS",
+    "IREN",
+    "CIFR",
+    "WULF",
+    "RKLB",
+    "ASTS",
+    "PLTR",
+    "OKLO"
+  ],
+  "context": [
+    "QQQ",
+    "SMH",
+    "SPY",
+    "TLT",
+    "^VIX"
+  ],
+  "selection": "discretionary liquid AI/optics/power/high-beta watchlist + current event GNRC/VICR, not all-US universe; survivorship bias"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "model_features": 21,
+  "stocks": 49,
+  "raw_hashes_checked": 134,
+  "train_rows": 53370,
+  "train_outcomes_max": "2022-12-30T00:00:00-05:00",
+  "evaluation_outcomes_max": "2026-09-21T00:00:00-04:00",
+  "logistic_max_gradient": [
+    6.427935443304728e-16,
+    1.0850521447338985e-17
+  ],
+  "linear_max_gradient": 1.072682524402846e-16,
+  "completed_stock_daily_date": "2026-09-21",
+  "prefix_causality_stocks_checked": 49,
+  "current_numeric_buy_gate_count": 0,
+  "checks": [
+    "All 134 stock/proxy daily/intraday hashes verified from final source manifest",
+    "21 fixed features, 49 frozen stocks, original parameters",
+    "Newtons fitted gradient and linear normal equation residual",
+    "Feature prefix is unchanged by future rows",
+    "Training labels mature before 2023 and current daily session excluded"
+  ],
+  "not_validated": [
+    "future actual execution or profitability",
+    "point-in-time membership",
+    "news causal predictive effect"
+  ]
+}

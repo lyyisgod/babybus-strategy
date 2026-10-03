@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "AAOI",
+    "last": 109.63,
+    "last_at": "2026-09-21T17:08:25-04:00",
+    "fetched_at": "2026-09-21T17:08:39.179497-04:00",
+    "age_minutes": 0.23632495,
+    "after_hours_change_pct": 0.883410184255462,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/AAOI/"
+  },
+  {
+    "symbol": "CRDO",
+    "last": 186.77,
+    "last_at": "2026-09-21T17:08:31-04:00",
+    "fetched_at": "2026-09-21T17:08:39.032757-04:00",
+    "age_minutes": 0.13387928333333335,
+    "after_hours_change_pct": -0.26699645487990864,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/CRDO/"
+  },
+  {
+    "symbol": "CIFR",
+    "last": 18.87,
+    "last_at": "2026-09-21T17:08:03-04:00",
+    "fetched_at": "2026-09-21T17:08:40.867464-04:00",
+    "age_minutes": 0.6311243999999999,
+    "after_hours_change_pct": -0.158728143575515,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/CIFR/"
+  },
+  {
+    "symbol": "NBIS",
+    "last": 231.7,
+    "last_at": "2026-09-21T17:08:05-04:00",
+    "fetched_at": "2026-09-21T17:08:39.815902-04:00",
+    "age_minutes": 0.5802650333333333,
+    "after_hours_change_pct": -0.4725098957637286,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/NBIS/"
+  },
+  {
+    "symbol": "ALAB",
+    "last": 339.9,
+    "last_at": "2026-09-21T17:05:40-04:00",
+    "fetched_at": "2026-09-21T17:08:39.004591-04:00",
+    "age_minutes": 2.98340985,
+    "after_hours_change_pct": -0.24651941610881467,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/ALAB/"
+  },
+  {
+    "symbol": "FSLY",
+    "last": 27.45,
+    "last_at": "2026-09-21T17:08:18-04:00",
+    "fetched_at": "2026-09-21T17:08:40.823547-04:00",
+    "age_minutes": 0.38039245000000005,
+    "after_hours_change_pct": 0.10940891182560364,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/FSLY/"
+  },
+  {
+    "symbol": "COHR",
+    "last": 321.52,
+    "last_at": "2026-09-21T17:06:36-04:00",
+    "fetched_at": "2026-09-21T17:08:39.179440-04:00",
+    "age_minutes": 2.0529906666666666,
+    "after_hours_change_pct": 3.416996907645853e-06,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/COHR/"
+  },
+  {
+    "symbol": "SMTC",
+    "last": 177.37,
+    "last_at": "2026-09-21T17:02:36-04:00",
+    "fetched_at": "2026-09-21T17:08:39.372600-04:00",
+    "age_minutes": 6.056209999999999,
+    "after_hours_change_pct": 2.752896555158202e-06,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/SMTC/"
+  },
+  {
+    "symbol": "QQQ",
+    "last": 741.1,
+    "last_at": "2026-09-21T17:08:37-04:00",
+    "fetched_at": "2026-09-21T17:08:41.802992-04:00",
+    "age_minutes": 0.08004986666666666,
+    "after_hours_change_pct": -0.04989692337427076,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/QQQ/"
+  },
+  {
+    "symbol": "SMH",
+    "last": 595.01,
+    "last_at": "2026-09-21T17:08:23-04:00",
+    "fetched_at": "2026-09-21T17:08:41.702886-04:00",
+    "age_minutes": 0.31171476666666664,
+    "after_hours_change_pct": -0.17113723247774715,
+    "session": "after_hours",
+    "fresh_after_hours": true,
+    "executable_bid_ask": null,
+    "quote_source": "https://finance.yahoo.com/quote/SMH/"
+  }
+]

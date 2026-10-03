@@ -1,0 +1,57 @@
+{
+  "reviewed_at": "2026-10-03T12:28:24.121984+00:00",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/aaoi/history/",
+      "facts": "10/2常规盘115.59,+7.71%;盘后115.02,19:59EDT",
+      "source_type": "independent_price_crosscheck"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/aaoi/statistics/",
+      "facts": "10/2页面市值约9.81B;84.91M股,近似且非财报时点市值",
+      "source_type": "secondary_current_snapshot"
+    },
+    {
+      "url": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-second-quarter-2026-results",
+      "facts": "Q2收入191.922M vs102.952M,GAAP净亏22.781M,Q3指引255–290M;旧公告背景",
+      "source_type": "issuer_primary"
+    },
+    {
+      "url": "https://newsroom.ao-inc.com/latest-news/aoi-at-scte-techexpo-2026-in-atlanta/",
+      "facts": "10/1展会报道和100万1.8GHz放大器里程碑,非新增AI订单",
+      "source_type": "issuer_primary"
+    },
+    {
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+      "facts": "10/2盘前新增75MW可服务,园区250MW运行,全部400MW已签约;不是新增75MW收入预测",
+      "source_type": "issuer_primary"
+    },
+    {
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/160/applied-digital-sets-fiscal-first-quarter-2027-conference",
+      "facts": "10/7盘后财报17:00会议;周一单日退出与原三日持有不同",
+      "source_type": "issuer_primary"
+    },
+    {
+      "url": "https://www.moomoo.com/us/support/topic4_663",
+      "facts": "[REDACTED: unrelated personal account information]",
+      "source_type": "broker_primary"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "facts": "CSV最新观察10/1:3.24%,9/2:2.66%,20交易日+58bp",
+      "source_type": "FRED_primary"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DFII10",
+      "facts": "CSV最新观察10/1:2.88%,9/2:2.45%,20交易日+43bp",
+      "source_type": "FRED_primary"
+    },
+    {
+      "url": "https://semiconductor.feargreedchart.com",
+      "facts": "网站日期10/3,抓取12:25:04UTC,AI情绪81,广义74;存储和政策模块过期不能作为新增证据",
+      "source_type": "sector_background"
+    }
+  ],
+  "event_coverage_complete": false,
+  "warning": "检索和已阅公告不等于完整SEC/融资/解禁/新闻覆盖；未检索到周一专属催化不等于没有催化。"
+}

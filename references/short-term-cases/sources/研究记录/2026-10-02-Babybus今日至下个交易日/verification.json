@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-02T14:04:21.335742+00:00",
+  "stocks": 154,
+  "requested": 154,
+  "ferrs": {},
+  "daily_loader_errors": {},
+  "last_completed": "2026-10-01T00:00:00",
+  "next_session": "2026-10-05",
+  "truncation_checks": {
+    "IREN": true,
+    "APLD": true,
+    "CIFR": true,
+    "COHR": true
+  },
+  "raw_hashes": {
+    "daily-raw": true,
+    "live-raw": true
+  },
+  "live_partial_bars_excluded": true,
+  "probability_validation": false
+}

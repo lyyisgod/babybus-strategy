@@ -1,0 +1,115 @@
+{
+  "run_id": "2026-10-03-babybus-sunday-overnight-to-monday",
+  "recorded_at": "2026-10-03T12:28:24.121984+00:00",
+  "entry_window": "2026-10-04 20:00–2026-10-05 04:00 America/New_York",
+  "target_session": "2026-10-05",
+  "relative_observation_first": "AAOI",
+  "absolute_decision": "WAIT_NO_CONFIRMED_STRICT_BABYBUS_BUY",
+  "strict_buy_signals_confirmable": 0,
+  "credit_state": "OFF",
+  "method": "冻结7价格闸门与原严格策略；条件观察为策略扩展，不是全条件Babybus买入",
+  "current_surge_probability": null,
+  "probability_confidence_level": null,
+  "calibrated_high_confidence": false,
+  "historical_comparable_kind": "momentum_analog",
+  "historical_description": {
+    "ticker": "AAOI",
+    "kind": "momentum_analog",
+    "n": 41,
+    "touch5": 21,
+    "touch10": 11,
+    "close_net5": 6,
+    "down3": 28,
+    "mean_close_net": -0.001932900408120696,
+    "touch5_wilson95_descriptive": [
+      0.3648450865154418,
+      0.6574557044556697
+    ],
+    "current_probability": null,
+    "warning": "reused research sample, survivor pool, regularclose proxy not actual overnight fill; no untouched calibration"
+  },
+  "primary_price_snapshot": {
+    "close": 115.58999633789062,
+    "day_return": 0.07705923095958833,
+    "last_extended_price": 115.0193,
+    "last_extended_bar_at": "2026-10-02T19:59:54-04:00",
+    "gate_count": 6,
+    "gates": {
+      "dd35_65": true,
+      "rv90": true,
+      "weekly_vol": true,
+      "washout_or_low20": false,
+      "bb_or_low60": true,
+      "no_chase": true,
+      "volume_green": true
+    },
+    "dd_high": 0.5053280385001839,
+    "dd10": 0.017926938530673175,
+    "dist_low20": 0.23467200327667892,
+    "weekly_vol": 0.16507001152379072,
+    "rv90": 1.2825640486279857,
+    "vol_ratio20": 1.5167820683166764,
+    "rsi2": 94.86767378447782,
+    "rsi14": 57.517341447773504,
+    "atr14": 8.507439334522743,
+    "vwap5m_proxy": 113.55467724399436,
+    "reference_entry_cap": 115.59
+  },
+  "original_universe_member": false,
+  "current_secondary_market_cap_usd": 9810000000.0,
+  "original_min_market_cap_usd": 10000000000.0,
+  "supplementary_conditional_plan": {
+    "status": "观察条件；不构成当前严格买入信号",
+    "entry_cap": 115.59,
+    "entry_zone_if_confirmed": [
+      115,
+      115.59
+    ],
+    "prerequisites": [
+      "券商实际支持AAOI夜盘交易",
+      "周日开启后报价新鲜且卖价<=115.59",
+      "买卖价差<=0.3%",
+      "至少两根已完成5分钟K收在夜盘VWAP上方",
+      "回撤后站回115.59确认，再回踩守住115.0–115.59才考虑限价；无法成交不追",
+      "周末没有新增融资/重大利空及系统性冲击；重大新事件需重建计划"
+    ],
+    "profit_target_formula": "actual_fill*1.05 gross; *1.10 stretch, neither promised",
+    "net5_target_formula": "actual_fill*1.052 under assumed 0.2% round-trip cost",
+    "loss_invalidation_formula": "actual_fill*0.97, indicative exit/manual stop; overnight gaps/spread can exceed planned loss",
+    "exit_by": "2026-10-05 15:55:00-04:00",
+    "example_fill": 115.5,
+    "example_target5": 121.28,
+    "example_target10": 127.05,
+    "example_net5_target": 121.51,
+    "example_invalidation": 112.04,
+    "same_day_take_profit_stop_order_unknown_in_daily_bars": true,
+    "no_automatic_trading": true
+  },
+  "alternates": [
+    {
+      "symbol": "IREN",
+      "role": "更接近洗盘形态，仅观察",
+      "gate_count": 6,
+      "missing_trigger": "放量与阳线收盘位置确认",
+      "price": 41.72,
+      "reference_cap": 41.92
+    },
+    {
+      "symbol": "APLD",
+      "role": "新公告候选，仅观察",
+      "gate_count": 4,
+      "missing_trigger": "周波动/洗盘位置/强收盘",
+      "price": 25.49,
+      "reference_cap": 25.61
+    }
+  ],
+  "mechanical_ranking_file": "washout-ranking.json",
+  "all_candidates_file": "all-factors.json",
+  "registry_outcome_dedup_key": "AAOI|2026-10-05",
+  "prior_same_target_case": "published-nextday-2026-10-02-AAOI-primary",
+  "actual_purchase": "unknown",
+  "future_outcome": "pending_target_session",
+  "realized_user_return": null,
+  "uniform_score_coverage_pct": 20,
+  "uniform_score": null
+}

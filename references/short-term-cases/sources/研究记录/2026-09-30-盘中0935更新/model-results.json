@@ -1,0 +1,699 @@
+{
+  "generated_at": "2026-09-30T09:39:28.458438-04:00",
+  "hist_dates": 39,
+  "hist_stockdays": 1053,
+  "oos_stockdays": 378,
+  "oos_dates": 14,
+  "oos_top1_target_hits": 4,
+  "oos_top1_target_fraction": 0.2857142857142857,
+  "oos_top1_mean_net": 0.004547181176536118,
+  "brier_model": 0.10967757334568654,
+  "brier_baseline": 0.11527005607331793,
+  "current": [
+    {
+      "symbol": "JBL",
+      "date": "2026-09-30",
+      "anchor": 318.2300109863281,
+      "features": [
+        0.040613497030471235,
+        0.03853974145491845,
+        0.03874310970853968,
+        15.15616677516719
+      ],
+      "first5": {
+        "open": 305.80999755859375,
+        "close": 318.2300109863281,
+        "ret": 0.040613497030471235,
+        "volume": 409750,
+        "high": 321.489990234375,
+        "low": 305.04998779296875
+      },
+      "model_output_unverified": 0.6870840383086871,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.0,
+      "history_mean_net": -0.00594181870181756,
+      "first5_relative_volume": 15.15616677516719,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "MDB",
+      "date": "2026-09-30",
+      "anchor": 357.57501220703125,
+      "features": [
+        0.04750125249381254,
+        0.04542749691825976,
+        0.08244841498475615,
+        2.111380700239757
+      ],
+      "first5": {
+        "open": 341.3599853515625,
+        "close": 357.57501220703125,
+        "ret": 0.04750125249381254,
+        "volume": 631943,
+        "high": 359.8399963378906,
+        "low": 340.2300109863281
+      },
+      "model_output_unverified": 0.2361643887182925,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.23076923076923078,
+      "history_mean_net": 0.009660008835155666,
+      "first5_relative_volume": 2.111380700239757,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "FSLY",
+      "date": "2026-09-30",
+      "anchor": 25.799999237060547,
+      "features": [
+        0.015748016714081325,
+        0.013674261138528543,
+        0.10791938310039034,
+        0.4709234507579431
+      ],
+      "first5": {
+        "open": 25.399999618530273,
+        "close": 25.799999237060547,
+        "ret": 0.015748016714081325,
+        "volume": 179654,
+        "high": 25.850000381469727,
+        "low": 25.200000762939453
+      },
+      "model_output_unverified": 0.19235596469777205,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.3076923076923077,
+      "history_mean_net": 0.004671015585847796,
+      "first5_relative_volume": 0.4709234507579431,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "NVTS",
+      "date": "2026-09-30",
+      "anchor": 12.300000190734863,
+      "features": [
+        0.04414265446103838,
+        0.042068898885485595,
+        0.06066861945166756,
+        2.0612154019992732
+      ],
+      "first5": {
+        "open": 11.779999732971191,
+        "close": 12.300000190734863,
+        "ret": 0.04414265446103838,
+        "volume": 2215808,
+        "high": 12.359999656677246,
+        "low": 11.770000457763672
+      },
+      "model_output_unverified": 0.1813266180291012,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.07692307692307693,
+      "history_mean_net": -0.004575318375482971,
+      "first5_relative_volume": 2.0612154019992732,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "VKTX",
+      "date": "2026-09-30",
+      "anchor": 31.8799991607666,
+      "features": [
+        0.002200556303031842,
+        0.00012680072747905946,
+        0.0993330986701436,
+        0.18657743797151946
+      ],
+      "first5": {
+        "open": 31.809999465942383,
+        "close": 31.8799991607666,
+        "ret": 0.002200556303031842,
+        "volume": 186247,
+        "high": 32.02000045776367,
+        "low": 31.680099487304688
+      },
+      "model_output_unverified": 0.15113117679113128,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.05128205128205128,
+      "history_mean_net": -0.007382935100019263,
+      "first5_relative_volume": 0.18657743797151946,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "IONQ",
+      "date": "2026-09-30",
+      "anchor": 45.779998779296875,
+      "features": [
+        0.035746560839026165,
+        0.03367280526347338,
+        0.061377159952725406,
+        0.9075192493645565
+      ],
+      "first5": {
+        "open": 44.20000076293945,
+        "close": 45.779998779296875,
+        "ret": 0.035746560839026165,
+        "volume": 2647268,
+        "high": 46.27000045776367,
+        "low": 44.02000045776367
+      },
+      "model_output_unverified": 0.14162077577018095,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.05128205128205128,
+      "history_mean_net": -0.005286797756887275,
+      "first5_relative_volume": 0.9075192493645565,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "AEHR",
+      "date": "2026-09-30",
+      "anchor": 102.6050033569336,
+      "features": [
+        0.014384595245729548,
+        0.012310839670176765,
+        0.08096136731348712,
+        0.4403486882438452
+      ],
+      "first5": {
+        "open": 101.1500015258789,
+        "close": 102.6050033569336,
+        "ret": 0.014384595245729548,
+        "volume": 126560,
+        "high": 103.9800033569336,
+        "low": 100.11620330810547
+      },
+      "model_output_unverified": 0.13979617678128903,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.28205128205128205,
+      "history_mean_net": -0.0007848604788631957,
+      "first5_relative_volume": 0.4403486882438452,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "IOVA",
+      "date": "2026-09-30",
+      "anchor": 14.604999542236328,
+      "features": [
+        -0.0057795392559745196,
+        -0.007853294831527302,
+        0.06144342206596483,
+        2.545084277085144
+      ],
+      "first5": {
+        "open": 14.689900398254395,
+        "close": 14.604999542236328,
+        "ret": -0.0057795392559745196,
+        "volume": 2013096,
+        "high": 15.0600004196167,
+        "low": 14.46049976348877
+      },
+      "model_output_unverified": 0.13762470358618395,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.28205128205128205,
+      "history_mean_net": 0.010613900836246474,
+      "first5_relative_volume": 2.545084277085144,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "NBIS",
+      "date": "2026-09-30",
+      "anchor": 248.63999938964844,
+      "features": [
+        0.019183442150295882,
+        0.0171096865747431,
+        0.0646488000656166,
+        1.202594393411677
+      ],
+      "first5": {
+        "open": 243.9600067138672,
+        "close": 248.63999938964844,
+        "ret": 0.019183442150295882,
+        "volume": 1855840,
+        "high": 250.47999572753906,
+        "low": 243.8800048828125
+      },
+      "model_output_unverified": 0.13669837756735034,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1794871794871795,
+      "history_mean_net": -0.0028924943140680873,
+      "first5_relative_volume": 1.202594393411677,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "SMR",
+      "date": "2026-09-30",
+      "anchor": 7.863999843597412,
+      "features": [
+        0.0005088689586598694,
+        -0.0015648866168929132,
+        0.08321060541287408,
+        0.6920954637745427
+      ],
+      "first5": {
+        "open": 7.860000133514404,
+        "close": 7.863999843597412,
+        "ret": 0.0005088689586598694,
+        "volume": 1384055,
+        "high": 8.050000190734863,
+        "low": 7.820000171661377
+      },
+      "model_output_unverified": 0.1350365886580853,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1282051282051282,
+      "history_mean_net": -0.005385698756390974,
+      "first5_relative_volume": 0.6920954637745427,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "INTC",
+      "date": "2026-09-30",
+      "anchor": 119.51969909667969,
+      "features": [
+        0.029898284822744925,
+        0.027824529247192142,
+        0.05915516106572124,
+        0.9416524310335651
+      ],
+      "first5": {
+        "open": 116.05000305175781,
+        "close": 119.51969909667969,
+        "ret": 0.029898284822744925,
+        "volume": 9050530,
+        "high": 120.06999969482422,
+        "low": 116.0
+      },
+      "model_output_unverified": 0.13284317115022254,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.10256410256410256,
+      "history_mean_net": 0.0034795256935588456,
+      "first5_relative_volume": 0.9416524310335651,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "LUNR",
+      "date": "2026-09-30",
+      "anchor": 14.850000381469727,
+      "features": [
+        0.012960473126550465,
+        0.010886717550997682,
+        0.06699067591181727,
+        0.9944178767270226
+      ],
+      "first5": {
+        "open": 14.65999984741211,
+        "close": 14.850000381469727,
+        "ret": 0.012960473126550465,
+        "volume": 502471,
+        "high": 15.039999961853027,
+        "low": 14.649999618530273
+      },
+      "model_output_unverified": 0.12929029484609322,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.20512820512820512,
+      "history_mean_net": -0.00289884246395571,
+      "first5_relative_volume": 0.9944178767270226,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "RDW",
+      "date": "2026-09-30",
+      "anchor": 10.945699691772461,
+      "features": [
+        0.006038564029456239,
+        0.003964808453903457,
+        0.06988416748202798,
+        1.0086850085058139
+      ],
+      "first5": {
+        "open": 10.880000114440918,
+        "close": 10.945699691772461,
+        "ret": 0.006038564029456239,
+        "volume": 851104,
+        "high": 11.125,
+        "low": 10.84000015258789
+      },
+      "model_output_unverified": 0.12723531732295187,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.07692307692307693,
+      "history_mean_net": -0.009856072755012083,
+      "first5_relative_volume": 1.0086850085058139,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "ASTS",
+      "date": "2026-09-30",
+      "anchor": 60.47999954223633,
+      "features": [
+        0.009598543938843518,
+        0.007524788363290735,
+        0.06525492259696877,
+        1.1485817752078273
+      ],
+      "first5": {
+        "open": 59.904998779296875,
+        "close": 60.47999954223633,
+        "ret": 0.009598543938843518,
+        "volume": 967628,
+        "high": 61.189998626708984,
+        "low": 59.84000015258789
+      },
+      "model_output_unverified": 0.1268453678540219,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.07692307692307693,
+      "history_mean_net": -0.006139780010884351,
+      "first5_relative_volume": 1.1485817752078273,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "QBTS",
+      "date": "2026-09-30",
+      "anchor": 16.728900909423828,
+      "features": [
+        0.01819236754085063,
+        0.016118611965297847,
+        0.0610381610021791,
+        0.6933582350114916
+      ],
+      "first5": {
+        "open": 16.43000030517578,
+        "close": 16.728900909423828,
+        "ret": 0.01819236754085063,
+        "volume": 1056061,
+        "high": 16.860000610351562,
+        "low": 16.399999618530273
+      },
+      "model_output_unverified": 0.11895891925582176,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.02564102564102564,
+      "history_mean_net": -0.008849658393530082,
+      "first5_relative_volume": 0.6933582350114916,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "RGTI",
+      "date": "2026-09-30",
+      "anchor": 16.190000534057617,
+      "features": [
+        0.020485393484285463,
+        0.01841163790873268,
+        0.058327273401465506,
+        0.6057720228510156
+      ],
+      "first5": {
+        "open": 15.864999771118164,
+        "close": 16.190000534057617,
+        "ret": 0.020485393484285463,
+        "volume": 1141860,
+        "high": 16.3799991607666,
+        "low": 15.789999961853027
+      },
+      "model_output_unverified": 0.11542399426653822,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.05128205128205128,
+      "history_mean_net": -0.005207537388212262,
+      "first5_relative_volume": 0.6057720228510156,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "UMAC",
+      "date": "2026-09-30",
+      "anchor": 25.110000610351562,
+      "features": [
+        0.004400024414062509,
+        0.0023262688385097263,
+        0.06372149231924007,
+        0.9044648805440729
+      ],
+      "first5": {
+        "open": 25.0,
+        "close": 25.110000610351562,
+        "ret": 0.004400024414062509,
+        "volume": 155720,
+        "high": 25.469999313354492,
+        "low": 24.65999984741211
+      },
+      "model_output_unverified": 0.11465740395380741,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.28205128205128205,
+      "history_mean_net": 0.0005999051388366768,
+      "first5_relative_volume": 0.9044648805440729,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "BE",
+      "date": "2026-09-30",
+      "anchor": 293.6332092285156,
+      "features": [
+        -0.008196947747382999,
+        -0.010270703322935781,
+        0.07149382029333998,
+        0.8970415060669098
+      ],
+      "first5": {
+        "open": 296.05999755859375,
+        "close": 293.6332092285156,
+        "ret": -0.008196947747382999,
+        "volume": 1374714,
+        "high": 300.3500061035156,
+        "low": 291.54998779296875
+      },
+      "model_output_unverified": 0.11402283997626982,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1794871794871795,
+      "history_mean_net": -0.0012168536795778351,
+      "first5_relative_volume": 0.8970415060669098,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "CRWV",
+      "date": "2026-09-30",
+      "anchor": 89.4834976196289,
+      "features": [
+        0.013977310137438081,
+        0.011903554561885299,
+        0.05484614570221917,
+        0.9605571783944438
+      ],
+      "first5": {
+        "open": 88.25,
+        "close": 89.4834976196289,
+        "ret": 0.013977310137438081,
+        "volume": 3140930,
+        "high": 89.70999908447266,
+        "low": 87.69000244140625
+      },
+      "model_output_unverified": 0.11212283228837919,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.15384615384615385,
+      "history_mean_net": -0.0038684420242648585,
+      "first5_relative_volume": 0.9605571783944438,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "RCAT",
+      "date": "2026-09-30",
+      "anchor": 6.53000020980835,
+      "features": [
+        0.003843212133376017,
+        0.0017694565578232346,
+        0.06245847212921052,
+        0.7459492366329741
+      ],
+      "first5": {
+        "open": 6.505000114440918,
+        "close": 6.53000020980835,
+        "ret": 0.003843212133376017,
+        "volume": 397005,
+        "high": 6.605000019073486,
+        "low": 6.480000019073486
+      },
+      "model_output_unverified": 0.1093236305906814,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1282051282051282,
+      "history_mean_net": -0.0071984240920706655,
+      "first5_relative_volume": 0.7459492366329741,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "CIFR",
+      "date": "2026-09-30",
+      "anchor": 16.344999313354492,
+      "features": [
+        -0.0319581383248575,
+        -0.03403189390041028,
+        0.08413948945210804,
+        0.7462477911339718
+      ],
+      "first5": {
+        "open": 16.884599685668945,
+        "close": 16.344999313354492,
+        "ret": -0.0319581383248575,
+        "volume": 1630489,
+        "high": 16.90999984741211,
+        "low": 16.281999588012695
+      },
+      "model_output_unverified": 0.10748298266817935,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.20512820512820512,
+      "history_mean_net": -0.0027916312672490395,
+      "first5_relative_volume": 0.7462477911339718,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "AAOI",
+      "date": "2026-09-30",
+      "anchor": 100.77999877929688,
+      "features": [
+        -0.007093608085745107,
+        -0.00916736366129789,
+        0.06453334454391368,
+        0.7776389677432023
+      ],
+      "first5": {
+        "open": 101.5,
+        "close": 100.77999877929688,
+        "ret": -0.007093608085745107,
+        "volume": 522808,
+        "high": 104.25,
+        "low": 100.31009674072266
+      },
+      "model_output_unverified": 0.10352923559305863,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.2564102564102564,
+      "history_mean_net": -0.001896630121613765,
+      "first5_relative_volume": 0.7776389677432023,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "WULF",
+      "date": "2026-09-30",
+      "anchor": 14.920000076293945,
+      "features": [
+        -0.02324055981027151,
+        -0.025314315385824293,
+        0.06778376690498984,
+        1.1334463133324524
+      ],
+      "first5": {
+        "open": 15.274999618530273,
+        "close": 14.920000076293945,
+        "ret": -0.02324055981027151,
+        "volume": 1585835,
+        "high": 15.319999694824219,
+        "low": 14.859999656677246
+      },
+      "model_output_unverified": 0.10117740423010799,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1282051282051282,
+      "history_mean_net": -0.00485409416312713,
+      "first5_relative_volume": 1.1334463133324524,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "MSTR",
+      "date": "2026-09-30",
+      "anchor": 158.4149932861328,
+      "features": [
+        -0.01495469424545759,
+        -0.017028449821010372,
+        0.05799445187722822,
+        1.2548308878449752
+      ],
+      "first5": {
+        "open": 160.82000732421875,
+        "close": 158.4149932861328,
+        "ret": -0.01495469424545759,
+        "volume": 3436806,
+        "high": 163.52999877929688,
+        "low": 158.1199951171875
+      },
+      "model_output_unverified": 0.09797254685422391,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1794871794871795,
+      "history_mean_net": 0.0031569540742891265,
+      "first5_relative_volume": 1.2548308878449752,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "CRDO",
+      "date": "2026-09-30",
+      "anchor": 193.02999877929688,
+      "features": [
+        0.0024408040437375877,
+        0.0003670484681848052,
+        0.0568442996137281,
+        0.5560873208489967
+      ],
+      "first5": {
+        "open": 192.55999755859375,
+        "close": 193.02999877929688,
+        "ret": 0.0024408040437375877,
+        "volume": 460822,
+        "high": 194.9199981689453,
+        "low": 191.02999877929688
+      },
+      "model_output_unverified": 0.09763884974958177,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1282051282051282,
+      "history_mean_net": -0.0010726803998001126,
+      "first5_relative_volume": 0.5560873208489967,
+      "momentum_gate": true
+    },
+    {
+      "symbol": "HOOD",
+      "date": "2026-09-30",
+      "anchor": 116.41500091552734,
+      "features": [
+        -0.050526055492908895,
+        -0.05259981106846168,
+        0.04967182275211954,
+        2.039195488644182
+      ],
+      "first5": {
+        "open": 122.61000061035156,
+        "close": 116.41500091552734,
+        "ret": -0.050526055492908895,
+        "volume": 4612187,
+        "high": 123.48999786376953,
+        "low": 116.30999755859375
+      },
+      "model_output_unverified": 0.0768861810445421,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.1282051282051282,
+      "history_mean_net": -0.0003070077773197176,
+      "first5_relative_volume": 2.039195488644182,
+      "momentum_gate": false
+    },
+    {
+      "symbol": "AVGO",
+      "date": "2026-09-30",
+      "anchor": 356.3999938964844,
+      "features": [
+        -0.001554797374062944,
+        -0.0036285529496157265,
+        0.02792974054878037,
+        0.483554406321064
+      ],
+      "first5": {
+        "open": 356.9549865722656,
+        "close": 356.3999938964844,
+        "ret": -0.001554797374062944,
+        "volume": 995168,
+        "high": 357.8999938964844,
+        "low": 355.3599853515625
+      },
+      "model_output_unverified": 0.06514836315538347,
+      "history_n": 39,
+      "history_target_before_stop_fraction": 0.0,
+      "history_mean_net": -0.006262730074386185,
+      "first5_relative_volume": 0.483554406321064,
+      "momentum_gate": false
+    }
+  ],
+  "missing": [],
+  "certified_win_rate": null,
+  "limitations": [
+    "Current selected survivors; selection bias",
+    "20 historical opening bars for volume leaves a shorter evaluation period",
+    "No untouched prospective audit",
+    "First5 model anchor is 09:35; later executable price is different",
+    "Actual bid ask unavailable; 0.2% cost assumption",
+    "Same 5min bar stop first; no tick reconstruction"
+  ]
+}

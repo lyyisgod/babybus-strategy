@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "quote_hashes_checked": 107,
+  "max_reproduced_prediction_difference": 3.885780586188048e-16,
+  "daily_models_retrained": false,
+  "original_count": 102,
+  "original_liquid": 99,
+  "new_eligible": 80,
+  "top1": "AAOI",
+  "a_top1": "AAOI",
+  "b_top1": "AAOI",
+  "lrcx_signals": [
+    {
+      "symbol": "SMMT",
+      "close": 16.899999618530273,
+      "rsi2": 16.831693175437792,
+      "ret3_pct": -2.3121366252628617,
+      "above_sma200": true,
+      "sma200_raw": 16.427325015068053,
+      "lrcx_signal": true,
+      "liquidity_eligible": true,
+      "atr14": 0.9942466530395694
+    },
+    {
+      "symbol": "CRM",
+      "close": 236.4199981689453,
+      "rsi2": 6.20549065744931,
+      "ret3_pct": -5.469809346884147,
+      "above_sma200": true,
+      "sma200_raw": 200.6292308807373,
+      "lrcx_signal": true,
+      "liquidity_eligible": true,
+      "atr14": 9.309123341070386
+    },
+    {
+      "symbol": "FDX",
+      "close": 295.7900085449219,
+      "rsi2": 10.007312741025585,
+      "ret3_pct": -1.9653959471661153,
+      "above_sma200": true,
+      "sma200_raw": 293.94270072937013,
+      "lrcx_signal": true,
+      "liquidity_eligible": true,
+      "atr14": 7.556558586981713
+    }
+  ],
+  "data_errors": {
+    "MTSI": "MTSI",
+    "RKLB": "RKLB",
+    "RNG": "RNG"
+  },
+  "warning": "A/B are correlated models; agreement is not a new probability. Human no-chase thresholds and current entry/stop overlay have not been independently backtested. Current quote is not a fill or overnight venue feed."
+}

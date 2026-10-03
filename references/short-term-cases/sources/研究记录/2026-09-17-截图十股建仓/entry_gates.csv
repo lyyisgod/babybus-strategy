@@ -1,0 +1,11 @@
+symbol,extension_now_atr,above_yesterday_52w_high,above_vwap,volume_ge_1_2,extension_le_3atr,positive_sector_rs,liquid,no_takeprivate,all_pass
+IOVA,3.986239657733472,True,False,True,False,True,True,True,False
+ABCL,2.698373435327319,True,True,True,True,True,True,True,True
+TXG,3.446846399406034,True,True,True,False,True,True,True,False
+CDNA,1.9371586296189993,False,False,True,True,True,True,True,False
+TEAM,1.6848789755035944,False,False,False,True,True,True,True,False
+ATRC,3.6308170104284585,True,False,True,False,True,True,True,False
+AMPL,1.0001463935271586,False,False,False,True,True,True,True,False
+UTZ,2.0642488182826133,False,False,True,True,True,True,False,False
+PBF,0.8894808379323539,False,True,False,True,False,True,True,False
+RNG,1.6208101055708117,False,True,False,True,True,True,True,False

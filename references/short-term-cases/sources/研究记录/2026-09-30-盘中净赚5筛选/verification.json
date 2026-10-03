@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "same-bar stop-first",
+    "gap stop at open",
+    "target before later stop",
+    "premarket target cannot count as regular target",
+    "known20pct logistic intercept",
+    "today excluded",
+    "chronological train boundaries"
+  ],
+  "market_date_n": 33,
+  "top1_net_mean_95_date_bootstrap": [
+    -0.02112709538344128,
+    0.0015796147352850332
+  ],
+  "top1_minus_equal_pool_95_date_bootstrap": [
+    -0.015416941812550669,
+    0.0062840588627363315
+  ],
+  "cost_double_top1_mean_net": -0.012267680233337037,
+  "independent_prospective_audit": false,
+  "certified_profitability": false
+}

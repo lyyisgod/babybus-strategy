@@ -1,0 +1,14 @@
+[
+  {
+    "series": "DFII10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2026-08-01&coed=2026-09-29",
+    "retrieved_at": "2026-09-29T19:15:58.787618+00:00",
+    "sha256": "9ef1a19c4101722ae3284d3e7df7d7b105d466a60e9d17ea61be632347f685ea"
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-08-01&coed=2026-09-29",
+    "retrieved_at": "2026-09-29T19:15:59.214213+00:00",
+    "sha256": "a4ac4c6930f755339a1e692acf8d3033e1034a57bb49a341d36a7d0689362366"
+  }
+]

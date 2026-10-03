@@ -1,0 +1,42 @@
+{
+  "asof": "2026-09-17T16:44:59.859824+00:00",
+  "reason": "New candidates identified in dated primary-source news; added after initial scan.",
+  "requests": [
+    {
+      "symbol": "GNRC",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/GNRC?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:45:00.094400+00:00"
+    },
+    {
+      "symbol": "GNRC",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/GNRC?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:45:00.032025+00:00"
+    },
+    {
+      "symbol": "MTSI",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/MTSI?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:45:00.243313+00:00"
+    },
+    {
+      "symbol": "MTSI",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/MTSI?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:45:00.305503+00:00"
+    },
+    {
+      "symbol": "TSEM",
+      "kind": "daily",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSEM?range=5y&interval=1d&events=div%2Csplits",
+      "fetched_at": "2026-09-17T16:45:00.525864+00:00"
+    },
+    {
+      "symbol": "TSEM",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSEM?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T16:45:00.363176+00:00"
+    }
+  ]
+}

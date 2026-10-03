@@ -1,0 +1,6 @@
+{
+  "fetched_at_utc": "2026-09-30T19:16:22.815069+00:00",
+  "source": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+  "price": 100.35,
+  "quote_epoch": 1790795778
+}

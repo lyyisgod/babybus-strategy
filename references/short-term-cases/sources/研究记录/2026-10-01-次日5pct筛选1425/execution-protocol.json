@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-01T18:25:09.725046+00:00",
+  "inherited_entry_gates": "latest above VWAP, last2 completed5m closes aboveVWAP,20day sameclock cumulative RVOL>=1.2, quote<=90s",
+  "not_backtested_gates": true,
+  "candidate_preference": "among gate-pass liquid stocks, source-verified new financial guidance/earnings/contract economics within10days first, then verified commercial ramp; daily close>SMA200 business/trend context separate; original classifier rank retained but directional weight0 unless validation passes",
+  "entry_cap": "latestprice + min(0.005*price,0.1*ATR14)",
+  "risk_trigger": "3% below actualentry; gaps may exceed",
+  "target_gross": 0.05,
+  "target_net5_at_cost002": 0.052,
+  "deadline": "2026-10-02 15:55 EDT; historical model16:00 proxy",
+  "no_auto_orders": true
+}

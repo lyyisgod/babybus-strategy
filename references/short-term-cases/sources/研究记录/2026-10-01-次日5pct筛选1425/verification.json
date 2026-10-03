@@ -1,0 +1,23 @@
+{
+  "mature_labels_strict_before_signal": true,
+  "nonoverlapping_evaluation": true,
+  "today_target_does_not_exit": true,
+  "dual_touch_stop_first": true,
+  "negative_gap_slippage": true,
+  "daily_feature_prefix": true,
+  "raw_hashes_verified": 456,
+  "functional_validation_only": true,
+  "intraday_feature_prefix": true,
+  "RVOL20_requires20fullpriorclocks": true,
+  "known20pct_intercept": true,
+  "split_crossing_labels_excluded": true,
+  "not_investment_validation": true,
+  "final_raw_hashes_verified": 15,
+  "volume_reference_exact59_ordered_bars": true,
+  "current_5m_aggregation_requires5_completed_minutes": true,
+  "all150_candidates_retained_with_exclusions": true,
+  "current_factor_count": 112,
+  "manual_preference_not_statistical_probability": true,
+  "publication_raw_hashes_verified": 5,
+  "publication_final_price_volume_and_geometry_checked": true
+}

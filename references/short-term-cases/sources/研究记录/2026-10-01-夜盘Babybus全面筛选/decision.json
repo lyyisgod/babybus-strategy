@@ -1,0 +1,964 @@
+{
+  "run_id": "2026-10-01-overnight-babybus-full-scan",
+  "as_of": "2026-10-02T01:57:06.257496+00:00",
+  "symbol": "IREN",
+  "selection": "manual conditional washout speculative first; not highest probability certificate",
+  "reference_price": 40.81,
+  "quote_at": "2026-10-01T19:59:44-04:00",
+  "quote_session": "after-hours not overnight",
+  "actual_bid_ask": null,
+  "night_entry_zone": [
+    40.5,
+    41
+  ],
+  "entry_cap": 41,
+  "spread_cap_fraction": 0.003,
+  "stop_fraction": -0.03,
+  "target5_fraction": 0.05,
+  "target10_fraction": 0.1,
+  "cost_roundtrip_proxy": 0.002,
+  "net5_price_multiplier": 1.052,
+  "deadline": "2026-10-02T15:55:00-04:00",
+  "credit_state": "OFF",
+  "strict_babybus_signals": 0,
+  "current_probability": null,
+  "actual_user_purchase": "unknown",
+  "future_outcome": "not matured",
+  "automatic_orders": false,
+  "score_coverage_pct": 20,
+  "all_candidates": [
+    {
+      "ticker": "NVDA",
+      "price": 230.86000061035156,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AVGO",
+      "price": 343.6400146484375,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AMD",
+      "price": 615.72998046875,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MU",
+      "price": 1097.3900146484375,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SNDK",
+      "price": 1787.68994140625,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MRVL",
+      "price": 268.0799865722656,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ALAB",
+      "price": 356.4200134277344,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TSM",
+      "price": 459.20001220703125,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "WDC",
+      "price": 462.55999755859375,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "STX",
+      "price": 945.5700073242188,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CRDO",
+      "price": 210.1699981689453,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LITE",
+      "price": 1045.780029296875,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "COHR",
+      "price": 319.19000244140625,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AAOI",
+      "price": 107.31999969482422,
+      "price_gate_count": 6,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AMAT",
+      "price": 529.2999877929688,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LRCX",
+      "price": 340.1000061035156,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "KLAC",
+      "price": 200.3300018310547,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ONTO",
+      "price": 314.8800048828125,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CAMT",
+      "price": 153.7899932861328,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TER",
+      "price": 415.7900085449219,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SMTC",
+      "price": 186.58999633789062,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "VICR",
+      "price": 308.5899963378906,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "INTC",
+      "price": 120.0,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CIEN",
+      "price": 379.1400146484375,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ARM",
+      "price": 292.3399963378906,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "QCOM",
+      "price": 182.08999633789062,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ASML",
+      "price": 1808.489990234375,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MPWR",
+      "price": 1360.969970703125,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MTSI",
+      "price": 301.6300048828125,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ACMR",
+      "price": 83.58000183105469,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TSEM",
+      "price": 241.3000030517578,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NVTS",
+      "price": 12.119999885559082,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CLS",
+      "price": 373.0899963378906,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "FN",
+      "price": 451.44000244140625,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "VRT",
+      "price": 246.1199951171875,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NBIS",
+      "price": 232.27999877929688,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CRWV",
+      "price": 88.56999969482422,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "IREN",
+      "price": 40.650001525878906,
+      "price_gate_count": 6,
+      "state": "conditional first"
+    },
+    {
+      "ticker": "BE",
+      "price": 277.5799865722656,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "GEV",
+      "price": 987.4500122070312,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ETN",
+      "price": 437.2799987792969,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CEG",
+      "price": 258.9200134277344,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "VST",
+      "price": 139.75,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "KGS",
+      "price": 53.560001373291016,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RKLB",
+      "price": 70.45999908447266,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ASTS",
+      "price": 57.040000915527344,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LUNR",
+      "price": 14.050000190734863,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RDW",
+      "price": 10.569999694824219,
+      "price_gate_count": 6,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PL",
+      "price": 16.139999389648438,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RCAT",
+      "price": 6.329999923706055,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ONDS",
+      "price": 7.119999885559082,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "UMAC",
+      "price": 21.780000686645508,
+      "price_gate_count": 6,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PLTR",
+      "price": 190.0399932861328,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ORCL",
+      "price": 138.07000732421875,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "WDAY",
+      "price": 186.75,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CRM",
+      "price": 236.69000244140625,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NOW",
+      "price": 137.75999450683594,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SNOW",
+      "price": 341.989990234375,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "DDOG",
+      "price": 276.4599914550781,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NET",
+      "price": 351.0,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CRWD",
+      "price": 266.0899963378906,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PANW",
+      "price": 396.25,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ZS",
+      "price": 198.77999877929688,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "S",
+      "price": 24.670000076293945,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MDB",
+      "price": 351.7300109863281,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RBRK",
+      "price": 115.4000015258789,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "APP",
+      "price": 281.30999755859375,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SHOP",
+      "price": 149.08999633789062,
+      "price_gate_count": 0,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TEAM",
+      "price": 189.91000366210938,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AMPL",
+      "price": 14.300000190734863,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RNG",
+      "price": 78.30999755859375,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PATH",
+      "price": 13.319999694824219,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TWLO",
+      "price": 301.2699890136719,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "FSLY",
+      "price": 26.389999389648438,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MSTR",
+      "price": 160.5,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "COIN",
+      "price": 189.2899932861328,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "HOOD",
+      "price": 111.1500015258789,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CIFR",
+      "price": 15.460000038146973,
+      "price_gate_count": 6,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "WULF",
+      "price": 14.90999984741211,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AFRM",
+      "price": 70.43000030517578,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SOFI",
+      "price": 15.84000015258789,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "UPST",
+      "price": 22.950000762939453,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RDDT",
+      "price": 149.52999877929688,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RBLX",
+      "price": 43.0,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "TEM",
+      "price": 76.5,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "DUOL",
+      "price": 146.57000732421875,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "HIMS",
+      "price": 29.299999237060547,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "IOVA",
+      "price": 14.229999542236328,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ABCL",
+      "price": 13.90999984741211,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CDNA",
+      "price": 66.2300033569336,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SMMT",
+      "price": 16.690000534057617,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "VKTX",
+      "price": 30.510000228881836,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "VERA",
+      "price": 30.989999771118164,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AZO",
+      "price": 2819.030029296875,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "THO",
+      "price": 69.05000305175781,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MLKN",
+      "price": 20.149999618530273,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "FERG",
+      "price": 221.49000549316406,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "KBH",
+      "price": 46.540000915527344,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "COST",
+      "price": 914.9400024414062,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "FDX",
+      "price": 287.07000732421875,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NKE",
+      "price": 35.150001525878906,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "BABA",
+      "price": 107.44999694824219,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PDD",
+      "price": 76.5,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "BILI",
+      "price": 14.779999732971191,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SE",
+      "price": 95.2699966430664,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ATRC",
+      "price": 53.59000015258789,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "PBF",
+      "price": 82.33999633789062,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MSFT",
+      "price": 512.7999877929688,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "META",
+      "price": 725.9299926757812,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "GOOGL",
+      "price": 338.239990234375,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AMZN",
+      "price": 248.22999572753906,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AAPL",
+      "price": 330.32000732421875,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AKAM",
+      "price": 106.93000030517578,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "JPM",
+      "price": 333.17999267578125,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LLY",
+      "price": 1149.8499755859375,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ANET",
+      "price": 204.49000549316406,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "DELL",
+      "price": 541.739990234375,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SMCI",
+      "price": 41.91999816894531,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "HPE",
+      "price": 64.58000183105469,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NTNX",
+      "price": 71.5199966430664,
+      "price_gate_count": 0,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RGTI",
+      "price": 15.619999885559082,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "IONQ",
+      "price": 43.9900016784668,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "QBTS",
+      "price": 16.559999465942383,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "OKLO",
+      "price": 36.13999938964844,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SMR",
+      "price": 7.789999961853027,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LEU",
+      "price": 139.11000061035156,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CCJ",
+      "price": 85.69000244140625,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "UEC",
+      "price": 9.359999656677246,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MP",
+      "price": 46.09000015258789,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "LAC",
+      "price": 2.569999933242798,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "UUUU",
+      "price": 10.710000038146973,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AVAV",
+      "price": 140.30999755859375,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "KTOS",
+      "price": 42.81999969482422,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "BKSY",
+      "price": 21.149999618530273,
+      "price_gate_count": 6,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "JOBY",
+      "price": 5.960000038146973,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ACHR",
+      "price": 5.03000020980835,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RXRX",
+      "price": 4.070000171661377,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MIRM",
+      "price": 83.91999816894531,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CRSP",
+      "price": 55.439998626708984,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NTLA",
+      "price": 12.119999885559082,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "MARA",
+      "price": 11.210000038146973,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "RIOT",
+      "price": 19.610000610351562,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "NEM",
+      "price": 114.66999816894531,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "FCX",
+      "price": 69.27999877929688,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "XOM",
+      "price": 163.82000732421875,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "OXY",
+      "price": 57.84000015258789,
+      "price_gate_count": 2,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "AEHR",
+      "price": 101.5999984741211,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "POET",
+      "price": 7.639999866485596,
+      "price_gate_count": 4,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SOUN",
+      "price": 6.050000190734863,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ACN",
+      "price": 212.3000030517578,
+      "price_gate_count": 1,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "CBRS",
+      "price": 169.52000427246094,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "APLD",
+      "price": 24.15999984741211,
+      "price_gate_count": 5,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "ON",
+      "price": 80.08000183105469,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    },
+    {
+      "ticker": "SYNA",
+      "price": 106.1500015258789,
+      "price_gate_count": 3,
+      "state": "retained comparison; no order"
+    }
+  ],
+  "missing": [
+    "overnight bid/ask",
+    "full event coverage",
+    "options IV/skew",
+    "short borrow",
+    "PIT survivor free universe",
+    "untouched audit",
+    "[REDACTED: unrelated personal account information]"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "checks": [
+    "target uses next regular open, not previous close",
+    "same-day target/stop ambiguity conservative",
+    "known intercept 20% prevalence",
+    "mature train/calibration label boundaries",
+    "feature prefix causality",
+    "complete Sep21 bars",
+    "finite probability and nested target sanity"
+  ],
+  "not_validated": [
+    "after-hours/overnight executions",
+    "point-in-time stock universe",
+    "causal effect of future announcements",
+    "prospective profitability"
+  ]
+}

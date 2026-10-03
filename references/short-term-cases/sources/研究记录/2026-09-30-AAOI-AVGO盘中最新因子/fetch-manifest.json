@@ -1,0 +1,110 @@
+{
+  "AAOI-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.315007+00:00",
+    "price": 99.185,
+    "quote_time": 1790791280,
+    "previousClose": null
+  },
+  "AVGO-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.302860+00:00",
+    "price": 353.505,
+    "quote_time": 1790791287,
+    "previousClose": null
+  },
+  "QQQ-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.300063+00:00",
+    "price": 743.65,
+    "quote_time": 1790791283,
+    "previousClose": null
+  },
+  "SMH-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMH?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.296371+00:00",
+    "price": 609.23,
+    "quote_time": 1790791283,
+    "previousClose": null
+  },
+  "SOXX-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.352083+00:00",
+    "price": 567.66,
+    "quote_time": 1790791283,
+    "previousClose": null
+  },
+  "COHR-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.326225+00:00",
+    "price": 286.53,
+    "quote_time": 1790791285,
+    "previousClose": null
+  },
+  "LITE-daily": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=10y&interval=1d&events=div%2Csplits",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.282128+00:00",
+    "price": 964.855,
+    "quote_time": 1790791284,
+    "previousClose": null
+  },
+  "AAOI-live": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.218719+00:00",
+    "price": 99.185,
+    "quote_time": 1790791280,
+    "previousClose": 100.67
+  },
+  "AAOI-options": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/AAOI.json",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.728341+00:00",
+    "provider_timestamp": "2026-09-30 17:31:20"
+  },
+  "AVGO-live": {
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?range=1d&interval=1m&includePrePost=true",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.407419+00:00",
+    "price": 353.505,
+    "quote_time": 1790791287,
+    "previousClose": 355.1
+  },
+  "AVGO-options": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/AVGO.json",
+    "status": "ok",
+    "retrieved_at": "2026-09-30T18:01:28.701337+00:00",
+    "provider_timestamp": "2026-09-30 18:00:51"
+  },
+  "DFII10": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=DFII10&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.036274+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "BAMLH0A0HYM2": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=BAMLH0A0HYM2&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.063641+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "DCOILBRENTEU": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=DCOILBRENTEU&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.063893+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "CPILFESL": {
+    "url": "https://fred.stlouisfed.org/graph.csv?id=CPILFESL&cosd=2025-01-01&coed=2026-09-30",
+    "retrieved_at": "2026-09-30T17:53:56.067737+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  }
+}

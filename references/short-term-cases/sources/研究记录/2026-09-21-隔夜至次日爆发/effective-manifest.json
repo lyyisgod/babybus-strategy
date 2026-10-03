@@ -1,0 +1,1654 @@
+[
+  {
+    "symbol": "NVDA",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.147252+00:00",
+    "sha256": "d332941184ecb70952f2f5d075aeaabcb11cff4e63216515eda4ea497d303fe7"
+  },
+  {
+    "symbol": "NVDA",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.123958+00:00",
+    "sha256": "44dd6f19220659de2d6759c48aa1d3ee68ee443fecb1ea68df615344f6b34a4b"
+  },
+  {
+    "symbol": "AVGO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.157260+00:00",
+    "sha256": "60486e2874c8b5d353a586ecae639816188f3dd80c67d3c66a6dc496fcbf0d8a"
+  },
+  {
+    "symbol": "AVGO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.095291+00:00",
+    "sha256": "872c4bdfa3dc6039c6f57354b0b1eb4f2c52f2390d4ed26ab83f5acc246acfae"
+  },
+  {
+    "symbol": "AMD",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.157190+00:00",
+    "sha256": "643ae6bd43c39c09b01cd7c697099aa3223de216fb3f8697567c48c879088909"
+  },
+  {
+    "symbol": "AMD",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.127000+00:00",
+    "sha256": "51e2bc6f1769f36c08aeb7f2c26d22e2cca75b2373742997bee32f7bd511c42d"
+  },
+  {
+    "symbol": "MU",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.381672+00:00",
+    "sha256": "88064b6af772a92607d383d2626d800c4a019178d6e0f6e91e5aeecce76a4673"
+  },
+  {
+    "symbol": "MU",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.260599+00:00",
+    "sha256": "94557dbfa35de6cda3ee287094bcfe16d1e1f8c181f1a15a780dcd3a9582e465"
+  },
+  {
+    "symbol": "SNDK",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.381580+00:00",
+    "sha256": "48e1dd2e3ba6c9f6627f791d9b3318dc60165dacad8c93aa955c82c3f8ae4e71"
+  },
+  {
+    "symbol": "SNDK",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.366069+00:00",
+    "sha256": "4dbb122a47f7a0da1062c377447e11b491974c0a329f3cbd473dfa827ddbf2d2"
+  },
+  {
+    "symbol": "MRVL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.419576+00:00",
+    "sha256": "facb37464aa2a4de336f612088ff32944e5d2cebfba2c3f1a896c346552d3c42"
+  },
+  {
+    "symbol": "MRVL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.372209+00:00",
+    "sha256": "31a2465e550fec5511d5540da43f729cf50e7d7b18ea3c914b207a72cd0378e1"
+  },
+  {
+    "symbol": "ALAB",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.443816+00:00",
+    "sha256": "79578502222eb418091511f148bee5370df29c8ba091d58f2606f3e4ddd8c7db"
+  },
+  {
+    "symbol": "ALAB",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.367072+00:00",
+    "sha256": "b72047ba4dbda2a4beaf482f840477ae07116a3c84ab2649d06c730eb7006a3f"
+  },
+  {
+    "symbol": "TSM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.626544+00:00",
+    "sha256": "f24193a8e55c765ad47fe825ab30903d0554d372b2300a5a7cf54ca38c10d392"
+  },
+  {
+    "symbol": "TSM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.570172+00:00",
+    "sha256": "ad84b6d20ef0721d2cddf42dccf9d0a825c816b8b15ac0c4eaa28b0f66da4e82"
+  },
+  {
+    "symbol": "WDC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.637879+00:00",
+    "sha256": "e7bc7eb872ecdbc3adf32f889ba848ba5787a8f15e78bdfcf7979d4593d8c6ff"
+  },
+  {
+    "symbol": "WDC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.587759+00:00",
+    "sha256": "27e60376a159c58285481936fd4efad44ccf01d47d9d9abb677f9b7a1c5ae232"
+  },
+  {
+    "symbol": "STX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.637890+00:00",
+    "sha256": "dda958f711529bfed3884f53cf37dbcbe75ccb62eca7d8ec913e8d805eedc2d8"
+  },
+  {
+    "symbol": "STX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.722609+00:00",
+    "sha256": "f81498137f3ef5331f2ee5b196c57857faa238b3881cf55a4beb05f427c8ca77"
+  },
+  {
+    "symbol": "CRDO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.738971+00:00",
+    "sha256": "fdb9c0919989df1ae228095fd9c58ad2f93280128de0124a6dfeb6968ca650a7"
+  },
+  {
+    "symbol": "CRDO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.475067+00:00",
+    "sha256": "bf378b896558ab897d2b4e9ea811387f0c63ebe93ca37479e7f8da42c4f62434"
+  },
+  {
+    "symbol": "LITE",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.777113+00:00",
+    "sha256": "6fd724967958f698f0ab7da509b449d09d2d6bf170367e28af7562ab5aa4dfb8"
+  },
+  {
+    "symbol": "LITE",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.393920+00:00",
+    "sha256": "26abd5e2e0f979001a25dc32f3bbcdb0f23df3a2ad14e5a28804020f3d43020a"
+  },
+  {
+    "symbol": "COHR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.794103+00:00",
+    "sha256": "26a030679a41dc8d5f93c0deec33cce59c861fc7f6da4a968a3274c6e624f04f"
+  },
+  {
+    "symbol": "COHR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.376052+00:00",
+    "sha256": "29141b5d973423fad83003fdfdd56797039a518363e4b9f4ebe1bbc1e864d493"
+  },
+  {
+    "symbol": "AAOI",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.939807+00:00",
+    "sha256": "0c946a75755a5e48523fbb36a7738a303b54aae7901f676dd920b3d4fce6bec2"
+  },
+  {
+    "symbol": "AAOI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.368743+00:00",
+    "sha256": "d26680e8dcb6af609970f47de4f834d2b90481921c1aa7e709701700d478e294"
+  },
+  {
+    "symbol": "AMAT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.069779+00:00",
+    "sha256": "0d52e8f4154f5d3c079078feab2b6c10d1447d766c8f26d6b2b56974653762ef"
+  },
+  {
+    "symbol": "AMAT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:10.969415+00:00",
+    "sha256": "23d2903b682b1984ce0a72c90a71354d72b7604ab282394dc25c08b9486e9331"
+  },
+  {
+    "symbol": "LRCX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.028438+00:00",
+    "sha256": "a70de092c69a9583b0a9862dd26b9f8052cfe92efb8e29b334c16d0e11f90772"
+  },
+  {
+    "symbol": "LRCX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.009662+00:00",
+    "sha256": "c57beca155c66906db4d4efc1e5f3512745a62e2bd6acf9e8a1cb288964b98ee"
+  },
+  {
+    "symbol": "KLAC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.083141+00:00",
+    "sha256": "4e7fe7ec227c7f82812d1cd3f0e3da4bc9abd0d39556e23016a1fcea35ad0020"
+  },
+  {
+    "symbol": "KLAC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.058734+00:00",
+    "sha256": "bd1ec6d2a6545611796b376ee97e12c5f0f5bbc6e1bfcf168a704694127ba014"
+  },
+  {
+    "symbol": "ONTO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.122774+00:00",
+    "sha256": "95992b7b3675f59f1947c55a7f5c4c9fe26d0a884deb8b4b2f1f0f3b1b817a65"
+  },
+  {
+    "symbol": "ONTO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.438998+00:00",
+    "sha256": "564c8b3520fb864f90eacbe6ca8615fd600b77a412393acf9095036bec6a7a90"
+  },
+  {
+    "symbol": "CAMT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAMT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.336710+00:00",
+    "sha256": "c234e9bbcebae60fecd3502129e4d02134bbc7c857dae9408c932392007ce120"
+  },
+  {
+    "symbol": "CAMT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAMT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.202064+00:00",
+    "sha256": "9b0810729e1705ddb00002496c58070f0eadfdfe56a7dd5e994f49f38e1475a4"
+  },
+  {
+    "symbol": "TER",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.419190+00:00",
+    "sha256": "2e230b0d2989705d0a06aa990089e158df74d2b1e0734c2907d121ebc7867ded"
+  },
+  {
+    "symbol": "TER",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.217680+00:00",
+    "sha256": "1beb20446cd914dcae89285d0e0790efc45a1f07867317ceb0ed8d7ec3621102"
+  },
+  {
+    "symbol": "SMTC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMTC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.270231+00:00",
+    "sha256": "1f2003a35f62a151d10e860a6467e5d0815be6bb717033e634e7b1bdd11873d6"
+  },
+  {
+    "symbol": "SMTC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMTC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.317064+00:00",
+    "sha256": "280a787d3bb27e6fd02ae495b9e563d31ccc0e31215258d64296713ee918ca9c"
+  },
+  {
+    "symbol": "VICR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.447966+00:00",
+    "sha256": "3b8679669c65e5c1b9d2b6763204aacb9c9bf303b881e51649c89cf31ba13270"
+  },
+  {
+    "symbol": "VICR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.366944+00:00",
+    "sha256": "2ce9c93fb0947a220ae01f8da31049f03c0a4635bdd52c665466b7d2ca069b75"
+  },
+  {
+    "symbol": "INTC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.588809+00:00",
+    "sha256": "266d2782391bdaeb7587a226c972ca6c3c78247c0935dfd1b0d85ad4bfe68fb3"
+  },
+  {
+    "symbol": "INTC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.523676+00:00",
+    "sha256": "19b974266d79154d00e5dab81284963461786a8ff441884bb165cfaece8a214d"
+  },
+  {
+    "symbol": "CIEN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIEN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.610083+00:00",
+    "sha256": "5ade5b8946c1d6ca96922e70f20e219c839b8a575b01fe57a2f63c9e6a401948"
+  },
+  {
+    "symbol": "CIEN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIEN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.617553+00:00",
+    "sha256": "d3dcb01f43a618cb2f7a6900d0b4897d1e645d12aae2be0c49add11ced75bd6b"
+  },
+  {
+    "symbol": "ARM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.589701+00:00",
+    "sha256": "379a6f030a903ec3428cfc37dfa01acbe58e6594609ab61365a715fd6582305a"
+  },
+  {
+    "symbol": "ARM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.593743+00:00",
+    "sha256": "4267c29862006b5a8bcff134398679f881765b320ed9904043ef67f53abc3aa9"
+  },
+  {
+    "symbol": "QCOM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.708057+00:00",
+    "sha256": "98ee35cc4ffc5ee3f83c136d43680d2771b76a50ed6c1877650b0551496b6c45"
+  },
+  {
+    "symbol": "QCOM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.809049+00:00",
+    "sha256": "8e43288e5ee7d056769f9f4e9dc77bfba0cd9a2e462495619942c5220a67a7f3"
+  },
+  {
+    "symbol": "ASML",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.854440+00:00",
+    "sha256": "de55bb3d772696bc5c6237a921bff7f8fa8d98de2398c91737b5f042fab250d4"
+  },
+  {
+    "symbol": "ASML",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.831856+00:00",
+    "sha256": "a20f5a3e77e1047b54e5f1c435b92d971d0f9c964c75e5b19b0dbb92037ed2c0"
+  },
+  {
+    "symbol": "MPWR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MPWR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.986693+00:00",
+    "sha256": "298cb8711ab27eec38dfaec326c5b74efa662b2dba2364301e56929cad054e28"
+  },
+  {
+    "symbol": "MPWR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MPWR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.834766+00:00",
+    "sha256": "f5d9f83972d649e3c5ed0bdf9ecd6105c022af6fc1ea8a6bce6591de0769b247"
+  },
+  {
+    "symbol": "MTSI",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTSI?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.939051+00:00",
+    "sha256": "a533cadfa12db693f32f4a86cabb5502954d8ea58ed5785de153c4b2424792b5"
+  },
+  {
+    "symbol": "MTSI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MTSI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:11.965377+00:00",
+    "sha256": "f23c8126d9323cfc91f13e93c670c930574070b27f96ddb315c228dc49218304"
+  },
+  {
+    "symbol": "ACMR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACMR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.302262+00:00",
+    "sha256": "c8740c764ebb6e6edca5422f2dff3ca6c8b9fc220e068fb2e852bfc6c3b2951d"
+  },
+  {
+    "symbol": "ACMR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACMR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.033025+00:00",
+    "sha256": "97a9cf63dfc114b9d78028445e2caed55bf01be20731d65d12d629533237bb73"
+  },
+  {
+    "symbol": "TSEM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSEM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.077841+00:00",
+    "sha256": "c7e8122e71405a74fb0ce4eb9c689f1e34c240e351e6a5c90d54590aef513fea"
+  },
+  {
+    "symbol": "TSEM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSEM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.060199+00:00",
+    "sha256": "669bed5c2ba84e794a314281633babdc8684d2f9c6bd906f94baf608b8ea77d1"
+  },
+  {
+    "symbol": "NVTS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVTS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.210452+00:00",
+    "sha256": "3b5519038f4082a2dd3350887fcc0b87575b43c11451f670f79b07df3f690d10"
+  },
+  {
+    "symbol": "NVTS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVTS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.117507+00:00",
+    "sha256": "5a6707ec79d40c89c249573b835ebdae5533d542220a2ef6fffb968be1e4c2a5"
+  },
+  {
+    "symbol": "CLS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.203359+00:00",
+    "sha256": "251e2173a7c3f7e1f5511057bc0941abc4c5d223fe1276f046e327edce330b15"
+  },
+  {
+    "symbol": "CLS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.188551+00:00",
+    "sha256": "0f3f16fc1d0eab928aefcb754035fe5fcf1627423aceb55348aa017d351e5344"
+  },
+  {
+    "symbol": "FN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.223478+00:00",
+    "sha256": "721469be1a5282dee86f910e0f87b01564f4ce43d97140e64760d029000ac83c"
+  },
+  {
+    "symbol": "FN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.253492+00:00",
+    "sha256": "d43ff4e342645e1c4dd9fadfead9d202a8e45f1ca89c19a83075694913486070"
+  },
+  {
+    "symbol": "VRT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.462384+00:00",
+    "sha256": "c7d31ac64afc9dd4780a0ea60ac9be26d5d6e94a8b884cdcdc655e3bbe6184db"
+  },
+  {
+    "symbol": "VRT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.331855+00:00",
+    "sha256": "8b34ba9fe5df52f30dc9008a68e23da289a24f094825750770edf5940f2a184f"
+  },
+  {
+    "symbol": "NBIS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.327543+00:00",
+    "sha256": "0958f6d818b43574a4d22b3f2fdf7bcc47875a51703c01a9080a2a84629bc31b"
+  },
+  {
+    "symbol": "NBIS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.345546+00:00",
+    "sha256": "d49a8add28c8eb79fd2c0b5ad5d1b97379bf09dc108871be14a6c3636c632bb2"
+  },
+  {
+    "symbol": "CRWV",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.373156+00:00",
+    "sha256": "9832c3995488de1c1034845ccf339dfef4f0de3a3796b5505796b64670bf2c19"
+  },
+  {
+    "symbol": "CRWV",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.488582+00:00",
+    "sha256": "12837b5f2c96f9ff6becc0b376624f091eff8ced3a4e88b210d7fdc08d6678d3"
+  },
+  {
+    "symbol": "IREN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IREN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.500913+00:00",
+    "sha256": "2181ee45c5e6145ad2ba9660549b1bfeca052d16c4e68319023ab60ac00887df"
+  },
+  {
+    "symbol": "IREN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IREN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.532553+00:00",
+    "sha256": "5b45daace456e6c9c8f2264e167b40cbdc52dc96941c202b18f91092321c4983"
+  },
+  {
+    "symbol": "BE",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.599236+00:00",
+    "sha256": "2cf6ccd5f8d259d21ea107fb84eea8df819923b40350dffcd0abe7ebdfa68b96"
+  },
+  {
+    "symbol": "BE",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.576165+00:00",
+    "sha256": "83ab48f4135dbd67e377b318725c6055824f539312d5bca4a3135b9c4de4f148"
+  },
+  {
+    "symbol": "GEV",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.604768+00:00",
+    "sha256": "0453207d57b5659a10d4447f37be11edd8ac1ef3ba1df4b2e803e0fd04f22a93"
+  },
+  {
+    "symbol": "GEV",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.664755+00:00",
+    "sha256": "ceee5df7ffa042a2337a597ca3158a876f00bcf1f5df5eeb92cdebbebfd5f75e"
+  },
+  {
+    "symbol": "ETN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.727481+00:00",
+    "sha256": "6314e3e08a076421edfc979a1e91366348b3e01d5d490aa6bc4455c3c66d8bb3"
+  },
+  {
+    "symbol": "ETN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.657376+00:00",
+    "sha256": "9862347791c2f0e3fe0ff11b82294e669717665cd19e1db41b77c0e16c5a8061"
+  },
+  {
+    "symbol": "CEG",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.706957+00:00",
+    "sha256": "b3e6f113be1d53efee5a23a47ceb7e5f2adb57a98127d053053b99346cf96790"
+  },
+  {
+    "symbol": "CEG",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.743806+00:00",
+    "sha256": "6b80a65f831f0b13f23b3cc9a15faa83fcf2aa70c26efbb6feb55dcb00cbe0eb"
+  },
+  {
+    "symbol": "VST",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VST?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.865738+00:00",
+    "sha256": "aa54c1dcfbdeb26f119c98b6ec25a32d211fe9f22348553ad791fa3a83d60113"
+  },
+  {
+    "symbol": "VST",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VST?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.824918+00:00",
+    "sha256": "f6147fc186d50400a5cdb5d673f8e929d2b03a7bbcf9d35fd9bee95da7764800"
+  },
+  {
+    "symbol": "KGS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KGS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.797342+00:00",
+    "sha256": "4b968aaaf93f21da6608ec741862daf4069dd5e5835b9dc11a417b2cd5ab971b"
+  },
+  {
+    "symbol": "KGS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KGS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.821135+00:00",
+    "sha256": "a46aeaefd566d7841be7fd589fbe156b0151b7507ca493163ca44a13b390632c"
+  },
+  {
+    "symbol": "RKLB",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RKLB?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.865589+00:00",
+    "sha256": "b2d218b493f66664e20b6e7683c616964255dce28e9da62e67d53908e0b52c29"
+  },
+  {
+    "symbol": "RKLB",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RKLB?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:12.876558+00:00",
+    "sha256": "b10187fdf4fcf4a6f899b907028674f930bb5236d28563f8b9bdd4105ff672f3"
+  },
+  {
+    "symbol": "ASTS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASTS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.006868+00:00",
+    "sha256": "3ef12f39a8afbe05ada2c4f790bb046a97d80b72f4f173c7eb3cdbf098d2efe0"
+  },
+  {
+    "symbol": "ASTS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASTS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.015988+00:00",
+    "sha256": "eab4020d4bfdb1417206897f7665a1eb0eec4e98405eab415d1ff7c165a2ca74"
+  },
+  {
+    "symbol": "LUNR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LUNR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.029175+00:00",
+    "sha256": "493f43238e6fc6c7222087bc054203108049cd2223c7fdf74d4bfc14c358cc34"
+  },
+  {
+    "symbol": "LUNR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LUNR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.182183+00:00",
+    "sha256": "af91fdb00300fc52362e6fabe3d8f13212bff3b7f81ca70cb2f984e6a9563578"
+  },
+  {
+    "symbol": "RDW",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDW?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.184339+00:00",
+    "sha256": "0c31273847bb062b5615980ef630ce0118a909d256eec9ddf739d5caaf3bf25a"
+  },
+  {
+    "symbol": "RDW",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDW?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.171617+00:00",
+    "sha256": "70dc364ccd0ef3b39affcdcb917ebcb27d33b3aea6ecf57862536279ae20d511"
+  },
+  {
+    "symbol": "PL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.182409+00:00",
+    "sha256": "f5e7e7bb7be66c7c55b3c7afd8ec5c85cea65400b879fadaec6b4797d21bc964"
+  },
+  {
+    "symbol": "PL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.202555+00:00",
+    "sha256": "6ab71f9a823a71f438118acba018b03863e36f3a1303569743f43dd3a5fa9c62"
+  },
+  {
+    "symbol": "RCAT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCAT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.230511+00:00",
+    "sha256": "f9f614de2dc6624d39de9b408eeb02a89b0a23f3f0b8db15b40d3b2ca46b4594"
+  },
+  {
+    "symbol": "RCAT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCAT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.298702+00:00",
+    "sha256": "d0ed18c32db0d4ef409d5145788e6e2fe29469a3304b9315ec6f216b38c502ab"
+  },
+  {
+    "symbol": "ONDS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONDS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.405246+00:00",
+    "sha256": "f300ff84c50ed498f983a1bf7e5f9b4773249656fead7758c963d30bc3561954"
+  },
+  {
+    "symbol": "ONDS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONDS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.381593+00:00",
+    "sha256": "24d840d1f2c7978bd9d634ac815ef3b9ff1dedc21a2dccd192b1b74562599d9f"
+  },
+  {
+    "symbol": "UMAC",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UMAC?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.400462+00:00",
+    "sha256": "35fb11c1d8e65701524c55497876d6e1fd0af14acd92a741795e93d5f52e91f3"
+  },
+  {
+    "symbol": "UMAC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UMAC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.410061+00:00",
+    "sha256": "2b3d4f3e2a79b98a01e7d99163e6fdee5c8847be2cd46e5a0215db78cb9a2b0c"
+  },
+  {
+    "symbol": "PLTR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.419400+00:00",
+    "sha256": "9ed9d1090029c323eeb612b2c990ef8c3a3df64f6a55edf4b011a55233612abe"
+  },
+  {
+    "symbol": "PLTR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.531660+00:00",
+    "sha256": "422c4e349e6042ad6f55b9532a43607062d72f7530afb59448864a1cf6dccb47"
+  },
+  {
+    "symbol": "ORCL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.564376+00:00",
+    "sha256": "dae62a56ecbffa73b0331346300b8831303c671f6b2eff94596de4fcb5b6f603"
+  },
+  {
+    "symbol": "ORCL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.623271+00:00",
+    "sha256": "3b09c5c04a0fc8e779cf6827b4613cda4ffbc3e5901dff8953f51b842e09e760"
+  },
+  {
+    "symbol": "WDAY",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDAY?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.638195+00:00",
+    "sha256": "401d2d02c3d8852f5addd9ec818f79ccc66cb3e38628c19948907c8f47cc7c0d"
+  },
+  {
+    "symbol": "WDAY",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDAY?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.621979+00:00",
+    "sha256": "708dd872bf8a4e128994f572cbed2ea2d49aedef91f287030b23c42b29fd5551"
+  },
+  {
+    "symbol": "CRM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.661243+00:00",
+    "sha256": "1eea5ac92d239a342f96457c1ee7ffa294fa8e386097fc10c9afa51072cad196"
+  },
+  {
+    "symbol": "CRM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.648402+00:00",
+    "sha256": "d40e674afdc0e9a9e482132c5c47514cad0dc893bdee571b021832e6969e309c"
+  },
+  {
+    "symbol": "NOW",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.707292+00:00",
+    "sha256": "7f0a74e91d7903d3c00d068c9c009215a69f2f5080566fe06509024faadee652"
+  },
+  {
+    "symbol": "NOW",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.766199+00:00",
+    "sha256": "7b28f9d8060e78e44b87f4f5e213b3fc0fcbd2c447ec6bf01d0c3b6cf31c61cd"
+  },
+  {
+    "symbol": "SNOW",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNOW?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.855340+00:00",
+    "sha256": "0333cdf35f7c92b87c49f749e9966be3633e95ecd287b29011ce57370d397440"
+  },
+  {
+    "symbol": "SNOW",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNOW?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.806801+00:00",
+    "sha256": "281b2589c7b36b75eb58538a13ec3d67cc76a72f079a1a234c80258ef779e785"
+  },
+  {
+    "symbol": "DDOG",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DDOG?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.823822+00:00",
+    "sha256": "412e72623a7fd1aae9ec6370f0581066f0de8ca84fceeb1bb043d9bf0e2208c6"
+  },
+  {
+    "symbol": "DDOG",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DDOG?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.908552+00:00",
+    "sha256": "f46535864231bcec0739bf367e9db82f7254448ff02e8daa3548ee7c183b662e"
+  },
+  {
+    "symbol": "NET",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NET?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.835153+00:00",
+    "sha256": "da1ed807ad33f1e478144229965a5e6bab6777160ed45c345b326b1e459548f2"
+  },
+  {
+    "symbol": "NET",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NET?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.881089+00:00",
+    "sha256": "2cd4c0551ac1194e50ec359af94ab162483ab52dccbf15b226541d53c497f66e"
+  },
+  {
+    "symbol": "CRWD",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWD?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.948962+00:00",
+    "sha256": "30e5c8f1679e73a6b450c6177d52d4c724f3c70d0c7ef4becbb261c722f0b9c1"
+  },
+  {
+    "symbol": "CRWD",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWD?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:13.953902+00:00",
+    "sha256": "e508880a4e7808984deb548479e4916da57a4200775c67b87be2fb03957f1010"
+  },
+  {
+    "symbol": "PANW",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PANW?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.061291+00:00",
+    "sha256": "143b9b50de73f5fac3a9ca355d6e5b1056014bb71819fbdebab01a8076b7b7cf"
+  },
+  {
+    "symbol": "PANW",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PANW?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.044808+00:00",
+    "sha256": "963064ac125c0afcaf95dfb2ef18adc79e182fa1813e9b926e92ea2885724b53"
+  },
+  {
+    "symbol": "ZS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.082648+00:00",
+    "sha256": "3090e8eb34256ad40a1bb13356890516dd5bc41d1fc6a6a0353b36649f6f348e"
+  },
+  {
+    "symbol": "ZS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.117884+00:00",
+    "sha256": "319960a06326e1e1b955107ac4ade6027cede034aeb61f4cd61fda52babf8bf1"
+  },
+  {
+    "symbol": "S",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/S?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.157055+00:00",
+    "sha256": "b93b323ed37e3be60103994abfef9ebb1fb6c505ca4ad9fa92b54b41631dbb7d"
+  },
+  {
+    "symbol": "S",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/S?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.140378+00:00",
+    "sha256": "449b434dcd46429f50bdcf5cd54376bcb608b5a068d2d9aa91926303c3905d41"
+  },
+  {
+    "symbol": "MDB",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDB?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.183318+00:00",
+    "sha256": "6372ed7be191b2d3a0c7500192d5e55838ead448eb670329abf5fd9e490aa9d4"
+  },
+  {
+    "symbol": "MDB",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDB?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.228711+00:00",
+    "sha256": "f32e9573864e58d4736170df3ea665bfb38d7bc3b5ffd70de426d5d4a900ccfa"
+  },
+  {
+    "symbol": "RBRK",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RBRK?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.194209+00:00",
+    "sha256": "7bbaa71eb58ec277da2c919cc76d1eecbe6f1345837ad5083608e1699f5b30b7"
+  },
+  {
+    "symbol": "RBRK",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RBRK?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.233040+00:00",
+    "sha256": "b45451f72bdb549a31984e995ec9680818876736b0268dabf07b297aad8f6b0b"
+  },
+  {
+    "symbol": "APP",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.261131+00:00",
+    "sha256": "8587ef63bafc62d7143b8d40f36515aa5f9698be81db32d3b9adbe28d6320fe4"
+  },
+  {
+    "symbol": "APP",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.361581+00:00",
+    "sha256": "7a7ed59f2cee9778b75465c7412e115b1c344671f54fff5ebe96a107eec3155f"
+  },
+  {
+    "symbol": "SHOP",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SHOP?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.333105+00:00",
+    "sha256": "e5b2b1335575427be27897bc5f42ebacdf8c574ee0b6c8feadfa75eea1865e73"
+  },
+  {
+    "symbol": "SHOP",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SHOP?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.312546+00:00",
+    "sha256": "7186084d49fd352ddabda5fe242fad171aca482c019d1837484037637b0a5f6a"
+  },
+  {
+    "symbol": "TEAM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.442804+00:00",
+    "sha256": "8ecf2829191c526cc3e417824b7014d54adb1f07ccc4156962b208cc855138f6"
+  },
+  {
+    "symbol": "TEAM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.353728+00:00",
+    "sha256": "a1e04aa704747b4c2b42d0e9d08e75ca35e88280824c3ce875e4961a877b0be0"
+  },
+  {
+    "symbol": "AMPL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMPL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.465349+00:00",
+    "sha256": "6c889621c4c79043a1c8dcc00274941e1d33b0e11aa65d7da31ff975ad45678f"
+  },
+  {
+    "symbol": "AMPL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMPL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.447648+00:00",
+    "sha256": "fc8c2ea15953ebdba6c60f08d49fcc2a1271dca73ee255a583c0254954a22310"
+  },
+  {
+    "symbol": "RNG",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RNG?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.561476+00:00",
+    "sha256": "753f17c7441f7dd41d0c99c0f6e43d7e7145a31f2f64f0cf051179a4d073f5da"
+  },
+  {
+    "symbol": "RNG",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RNG?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.472992+00:00",
+    "sha256": "47cded2fadcc87dd196c0cb3d946ad8fb7a6859d452694784664b8c2b1989eaf"
+  },
+  {
+    "symbol": "PATH",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PATH?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.561495+00:00",
+    "sha256": "feb670169218e75693e419579897311e8dab1cc7039cf36f198185e4eaeb4f63"
+  },
+  {
+    "symbol": "PATH",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PATH?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.632311+00:00",
+    "sha256": "fec5436b05a9a9c00975bb0b1fbc62b4aea0e04e3892ba47c63fa864aa218ba6"
+  },
+  {
+    "symbol": "TWLO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TWLO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.688910+00:00",
+    "sha256": "f27b040fa47bc011493b705ecd8783bd7e39612c0c8e19321fec9d8c36fd5700"
+  },
+  {
+    "symbol": "TWLO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TWLO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.677026+00:00",
+    "sha256": "894572322570f625a706d1319c1bbf94524e8015707fb1ac454a81c32e75f722"
+  },
+  {
+    "symbol": "FSLY",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FSLY?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.692880+00:00",
+    "sha256": "c175654f71443226aa5c72bb6210feecf4e624937d50c60cf25ffc458885f772"
+  },
+  {
+    "symbol": "FSLY",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FSLY?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.354335+00:00",
+    "sha256": "c251f6f0145c04a58864977c31d15d7bda85e3ad3dc08fb885a762aba465dd9c"
+  },
+  {
+    "symbol": "MSTR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSTR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.731289+00:00",
+    "sha256": "2a0e01f81457a0fa714d2fde4d982f93a67670bf8490689b202b333e43f2e751"
+  },
+  {
+    "symbol": "MSTR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSTR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.797593+00:00",
+    "sha256": "f8335af85835b73a304ba395d41524e6edd4e2d367b54d33365280911116b154"
+  },
+  {
+    "symbol": "COIN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COIN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.809842+00:00",
+    "sha256": "d6da8978ec764def698a69337fc5608845e92e087e00dde8d501182b0db085bc"
+  },
+  {
+    "symbol": "COIN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COIN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.815065+00:00",
+    "sha256": "2ccbded10243fe3a76aa95f75805148462c14e8ca0488841288af1d8f7734772"
+  },
+  {
+    "symbol": "HOOD",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.827292+00:00",
+    "sha256": "f2e49d3a416bd541cebabb47eb9d37a47d404deb8d404055c946f70a39ddd16d"
+  },
+  {
+    "symbol": "HOOD",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.815974+00:00",
+    "sha256": "90537262c03503612b5dfee6bc532f0b190a8e1e6171156713e68c884f8792ba"
+  },
+  {
+    "symbol": "CIFR",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIFR?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.856803+00:00",
+    "sha256": "c7f4a440098cb5832715758a2bb5a2ab2b9ee842c6b0c5d3279bf5365664f24a"
+  },
+  {
+    "symbol": "CIFR",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIFR?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.928200+00:00",
+    "sha256": "194d3b214b073e66140bb6636ad085b8db5b845d92e44b31c9a2d25b40b5e99d"
+  },
+  {
+    "symbol": "WULF",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WULF?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.992350+00:00",
+    "sha256": "e7d6de4eb2cb30dd0afa600dd9ffe8f54194f05ddc36962e13b8e5ba8f6a0d66"
+  },
+  {
+    "symbol": "WULF",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WULF?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.971398+00:00",
+    "sha256": "ea2b0fc829e00e8258159b2316f13d7552fcdfd1cebc4eaba10ecf6c1af60b27"
+  },
+  {
+    "symbol": "AFRM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AFRM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.083704+00:00",
+    "sha256": "e30af9ba90539ced2a169685601e79f773e3929e982f2872eb89338d0e1a067f"
+  },
+  {
+    "symbol": "AFRM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AFRM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.982288+00:00",
+    "sha256": "6624bae114c29385777f524ee3250ef2ecd06cae0634a711e785e1abd39a046a"
+  },
+  {
+    "symbol": "SOFI",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:14.998520+00:00",
+    "sha256": "677e1bea471b84665f1bf9a20dd5b353f78884f86c3080f717237ea5d199b5cb"
+  },
+  {
+    "symbol": "SOFI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.109099+00:00",
+    "sha256": "063fb0a3ee6680680c8d4489b925f9f7a0098c56079f004ae8df4d87f5e93e23"
+  },
+  {
+    "symbol": "UPST",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UPST?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.170553+00:00",
+    "sha256": "f74979b45e306f1520118de874e9919e46eb43ca914eb90d73f151d3c99886e5"
+  },
+  {
+    "symbol": "UPST",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UPST?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.201588+00:00",
+    "sha256": "7ebe5c17a13b8725ffdec5e3d33b1fe299c8a5280d7238fb5b08380299b35aa1"
+  },
+  {
+    "symbol": "RDDT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDDT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.215998+00:00",
+    "sha256": "6733a6a23d721e592a409d907bb89eac23baed86af133d3f8dc1a9f9e2b71098"
+  },
+  {
+    "symbol": "RDDT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDDT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.185385+00:00",
+    "sha256": "63ed7fa269886f950825ec0a50e34420bb20991b80390a70601f32b95b006722"
+  },
+  {
+    "symbol": "RBLX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RBLX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.215741+00:00",
+    "sha256": "1df012dd137a96bd070e0547d243edec459bfc33906969c59d86b88ee2b614b5"
+  },
+  {
+    "symbol": "RBLX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RBLX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.233083+00:00",
+    "sha256": "9a53b998b75fec975eacdccadc75d3332fac0b2fb0972b111b7f7380c952eb28"
+  },
+  {
+    "symbol": "TEM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.285258+00:00",
+    "sha256": "c132e8c1c6a2944b6eb3218f299f90d759bae42177fac217f3eed2d3222b9166"
+  },
+  {
+    "symbol": "TEM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.310525+00:00",
+    "sha256": "5cf309a58ef5acb9dd2dcee866e73b15f04cb6c69e0bef03ad819d288220dc6c"
+  },
+  {
+    "symbol": "DUOL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DUOL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.404992+00:00",
+    "sha256": "afad356af4d67e841eecd5eb9aaab97e446776d4dbbb627c6b86ba3b632ed72f"
+  },
+  {
+    "symbol": "DUOL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DUOL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.353294+00:00",
+    "sha256": "07c86e37048ddd4701c12e11ea68cdf8210121eadbe0b2fb8037d3391aab6522"
+  },
+  {
+    "symbol": "HIMS",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMS?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.368502+00:00",
+    "sha256": "09807189a56703f8b6e5abd429ccdbc790abda48c0ec955922953707e119ba24"
+  },
+  {
+    "symbol": "HIMS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.364867+00:00",
+    "sha256": "b8f7f9f6f573d43e257cb3ea2da56067bba7694d99f81daaf97078ab76666bff"
+  },
+  {
+    "symbol": "IOVA",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IOVA?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.430522+00:00",
+    "sha256": "6fd561d11750fffb1e7a42ebc17c83fe5ad2a6b40c774e8eb360cfd092b011ca"
+  },
+  {
+    "symbol": "IOVA",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IOVA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.437827+00:00",
+    "sha256": "1fef0568255935fa51a97c891d2f6502e7f6e41e885027c82c7aa5073960b56e"
+  },
+  {
+    "symbol": "ABCL",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.480411+00:00",
+    "sha256": "bd2ffe0a10ad70641590007a239c6245d420f1a429ac0ca91d67e40db7e9a2fd"
+  },
+  {
+    "symbol": "ABCL",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.493076+00:00",
+    "sha256": "b453c35a47afb70cdbf9edce19e3e2059fb8aebfba43800c9487055b9b03e6a9"
+  },
+  {
+    "symbol": "CDNA",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDNA?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.646840+00:00",
+    "sha256": "5d0e4d94769cb21fc9ecf2859dafe66a50edc1d00cb5b8f54d668ef95a6f9fc9"
+  },
+  {
+    "symbol": "CDNA",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDNA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.525296+00:00",
+    "sha256": "a22024cd34e3de850ec1be7633f44b279d1a618faf2606c3e30b0408b039ffd6"
+  },
+  {
+    "symbol": "SMMT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMMT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.682731+00:00",
+    "sha256": "0bbc8ac1c379d05be73b2014a50afd67c62adc1c941174dd76f4a8f275dc649a"
+  },
+  {
+    "symbol": "SMMT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMMT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.646816+00:00",
+    "sha256": "80c84b5ae2d710efc70c73647d07c39a533917860517ee693c72c68c15806707"
+  },
+  {
+    "symbol": "VKTX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VKTX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.781114+00:00",
+    "sha256": "cde794cc17140ec9ce28672689b6e8697657d742640207529cba32e88d370bac"
+  },
+  {
+    "symbol": "VKTX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VKTX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.714352+00:00",
+    "sha256": "3141201311b7288ec52cbeb0a49dd74e4c9a9e18c93b02738a8cdfe6683bad5e"
+  },
+  {
+    "symbol": "VERA",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VERA?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.748004+00:00",
+    "sha256": "2ffde0b08eed9c1fd7d3134c8759e80e39fec282c78fe8b7421966a6c6c5f39b"
+  },
+  {
+    "symbol": "VERA",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VERA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.794867+00:00",
+    "sha256": "3e304434b71de34eed2ab6c8e12acc2915e92917f8e1a265c5952867b32c6ef5"
+  },
+  {
+    "symbol": "AZO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AZO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.861827+00:00",
+    "sha256": "dd5cbe37e4c812da3e51f8c4cd9bdfa310928177d4bfb0bdbeb1cb0adbe66b4b"
+  },
+  {
+    "symbol": "AZO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AZO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.846055+00:00",
+    "sha256": "0309b64766a84656544493bdeee641c267654d894457634c616304c9b39901a4"
+  },
+  {
+    "symbol": "THO",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/THO?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.910394+00:00",
+    "sha256": "4e9ea699ad611813c54fe42f6833d1a5a97133dcb21b9b9cb2ae4f86b64cec26"
+  },
+  {
+    "symbol": "THO",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/THO?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.848178+00:00",
+    "sha256": "c13b4d3e785c53de3ad95575a1eda6c996753ea569012ff5e788f322a3d7786c"
+  },
+  {
+    "symbol": "MLKN",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MLKN?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.960847+00:00",
+    "sha256": "131b756fbf0925684f1fa5be43af95596fd58e87e3303c3d994155ad01534f62"
+  },
+  {
+    "symbol": "MLKN",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MLKN?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.919304+00:00",
+    "sha256": "5982247d41e071153e447cfdf65886c2030783df06f5ea3483cf069d74973ac7"
+  },
+  {
+    "symbol": "FERG",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FERG?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.031566+00:00",
+    "sha256": "971bd41487558398e50d0a93a5a86cd3b1a98f3f8d8647569f2758053b0d7c6d"
+  },
+  {
+    "symbol": "FERG",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FERG?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:15.970708+00:00",
+    "sha256": "f085380bfd73abc657db177fc8fd0213e0654dbf97415d4485db7a19d978aaa4"
+  },
+  {
+    "symbol": "KBH",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KBH?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.175534+00:00",
+    "sha256": "1c4f4f6c702c2ebb4937d17d3627c21f290675feaa5561e9eb23698b88389b91"
+  },
+  {
+    "symbol": "KBH",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KBH?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.025924+00:00",
+    "sha256": "4060f9093401445ad9c15f69b47eaf12bb63fcd46a77811c8f0cc21a69734a44"
+  },
+  {
+    "symbol": "COST",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.173436+00:00",
+    "sha256": "fd0f6a6717b638025d2c2d2576ecb60897d44ac4eb15e4f9271033b948bbf73d"
+  },
+  {
+    "symbol": "COST",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.157071+00:00",
+    "sha256": "e6f4fe3d66bfac04c577380c8f2a4d5fbc351206e8e3638d2487c80b3f11eb26"
+  },
+  {
+    "symbol": "FDX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.187667+00:00",
+    "sha256": "58585afe76c20a35162b093622492ee7a762f6463dd23f73be9371cabe3e1e99"
+  },
+  {
+    "symbol": "FDX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.213145+00:00",
+    "sha256": "1318c02f77d6a6bb0ba2bcfb0f9bc6c0699271ad405dcc3b6b0c3d963cec6b9c"
+  },
+  {
+    "symbol": "NKE",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.323871+00:00",
+    "sha256": "f7645ae21217dedb51e8fa60e3b0a22125d0dbc277c518df7f45525df58a4913"
+  },
+  {
+    "symbol": "NKE",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.273141+00:00",
+    "sha256": "2de5404ffa4ef15b5552a26f6e507f20314840b98ce8021e49b6fb52ce9d57a8"
+  },
+  {
+    "symbol": "BABA",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BABA?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.356957+00:00",
+    "sha256": "eec9bd966fde7c9f0caf3571833bb94ba676a4591bf153bc6ab2476cd84ceaea"
+  },
+  {
+    "symbol": "BABA",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BABA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.356848+00:00",
+    "sha256": "e0d0f15a7989d52767880601683a16efc2c3f1482148ba4385979023892d6fa4"
+  },
+  {
+    "symbol": "PDD",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PDD?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.347078+00:00",
+    "sha256": "9c7f17013239ca87b8d65be682b58ba16e95db239588ae27f25a7524be2156ce"
+  },
+  {
+    "symbol": "PDD",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PDD?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.331182+00:00",
+    "sha256": "57e06251d03a9aa2c2beb278fce693b5d57eedf8c1c4d514bd407d42868f6619"
+  },
+  {
+    "symbol": "BILI",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BILI?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.418575+00:00",
+    "sha256": "62a044e7f8a0270df8c8b853675704ce332f0ca20f8212b2775f7c09a107358e"
+  },
+  {
+    "symbol": "BILI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BILI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.444952+00:00",
+    "sha256": "a2315368fa5c9deda1fd99c3db9bd4242d24d34e787e2364c638b8adb413773e"
+  },
+  {
+    "symbol": "SE",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SE?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.501521+00:00",
+    "sha256": "1a135212cbd0c5676c6b31abc08d1f720babb1f28742f8317dc74b1f439ea007"
+  },
+  {
+    "symbol": "SE",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SE?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.504602+00:00",
+    "sha256": "a6a7730e4b41bd1ce2b6ef2fa136fbfa27adaf34a3769c5460ab00a8e98520a6"
+  },
+  {
+    "symbol": "SPY",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.555259+00:00",
+    "sha256": "2b52857570635c26833d1c85f3fcac7982b9253316221c9d62a8709032968502"
+  },
+  {
+    "symbol": "SPY",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.496639+00:00",
+    "sha256": "3a9a51c40d2507e964140294295dfe0815a7e952ff21761660ca58fcbaba6437"
+  },
+  {
+    "symbol": "QQQ",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.662995+00:00",
+    "sha256": "21339b2232c9a3ad37349c89c2ab66606e8ce8791f207600566222b3e284e73d"
+  },
+  {
+    "symbol": "QQQ",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.571278+00:00",
+    "sha256": "45d1a92c76eb8e2b0dfcdeedf597f5090db52d18a806197d3f08c99bfa638a97"
+  },
+  {
+    "symbol": "IWM",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.702939+00:00",
+    "sha256": "3802bb8f5d1e70135ddaa9893ea2269187831415636694baab5554e0b6713a22"
+  },
+  {
+    "symbol": "IWM",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.680567+00:00",
+    "sha256": "c244d1a27988210a9e28806d52933d2ab25d5e2fd9e292f5002a31d9344d0349"
+  },
+  {
+    "symbol": "SMH",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.761671+00:00",
+    "sha256": "b00968bd7fb31e06830eb46f5c4a433e49f4532969cb1c332428aac415fc32bd"
+  },
+  {
+    "symbol": "SMH",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:52:39.572533+00:00",
+    "sha256": "8b04704bf0c93b78c7571f18a1bd0d2909d74439f2a3689b8aa8e6b271ca1634"
+  },
+  {
+    "symbol": "IGV",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IGV?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.947407+00:00",
+    "sha256": "3e949def31e42b57f3f0998180c5ee3df7bab94e95816ddd5d65208ed5712c94"
+  },
+  {
+    "symbol": "IGV",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IGV?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.835546+00:00",
+    "sha256": "3f79de3515d557a38a53f705547e16412934c7fa4e7faa009a8c116ae5342504"
+  },
+  {
+    "symbol": "XBI",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XBI?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.906955+00:00",
+    "sha256": "ebe0155568249941a21c2391a71ebeaf7fe85deac267572beecc74795bd58888"
+  },
+  {
+    "symbol": "XBI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XBI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.867948+00:00",
+    "sha256": "0d563f6f635d190097706cecd129391b84594e363cde6670f43456eecf35dec2"
+  },
+  {
+    "symbol": "JNK",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JNK?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.959067+00:00",
+    "sha256": "fcbb458265076e59ccda7dd1002b31acc0f8fa4ad5191ac8a7f85e301ede9a16"
+  },
+  {
+    "symbol": "JNK",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JNK?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:16.889048+00:00",
+    "sha256": "fe63ce1fe3349e07a37c78fe7d82b55161df6bc9018ea092f4416f7aefcd7faf"
+  },
+  {
+    "symbol": "TLT",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.078373+00:00",
+    "sha256": "99ce1c8cca6633eebdc520561cf59f7077366ccda68b806c2ee4108d43aeb6bd"
+  },
+  {
+    "symbol": "TLT",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.011593+00:00",
+    "sha256": "c3b6e6e1906ae58ef8dbba4f7b8f56127ccddd2f50ae1da2f6b5ae9f9c2e9290"
+  },
+  {
+    "symbol": "^VIX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.080808+00:00",
+    "sha256": "61ad3d9bd9f79743043b020bc84f8896d94d86ae27407025378e47cbf1054b32"
+  },
+  {
+    "symbol": "^VIX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.046461+00:00",
+    "sha256": "6150cc9edb2af4b8dfb26ef042d41aadf7a2f58f59f6f327192b5ad1634751aa"
+  },
+  {
+    "symbol": "^TNX",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^TNX?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.095111+00:00",
+    "sha256": "ea9e3eb5f4a563db9a9b005716f1b2cd55a6ed2d41b7307e6a59ab969c0aef89"
+  },
+  {
+    "symbol": "^TNX",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^TNX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.064314+00:00",
+    "sha256": "93ddd3d55a3da5139ee4582fdcbd93a0459e94cdb5ba89c90c45503ab343a12d"
+  },
+  {
+    "symbol": "BZ=F",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.297763+00:00",
+    "sha256": "ef9e7d4c4ec9be407ba064f6e2a1efa6b3901fdbda46997c202530f3e87210c8"
+  },
+  {
+    "symbol": "BZ=F",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.217986+00:00",
+    "sha256": "3f6af2504428839ab8e124a82dee895512bf3946e38d58773a597a4e91b550c4"
+  },
+  {
+    "symbol": "NQ=F",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ=F?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.218123+00:00",
+    "sha256": "747e3eb36a4ba1e5d2d6e581ce83de860e32b2b13ba3fc1a06f57033b8fbaf69"
+  },
+  {
+    "symbol": "NQ=F",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ=F?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.310915+00:00",
+    "sha256": "cac9fd150ed2609f416cf09f834fb609093e8b88abfb84cb53f971accf844205"
+  },
+  {
+    "symbol": "ES=F",
+    "interval": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ES=F?range=10y&interval=1d&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.333780+00:00",
+    "sha256": "8847bff27916bd47db8639c903179c3a3ee947ed922f954e355bad198755916c"
+  },
+  {
+    "symbol": "ES=F",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ES=F?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-21T20:44:17.275063+00:00",
+    "sha256": "e18277f05270e2d70349776fe31a448acfb50a5c2a898ff957797a4666ad48ae"
+  }
+]

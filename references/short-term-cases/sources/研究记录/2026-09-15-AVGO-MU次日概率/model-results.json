@@ -1,0 +1,1361 @@
+{
+  "asof": "2026-09-15T15:09:16.847893-04:00",
+  "target": "Tomorrow adjusted close below today adjusted close; provisional today-close-equals-snapshot assumption. No scheduled ex-dividend for target session verified in reviewed announcements.",
+  "dates": {
+    "today": "2026-09-15",
+    "tomorrow": "2026-09-16"
+  },
+  "method": "Two prespecified per-stock ridge logistic models, quarterly expanding OOS since 2024; fixed lambda .05, no tuning. Separate historical FOMC and analog frequencies.",
+  "features": {
+    "simple": [
+      "shock1",
+      "momentum5",
+      "momentum20",
+      "distance20",
+      "relative5",
+      "sigma20"
+    ],
+    "full": [
+      "shock1",
+      "momentum5",
+      "momentum20",
+      "distance20",
+      "relative5",
+      "sigma20",
+      "qqq1",
+      "semis_excess1",
+      "yield1_bp",
+      "yield20_bp",
+      "vix_level",
+      "vix_change",
+      "oil5",
+      "dollar5",
+      "credit_proxy5",
+      "breadth",
+      "fomc_next"
+    ]
+  },
+  "live_probability_not_calibrated_for_fomc": true,
+  "results": {
+    "AVGO": {
+      "quote": {
+        "price": 340.17,
+        "timestamp": 1789499133
+      },
+      "models": {
+        "down_simple": {
+          "raw_probability": 0.4124273569937237,
+          "conditional_parameter_bootstrap95": [
+            0.3477685085196963,
+            0.455181483815846
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.4080851666400838,
+            "1.0": 0.4124273569937237,
+            "1.01": 0.4174134798940353
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.47041420118343197,
+            "auc": 0.5188240047784688,
+            "brier": 0.2493469999896864,
+            "baseline_brier": 0.24931182123114637,
+            "block20_brier_improvement95": [
+              -0.0028564833321846157,
+              0.0025666539640866585
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.38095238095238093,
+            "brier": 0.24534885070458434,
+            "baseline_brier": 0.24436218480646515
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 6,
+              "mean_probability": 0.3966143327127938,
+              "observed": 0.0
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 426,
+              "mean_probability": 0.461435339240221,
+              "observed": 0.4788732394366197
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 242,
+              "mean_probability": 0.5297329876170238,
+              "observed": 0.4628099173553719
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 2,
+              "mean_probability": 0.6209166417427672,
+              "observed": 1.0
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.10834366497282356,
+            "shock1": -0.005002843578165945,
+            "momentum5": 0.10088235749941808,
+            "momentum20": 0.0074951355698017535,
+            "distance20": 0.03954980848949127,
+            "relative5": -0.020067812616903977,
+            "sigma20": 0.02203995792021863
+          }
+        },
+        "down_full": {
+          "raw_probability": 0.379201193381574,
+          "conditional_parameter_bootstrap95": [
+            0.24900719887339431,
+            0.5083828587066751
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.37737635187225926,
+            "1.0": 0.379201193381574,
+            "1.01": 0.3815875937230799
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.47041420118343197,
+            "auc": 0.5306735532834405,
+            "brier": 0.2491150395197925,
+            "baseline_brier": 0.24931182123114637,
+            "block20_brier_improvement95": [
+              -0.003595682877935263,
+              0.003897819384505016
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.38095238095238093,
+            "brier": 0.23310481884570872,
+            "baseline_brier": 0.24436218480646515
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 43,
+              "mean_probability": 0.3652076040349734,
+              "observed": 0.37209302325581395
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 386,
+              "mean_probability": 0.4599361245922356,
+              "observed": 0.48186528497409326
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 238,
+              "mean_probability": 0.5347463770723596,
+              "observed": 0.46638655462184875
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 9,
+              "mean_probability": 0.6274339638759943,
+              "observed": 0.5555555555555556
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.1111518019070898,
+            "shock1": -0.029748346599620955,
+            "momentum5": 0.09450584785116525,
+            "momentum20": 0.003721381408473683,
+            "distance20": 0.03468436102619596,
+            "relative5": -0.008830518750264811,
+            "sigma20": 0.025429744568075893,
+            "qqq1": 0.09648159711889605,
+            "semis_excess1": 0.07583861753720753,
+            "yield1_bp": 0.029254085906293057,
+            "yield20_bp": 0.044812653052892955,
+            "vix_level": -0.04873913438898813,
+            "vix_change": -0.05756592328375707,
+            "oil5": 0.05250330338669349,
+            "dollar5": -0.018018700079931373,
+            "credit_proxy5": 0.02983020969095765,
+            "breadth": -0.16920059523945372,
+            "fomc_next": -0.0801738118229997
+          }
+        },
+        "down2_simple": {
+          "raw_probability": 0.13943791871846448,
+          "conditional_parameter_bootstrap95": [
+            0.10049975569735624,
+            0.1789540242761253
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.13553020985186578,
+            "1.0": 0.13943791871846448,
+            "1.01": 0.14407122844523967
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.17899408284023668,
+            "auc": 0.5686397140942595,
+            "brier": 0.14631651376912957,
+            "baseline_brier": 0.148953045137308,
+            "block20_brier_improvement95": [
+              -0.00031291436021802226,
+              0.006606509769430718
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.23809523809523808,
+            "brier": 0.1791434076420653,
+            "baseline_brier": 0.19365691008297464
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 676,
+              "mean_probability": 0.15763516602534058,
+              "observed": 0.17899408284023668
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -1.7735889316277673,
+            "shock1": 0.022044408447870697,
+            "momentum5": 0.06399058433733082,
+            "momentum20": -0.09663556285159629,
+            "distance20": -0.003879057221576817,
+            "relative5": 0.10294829119002726,
+            "sigma20": 0.21279490096553672
+          }
+        },
+        "down2_full": {
+          "raw_probability": 0.18416310221826449,
+          "conditional_parameter_bootstrap95": [
+            0.0992988313010498,
+            0.2820290148443655
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.1798361230613883,
+            "1.0": 0.18416310221826449,
+            "1.01": 0.18947178705004927
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.17899408284023668,
+            "auc": 0.5490879309061127,
+            "brier": 0.14845039068675123,
+            "baseline_brier": 0.148953045137308,
+            "block20_brier_improvement95": [
+              -0.002299336199805439,
+              0.0037207327696628855
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.23809523809523808,
+            "brier": 0.17599878039024863,
+            "baseline_brier": 0.19365691008297464
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 673,
+              "mean_probability": 0.1474194422181946,
+              "observed": 0.17682020802377416
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 3,
+              "mean_probability": 0.4198301433526441,
+              "observed": 0.6666666666666666
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -1.785451312033459,
+            "shock1": 0.009060600561256911,
+            "momentum5": 0.07413357086377065,
+            "momentum20": -0.08383206131378104,
+            "distance20": 0.010804489558860556,
+            "relative5": 0.0901518942198332,
+            "sigma20": 0.2305466860433656,
+            "qqq1": -0.04781814585127759,
+            "semis_excess1": 0.004262427922420785,
+            "yield1_bp": -0.007855492170512084,
+            "yield20_bp": 0.16462552639495798,
+            "vix_level": -0.0032546566265399244,
+            "vix_change": -0.024091659890132067,
+            "oil5": 0.05745453972698878,
+            "dollar5": 0.040336834166901724,
+            "credit_proxy5": -0.025319238487401505,
+            "breadth": 0.063345263230652,
+            "fomc_next": 0.025137621194315746
+          }
+        },
+        "break_low_simple": {
+          "raw_probability": 0.5108178334112593,
+          "conditional_parameter_bootstrap95": [
+            0.4518531363996591,
+            0.5486472407456059
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.5591018362655003,
+            "1.0": 0.5108178334112593,
+            "1.01": 0.46160476489739755
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.4437869822485207,
+            "auc": 0.6320921985815603,
+            "brier": 0.2339583681327743,
+            "baseline_brier": 0.24705732616687365,
+            "block20_brier_improvement95": [
+              0.0056535876475167285,
+              0.020506031490593365
+            ],
+            "validated_edge": true
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.3333333333333333,
+            "brier": 0.24190163195515563,
+            "baseline_brier": 0.23497769973026203
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 213,
+              "mean_probability": 0.3273205851629337,
+              "observed": 0.27699530516431925
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 275,
+              "mean_probability": 0.4505669636015291,
+              "observed": 0.509090909090909
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 135,
+              "mean_probability": 0.5405619637671778,
+              "observed": 0.5111111111111111
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 53,
+              "mean_probability": 0.6690914317287412,
+              "observed": 0.6037735849056604
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.22567915101521444,
+            "shock1": -0.45232180672750566,
+            "momentum5": 0.005434541550463014,
+            "momentum20": 0.01998702292183971,
+            "distance20": -0.01537577303625498,
+            "relative5": 0.0019236354222094338,
+            "sigma20": -0.0013575801590294978
+          }
+        },
+        "break_low_full": {
+          "raw_probability": 0.45307755585675646,
+          "conditional_parameter_bootstrap95": [
+            0.32984827377707954,
+            0.5802081831687571
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.49070319538734014,
+            "1.0": 0.45307755585675646,
+            "1.01": 0.4155667951531047
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.4437869822485207,
+            "auc": 0.632686170212766,
+            "brier": 0.23417707257599413,
+            "baseline_brier": 0.24705732616687365,
+            "block20_brier_improvement95": [
+              0.00438907445586574,
+              0.020811271507612594
+            ],
+            "validated_edge": true
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.3333333333333333,
+            "brier": 0.23970369194973085,
+            "baseline_brier": 0.23497769973026203
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 255,
+              "mean_probability": 0.31935113976794105,
+              "observed": 0.3176470588235294
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 198,
+              "mean_probability": 0.44933967038248496,
+              "observed": 0.4797979797979798
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 134,
+              "mean_probability": 0.5436750819508935,
+              "observed": 0.5149253731343284
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 89,
+              "mean_probability": 0.6540932283449818,
+              "observed": 0.6179775280898876
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.23059017891380099,
+            "shock1": -0.342759209935534,
+            "momentum5": 0.023242062393024274,
+            "momentum20": 0.016507607762045007,
+            "distance20": 0.00017149272422514226,
+            "relative5": -0.0336404559252029,
+            "sigma20": 0.014619502316220081,
+            "qqq1": -0.07887139638499018,
+            "semis_excess1": 0.05130409866657292,
+            "yield1_bp": -0.027440244839199206,
+            "yield20_bp": 0.08646923455950847,
+            "vix_level": -0.06132885227063354,
+            "vix_change": 0.02171975838957965,
+            "oil5": 0.016060387326609256,
+            "dollar5": 0.05046485091451995,
+            "credit_proxy5": 0.04583836247907107,
+            "breadth": -0.1606033386597703,
+            "fomc_next": -0.08804951395391307
+          }
+        }
+      },
+      "feature_snapshot": {
+        "shock1": -0.5896618652172799,
+        "momentum5": -1.5908858983290908,
+        "momentum20": -1.4181849205217332,
+        "distance20": -2.730009159378905,
+        "relative5": -0.9331795551577499,
+        "sigma20": 0.022533193185849874,
+        "qqq1": -0.00638761429891288,
+        "semis_excess1": 0.006572241419757652,
+        "yield1_bp": 3.900003433227539,
+        "yield20_bp": 27.60000228881836,
+        "vix_level": 17.559999465942383,
+        "vix_change": 0.45999908447265625,
+        "oil5": 0.10968143069849634,
+        "dollar5": 0.007861194415567097,
+        "credit_proxy5": 0.0023554598822713713,
+        "breadth": 0.3333333333333333,
+        "fomc_next": 1.0
+      },
+      "down_base_252": {
+        "n": 252,
+        "events": 126,
+        "frequency": 0.5,
+        "wilson95": [
+          0.4387310419830915,
+          0.5612689580169085
+        ]
+      },
+      "down_fomc": {
+        "n": 45,
+        "events": 16,
+        "frequency": 0.35555555555555557,
+        "wilson95": [
+          0.23218891356904048,
+          0.5016445398804781
+        ]
+      },
+      "down_fomc_after_down": {
+        "n": 27,
+        "events": 14,
+        "frequency": 0.5185185185185185,
+        "wilson95": [
+          0.3398532458621043,
+          0.6925704935029092
+        ]
+      },
+      "down_weak_analog": {
+        "n": 181,
+        "events": 80,
+        "frequency": 0.4419889502762431,
+        "wilson95": [
+          0.37158935184914943,
+          0.5147998592375322
+        ]
+      },
+      "down2_base_252": {
+        "n": 252,
+        "events": 47,
+        "frequency": 0.1865079365079365,
+        "wilson95": [
+          0.1432531520748461,
+          0.23917722672203448
+        ]
+      },
+      "down2_fomc": {
+        "n": 45,
+        "events": 8,
+        "frequency": 0.17777777777777778,
+        "wilson95": [
+          0.0929427892585383,
+          0.3133010684365414
+        ]
+      },
+      "down2_fomc_after_down": {
+        "n": 27,
+        "events": 7,
+        "frequency": 0.25925925925925924,
+        "wilson95": [
+          0.13170208422866778,
+          0.4467893040261568
+        ]
+      },
+      "down2_weak_analog": {
+        "n": 181,
+        "events": 30,
+        "frequency": 0.16574585635359115,
+        "wilson95": [
+          0.11863684188024268,
+          0.22674861247635233
+        ]
+      },
+      "break_low_base_252": {
+        "n": 252,
+        "events": 124,
+        "frequency": 0.49206349206349204,
+        "wilson95": [
+          0.4309213080187029,
+          0.5534440180267877
+        ]
+      },
+      "break_low_fomc": {
+        "n": 45,
+        "events": 15,
+        "frequency": 0.3333333333333333,
+        "wilson95": [
+          0.21358692207276764,
+          0.479297831907446
+        ]
+      },
+      "break_low_fomc_after_down": {
+        "n": 27,
+        "events": 13,
+        "frequency": 0.48148148148148145,
+        "wilson95": [
+          0.3074295064970908,
+          0.6601467541378958
+        ]
+      },
+      "break_low_weak_analog": {
+        "n": 181,
+        "events": 101,
+        "frequency": 0.5580110497237569,
+        "wilson95": [
+          0.4852001407624677,
+          0.6284106481508505
+        ]
+      },
+      "corr60": {
+        "AVGO": {
+          "AVGO": 1.0,
+          "QQQ": 0.6938494629428753,
+          "SMH": 0.723898283064798
+        },
+        "QQQ": {
+          "AVGO": 0.6938494629428753,
+          "QQQ": 1.0,
+          "SMH": 0.9070498718967015
+        },
+        "SMH": {
+          "AVGO": 0.723898283064798,
+          "QQQ": 0.9070498718967015,
+          "SMH": 1.0
+        }
+      },
+      "beta60_smh": 0.652103531612797
+    },
+    "MU": {
+      "quote": {
+        "price": 922.87,
+        "timestamp": 1789499133
+      },
+      "models": {
+        "down_simple": {
+          "raw_probability": 0.47778914097334046,
+          "conditional_parameter_bootstrap95": [
+            0.44326802797722464,
+            0.5085077824284399
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.4773297979707085,
+            "1.0": 0.47778914097334046,
+            "1.01": 0.4783368715801662
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.46005917159763315,
+            "auc": 0.5217372153459895,
+            "brier": 0.2518552483614825,
+            "baseline_brier": 0.24927961705515628,
+            "block20_brier_improvement95": [
+              -0.006866973438973779,
+              0.0012758576564725348
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.23809523809523808,
+            "brier": 0.2711146772048066,
+            "baseline_brier": 0.24256059818497344
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 228,
+              "mean_probability": 0.47702452033585935,
+              "observed": 0.4473684210526316
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 421,
+              "mean_probability": 0.5361370825193817,
+              "observed": 0.47268408551068886
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 27,
+              "mean_probability": 0.6138130545641366,
+              "observed": 0.37037037037037035
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.08832813259470304,
+            "shock1": 0.017498362267631424,
+            "momentum5": -0.008003939867295182,
+            "momentum20": -0.00021160660483973283,
+            "distance20": 0.06446844066831221,
+            "relative5": -0.05361184066600474,
+            "sigma20": 0.0389768623762867
+          }
+        },
+        "down_full": {
+          "raw_probability": 0.3641051317992794,
+          "conditional_parameter_bootstrap95": [
+            0.2616340249529964,
+            0.49168382362659474
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.3643757003946602,
+            "1.0": 0.3641051317992794,
+            "1.01": 0.3638897780634243
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.46005917159763315,
+            "auc": 0.5398053120732943,
+            "brier": 0.25124269307904107,
+            "baseline_brier": 0.24927961705515628,
+            "block20_brier_improvement95": [
+              -0.006401826912095476,
+              0.002434236174141445
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.23809523809523808,
+            "brier": 0.22703650605858267,
+            "baseline_brier": 0.24256059818497344
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 16,
+              "mean_probability": 0.36305034914860423,
+              "observed": 0.625
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 235,
+              "mean_probability": 0.4687246531545663,
+              "observed": 0.42127659574468085
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 386,
+              "mean_probability": 0.5402960331223563,
+              "observed": 0.47150259067357514
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 39,
+              "mean_probability": 0.6331885905869662,
+              "observed": 0.5128205128205128
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.09119744410024548,
+            "shock1": 0.006477540234789282,
+            "momentum5": -0.031298033640777066,
+            "momentum20": 0.0039014083349931577,
+            "distance20": 0.06877848155705808,
+            "relative5": -0.03903012492196896,
+            "sigma20": 0.02756620817319114,
+            "qqq1": -0.002685201576573488,
+            "semis_excess1": 0.07946190632029468,
+            "yield1_bp": -0.0030268624939246438,
+            "yield20_bp": 0.07082234801705457,
+            "vix_level": -0.01004492029651509,
+            "vix_change": 0.027427117138217678,
+            "oil5": -0.02289766650477051,
+            "dollar5": -0.08355950778097286,
+            "credit_proxy5": 0.08184982397004434,
+            "breadth": -0.047636303742654776,
+            "fomc_next": -0.10337778386753027
+          }
+        },
+        "down2_simple": {
+          "raw_probability": 0.22017350453333973,
+          "conditional_parameter_bootstrap95": [
+            0.18624890608468783,
+            0.2561148322932011
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.21732593225251293,
+            "1.0": 0.22017350453333973,
+            "1.01": 0.22332509590915
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.2440828402366864,
+            "auc": 0.5063156022060131,
+            "brier": 0.187869182980543,
+            "baseline_brier": 0.1859388408582871,
+            "block20_brier_improvement95": [
+              -0.007148825963736936,
+              0.0030030634496968052
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.14285714285714285,
+            "brier": 0.1431611019028071,
+            "baseline_brier": 0.1270698799222075
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 663,
+              "mean_probability": 0.2528280346044586,
+              "observed": 0.24434389140271492
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 13,
+              "mean_probability": 0.41931315746231096,
+              "observed": 0.23076923076923078
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -1.2722655614978116,
+            "shock1": 0.046110814910612134,
+            "momentum5": -0.021236971673925305,
+            "momentum20": 0.005598825958040607,
+            "distance20": 0.07415466656247038,
+            "relative5": -0.010065422403509987,
+            "sigma20": 0.16148052450435743
+          }
+        },
+        "down2_full": {
+          "raw_probability": 0.18085301835865564,
+          "conditional_parameter_bootstrap95": [
+            0.10391481587450295,
+            0.27020439666812907
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.17895872019548112,
+            "1.0": 0.18085301835865564,
+            "1.01": 0.18301622329837422
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.2440828402366864,
+            "auc": 0.4909090909090909,
+            "brier": 0.19081335836237773,
+            "baseline_brier": 0.1859388408582871,
+            "block20_brier_improvement95": [
+              -0.011125829152622063,
+              0.0009050625380297204
+            ],
+            "validated_edge": false
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.14285714285714285,
+            "brier": 0.1387248644932157,
+            "baseline_brier": 0.1270698799222075
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 655,
+              "mean_probability": 0.23496964170961349,
+              "observed": 0.24580152671755726
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 21,
+              "mean_probability": 0.43584256891414275,
+              "observed": 0.19047619047619047
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 0,
+              "mean_probability": null,
+              "observed": null
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -1.2782204934370736,
+            "shock1": 0.022861785200771076,
+            "momentum5": 0.0018409076370495246,
+            "momentum20": 0.01622897947955378,
+            "distance20": 0.0899968519866853,
+            "relative5": -0.024670322352505006,
+            "sigma20": 0.15520300574109105,
+            "qqq1": 0.01702032326682692,
+            "semis_excess1": 0.04219413751642772,
+            "yield1_bp": -0.0006928062360841775,
+            "yield20_bp": 0.03347271269306686,
+            "vix_level": 0.08007163826142664,
+            "vix_change": -0.05295191682746246,
+            "oil5": 0.0017204683796935873,
+            "dollar5": 0.06099411837850963,
+            "credit_proxy5": 0.0031096066740666866,
+            "breadth": -0.04083955846035294,
+            "fomc_next": -0.05536715525296938
+          }
+        },
+        "break_low_simple": {
+          "raw_probability": 0.460098296145506,
+          "conditional_parameter_bootstrap95": [
+            0.42687883304797647,
+            0.49262180695834734
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.49368433561989783,
+            "1.0": 0.460098296145506,
+            "1.01": 0.4272980007018878
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.4319526627218935,
+            "auc": 0.6315282534246576,
+            "brier": 0.23578220750988219,
+            "baseline_brier": 0.24648569765157932,
+            "block20_brier_improvement95": [
+              0.0020790410521295296,
+              0.019015322386953713
+            ],
+            "validated_edge": true
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.38095238095238093,
+            "brier": 0.22684379192328907,
+            "baseline_brier": 0.24308732730589025
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 178,
+              "mean_probability": 0.33266158466749446,
+              "observed": 0.33146067415730335
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 186,
+              "mean_probability": 0.4526294779453461,
+              "observed": 0.34408602150537637
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 191,
+              "mean_probability": 0.5494565266567978,
+              "observed": 0.4973821989528796
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 121,
+              "mean_probability": 0.6608866672543084,
+              "observed": 0.6115702479338843
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.19971971159414853,
+            "shock1": -0.47510667291288156,
+            "momentum5": -0.021659766072384602,
+            "momentum20": 0.02927056749122472,
+            "distance20": -0.0052393185025834945,
+            "relative5": 0.020266375282769606,
+            "sigma20": 0.005652899904259669
+          }
+        },
+        "break_low_full": {
+          "raw_probability": 0.4927943419670822,
+          "conditional_parameter_bootstrap95": [
+            0.3631840049508336,
+            0.6286989956677904
+          ],
+          "today_close_plus_minus1pct_sensitivity": {
+            "0.99": 0.5194099070028181,
+            "1.0": 0.4927943419670822,
+            "1.01": 0.4665643150313499
+          },
+          "validation": {
+            "n": 676,
+            "from": "2024-01-02",
+            "through": "2026-09-11",
+            "event_rate": 0.4319526627218935,
+            "auc": 0.6289240867579908,
+            "brier": 0.2362983224509331,
+            "baseline_brier": 0.24648569765157932,
+            "block20_brier_improvement95": [
+              0.0007562880231755898,
+              0.01919469011750399
+            ],
+            "validated_edge": true
+          },
+          "oos_fomc": {
+            "n": 21,
+            "frequency": 0.38095238095238093,
+            "brier": 0.24034661363119808,
+            "baseline_brier": 0.24308732730589025
+          },
+          "calibration_bins": [
+            {
+              "range": [
+                0,
+                0.4
+              ],
+              "n": 210,
+              "mean_probability": 0.3304662712318326,
+              "observed": 0.3047619047619048
+            },
+            {
+              "range": [
+                0.4,
+                0.5
+              ],
+              "n": 174,
+              "mean_probability": 0.4518012736754593,
+              "observed": 0.42528735632183906
+            },
+            {
+              "range": [
+                0.5,
+                0.6
+              ],
+              "n": 143,
+              "mean_probability": 0.5477873042333207,
+              "observed": 0.46853146853146854
+            },
+            {
+              "range": [
+                0.6,
+                1.0001
+              ],
+              "n": 149,
+              "mean_probability": 0.6621000256423624,
+              "observed": 0.5838926174496645
+            }
+          ],
+          "standardized_coefficients": {
+            "intercept": -0.20295819895599343,
+            "shock1": -0.36966844136425636,
+            "momentum5": 0.005648003219041437,
+            "momentum20": 0.031504188710285166,
+            "distance20": 0.017658355194470947,
+            "relative5": -0.029356133795208572,
+            "sigma20": 0.002265795924735867,
+            "qqq1": -0.1831985589544035,
+            "semis_excess1": 0.04058919909109302,
+            "yield1_bp": -0.04776469049023035,
+            "yield20_bp": 0.05555527454817107,
+            "vix_level": 0.00941423307601872,
+            "vix_change": -0.06028758263448183,
+            "oil5": -0.0221910835943784,
+            "dollar5": 0.02479239195849974,
+            "credit_proxy5": 0.10155279819992988,
+            "breadth": -0.10330179223411923,
+            "fomc_next": 0.0018351291991887165
+          }
+        }
+      },
+      "feature_snapshot": {
+        "shock1": -0.036339285200912036,
+        "momentum5": -1.0417770925249017,
+        "momentum20": -0.5947687646616502,
+        "distance20": -1.00195542772314,
+        "relative5": -0.6181323689198073,
+        "sigma20": 0.0345685426601165,
+        "qqq1": -0.00638761429891288,
+        "semis_excess1": 0.006572241419757652,
+        "yield1_bp": 3.900003433227539,
+        "yield20_bp": 27.60000228881836,
+        "vix_level": 17.559999465942383,
+        "vix_change": 0.45999908447265625,
+        "oil5": 0.10968143069849634,
+        "dollar5": 0.007861194415567097,
+        "credit_proxy5": 0.0023554598822713713,
+        "breadth": 0.3333333333333333,
+        "fomc_next": 1.0
+      },
+      "down_base_252": {
+        "n": 252,
+        "events": 114,
+        "frequency": 0.4523809523809524,
+        "wilson95": [
+          0.392101325642931,
+          0.5140906306300129
+        ]
+      },
+      "down_fomc": {
+        "n": 45,
+        "events": 14,
+        "frequency": 0.3111111111111111,
+        "wilson95": [
+          0.19528525463541907,
+          0.4566507998754897
+        ]
+      },
+      "down_fomc_after_down": {
+        "n": 19,
+        "events": 7,
+        "frequency": 0.3684210526315789,
+        "wilson95": [
+          0.19149272376273843,
+          0.5896084250184328
+        ]
+      },
+      "down_weak_analog": {
+        "n": 275,
+        "events": 125,
+        "frequency": 0.45454545454545453,
+        "wilson95": [
+          0.39672361379913457,
+          0.5136197496014484
+        ]
+      },
+      "down2_base_252": {
+        "n": 252,
+        "events": 68,
+        "frequency": 0.2698412698412698,
+        "wilson95": [
+          0.21879575980811922,
+          0.32779869551110946
+        ]
+      },
+      "down2_fomc": {
+        "n": 45,
+        "events": 7,
+        "frequency": 0.15555555555555556,
+        "wilson95": [
+          0.07745325311328677,
+          0.28784190511248803
+        ]
+      },
+      "down2_fomc_after_down": {
+        "n": 19,
+        "events": 3,
+        "frequency": 0.15789473684210525,
+        "wilson95": [
+          0.055203710399278266,
+          0.3756592764317668
+        ]
+      },
+      "down2_weak_analog": {
+        "n": 275,
+        "events": 55,
+        "frequency": 0.2,
+        "wilson95": [
+          0.15700134671679927,
+          0.2512648517270485
+        ]
+      },
+      "break_low_base_252": {
+        "n": 252,
+        "events": 102,
+        "frequency": 0.40476190476190477,
+        "wilson95": [
+          0.34602772369412516,
+          0.46635618885176267
+        ]
+      },
+      "break_low_fomc": {
+        "n": 45,
+        "events": 21,
+        "frequency": 0.4666666666666667,
+        "wilson95": [
+          0.3293490394201473,
+          0.6092279113758954
+        ]
+      },
+      "break_low_fomc_after_down": {
+        "n": 19,
+        "events": 11,
+        "frequency": 0.5789473684210527,
+        "wilson95": [
+          0.36275551465160105,
+          0.7685837960796962
+        ]
+      },
+      "break_low_weak_analog": {
+        "n": 275,
+        "events": 159,
+        "frequency": 0.5781818181818181,
+        "wilson95": [
+          0.519128858661758,
+          0.6350805562892392
+        ]
+      },
+      "corr60": {
+        "MU": {
+          "MU": 1.0,
+          "QQQ": 0.7082204945147014,
+          "SMH": 0.8422796426020581
+        },
+        "QQQ": {
+          "MU": 0.7082204945147014,
+          "QQQ": 1.0,
+          "SMH": 0.9070498718967015
+        },
+        "SMH": {
+          "MU": 0.8422796426020581,
+          "QQQ": 0.9070498718967015,
+          "SMH": 1.0
+        }
+      },
+      "beta60_smh": 1.6720795551127643
+    }
+  }
+}

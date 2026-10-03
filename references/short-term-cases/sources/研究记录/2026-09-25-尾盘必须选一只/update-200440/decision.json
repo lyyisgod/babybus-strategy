@@ -1,0 +1,15 @@
+{
+  "decision_at": "2026-09-25T20:05:12.634006+00:00",
+  "selection": "COHR remains relative candidate, no after-hours new entry recommendation",
+  "regular_last": 295.78,
+  "regular_time": "2026-09-25T15:59:58-04:00",
+  "vwap_proxy": 295.9202897763805,
+  "two_consecutive_bars_below_vwap": false,
+  "postmarket_reference": 296.1,
+  "postmarket_time": "2026-09-25T16:04:28-04:00",
+  "postmarket_limit": "volume field zero; no verified synchronized bid/ask or depth",
+  "entry_plan_status": "Sep25 regular-session entry expired; if unfilled reassess next regular session; if already filled no add based on one bar",
+  "existing_position_invalidation": 285.6,
+  "existing_time_failure": "2026-09-30 close fails to exceed301.77",
+  "prepost_raw_sha256": "c4b84d8b361ef28181a0c46dc2fe18a8260f7384ffdf4a256fee599e71589aee"
+}

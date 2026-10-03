@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "VICR",
+    "price": 228.56,
+    "quote_at": "2026-09-21T08:43:06-04:00",
+    "change_pct": 2.622125874321357,
+    "prior_close": 222.72000122070312,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:36.989256+00:00",
+    "sha256": "84be1a1dec95defa3257986aaf194b48ed69444c250871adbec01452d6539aa6"
+  },
+  {
+    "symbol": "BE",
+    "price": 270.55,
+    "quote_at": "2026-09-21T08:54:06-04:00",
+    "change_pct": 1.8521985569205812,
+    "prior_close": 265.6300048828125,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:36.986447+00:00",
+    "sha256": "d10053f26258d0d9f08108345f3b63457ade25891fe026441275eb0093cf9a83"
+  },
+  {
+    "symbol": "ALAB",
+    "price": 312.0,
+    "quote_at": "2026-09-21T08:55:21-04:00",
+    "change_pct": 2.885408079142615,
+    "prior_close": 303.25,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:37.002241+00:00",
+    "sha256": "251c3463d3795239c53a0a8777c8a0f1776c347e0acd405e4f179ff46db700b0"
+  },
+  {
+    "symbol": "MSTR",
+    "price": 165.9,
+    "quote_at": "2026-09-21T08:55:36-04:00",
+    "change_pct": 7.783265315469423,
+    "prior_close": 153.9199981689453,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSTR?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:36.984169+00:00",
+    "sha256": "e28e1839de011a6f7fe6cc01d67b4a7336689636dc7f3ff613e4083fe088108d"
+  },
+  {
+    "symbol": "AAOI",
+    "price": 108.39,
+    "quote_at": "2026-09-21T08:55:20-04:00",
+    "change_pct": 3.0617114073559826,
+    "prior_close": 105.16999816894531,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:37.115615+00:00",
+    "sha256": "ce88754ea8c6114d7ac12b886f0be0207f7aa0a4b834e9468e332ad71d7662b7"
+  },
+  {
+    "symbol": "COHR",
+    "price": 327.44,
+    "quote_at": "2026-09-21T08:55:14-04:00",
+    "change_pct": 3.1762084426841364,
+    "prior_close": 317.3599853515625,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:37.112534+00:00",
+    "sha256": "27de9bc4b5e2ee1cf33ba90cfd65e23935d9c066cdd9e705f20057784ef42a05"
+  },
+  {
+    "symbol": "LRCX",
+    "price": 295.0,
+    "quote_at": "2026-09-21T08:55:36-04:00",
+    "change_pct": 2.3914529168539644,
+    "prior_close": 288.1099853515625,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=1d&interval=1m&includePrePost=true",
+    "fetched_at": "2026-09-21T12:55:37.125237+00:00",
+    "sha256": "7a22a90d87bc88cb37e5b1ce0c8f09a9c31e3dd9bfaab08e518cf13260d0de43"
+  }
+]

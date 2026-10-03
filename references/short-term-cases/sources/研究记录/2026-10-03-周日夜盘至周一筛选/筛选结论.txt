@@ -1,0 +1,41 @@
+周日夜盘至周一盘中筛选
+研究日：2026-10-03，美东；拟入场：10-04周日夜盘；期限：10-05 15:55 EDT。
+
+结论：154只固定关注池已刷新至10-02完整收盘，无候选行情加载错误。相对研究首选ALAB，备选IREN、APLD；这三只为条件观察，不是macro_regime已确认的新核心买入。严格按当前模型，正式放行数为0，不能给出“周一大概率暴涨”的认证或概率。
+
+政策判断为HIKING。9-16联储官方决议加息25bp至3.75%—4.00%；此分类来自已公布政策，不是价格反推。来源：https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+
+当前模型限制
+1. 10-02 DGS10、DGS2、DFF、HY OAS尚无观测，FRED最新到10-01；10-02整份快照如实报错，未填充、未改阈值。保存10-01明确标日期的历史参考，不替代10-02失败结果。
+2. 截至10-01的60股票交易日配对hike_beta：ALAB -0.2492，IREN -0.3045，APLD -0.3622，SMH -0.1430；单位为日收益小数/收益率百分点。不能将这些负值称为CORE_ELIGIBLE；10-02资格未知。
+3. 截至10-01，20个NYSE交易日真实利率上升43bp，HY OAS上升58bp。宏观和信用背景承压，但不绕过既有压力/动作优先级另发卖出。统一机会分覆盖率20%，不足门槛，总分为null。
+4. macro_regime v1.1纸面N=0；实际周日夜盘买价至周一退出的未见样本审计N=0。历史固定存续池比例、排名稳定性和过去APLD/IREN案例均未改写为本次胜率。
+
+可观察对象及假设性价格预案
+价格均为10-02约19:59 EDT的Yahoo盘后bar代理，非10-04夜盘可执行ask；实际夜盘盘口未知。
+ALAB：350.6846。周五收盘350.33，-1.71%；五日-3.92%，RSI2=15.48，高于SMA50=308.66和SMA200=241.08，符合LRCX型趋势内回撤分支；不等于Wilder RSI14<30的宏观超卖条件。8-04已公布Q2营收同比+104%、环比+27%，属于基本面背景，未核实周一独立催化。假设性观察区348—352，上限352，342附近结构失效，363.78为近端压力。当前宏观未放行，不新增核心。
+IREN：41.72。周五+2.73%，五日-5.36%，10日高点回撤15.41%，7个洗盘价格闸门通过6项；量比1.15，未达1.5，收于日内区间下部27%，仍低于SMA200=45.57，不能认证止跌。假设性观察区41.40—42.00，上限42，40.95附近结构失效，43.91为近端压力。非半导体核心自动替代品。
+APLD：25.4916。周五+5.05%，量比1.67，但收于日内区间下部28%，SMA200=32.11尚未收复，洗盘价格闸门仅4/7，12周波动8.08%未达12%。10-02公告新增75MW交付、园区已运行250MW；财报10-07，不是周一。假设性观察区25.10—25.60，上限25.60，24.82附近结构失效，26.85为近端压力。
+
+上述上限是研究者冻结的预案，没有概率或估值认证；进入研究试仓讨论前仍需宏观输入齐全、核心/卫星资格符合规则、周日实际ask在上限内、结构不失效、没有新负面公告。0.3%点差容差沿用旧预案，未经投资有效性验证。条件不满足时保留观察，不提高上限。若未来有实际成交，+5%和+10%分别从真实成交价×1.05和×1.10计算；触及与最终净退出收益分别记录，周一15:55结束本次单日研究窗口。没有用户成交记录，不假设持仓、股数或盈利。
+
+降级/不纳入本次核心加仓
+AAOI五日+13.99%、COHR+13.93%、ON+9.96%、LRCX+10.24%、VICR+9.55%：触发>8%的核心追高封锁。它只约束核心加仓单位，不是卖出信号。
+STX/WDC：虽有趋势内超卖反弹形态，且10-01参考beta为正，周五各跌约10.2%；媒体报道的东芝HDD扩产涉及供给和竞争，不直接认定为洗盘。STX收于日内区间上部、形态修复较强，仍仅为高风险事件观察，不替换半导体核心。
+MU：周五收于日内区间下部8%，不属本次优先反弹分支。Memory Cycle Read-through for MU为Mixed；网站存储模块9-29已过48小时，不作今日新增证据。
+
+行业背景
+Semiconductor Fear & Greed网站日期10-03，实际抓取2026-10-03 08:25:04 EDT。AI情绪81（Extreme greed）、周期82（Peak conditions）；只作偏热背景，不改变概率。memory模块9-29、policy_events模块9-07过期，已排除。来源：https://semiconductor.feargreedchart.com
+
+统计与证据
+无新模型拟合或阈值优化。复用冻结的七项价格闸门和趋势回撤分支；目前154只关注池不被冒充逐日点时全市场池。全部154个候选及未通过项目在all_factors.json保留，数据原件及SHA256在daily-raw/manifest.json。IREN/APLD/LRCX/VICR截断重算因子均与原历史日期一致；预测/标签未加入排序。实际夜盘盘口、EPS上修、PB杠杆、IV/skew与周末新增公告仍未知。
+
+公告来源
+ALAB：https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results
+APLD：https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai
+IREN：https://iren.gcs-web.com/news-releases
+利率：https://fred.stlouisfed.org/series/DFII10
+利差：https://fred.stlouisfed.org/series/BAMLH0A0HYM2
+HDD风险报道：https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-tumbling-today-93CH-4929856
+
+本次仅研究和条件预案，没有订单、券商连接或外部发布。

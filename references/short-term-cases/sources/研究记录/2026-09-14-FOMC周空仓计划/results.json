@@ -1,0 +1,133 @@
+{
+  "asof": "2026-09-14T17:01:00-04:00",
+  "user_position": "[REDACTED: unrelated personal account information]",
+  "rates": {
+    "contract": "ZQU26.CBT",
+    "quote": 96.2625,
+    "quote_at": "2026-09-14T16:35:54-04:00",
+    "effr": 3.63,
+    "effr_observation_date": "2026-09-11",
+    "current_target": [
+      3.5,
+      3.75
+    ],
+    "implied_month_average": 3.737499999999997,
+    "implied_post_meeting_effr": 3.860357142857137,
+    "implied_change_bp": 23.035714285713695,
+    "binary_hike25_weight_pct": 92.14285714285478,
+    "assumptions": "EFFR 3.63% throughout Sep1-16, any change effective Sep17; 16 pre and 14 post calendar days; only hold or +25bp; no futures risk premium. Indicative market pricing, NOT official FedWatch or real-world probability."
+  },
+  "events": [
+    {
+      "symbol": "QQQ",
+      "n": 11,
+      "tuesday_down": 4,
+      "tuesday_under_monday_low": 4,
+      "decision_day_up": 5,
+      "friday_above_monday": 6,
+      "positive_decision_followed_by_negative_two_days": 2
+    },
+    {
+      "symbol": "SMH",
+      "n": 11,
+      "tuesday_down": 3,
+      "tuesday_under_monday_low": 4,
+      "decision_day_up": 5,
+      "friday_above_monday": 6,
+      "positive_decision_followed_by_negative_two_days": 2
+    },
+    {
+      "symbol": "SPY",
+      "n": 11,
+      "tuesday_down": 5,
+      "tuesday_under_monday_low": 5,
+      "decision_day_up": 6,
+      "friday_above_monday": 5,
+      "positive_decision_followed_by_negative_two_days": 2
+    }
+  ],
+  "intervals": [
+    {
+      "symbol": "SPY",
+      "origin": "2026-09-14",
+      "horizon_sessions": 4,
+      "end": "2026-09-18",
+      "price": 760.8800048828125,
+      "rv20_pct": 8.821907237229087,
+      "directional_drift": 0,
+      "nominal80_price": [
+        749.5009221932826,
+        772.4318472301642
+      ],
+      "nominal95_price": [
+        743.5007508137488,
+        778.6654972396876
+      ],
+      "n_historical_train": 308,
+      "oos_n": 182,
+      "oos_start": "2023-10-16",
+      "oos_end": "2026-09-11",
+      "oos80_coverage_pct": 82.41758241758241,
+      "oos95_coverage_pct": 95.05494505494505
+    },
+    {
+      "symbol": "QQQ",
+      "origin": "2026-09-14",
+      "horizon_sessions": 4,
+      "end": "2026-09-18",
+      "price": 709.1799926757812,
+      "rv20_pct": 12.92282828500378,
+      "directional_drift": 0,
+      "nominal80_price": [
+        692.494941006551,
+        726.2670558727783
+      ],
+      "nominal95_price": [
+        685.4214785148758,
+        733.7620395283626
+      ],
+      "n_historical_train": 308,
+      "oos_n": 182,
+      "oos_start": "2023-10-16",
+      "oos_end": "2026-09-11",
+      "oos80_coverage_pct": 81.86813186813187,
+      "oos95_coverage_pct": 93.95604395604396
+    },
+    {
+      "symbol": "SMH",
+      "origin": "2026-09-14",
+      "horizon_sessions": 4,
+      "end": "2026-09-18",
+      "price": 541.5,
+      "rv20_pct": 35.34284294002844,
+      "directional_drift": 0,
+      "nominal80_price": [
+        509.6854317194059,
+        575.30043385942
+      ],
+      "nominal95_price": [
+        495.24033027361725,
+        592.0807173317176
+      ],
+      "n_historical_train": 308,
+      "oos_n": 182,
+      "oos_start": "2023-10-16",
+      "oos_end": "2026-09-11",
+      "oos80_coverage_pct": 79.12087912087912,
+      "oos95_coverage_pct": 95.6043956043956
+    }
+  ],
+  "selloff_analogues": {
+    "n": 46,
+    "next_day_below_signal_low": 32,
+    "next4_below_signal_low": 41,
+    "next4_positive": 27,
+    "median_next4_pct": 0.3615408262615971
+  },
+  "limitations": [
+    "Event samples are small and not controlled for prior expectations. Full Wednesday return includes pre-announcement hours. Tuesday metrics exclude Wednesday to avoid claiming pre-announcement knowledge from daily lows.",
+    "Intervals are symmetric zero-drift four-session closing-price risk envelopes, not intraday extremes or a calibrated FOMC forecast. Empirical marginal OOS coverage does not imply conditional coverage this week.",
+    "ETF adjusted returns include distributions; current dollar bounds use unadjusted spot. Known future distributions are not separately modeled.",
+    "Analogue frequencies are descriptive and must not be treated as exact current probabilities."
+  ]
+}

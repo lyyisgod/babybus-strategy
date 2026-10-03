@@ -1,0 +1,114 @@
+[
+  {
+    "file": "AAPL_5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=60d&interval=5m&includePrePost=false",
+    "retrieved_at": "2026-09-10T17:40:14.654578+00:00",
+    "bytes": 418666,
+    "meta": {
+      "regularMarketPrice": 325.185,
+      "regularMarketTime": 1789062013,
+      "chartPreviousClose": 296.42,
+      "previousClose": 315.34,
+      "dataGranularity": "5m"
+    },
+    "bars": 4654
+  },
+  {
+    "file": "HOOD_5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=60d&interval=5m&includePrePost=false",
+    "retrieved_at": "2026-09-10T17:40:14.993067+00:00",
+    "bytes": 421838,
+    "meta": {
+      "regularMarketPrice": 114.45,
+      "regularMarketTime": 1789062010,
+      "chartPreviousClose": 98.12,
+      "previousClose": 115.28,
+      "dataGranularity": "5m"
+    },
+    "bars": 4654
+  },
+  {
+    "file": "APP_5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP?range=60d&interval=5m&includePrePost=false",
+    "retrieved_at": "2026-09-10T17:40:14.693353+00:00",
+    "bytes": 408097,
+    "meta": {
+      "regularMarketPrice": 315.43,
+      "regularMarketTime": 1789062011,
+      "chartPreviousClose": 520.86,
+      "previousClose": 305.06,
+      "dataGranularity": "5m"
+    },
+    "bars": 4654
+  },
+  {
+    "file": "XOM_5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?range=60d&interval=5m&includePrePost=false",
+    "retrieved_at": "2026-09-10T17:40:15.305957+00:00",
+    "bytes": 425010,
+    "meta": {
+      "regularMarketPrice": 165.575,
+      "regularMarketTime": 1789062014,
+      "chartPreviousClose": 140.92,
+      "previousClose": 164.23,
+      "dataGranularity": "5m"
+    },
+    "bars": 4654
+  },
+  {
+    "file": "QQQ_5m.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=60d&interval=5m&includePrePost=false",
+    "retrieved_at": "2026-09-10T17:40:14.666315+00:00",
+    "bytes": 409235,
+    "meta": {
+      "regularMarketPrice": 709.74,
+      "regularMarketTime": 1789062012,
+      "chartPreviousClose": 744.0,
+      "previousClose": 716.31,
+      "dataGranularity": "5m"
+    },
+    "bars": 4654
+  },
+  {
+    "file": "VIX_live.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX?range=1d&interval=1m",
+    "retrieved_at": "2026-09-10T17:40:14.512438+00:00",
+    "bytes": 53555,
+    "meta": {
+      "regularMarketPrice": 17.42,
+      "regularMarketTime": 1789061101,
+      "chartPreviousClose": 15.72,
+      "previousClose": 15.72,
+      "dataGranularity": "1m"
+    },
+    "bars": 612
+  },
+  {
+    "file": "TNX_live.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^TNX?range=1d&interval=1m",
+    "retrieved_at": "2026-09-10T17:40:14.891880+00:00",
+    "bytes": 27342,
+    "meta": {
+      "regularMarketPrice": 4.922,
+      "regularMarketTime": 1789061104,
+      "chartPreviousClose": 4.837,
+      "previousClose": 4.837,
+      "dataGranularity": "1m"
+    },
+    "bars": 307
+  },
+  {
+    "file": "BZ=F_live.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=1d&interval=1m",
+    "retrieved_at": "2026-09-10T17:40:14.905130+00:00",
+    "bytes": 69266,
+    "meta": {
+      "regularMarketPrice": 107.24,
+      "regularMarketTime": 1789061411,
+      "chartPreviousClose": 101.21,
+      "previousClose": 101.21,
+      "dataGranularity": "1m"
+    },
+    "bars": 812
+  }
+]

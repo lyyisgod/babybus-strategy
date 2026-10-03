@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "COHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=5d&interval=5m&includePrePost=false",
+    "observed_at": "2026-09-25T19:51:27.505362+00:00",
+    "sha256": "15f51b9cd98f6d4772fe148923d0db0048220f6710846d6d7f4eb8cae8d16b36",
+    "price": 296.41,
+    "quote_at": "2026-09-25T15:51:26-04:00",
+    "vwap": 295.90967808381475,
+    "day_low": 290.3,
+    "day_high": 301.77,
+    "last_bar": "2026-09-25T15:45:00-04:00",
+    "last_four_closes": [
+      296.4320983886719,
+      296.25,
+      295.9649963378906,
+      296.54998779296875
+    ]
+  },
+  {
+    "symbol": "VICR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR?range=5d&interval=5m&includePrePost=false",
+    "observed_at": "2026-09-25T19:51:27.448741+00:00",
+    "sha256": "0dc3b442b27b2b53ced7fb251aa1fcf4a733c8239f8c2c0869c3ff2b5eb6aeb9",
+    "price": 282.4,
+    "quote_at": "2026-09-25T15:51:02-04:00",
+    "vwap": 285.50249419411904,
+    "day_low": 276.0,
+    "day_high": 291.53,
+    "last_bar": "2026-09-25T15:45:00-04:00",
+    "last_four_closes": [
+      284.19500732421875,
+      284.0899963378906,
+      283.7300109863281,
+      282.81500244140625
+    ]
+  },
+  {
+    "symbol": "MRVL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=5d&interval=5m&includePrePost=false",
+    "observed_at": "2026-09-25T19:51:27.462531+00:00",
+    "sha256": "16ce1f47a031147eb11ec70dfc3576236783915ded15c5ec261769968a6ba8ac",
+    "price": 263.165,
+    "quote_at": "2026-09-25T15:51:25-04:00",
+    "vwap": 263.17934118575363,
+    "day_low": 257.431,
+    "day_high": 267.48,
+    "last_bar": "2026-09-25T15:45:00-04:00",
+    "last_four_closes": [
+      263.0450134277344,
+      263.44500732421875,
+      263.7850036621094,
+      262.8999938964844
+    ]
+  },
+  {
+    "symbol": "SMH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5d&interval=5m&includePrePost=false",
+    "observed_at": "2026-09-25T19:51:27.460467+00:00",
+    "sha256": "b08b65e864d40ab92abac4b2c12f21aa68aaf38a33e6b007b239b51c492b9489",
+    "price": 607.72,
+    "quote_at": "2026-09-25T15:51:27-04:00",
+    "vwap": 606.4456455748036,
+    "day_low": 602.22,
+    "day_high": 609.66,
+    "last_bar": "2026-09-25T15:45:00-04:00",
+    "last_four_closes": [
+      605.780029296875,
+      606.4600219726562,
+      606.7100219726562,
+      607.39501953125
+    ]
+  }
+]

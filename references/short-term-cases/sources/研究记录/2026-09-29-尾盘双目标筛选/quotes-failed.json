@@ -1,0 +1,602 @@
+[
+  {
+    "symbol": "CIFR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIFR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "VKTX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VKTX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ALAB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CRDO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AAOI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "VICR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "WULF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WULF?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "BE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MDB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MDB?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NBIS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ABCL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "COHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SMTC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMTC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "PL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SNDK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SMR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LUNR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LUNR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RCAT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCAT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "BKSY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BKSY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "IOVA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IOVA?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "DELL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RIOT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RIOT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ASTS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASTS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "INTC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CIEN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CIEN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "APP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "WDC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MARA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MARA?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CDNA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CDNA?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NTLA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTLA?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ONTO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "QBTS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QBTS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RKLB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RKLB?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LITE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "IONQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IONQ?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RDW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDW?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CRWV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "HIMS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "OKLO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OKLO?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "FN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "HPE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "IREN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IREN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LEU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LEU?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "STX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MSTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSTR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "DDOG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DDOG?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RXRX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RXRX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "TER",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ONDS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONDS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AKAM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AKAM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MRVL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RDDT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RDDT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "VRT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "PBF",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PBF?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AMD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AVAV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVAV?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NET",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NET?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AMAT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "UEC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UEC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RGTI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RGTI?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CLS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "HOOD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "KLAC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KLAC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ACHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACHR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SMCI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "COIN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COIN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LRCX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "UUUU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UUUU?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AFRM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AFRM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MIRM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MIRM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CAMT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAMT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "KTOS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LAC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LAC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "UPST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UPST?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MP?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SNOW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNOW?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "JOBY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JOBY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "RNG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RNG?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AMPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMPL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CRSP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRSP?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "GEV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEV?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "META",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "TEAM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ATRC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATRC?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ORCL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NOW",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "FCX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "WDAY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WDAY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SOFI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ANET",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ANET?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CRM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "PLTR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NEM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NEM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CCJ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCJ?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "ETN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "VST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VST?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AVGO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "CEG",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CEG?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "LLY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LLY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NTNX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NTNX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "GOOGL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "OXY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OXY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "TSM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "NVDA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AMZN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "XOM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "MSFT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "AAPL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "JPM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "COST",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "QQQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "SMH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "IWM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "JNK",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JNK?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "TLT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "^VIX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "^TNX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^TNX?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "symbol": "BZ=F",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=1d&interval=5m&includePrePost=false",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-15T19:05:34.557668+00:00",
+  "symbols": [
+    "AVGO",
+    "MU",
+    "NVDA",
+    "AMD",
+    "TSM",
+    "MRVL",
+    "AMAT",
+    "LRCX",
+    "KLAC",
+    "WDC",
+    "STX",
+    "SNDK",
+    "QQQ",
+    "SPY",
+    "SMH",
+    "SOXX",
+    "RSP",
+    "HYG",
+    "LQD",
+    "TLT",
+    "^VIX",
+    "^VIX9D",
+    "^VIX3M",
+    "^TNX",
+    "^IRX",
+    "DX-Y.NYB",
+    "BZ=F",
+    "CL=F"
+  ],
+  "target": [
+    "AVGO",
+    "MU"
+  ],
+  "horizon": "2026-09-16 close versus 2026-09-15 close; today still provisional",
+  "selection": "predeclared liquid semiconductor peers and macro proxies; not all US stocks"
+}

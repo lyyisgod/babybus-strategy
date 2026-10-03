@@ -1,0 +1,15 @@
+{
+  "all_candidates": 154,
+  "source_hashes_verified": 165,
+  "prefix_checks": {
+    "IREN": true,
+    "APLD": true,
+    "LRCX": true,
+    "VICR": true
+  },
+  "formal_cleared": 0,
+  "probability": null,
+  "framework_coverage_pct": 20,
+  "macro_snapshot_failed_explicitly": true,
+  "no_orders": true
+}

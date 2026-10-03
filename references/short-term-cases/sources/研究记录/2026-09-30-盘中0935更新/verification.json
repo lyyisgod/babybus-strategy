@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "name": "exclude_pre_entry_target",
+      "passed": true
+    },
+    {
+      "name": "same_bar_stop_first",
+      "passed": true
+    },
+    {
+      "name": "gap_stop_actual_price",
+      "passed": true
+    },
+    {
+      "name": "future_target",
+      "passed": true
+    },
+    {
+      "name": "incomplete_first5_rejected",
+      "passed": true
+    },
+    {
+      "name": "chronology",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "certifies_profitability": false
+}

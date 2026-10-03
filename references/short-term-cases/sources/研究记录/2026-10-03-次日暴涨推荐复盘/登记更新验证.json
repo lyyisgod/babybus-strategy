@@ -1,0 +1,9 @@
+{
+  "registry_before_sha256": "00f78b69baeb19344bd7aa268dc9274ba12d418a373396349a2799c260dd1bdf",
+  "registry_after_sha256": "c9188778aba8a1666c0200c4639ac7ddd5e7af25279bb62f26d368e2a63dcd88",
+  "existing_case_count": 64,
+  "new_cases_located": 8,
+  "case_outcome_updates": 22,
+  "original_predictions_and_feedback_preserved": true,
+  "backup": "研究记录/2026-10-03-次日暴涨推荐复盘/案例登记更新前.json"
+}

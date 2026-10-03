@@ -1,0 +1,476 @@
+{
+  "open": {
+    "development": {
+      "n": 21,
+      "wins": 8,
+      "win": 0.38095238095238093,
+      "wilson95": [
+        0.20751011368564493,
+        0.5912134622488425
+      ],
+      "four_variant_adjusted_wilson": [
+        0.17421861982664702,
+        0.6422178943332694
+      ],
+      "mean": -0.023221236727386275,
+      "median": -0.06296254926120026,
+      "mean_block95": [
+        -0.047585651042111356,
+        0.006547101901840027
+      ],
+      "excess_block95": [
+        -0.0456475792999261,
+        0.06284226097838704
+      ],
+      "worst": -0.11853966164246987,
+      "max_closed_trade_drawdown": -0.49837333287219354,
+      "mean_double_cost": -0.025221236727386277,
+      "win_double_cost": 0.38095238095238093,
+      "mean_adverse_extra_10bp": -0.026221236727386278,
+      "ten_net_atleast10": 0.09523809523809523,
+      "mean_net10": -0.03364699457023395,
+      "mean_hold20": -0.04014756060903261,
+      "excess_vs_hold20": 0.016926323881646336,
+      "reasons": {
+        "stop": 12,
+        "target": 7,
+        "gap_target": 1,
+        "entry_day_conservative_stop": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "validation": {
+      "n": 10,
+      "wins": 6,
+      "win": 0.6,
+      "wilson95": [
+        0.31267376973365824,
+        0.8318196702937638
+      ],
+      "four_variant_adjusted_wilson": [
+        0.255511104256386,
+        0.8676527335557869
+      ],
+      "mean": 0.01717262544429544,
+      "median": 0.07961504435672107,
+      "mean_block95": [
+        -0.0655613698240117,
+        0.0894258109653496
+      ],
+      "excess_block95": [
+        -0.06678282610256725,
+        0.036944061640864036
+      ],
+      "worst": -0.2353761798088937,
+      "max_closed_trade_drawdown": -0.3051535383150774,
+      "mean_double_cost": 0.01517262544429544,
+      "win_double_cost": 0.6,
+      "mean_adverse_extra_10bp": 0.014172625444295438,
+      "ten_net_atleast10": 0.3,
+      "mean_net10": 0.08661034886464807,
+      "mean_hold20": 0.03389220622226415,
+      "excess_vs_hold20": -0.01671958077796871,
+      "reasons": {
+        "target": 6,
+        "stop": 2,
+        "time": 1,
+        "gap_stop": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "descriptive_recent": {
+      "n": 12,
+      "wins": 9,
+      "win": 0.75,
+      "wilson95": [
+        0.46769466506643426,
+        0.9110583316059453
+      ],
+      "four_variant_adjusted_wilson": [
+        0.3971906395524337,
+        0.9317831940035469
+      ],
+      "mean": 0.07229027741669795,
+      "median": 0.12056501447303924,
+      "mean_block95": [
+        0.012553989620296802,
+        0.13496861013680567
+      ],
+      "excess_block95": [
+        -0.06428304531540345,
+        0.06427121786867541
+      ],
+      "worst": -0.202508795026919,
+      "max_closed_trade_drawdown": -0.202508795026919,
+      "mean_double_cost": 0.07029027741669795,
+      "win_double_cost": 0.75,
+      "mean_adverse_extra_10bp": 0.06929027741669795,
+      "ten_net_atleast10": 0.4166666666666667,
+      "mean_net10": 0.07222449308101594,
+      "mean_hold20": 0.0745774082786571,
+      "excess_vs_hold20": -0.0022871308619591504,
+      "reasons": {
+        "target": 5,
+        "gap_target": 3,
+        "stop": 2,
+        "time": 2
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    }
+  },
+  "auction": {
+    "development": {
+      "n": 21,
+      "wins": 9,
+      "win": 0.42857142857142855,
+      "wilson95": [
+        0.2446996892537596,
+        0.6345344563069328
+      ],
+      "four_variant_adjusted_wilson": [
+        0.20753374196453417,
+        0.6823281665314158
+      ],
+      "mean": -0.012679683202597677,
+      "median": -0.060636120986272246,
+      "mean_block95": [
+        -0.0393016725217106,
+        0.01729139295124264
+      ],
+      "excess_block95": [
+        -0.03248344998721932,
+        0.07909969256481815
+      ],
+      "worst": -0.12536773640075183,
+      "max_closed_trade_drawdown": -0.3911659341358522,
+      "mean_double_cost": -0.014679683202597679,
+      "win_double_cost": 0.42857142857142855,
+      "mean_adverse_extra_10bp": -0.015679683202597678,
+      "ten_net_atleast10": 0.09523809523809523,
+      "mean_net10": -0.02368434454528599,
+      "mean_hold20": -0.03817486253088573,
+      "excess_vs_hold20": 0.025495179328288053,
+      "reasons": {
+        "stop": 12,
+        "target": 8,
+        "gap_target": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "validation": {
+      "n": 9,
+      "wins": 7,
+      "win": 0.7777777777777778,
+      "wilson95": [
+        0.45258896910698887,
+        0.9367748928821533
+      ],
+      "four_variant_adjusted_wilson": [
+        0.3747632378014857,
+        0.9533523438713457
+      ],
+      "mean": 0.03677065412074671,
+      "median": 0.07950467390209393,
+      "mean_block95": [
+        -0.03768952001053641,
+        0.12365855317200442
+      ],
+      "excess_block95": [
+        -0.019380917883473476,
+        0.06581531455371631
+      ],
+      "worst": -0.28172586763799734,
+      "max_closed_trade_drawdown": -0.28172586763799734,
+      "mean_double_cost": 0.03477065412074671,
+      "win_double_cost": 0.7777777777777778,
+      "mean_adverse_extra_10bp": 0.03377065412074671,
+      "ten_net_atleast10": 0.2222222222222222,
+      "mean_net10": 0.057699368384027595,
+      "mean_hold20": 0.015584123441743548,
+      "excess_vs_hold20": 0.02118653067900316,
+      "reasons": {
+        "target": 6,
+        "gap_stop": 1,
+        "stop": 1,
+        "gap_target": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "descriptive_recent": {
+      "n": 12,
+      "wins": 10,
+      "win": 0.8333333333333334,
+      "wilson95": [
+        0.5519691377470266,
+        0.9530348578161463
+      ],
+      "four_variant_adjusted_wilson": [
+        0.47333368224084,
+        0.9652980958338007
+      ],
+      "mean": 0.07880807641134639,
+      "median": 0.1250071711249462,
+      "mean_block95": [
+        0.009580738862622831,
+        0.151442864476836
+      ],
+      "excess_block95": [
+        -0.05723477811035064,
+        0.06060202617057955
+      ],
+      "worst": -0.2173773391702718,
+      "max_closed_trade_drawdown": -0.2173773391702718,
+      "mean_double_cost": 0.07680807641134639,
+      "win_double_cost": 0.8333333333333334,
+      "mean_adverse_extra_10bp": 0.07580807641134639,
+      "ten_net_atleast10": 0.5833333333333334,
+      "mean_net10": 0.09663122864230778,
+      "mean_hold20": 0.08126116499013404,
+      "excess_vs_hold20": -0.00245308857878763,
+      "reasons": {
+        "target": 8,
+        "stop": 2,
+        "gap_target": 1,
+        "time": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    }
+  },
+  "pullback": {
+    "development": {
+      "n": 21,
+      "wins": 9,
+      "win": 0.42857142857142855,
+      "wilson95": [
+        0.2446996892537596,
+        0.6345344563069328
+      ],
+      "four_variant_adjusted_wilson": [
+        0.20753374196453417,
+        0.6823281665314158
+      ],
+      "mean": -0.014431478381246587,
+      "median": -0.06081543732984307,
+      "mean_block95": [
+        -0.039763459642899054,
+        0.014958307622510622
+      ],
+      "excess_block95": [
+        -0.04461995383507615,
+        0.07800707127086476
+      ],
+      "worst": -0.11853966164246987,
+      "max_closed_trade_drawdown": -0.39785488574983396,
+      "mean_double_cost": -0.01643147838124659,
+      "win_double_cost": 0.42857142857142855,
+      "mean_adverse_extra_10bp": -0.01743147838124659,
+      "ten_net_atleast10": 0.09523809523809523,
+      "mean_net10": -0.01614448952032427,
+      "mean_hold20": -0.03859439372113978,
+      "excess_vs_hold20": 0.02416291533989319,
+      "reasons": {
+        "stop": 12,
+        "target": 7,
+        "gap_target": 2
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "validation": {
+      "n": 10,
+      "wins": 7,
+      "win": 0.7,
+      "wilson95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ],
+      "four_variant_adjusted_wilson": [
+        0.32891604068027774,
+        0.9174116349440675
+      ],
+      "mean": 0.050487303495548155,
+      "median": 0.08577234280217583,
+      "mean_block95": [
+        0.005584925607075686,
+        0.09318054763439783
+      ],
+      "excess_block95": [
+        -0.05417689034916129,
+        0.07741833415116567
+      ],
+      "worst": -0.09502695147588103,
+      "max_closed_trade_drawdown": -0.09502695147588103,
+      "mean_double_cost": 0.048487303495548154,
+      "win_double_cost": 0.7,
+      "mean_adverse_extra_10bp": 0.04748730349554815,
+      "ten_net_atleast10": 0.3,
+      "mean_net10": 0.05583406412883578,
+      "mean_hold20": 0.040925607990175895,
+      "excess_vs_hold20": 0.009561695505372258,
+      "reasons": {
+        "target": 7,
+        "stop": 2,
+        "time": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "descriptive_recent": {
+      "n": 11,
+      "wins": 9,
+      "win": 0.8181818181818182,
+      "wilson95": [
+        0.523019438039156,
+        0.9486323102539149
+      ],
+      "four_variant_adjusted_wilson": [
+        0.44400708158508917,
+        0.9620599629504913
+      ],
+      "mean": 0.07364189699868648,
+      "median": 0.11130238891002575,
+      "mean_block95": [
+        0.007857048126586243,
+        0.14278119284389404
+      ],
+      "excess_block95": [
+        -0.047507793203787646,
+        0.07869800090066094
+      ],
+      "worst": -0.202508795026919,
+      "max_closed_trade_drawdown": -0.202508795026919,
+      "mean_double_cost": 0.07164189699868648,
+      "win_double_cost": 0.8181818181818182,
+      "mean_adverse_extra_10bp": 0.07064189699868648,
+      "ten_net_atleast10": 0.45454545454545453,
+      "mean_net10": 0.058065706979517476,
+      "mean_hold20": 0.06088619754933562,
+      "excess_vs_hold20": 0.012755699449350854,
+      "reasons": {
+        "target": 5,
+        "stop": 2,
+        "gap_target": 2,
+        "time": 2
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    }
+  },
+  "breakout": {
+    "development": {
+      "n": 4,
+      "wins": 3,
+      "win": 0.75,
+      "wilson95": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "four_variant_adjusted_wilson": [
+        0.22692549595447575,
+        0.968414995786506
+      ],
+      "mean": 0.03558005509919693,
+      "median": 0.06128031577457338,
+      "mean_block95": [
+        0.0006515136664358989,
+        0.07050859653195796
+      ],
+      "excess_block95": [
+        0.034409506925023786,
+        0.09681578839389457
+      ],
+      "worst": -0.05997728844170158,
+      "max_closed_trade_drawdown": -0.05997728844170158,
+      "mean_double_cost": 0.033580055099196926,
+      "win_double_cost": 0.75,
+      "mean_adverse_extra_10bp": 0.032580055099196925,
+      "ten_net_atleast10": 0.0,
+      "mean_net10": 0.011648331145049373,
+      "mean_hold20": -0.03003259256026225,
+      "excess_vs_hold20": 0.06561264765945918,
+      "reasons": {
+        "target": 2,
+        "time": 1,
+        "stop": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "validation": {
+      "n": 6,
+      "wins": 4,
+      "win": 0.6666666666666666,
+      "wilson95": [
+        0.299993315138392,
+        0.9032285888942195
+      ],
+      "four_variant_adjusted_wilson": [
+        0.2345859927421161,
+        0.9288322910779805
+      ],
+      "mean": 0.0020772720564857794,
+      "median": 0.03576147245958339,
+      "mean_block95": [
+        -0.08362910296176618,
+        0.08778364707473774
+      ],
+      "excess_block95": [
+        -0.07253601353021348,
+        0.007522001803122779
+      ],
+      "worst": -0.22571848462728406,
+      "max_closed_trade_drawdown": -0.24968087520358828,
+      "mean_double_cost": 7.727205648577762e-05,
+      "win_double_cost": 0.6666666666666666,
+      "mean_adverse_extra_10bp": -0.0009227279435142224,
+      "ten_net_atleast10": 0.3333333333333333,
+      "mean_net10": 0.03418786856306375,
+      "mean_hold20": 0.023320989962997456,
+      "excess_vs_hold20": -0.021243717906511677,
+      "reasons": {
+        "target": 2,
+        "time": 1,
+        "gap_stop": 1,
+        "stop": 1,
+        "gap_target": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    },
+    "descriptive_recent": {
+      "n": 7,
+      "wins": 5,
+      "win": 0.7142857142857143,
+      "wilson95": [
+        0.35893445183261935,
+        0.9177810759959433
+      ],
+      "four_variant_adjusted_wilson": [
+        0.2871637520200339,
+        0.9394474655733633
+      ],
+      "mean": 0.03170079254546624,
+      "median": 0.07722282249022316,
+      "mean_block95": [
+        -0.04822920345313007,
+        0.10757084887927097
+      ],
+      "excess_block95": [
+        -0.22809232074292915,
+        0.09627640596156659
+      ],
+      "worst": -0.21093102035566125,
+      "max_closed_trade_drawdown": -0.21093102035566125,
+      "mean_double_cost": 0.029700792545466235,
+      "win_double_cost": 0.7142857142857143,
+      "mean_adverse_extra_10bp": 0.028700792545466234,
+      "ten_net_atleast10": 0.14285714285714285,
+      "mean_net10": 0.02946308905972899,
+      "mean_hold20": 0.10456137415788753,
+      "excess_vs_hold20": -0.07286058161242129,
+      "reasons": {
+        "target": 3,
+        "gap_target": 1,
+        "gap_stop": 1,
+        "stop": 1,
+        "time": 1
+      },
+      "bootstrap_caution": "3 sequential nonoverlapping trade blocks; descriptive, not untouched audit; extra10bp is cost stress, not full fill-resimulation"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "symbol": "ALAB",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/ALAB?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.434655+00:00",
+    "sha256": "f786fcc0bc530f7dcd75287db76cbe0ee47c07379c7960cdf1333e3e7f895a69",
+    "last_extended_bar_price": 350.6846,
+    "last_extended_bar_at": "2026-10-02T19:59:58-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 350.33,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "IREN",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.434810+00:00",
+    "sha256": "15fa0c5df55140708b21bf0688dc28d22b8a3d7c901960f652b0aea1cbaca32a",
+    "last_extended_bar_price": 41.72,
+    "last_extended_bar_at": "2026-10-02T19:59:49-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 41.76,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "APLD",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.434901+00:00",
+    "sha256": "8f18525cd6d49eabe87b1c12747510db0cc86a1820a41ada7bea47a75d01e027",
+    "last_extended_bar_price": 25.4916,
+    "last_extended_bar_at": "2026-10-02T19:59:53-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 25.38,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "STX",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/STX?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.434985+00:00",
+    "sha256": "de9380a2f6b42e1840a8ec74cd5fb2e00b82e8c98b78275cdba0e0defc301845",
+    "last_extended_bar_price": 846.63,
+    "last_extended_bar_at": "2026-10-02T19:59:59-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 848.99,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "WDC",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/WDC?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.685855+00:00",
+    "sha256": "4724b7fd7eb7887c8de753a9d2c347babba1b3e5637911e3b8d695c0521e7f37",
+    "last_extended_bar_price": 415.39,
+    "last_extended_bar_at": "2026-10-02T19:59:59-04:00",
+    "regular_market_at": "2026-10-02T20:00:00+00:00",
+    "regular_market_price": 415.29,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "AAOI",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.686046+00:00",
+    "sha256": "5091ee3b2121f1eb79b4df3dce44e96fd4206e85f2bf2e4f903a133ea1afb11a",
+    "last_extended_bar_price": 115.0193,
+    "last_extended_bar_at": "2026-10-02T19:59:54-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 115.59,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "COHR",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.686174+00:00",
+    "sha256": "60c7153a051797ddd91466e55188223d44701930c1377100e0689f228463dc2c",
+    "last_extended_bar_price": 337.79,
+    "last_extended_bar_at": "2026-10-02T19:59:32-04:00",
+    "regular_market_at": "2026-10-02T20:00:02+00:00",
+    "regular_market_price": 337.04,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  },
+  {
+    "symbol": "ON",
+    "source": "https://query2.finance.yahoo.com/v8/finance/chart/ON?range=5d&interval=5m&includePrePost=true",
+    "fetched_at": "2026-10-03T18:50:45.694219+00:00",
+    "sha256": "4b8e9690197273249f5c5772e18b827a1abf6c0b5279a92b3c9e56c8ebb52b76",
+    "last_extended_bar_price": 85.06,
+    "last_extended_bar_at": "2026-10-02T19:58:58-04:00",
+    "regular_market_at": "2026-10-02T20:00:01+00:00",
+    "regular_market_price": 84.89,
+    "overnight_bid_ask": null,
+    "price_kind": "Yahoo extended 5m bar proxy, not executable ask"
+  }
+]

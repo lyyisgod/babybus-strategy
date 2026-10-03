@@ -1,0 +1,11 @@
+{
+  "mature_labels_strict_before_signal": true,
+  "nonoverlapping_evaluation": true,
+  "today_target_does_not_exit": true,
+  "dual_touch_stop_first": true,
+  "negative_gap_slippage": true,
+  "daily_feature_prefix": true,
+  "raw_hashes_verified": 303,
+  "functional_validation_only": true,
+  "not_investment_validation": true
+}

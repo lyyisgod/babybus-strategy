@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-02T18:44:43.905372+00:00",
+  "quote_window": "2026-10-02 14:40 EDT",
+  "target_session": "2026-10-05",
+  "relative_first": "AAOI",
+  "relative_first_basis": "6/7 previous completed-day price gates, retains positive intradayVWAP and1.69 sameclockvolume; manual relative price judgment not statistical advantage",
+  "backup": [
+    "COHR"
+  ],
+  "strict_babybus_signals": 0,
+  "credit": "OFF",
+  "absolute_high_probability_gate": false,
+  "current_probability": null,
+  "strict_action": "no qualified new position",
+  "expanded_stocks": 154,
+  "historical_clock": "14:35",
+  "historical_price_diagnostic_trades": 135,
+  "independent_conditional_plan": "plan.json",
+  "early_APLD_plan": "invalidated by24.82low crossing25.05; no assumption of userfill",
+  "actual_user_purchase": "unknown",
+  "future_outcome": "unmatured",
+  "orders_placed": false
+}

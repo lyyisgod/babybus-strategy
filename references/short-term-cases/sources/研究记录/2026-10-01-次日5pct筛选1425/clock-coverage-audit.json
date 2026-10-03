@@ -1,0 +1,1267 @@
+{
+  "counts": {
+    "59": 8790,
+    "58": 135,
+    "57": 54,
+    "54": 7,
+    "55": 25,
+    "56": 30
+  },
+  "partial_clock_windows": [
+    {
+      "symbol": "ONTO",
+      "day": "2026-07-20",
+      "bars": 58
+    },
+    {
+      "symbol": "ONTO",
+      "day": "2026-09-10",
+      "bars": 58
+    },
+    {
+      "symbol": "ONTO",
+      "day": "2026-09-25",
+      "bars": 58
+    },
+    {
+      "symbol": "ONTO",
+      "day": "2026-09-30",
+      "bars": 58
+    },
+    {
+      "symbol": "ONTO",
+      "day": "2026-10-01",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-09",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-14",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-15",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-16",
+      "bars": 54
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-20",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-21",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-22",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-24",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-07-31",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-03",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-06",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-12",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-14",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-17",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-19",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-20",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-26",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-28",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-08-31",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-01",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-02",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-03",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-08",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-09",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-10",
+      "bars": 55
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-15",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-21",
+      "bars": 56
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-22",
+      "bars": 57
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-28",
+      "bars": 58
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-09-29",
+      "bars": 54
+    },
+    {
+      "symbol": "CAMT",
+      "day": "2026-10-01",
+      "bars": 56
+    },
+    {
+      "symbol": "SMTC",
+      "day": "2026-07-20",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-07-09",
+      "bars": 55
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-07-13",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-07-15",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-03",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-06",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-07",
+      "bars": 55
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-10",
+      "bars": 55
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-11",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-13",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-14",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-25",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-08-31",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-04",
+      "bars": 56
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-08",
+      "bars": 55
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-09",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-16",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-28",
+      "bars": 58
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-29",
+      "bars": 57
+    },
+    {
+      "symbol": "VICR",
+      "day": "2026-09-30",
+      "bars": 56
+    },
+    {
+      "symbol": "CIEN",
+      "day": "2026-09-16",
+      "bars": 54
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-07-23",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-08-11",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-08-21",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-08-31",
+      "bars": 57
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-09-01",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-09-04",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-09-28",
+      "bars": 58
+    },
+    {
+      "symbol": "MTSI",
+      "day": "2026-09-29",
+      "bars": 57
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-07-24",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-04",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-12",
+      "bars": 57
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-13",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-21",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-25",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-26",
+      "bars": 57
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-08-27",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-02",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-11",
+      "bars": 57
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-14",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-16",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-17",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-18",
+      "bars": 58
+    },
+    {
+      "symbol": "ACMR",
+      "day": "2026-09-25",
+      "bars": 58
+    },
+    {
+      "symbol": "FN",
+      "day": "2026-09-25",
+      "bars": 58
+    },
+    {
+      "symbol": "FN",
+      "day": "2026-09-29",
+      "bars": 58
+    },
+    {
+      "symbol": "AMPL",
+      "day": "2026-09-28",
+      "bars": 58
+    },
+    {
+      "symbol": "RNG",
+      "day": "2026-09-10",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-07-16",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-07-30",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-08-11",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-08-20",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-08-25",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-09-18",
+      "bars": 54
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-09-25",
+      "bars": 58
+    },
+    {
+      "symbol": "DUOL",
+      "day": "2026-09-29",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-09",
+      "bars": 57
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-10",
+      "bars": 56
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-13",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-14",
+      "bars": 57
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-15",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-24",
+      "bars": 56
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-27",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-07-29",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-08-18",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-09-08",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-09-10",
+      "bars": 58
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-09-11",
+      "bars": 57
+    },
+    {
+      "symbol": "CDNA",
+      "day": "2026-09-30",
+      "bars": 58
+    },
+    {
+      "symbol": "VKTX",
+      "day": "2026-07-14",
+      "bars": 58
+    },
+    {
+      "symbol": "VERA",
+      "day": "2026-08-12",
+      "bars": 58
+    },
+    {
+      "symbol": "VERA",
+      "day": "2026-08-17",
+      "bars": 58
+    },
+    {
+      "symbol": "VERA",
+      "day": "2026-08-28",
+      "bars": 58
+    },
+    {
+      "symbol": "AZO",
+      "day": "2026-07-24",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-10",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-14",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-16",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-21",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-22",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-23",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-24",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-27",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-07-29",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-04",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-05",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-07",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-11",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-13",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-17",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-18",
+      "bars": 56
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-20",
+      "bars": 55
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-21",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-24",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-25",
+      "bars": 55
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-26",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-27",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-28",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-08-31",
+      "bars": 57
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-01",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-02",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-04",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-09",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-28",
+      "bars": 58
+    },
+    {
+      "symbol": "THO",
+      "day": "2026-09-30",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-09",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-10",
+      "bars": 55
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-13",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-14",
+      "bars": 55
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-23",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-24",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-07-31",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-03",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-07",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-11",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-12",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-13",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-14",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-17",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-18",
+      "bars": 55
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-19",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-20",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-21",
+      "bars": 54
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-24",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-27",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-08-31",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-01",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-02",
+      "bars": 55
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-03",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-04",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-08",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-09",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-11",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-14",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-15",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-16",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-17",
+      "bars": 56
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-18",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-21",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-24",
+      "bars": 57
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-25",
+      "bars": 58
+    },
+    {
+      "symbol": "MLKN",
+      "day": "2026-09-30",
+      "bars": 57
+    },
+    {
+      "symbol": "FERG",
+      "day": "2026-07-14",
+      "bars": 58
+    },
+    {
+      "symbol": "FERG",
+      "day": "2026-07-22",
+      "bars": 57
+    },
+    {
+      "symbol": "FERG",
+      "day": "2026-07-27",
+      "bars": 58
+    },
+    {
+      "symbol": "KBH",
+      "day": "2026-08-11",
+      "bars": 58
+    },
+    {
+      "symbol": "KBH",
+      "day": "2026-08-14",
+      "bars": 57
+    },
+    {
+      "symbol": "KBH",
+      "day": "2026-08-24",
+      "bars": 58
+    },
+    {
+      "symbol": "KBH",
+      "day": "2026-09-04",
+      "bars": 58
+    },
+    {
+      "symbol": "BILI",
+      "day": "2026-07-24",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-07-09",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-07-13",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-05",
+      "bars": 57
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-06",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-07",
+      "bars": 56
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-10",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-11",
+      "bars": 57
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-12",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-13",
+      "bars": 56
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-19",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-24",
+      "bars": 57
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-26",
+      "bars": 57
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-28",
+      "bars": 55
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-08-31",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-09-14",
+      "bars": 58
+    },
+    {
+      "symbol": "ATRC",
+      "day": "2026-09-15",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-07-17",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-07-21",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-04",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-10",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-11",
+      "bars": 55
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-12",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-13",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-18",
+      "bars": 57
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-19",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-08-26",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-09-02",
+      "bars": 57
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-09-04",
+      "bars": 57
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-09-16",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-09-23",
+      "bars": 58
+    },
+    {
+      "symbol": "LEU",
+      "day": "2026-09-24",
+      "bars": 58
+    },
+    {
+      "symbol": "BKSY",
+      "day": "2026-08-26",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-13",
+      "bars": 55
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-17",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-21",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-24",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-27",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-28",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-29",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-07-31",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-03",
+      "bars": 55
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-04",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-05",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-11",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-12",
+      "bars": 55
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-18",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-19",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-21",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-26",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-27",
+      "bars": 55
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-08-28",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-01",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-02",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-03",
+      "bars": 55
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-04",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-08",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-09",
+      "bars": 56
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-10",
+      "bars": 54
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-18",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-22",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-24",
+      "bars": 57
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-29",
+      "bars": 58
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-09-30",
+      "bars": 54
+    },
+    {
+      "symbol": "MIRM",
+      "day": "2026-10-01",
+      "bars": 58
+    },
+    {
+      "symbol": "CRSP",
+      "day": "2026-08-10",
+      "bars": 58
+    },
+    {
+      "symbol": "CRSP",
+      "day": "2026-09-11",
+      "bars": 58
+    }
+  ]
+}

@@ -1,0 +1,2811 @@
+{
+  "version": 3,
+  "protocol": {
+    "version": 3,
+    "frozen_at": "2026-10-01T16:05:18.563384+00:00",
+    "prior_versions_preserved": true,
+    "cutoff": "2026-09-29",
+    "today_outcome_known": true,
+    "untouched_audit": false,
+    "core": [
+      "return20",
+      "distance_ma200",
+      "ATR14/close",
+      "relative_return20_QQQ",
+      "volume_ratio5_20"
+    ],
+    "new_factors": [
+      "w_active",
+      "support_distance_ATR",
+      "neckline_headroom_ATR",
+      "bottom_symmetry_ATR",
+      "volume_pressure5",
+      "relative_return20_optical"
+    ],
+    "structure": "causal 60-bar replay of v2 valley discovery; retain latest right valley up to20 sessions until support breached; report provisional/confirmed/breakout separately; no neckline buy gate",
+    "optical_basket": [
+      "COHR",
+      "LITE"
+    ],
+    "pressure": "5-day signed close-location weighted volume; proxy, not institutional flows",
+    "intraday": "completed minutes; 30m relative volume against median of preceding20 sessions at same six completed5m slots; stale>180sec and missing-bar coverage<80% explicit unavailable",
+    "label": "next regular open; 10 sessions; stop ratio93/97.538, target110/97.538; gap at actualopen, samebar both stopfirst; .2% roundtrip cost; netpositive binary and netreturn separate",
+    "evaluation": "original85 nonoverlapping daily signal dates; mature labels through2026-09-29; only prior labels exiting before query allowed; no intraday certification",
+    "variants": [
+      "fixed core",
+      "fixed core plus six v3 factors"
+    ],
+    "model": "train-only median/IQR clip5; ridge linear-probability lambda100; intercept unpenalized; probabilities clipped[0,1]; no tuning/calibration/selection",
+    "benchmark": "expanding mature training mean outcome",
+    "claim": "exploratory historical ablation; no certified current probability; deployment directionweight0 until independent audit; factor absence never automatically no-buy",
+    "future_audit": "signals strictly after freeze, mature10-session outcomes; append-only, no retuning on those outcomes"
+  },
+  "variants": {
+    "core": {
+      "n": 85,
+      "brier": 0.22578587978759485,
+      "baseline_brier": 0.22213811197340894,
+      "brier_improvement_ci95_year_blocks": [
+        -0.012640763397534137,
+        0.008312561416661746
+      ],
+      "path_return_MAE": 0.0748713205105779,
+      "baseline_path_return_MAE": 0.07298726354367417,
+      "rows": [
+        {
+          "signal": "2023-01-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.24339120209235274,
+          "predicted_path_return": -0.014515366709021657,
+          "baseline_score": 0.28498168498168497
+        },
+        {
+          "signal": "2023-01-19",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2789706271163086,
+          "predicted_path_return": -0.009051211434056093,
+          "baseline_score": 0.28488372093023256
+        },
+        {
+          "signal": "2023-02-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.23797091440768958,
+          "predicted_path_return": -0.015278583030494371,
+          "baseline_score": 0.2869502523431867
+        },
+        {
+          "signal": "2023-02-21",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.24699759715762887,
+          "predicted_path_return": -0.015120448807673324,
+          "baseline_score": 0.2918454935622318
+        },
+        {
+          "signal": "2023-03-08",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3111054873639151,
+          "predicted_path_return": -0.0052657942932202596,
+          "baseline_score": 0.29382540809084456
+        },
+        {
+          "signal": "2023-03-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.26099280004378805,
+          "predicted_path_return": -0.012885483446615935,
+          "baseline_score": 0.29225352112676056
+        },
+        {
+          "signal": "2023-04-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.28291069798390583,
+          "predicted_path_return": -0.005817708187728404,
+          "baseline_score": 0.29000698812019565
+        },
+        {
+          "signal": "2023-04-25",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3477894805069161,
+          "predicted_path_return": 0.004900657081338251,
+          "baseline_score": 0.2919556171983356
+        },
+        {
+          "signal": "2023-05-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.17481644643465666,
+          "predicted_path_return": -0.02371006257141304,
+          "baseline_score": 0.28974535443909155
+        },
+        {
+          "signal": "2023-05-25",
+          "net": 0.12576558879616173,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3119734307616791,
+          "predicted_path_return": -0.004051089753465775,
+          "baseline_score": 0.2889344262295082
+        },
+        {
+          "signal": "2023-06-12",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.18231861759954204,
+          "predicted_path_return": -0.023450912961819073,
+          "baseline_score": 0.2935593220338983
+        },
+        {
+          "signal": "2023-06-28",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3457762019156587,
+          "predicted_path_return": 0.01114564883127901,
+          "baseline_score": 0.297442799461642
+        },
+        {
+          "signal": "2023-07-14",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3619147683009788,
+          "predicted_path_return": 0.016810837872785634,
+          "baseline_score": 0.29926519706078825
+        },
+        {
+          "signal": "2023-07-31",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2808304432282564,
+          "predicted_path_return": 0.0052648709525849775,
+          "baseline_score": 0.3003978779840849
+        },
+        {
+          "signal": "2023-08-15",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.360651490938955,
+          "predicted_path_return": 0.012720901901498383,
+          "baseline_score": 0.3008558262014483
+        },
+        {
+          "signal": "2023-08-30",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4299589095892218,
+          "predicted_path_return": 0.02495071527785687,
+          "baseline_score": 0.30130718954248364
+        },
+        {
+          "signal": "2023-09-15",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.21037668550942312,
+          "predicted_path_return": -0.011552896255081537,
+          "baseline_score": 0.3011031797534069
+        },
+        {
+          "signal": "2023-10-02",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.13388930094398696,
+          "predicted_path_return": -0.03457342485778486,
+          "baseline_score": 0.29961340206185566
+        },
+        {
+          "signal": "2023-10-17",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2912089423397018,
+          "predicted_path_return": -0.0012332786486957202,
+          "baseline_score": 0.30070377479206656
+        },
+        {
+          "signal": "2023-11-01",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.272867674978849,
+          "predicted_path_return": -0.008419728997274178,
+          "baseline_score": 0.29923761118170267
+        },
+        {
+          "signal": "2023-11-16",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.26597976675881313,
+          "predicted_path_return": -0.008057294566344445,
+          "baseline_score": 0.3022082018927445
+        },
+        {
+          "signal": "2023-12-04",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2854540247255236,
+          "predicted_path_return": -0.004192333603368461,
+          "baseline_score": 0.30388471177944865
+        },
+        {
+          "signal": "2023-12-19",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2690877820362511,
+          "predicted_path_return": -0.008914537656579674,
+          "baseline_score": 0.3055382700684505
+        },
+        {
+          "signal": "2024-01-05",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.26030846332820756,
+          "predicted_path_return": -0.008508400271262892,
+          "baseline_score": 0.30593325092707047
+        },
+        {
+          "signal": "2024-01-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.26559861754315794,
+          "predicted_path_return": -0.006919839585403458,
+          "baseline_score": 0.30755064456721914
+        },
+        {
+          "signal": "2024-02-07",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.23381551425408545,
+          "predicted_path_return": -0.01355845814092141,
+          "baseline_score": 0.30609756097560975
+        },
+        {
+          "signal": "2024-02-23",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.34584815284687165,
+          "predicted_path_return": 0.018485055532292977,
+          "baseline_score": 0.306480920654149
+        },
+        {
+          "signal": "2024-03-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.33117058141450045,
+          "predicted_path_return": 0.006055401778206586,
+          "baseline_score": 0.3062575210589651
+        },
+        {
+          "signal": "2024-03-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3185853213792522,
+          "predicted_path_return": -0.0005956587544520093,
+          "baseline_score": 0.3042438732815302
+        },
+        {
+          "signal": "2024-04-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.29025750509290993,
+          "predicted_path_return": -0.006399374767889529,
+          "baseline_score": 0.30403800475059384
+        },
+        {
+          "signal": "2024-04-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2849655258298188,
+          "predicted_path_return": -0.006723636720503053,
+          "baseline_score": 0.30265486725663715
+        },
+        {
+          "signal": "2024-05-13",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.29695525540989925,
+          "predicted_path_return": -0.0012058130228105204,
+          "baseline_score": 0.30128956623681125
+        },
+        {
+          "signal": "2024-05-29",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.36850797731180457,
+          "predicted_path_return": 0.008167859793164693,
+          "baseline_score": 0.30227140361094934
+        },
+        {
+          "signal": "2024-06-13",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3191146303437006,
+          "predicted_path_return": -0.000896985203643574,
+          "baseline_score": 0.30150462962962965
+        },
+        {
+          "signal": "2024-07-01",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27080483676722306,
+          "predicted_path_return": -0.007811660740489033,
+          "baseline_score": 0.2995974698102358
+        },
+        {
+          "signal": "2024-07-17",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31820487785205126,
+          "predicted_path_return": -0.00040287598748101793,
+          "baseline_score": 0.29828571428571427
+        },
+        {
+          "signal": "2024-08-01",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3711090087907683,
+          "predicted_path_return": 0.01306884307806227,
+          "baseline_score": 0.30039750141964794
+        },
+        {
+          "signal": "2024-08-16",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.34656072747008104,
+          "predicted_path_return": 0.007584020705115266,
+          "baseline_score": 0.3002257336343115
+        },
+        {
+          "signal": "2024-09-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.4355529501633847,
+          "predicted_path_return": 0.02198977955609142,
+          "baseline_score": 0.3022994952327538
+        },
+        {
+          "signal": "2024-09-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.4124878061185819,
+          "predicted_path_return": 0.01800825502588546,
+          "baseline_score": 0.3032329988851728
+        },
+        {
+          "signal": "2024-10-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.34875558268538165,
+          "predicted_path_return": 0.006784265031830113,
+          "baseline_score": 0.303601108033241
+        },
+        {
+          "signal": "2024-10-18",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3212139541406598,
+          "predicted_path_return": 0.0010990899366207594,
+          "baseline_score": 0.3039647577092511
+        },
+        {
+          "signal": "2024-11-04",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3040813730281147,
+          "predicted_path_return": -0.0024461493270915846,
+          "baseline_score": 0.3043240284619595
+        },
+        {
+          "signal": "2024-11-19",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.328555986057562,
+          "predicted_path_return": 0.0020277477199488643,
+          "baseline_score": 0.3041349292709467
+        },
+        {
+          "signal": "2024-12-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.443822638468399,
+          "predicted_path_return": 0.02942906137637165,
+          "baseline_score": 0.30502974580854514
+        },
+        {
+          "signal": "2024-12-20",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.24569035496476063,
+          "predicted_path_return": -0.009173549387853778,
+          "baseline_score": 0.3043010752688172
+        },
+        {
+          "signal": "2025-01-08",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2716414640165207,
+          "predicted_path_return": -0.004300679789710401,
+          "baseline_score": 0.30464991982896844
+        },
+        {
+          "signal": "2025-01-27",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27310421297502185,
+          "predicted_path_return": 1.2032805914128992e-05,
+          "baseline_score": 0.3028692879914984
+        },
+        {
+          "signal": "2025-02-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30118735518500267,
+          "predicted_path_return": 0.001195043372278259,
+          "baseline_score": 0.3016376122556788
+        },
+        {
+          "signal": "2025-02-27",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3028976729177814,
+          "predicted_path_return": 0.006505554576575603,
+          "baseline_score": 0.3009453781512605
+        },
+        {
+          "signal": "2025-03-14",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3195770677463997,
+          "predicted_path_return": 0.008984211533678335,
+          "baseline_score": 0.3007832898172324
+        },
+        {
+          "signal": "2025-03-31",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4017645964079641,
+          "predicted_path_return": 0.0244050268665827,
+          "baseline_score": 0.3001038421599169
+        },
+        {
+          "signal": "2025-04-15",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3562889245932224,
+          "predicted_path_return": 0.02018698954327425,
+          "baseline_score": 0.29839958699019103
+        },
+        {
+          "signal": "2025-05-01",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3378596241404349,
+          "predicted_path_return": 0.0071907416834282355,
+          "baseline_score": 0.29774127310061604
+        },
+        {
+          "signal": "2025-05-16",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4274820390110737,
+          "predicted_path_return": 0.02520782158111368,
+          "baseline_score": 0.2986217457886677
+        },
+        {
+          "signal": "2025-06-03",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.35607482233480536,
+          "predicted_path_return": 0.009335397607102666,
+          "baseline_score": 0.29796954314720814
+        },
+        {
+          "signal": "2025-06-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.24848217682988866,
+          "predicted_path_return": -0.010256473546839411,
+          "baseline_score": 0.2978293791014639
+        },
+        {
+          "signal": "2025-07-07",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.391814669720386,
+          "predicted_path_return": 0.017096284010772934,
+          "baseline_score": 0.2991967871485944
+        },
+        {
+          "signal": "2025-07-22",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.32944128697929326,
+          "predicted_path_return": 0.0038596893645366907,
+          "baseline_score": 0.2985521717423864
+        },
+        {
+          "signal": "2025-08-06",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2797820230999539,
+          "predicted_path_return": -0.005838397955469329,
+          "baseline_score": 0.29791459781529295
+        },
+        {
+          "signal": "2025-08-21",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2936034840352915,
+          "predicted_path_return": -0.0016757764724954203,
+          "baseline_score": 0.2967901234567901
+        },
+        {
+          "signal": "2025-09-08",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3269816030045477,
+          "predicted_path_return": 0.0036047727797715976,
+          "baseline_score": 0.29764243614931235
+        },
+        {
+          "signal": "2025-09-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30691358462141893,
+          "predicted_path_return": -0.0009470028846600295,
+          "baseline_score": 0.2975085490962384
+        },
+        {
+          "signal": "2025-10-08",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2833273591694783,
+          "predicted_path_return": -0.005515032332163643,
+          "baseline_score": 0.29689018464528666
+        },
+        {
+          "signal": "2025-10-23",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.30794386608281815,
+          "predicted_path_return": 0.0012572753261710155,
+          "baseline_score": 0.29821169647172546
+        },
+        {
+          "signal": "2025-11-07",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30000777258324135,
+          "predicted_path_return": 0.0017851944328025806,
+          "baseline_score": 0.2985576923076923
+        },
+        {
+          "signal": "2025-11-24",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2762216905812244,
+          "predicted_path_return": -0.003688026164384541,
+          "baseline_score": 0.29746532759445243
+        },
+        {
+          "signal": "2025-12-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31940201792102635,
+          "predicted_path_return": 0.0017941502423486713,
+          "baseline_score": 0.2982873453853473
+        },
+        {
+          "signal": "2025-12-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31459920120521156,
+          "predicted_path_return": 0.002632626580651899,
+          "baseline_score": 0.30004732607666823
+        },
+        {
+          "signal": "2026-01-13",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2963384169817945,
+          "predicted_path_return": -0.0010979307175393918,
+          "baseline_score": 0.2999058380414313
+        },
+        {
+          "signal": "2026-01-29",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.28156261991555337,
+          "predicted_path_return": -0.003169201752875914,
+          "baseline_score": 0.30210772833723654
+        },
+        {
+          "signal": "2026-02-13",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31930120211190793,
+          "predicted_path_return": 0.004956645185244413,
+          "baseline_score": 0.30335507921714816
+        },
+        {
+          "signal": "2026-03-03",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.24390433049732657,
+          "predicted_path_return": -0.006152686623480065,
+          "baseline_score": 0.30366249420491426
+        },
+        {
+          "signal": "2026-03-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3395024883952367,
+          "predicted_path_return": 0.014352711604129846,
+          "baseline_score": 0.3044280442804428
+        },
+        {
+          "signal": "2026-04-02",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.24353745818036032,
+          "predicted_path_return": -0.007632651496491567,
+          "baseline_score": 0.304726938962827
+        },
+        {
+          "signal": "2026-04-20",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2873536328332552,
+          "predicted_path_return": -0.0012698786331164873,
+          "baseline_score": 0.3050228310502283
+        },
+        {
+          "signal": "2026-05-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.250321985510015,
+          "predicted_path_return": -0.007550393900792736,
+          "baseline_score": 0.3044070876874148
+        },
+        {
+          "signal": "2026-05-20",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.268892180399724,
+          "predicted_path_return": -0.0012541894460787796,
+          "baseline_score": 0.3047016274864376
+        },
+        {
+          "signal": "2026-06-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2761049642957694,
+          "predicted_path_return": 0.00021438600734565217,
+          "baseline_score": 0.3049932523616734
+        },
+        {
+          "signal": "2026-06-23",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2987928721872666,
+          "predicted_path_return": 0.00523447683245469,
+          "baseline_score": 0.3043867502238138
+        },
+        {
+          "signal": "2026-07-09",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3155350150586944,
+          "predicted_path_return": 0.00683588095343142,
+          "baseline_score": 0.30334075723830733
+        },
+        {
+          "signal": "2026-07-24",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3268956216916263,
+          "predicted_path_return": 0.008718350677043653,
+          "baseline_score": 0.30274822695035464
+        },
+        {
+          "signal": "2026-08-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2903480504299636,
+          "predicted_path_return": 0.0018470535367656293,
+          "baseline_score": 0.30172033524481695
+        },
+        {
+          "signal": "2026-08-25",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.37185317413783087,
+          "predicted_path_return": 0.017933598082179238,
+          "baseline_score": 0.3015803336259877
+        },
+        {
+          "signal": "2026-09-10",
+          "net": -0.07605994962161455,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30129798022061755,
+          "predicted_path_return": -0.001123988341947182,
+          "baseline_score": 0.3010048055919616
+        }
+      ]
+    },
+    "core_plus_v3": {
+      "n": 85,
+      "brier": 0.22676708661478076,
+      "baseline_brier": 0.22213811197340894,
+      "brier_improvement_ci95_year_blocks": [
+        -0.012406268708286051,
+        0.005250460712257923
+      ],
+      "path_return_MAE": 0.07547749320221682,
+      "baseline_path_return_MAE": 0.07298726354367417,
+      "rows": [
+        {
+          "signal": "2023-01-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.23722410808054806,
+          "predicted_path_return": -0.01699196199517955,
+          "baseline_score": 0.28498168498168497
+        },
+        {
+          "signal": "2023-01-19",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27121627495650913,
+          "predicted_path_return": -0.0077501437467506155,
+          "baseline_score": 0.28488372093023256
+        },
+        {
+          "signal": "2023-02-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.24721281747130552,
+          "predicted_path_return": -0.013773750275579614,
+          "baseline_score": 0.2869502523431867
+        },
+        {
+          "signal": "2023-02-21",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2584470646977875,
+          "predicted_path_return": -0.015455715005868478,
+          "baseline_score": 0.2918454935622318
+        },
+        {
+          "signal": "2023-03-08",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3097789617753801,
+          "predicted_path_return": -0.00639310611465245,
+          "baseline_score": 0.29382540809084456
+        },
+        {
+          "signal": "2023-03-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.24677912603645755,
+          "predicted_path_return": -0.016590888875594883,
+          "baseline_score": 0.29225352112676056
+        },
+        {
+          "signal": "2023-04-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.23391036675288207,
+          "predicted_path_return": -0.012878441752374766,
+          "baseline_score": 0.29000698812019565
+        },
+        {
+          "signal": "2023-04-25",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.34497720515742847,
+          "predicted_path_return": 0.0020706346128442662,
+          "baseline_score": 0.2919556171983356
+        },
+        {
+          "signal": "2023-05-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.15939978147146372,
+          "predicted_path_return": -0.02814611571182265,
+          "baseline_score": 0.28974535443909155
+        },
+        {
+          "signal": "2023-05-25",
+          "net": 0.12576558879616173,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.29713888813587763,
+          "predicted_path_return": -0.006927446863786062,
+          "baseline_score": 0.2889344262295082
+        },
+        {
+          "signal": "2023-06-12",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.20915319015759168,
+          "predicted_path_return": -0.016991550538683228,
+          "baseline_score": 0.2935593220338983
+        },
+        {
+          "signal": "2023-06-28",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3200506857936401,
+          "predicted_path_return": 0.005666933306487471,
+          "baseline_score": 0.297442799461642
+        },
+        {
+          "signal": "2023-07-14",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3611001909882581,
+          "predicted_path_return": 0.01522109147853028,
+          "baseline_score": 0.29926519706078825
+        },
+        {
+          "signal": "2023-07-31",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2844741342194997,
+          "predicted_path_return": 0.005880898091643943,
+          "baseline_score": 0.3003978779840849
+        },
+        {
+          "signal": "2023-08-15",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.34891745481713676,
+          "predicted_path_return": 0.008014941763083304,
+          "baseline_score": 0.3008558262014483
+        },
+        {
+          "signal": "2023-08-30",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.42832104487940653,
+          "predicted_path_return": 0.021924048006397034,
+          "baseline_score": 0.30130718954248364
+        },
+        {
+          "signal": "2023-09-15",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.24603458802156838,
+          "predicted_path_return": -0.0052530761099023274,
+          "baseline_score": 0.3011031797534069
+        },
+        {
+          "signal": "2023-10-02",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.12844535336222015,
+          "predicted_path_return": -0.03338351415726985,
+          "baseline_score": 0.29961340206185566
+        },
+        {
+          "signal": "2023-10-17",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31632936240974424,
+          "predicted_path_return": 0.003871873165393094,
+          "baseline_score": 0.30070377479206656
+        },
+        {
+          "signal": "2023-11-01",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2700211790826716,
+          "predicted_path_return": -0.008157686367008305,
+          "baseline_score": 0.29923761118170267
+        },
+        {
+          "signal": "2023-11-16",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.26332542994574065,
+          "predicted_path_return": -0.007171420929805491,
+          "baseline_score": 0.3022082018927445
+        },
+        {
+          "signal": "2023-12-04",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2948329004567536,
+          "predicted_path_return": -0.001933537801052227,
+          "baseline_score": 0.30388471177944865
+        },
+        {
+          "signal": "2023-12-19",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2849963133159319,
+          "predicted_path_return": -0.0062601362590188996,
+          "baseline_score": 0.3055382700684505
+        },
+        {
+          "signal": "2024-01-05",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2630380594207649,
+          "predicted_path_return": -0.007394551637230545,
+          "baseline_score": 0.30593325092707047
+        },
+        {
+          "signal": "2024-01-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.29287016803377436,
+          "predicted_path_return": -0.00045243260749942106,
+          "baseline_score": 0.30755064456721914
+        },
+        {
+          "signal": "2024-02-07",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27005520229270447,
+          "predicted_path_return": -0.0034955353395517983,
+          "baseline_score": 0.30609756097560975
+        },
+        {
+          "signal": "2024-02-23",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.33725980612795015,
+          "predicted_path_return": 0.017341420972436468,
+          "baseline_score": 0.306480920654149
+        },
+        {
+          "signal": "2024-03-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3606961912192499,
+          "predicted_path_return": 0.012194936183506772,
+          "baseline_score": 0.3062575210589651
+        },
+        {
+          "signal": "2024-03-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.33906640656300246,
+          "predicted_path_return": 0.0033930400223295774,
+          "baseline_score": 0.3042438732815302
+        },
+        {
+          "signal": "2024-04-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30443292473596617,
+          "predicted_path_return": -0.005085085992451435,
+          "baseline_score": 0.30403800475059384
+        },
+        {
+          "signal": "2024-04-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.29828993414888527,
+          "predicted_path_return": -0.0029205193422984477,
+          "baseline_score": 0.30265486725663715
+        },
+        {
+          "signal": "2024-05-13",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.32715352431617795,
+          "predicted_path_return": 0.005984768514839161,
+          "baseline_score": 0.30128956623681125
+        },
+        {
+          "signal": "2024-05-29",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.37836400401564096,
+          "predicted_path_return": 0.009441612555065095,
+          "baseline_score": 0.30227140361094934
+        },
+        {
+          "signal": "2024-06-13",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3409679048382488,
+          "predicted_path_return": 0.0034858445481417543,
+          "baseline_score": 0.30150462962962965
+        },
+        {
+          "signal": "2024-07-01",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31522008681609875,
+          "predicted_path_return": -0.0004327943991361893,
+          "baseline_score": 0.2995974698102358
+        },
+        {
+          "signal": "2024-07-17",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3279820594291591,
+          "predicted_path_return": 0.0037527495140469483,
+          "baseline_score": 0.29828571428571427
+        },
+        {
+          "signal": "2024-08-01",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3682888206001965,
+          "predicted_path_return": 0.011594222209753436,
+          "baseline_score": 0.30039750141964794
+        },
+        {
+          "signal": "2024-08-16",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.33896725349009355,
+          "predicted_path_return": 0.006995881382894304,
+          "baseline_score": 0.3002257336343115
+        },
+        {
+          "signal": "2024-09-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.4566682592600086,
+          "predicted_path_return": 0.027065531341667785,
+          "baseline_score": 0.3022994952327538
+        },
+        {
+          "signal": "2024-09-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.39288127625249075,
+          "predicted_path_return": 0.012271169444687403,
+          "baseline_score": 0.3032329988851728
+        },
+        {
+          "signal": "2024-10-03",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3604635583181283,
+          "predicted_path_return": 0.009856113306529494,
+          "baseline_score": 0.303601108033241
+        },
+        {
+          "signal": "2024-10-18",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.34483606004299655,
+          "predicted_path_return": 0.006352986889010074,
+          "baseline_score": 0.3039647577092511
+        },
+        {
+          "signal": "2024-11-04",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.28926304174802836,
+          "predicted_path_return": -0.006837077078092599,
+          "baseline_score": 0.3043240284619595
+        },
+        {
+          "signal": "2024-11-19",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.35119938053717165,
+          "predicted_path_return": 0.006638414798741588,
+          "baseline_score": 0.3041349292709467
+        },
+        {
+          "signal": "2024-12-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4401986619469761,
+          "predicted_path_return": 0.024684513718594425,
+          "baseline_score": 0.30502974580854514
+        },
+        {
+          "signal": "2024-12-20",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2545858057957673,
+          "predicted_path_return": -0.006814262663176167,
+          "baseline_score": 0.3043010752688172
+        },
+        {
+          "signal": "2025-01-08",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.28027245585166205,
+          "predicted_path_return": -0.0031238674054422273,
+          "baseline_score": 0.30464991982896844
+        },
+        {
+          "signal": "2025-01-27",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.29478692827796626,
+          "predicted_path_return": 0.005153263501001605,
+          "baseline_score": 0.3028692879914984
+        },
+        {
+          "signal": "2025-02-11",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.30193185277594164,
+          "predicted_path_return": 0.002802912461125244,
+          "baseline_score": 0.3016376122556788
+        },
+        {
+          "signal": "2025-02-27",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3246532884571277,
+          "predicted_path_return": 0.010470136832478622,
+          "baseline_score": 0.3009453781512605
+        },
+        {
+          "signal": "2025-03-14",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3107256996299249,
+          "predicted_path_return": 0.008274618894353944,
+          "baseline_score": 0.3007832898172324
+        },
+        {
+          "signal": "2025-03-31",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4372181855178568,
+          "predicted_path_return": 0.03208958883311363,
+          "baseline_score": 0.3001038421599169
+        },
+        {
+          "signal": "2025-04-15",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.34588159916263445,
+          "predicted_path_return": 0.019299883152191,
+          "baseline_score": 0.29839958699019103
+        },
+        {
+          "signal": "2025-05-01",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3240302856599978,
+          "predicted_path_return": 0.006140434673103865,
+          "baseline_score": 0.29774127310061604
+        },
+        {
+          "signal": "2025-05-16",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.4560985787449995,
+          "predicted_path_return": 0.03191575773036017,
+          "baseline_score": 0.2986217457886677
+        },
+        {
+          "signal": "2025-06-03",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3756695347406805,
+          "predicted_path_return": 0.01316542217993554,
+          "baseline_score": 0.29796954314720814
+        },
+        {
+          "signal": "2025-06-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.27514262501806835,
+          "predicted_path_return": -0.003197375326611084,
+          "baseline_score": 0.2978293791014639
+        },
+        {
+          "signal": "2025-07-07",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3904579292586304,
+          "predicted_path_return": 0.016211931600216823,
+          "baseline_score": 0.2991967871485944
+        },
+        {
+          "signal": "2025-07-22",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.31895763582736814,
+          "predicted_path_return": 0.0005378587856468594,
+          "baseline_score": 0.2985521717423864
+        },
+        {
+          "signal": "2025-08-06",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.28751300083723524,
+          "predicted_path_return": -0.004157515994625479,
+          "baseline_score": 0.29791459781529295
+        },
+        {
+          "signal": "2025-08-21",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2749904151881944,
+          "predicted_path_return": -0.003720822084354993,
+          "baseline_score": 0.2967901234567901
+        },
+        {
+          "signal": "2025-09-08",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.308641320399499,
+          "predicted_path_return": 0.0006209897937853768,
+          "baseline_score": 0.29764243614931235
+        },
+        {
+          "signal": "2025-09-23",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.312114880551349,
+          "predicted_path_return": 0.0004393397116907393,
+          "baseline_score": 0.2975085490962384
+        },
+        {
+          "signal": "2025-10-08",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2764481224405725,
+          "predicted_path_return": -0.006147476298503638,
+          "baseline_score": 0.29689018464528666
+        },
+        {
+          "signal": "2025-10-23",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3063786377852128,
+          "predicted_path_return": 0.001614048307797183,
+          "baseline_score": 0.29821169647172546
+        },
+        {
+          "signal": "2025-11-07",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3259086795602214,
+          "predicted_path_return": 0.008442278142918043,
+          "baseline_score": 0.2985576923076923
+        },
+        {
+          "signal": "2025-11-24",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3033129419682447,
+          "predicted_path_return": 0.006633218671277666,
+          "baseline_score": 0.29746532759445243
+        },
+        {
+          "signal": "2025-12-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3004475890677431,
+          "predicted_path_return": 0.0010882928110258195,
+          "baseline_score": 0.2982873453853473
+        },
+        {
+          "signal": "2025-12-26",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3153363055660356,
+          "predicted_path_return": 0.005294795783416732,
+          "baseline_score": 0.30004732607666823
+        },
+        {
+          "signal": "2026-01-13",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2895915584351228,
+          "predicted_path_return": -0.002383871977695031,
+          "baseline_score": 0.2999058380414313
+        },
+        {
+          "signal": "2026-01-29",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2751898888669471,
+          "predicted_path_return": -0.0034815318122353636,
+          "baseline_score": 0.30210772833723654
+        },
+        {
+          "signal": "2026-02-13",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.34351270074408585,
+          "predicted_path_return": 0.011399306350377619,
+          "baseline_score": 0.30335507921714816
+        },
+        {
+          "signal": "2026-03-03",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.26369226587703315,
+          "predicted_path_return": -0.0013249837767741245,
+          "baseline_score": 0.30366249420491426
+        },
+        {
+          "signal": "2026-03-18",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.3817785120575638,
+          "predicted_path_return": 0.01938356780368049,
+          "baseline_score": 0.3044280442804428
+        },
+        {
+          "signal": "2026-04-02",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.2634620619174682,
+          "predicted_path_return": -0.0014117560996567515,
+          "baseline_score": 0.304726938962827
+        },
+        {
+          "signal": "2026-04-20",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27732270304897183,
+          "predicted_path_return": -0.003377345719952295,
+          "baseline_score": 0.3050228310502283
+        },
+        {
+          "signal": "2026-05-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2516176727404805,
+          "predicted_path_return": -0.0063890207274377745,
+          "baseline_score": 0.3044070876874148
+        },
+        {
+          "signal": "2026-05-20",
+          "net": 0.1257655887961615,
+          "net_positive": true,
+          "exit_kind": "target",
+          "exploratory_score": 0.294159935496616,
+          "predicted_path_return": 0.003991523561576887,
+          "baseline_score": 0.3047016274864376
+        },
+        {
+          "signal": "2026-06-05",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.27063482314542425,
+          "predicted_path_return": -0.0006024483605825501,
+          "baseline_score": 0.3049932523616734
+        },
+        {
+          "signal": "2026-06-23",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3108156785688686,
+          "predicted_path_return": 0.007364424205430634,
+          "baseline_score": 0.3043867502238138
+        },
+        {
+          "signal": "2026-07-09",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.32454832298498276,
+          "predicted_path_return": 0.009191351736102972,
+          "baseline_score": 0.30334075723830733
+        },
+        {
+          "signal": "2026-07-24",
+          "net": -0.04852545674506337,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3240225271335082,
+          "predicted_path_return": 0.008629853778084548,
+          "baseline_score": 0.30274822695035464
+        },
+        {
+          "signal": "2026-08-10",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3257588806510691,
+          "predicted_path_return": 0.008837691055678604,
+          "baseline_score": 0.30172033524481695
+        },
+        {
+          "signal": "2026-08-25",
+          "net": -0.04852545674506348,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.3923062866504606,
+          "predicted_path_return": 0.021792638593643672,
+          "baseline_score": 0.3015803336259877
+        },
+        {
+          "signal": "2026-09-10",
+          "net": -0.07605994962161455,
+          "net_positive": false,
+          "exit_kind": "stop",
+          "exploratory_score": 0.2997946094965154,
+          "predicted_path_return": -0.0017767846994714643,
+          "baseline_score": 0.3010048055919616
+        }
+      ]
+    }
+  },
+  "training_bounds": [
+    {
+      "variant": "core",
+      "signal": "2023-01-03",
+      "latest_label_end": "2023-01-03",
+      "n_train": 1365
+    },
+    {
+      "variant": "core",
+      "signal": "2023-01-19",
+      "latest_label_end": "2023-01-19",
+      "n_train": 1376
+    },
+    {
+      "variant": "core",
+      "signal": "2023-02-03",
+      "latest_label_end": "2023-02-03",
+      "n_train": 1387
+    },
+    {
+      "variant": "core",
+      "signal": "2023-02-21",
+      "latest_label_end": "2023-02-21",
+      "n_train": 1398
+    },
+    {
+      "variant": "core",
+      "signal": "2023-03-08",
+      "latest_label_end": "2023-03-08",
+      "n_train": 1409
+    },
+    {
+      "variant": "core",
+      "signal": "2023-03-23",
+      "latest_label_end": "2023-03-23",
+      "n_train": 1420
+    },
+    {
+      "variant": "core",
+      "signal": "2023-04-10",
+      "latest_label_end": "2023-04-10",
+      "n_train": 1431
+    },
+    {
+      "variant": "core",
+      "signal": "2023-04-25",
+      "latest_label_end": "2023-04-25",
+      "n_train": 1442
+    },
+    {
+      "variant": "core",
+      "signal": "2023-05-10",
+      "latest_label_end": "2023-05-10",
+      "n_train": 1453
+    },
+    {
+      "variant": "core",
+      "signal": "2023-05-25",
+      "latest_label_end": "2023-05-25",
+      "n_train": 1464
+    },
+    {
+      "variant": "core",
+      "signal": "2023-06-12",
+      "latest_label_end": "2023-06-12",
+      "n_train": 1475
+    },
+    {
+      "variant": "core",
+      "signal": "2023-06-28",
+      "latest_label_end": "2023-06-28",
+      "n_train": 1486
+    },
+    {
+      "variant": "core",
+      "signal": "2023-07-14",
+      "latest_label_end": "2023-07-14",
+      "n_train": 1497
+    },
+    {
+      "variant": "core",
+      "signal": "2023-07-31",
+      "latest_label_end": "2023-07-31",
+      "n_train": 1508
+    },
+    {
+      "variant": "core",
+      "signal": "2023-08-15",
+      "latest_label_end": "2023-08-15",
+      "n_train": 1519
+    },
+    {
+      "variant": "core",
+      "signal": "2023-08-30",
+      "latest_label_end": "2023-08-30",
+      "n_train": 1530
+    },
+    {
+      "variant": "core",
+      "signal": "2023-09-15",
+      "latest_label_end": "2023-09-15",
+      "n_train": 1541
+    },
+    {
+      "variant": "core",
+      "signal": "2023-10-02",
+      "latest_label_end": "2023-10-02",
+      "n_train": 1552
+    },
+    {
+      "variant": "core",
+      "signal": "2023-10-17",
+      "latest_label_end": "2023-10-17",
+      "n_train": 1563
+    },
+    {
+      "variant": "core",
+      "signal": "2023-11-01",
+      "latest_label_end": "2023-11-01",
+      "n_train": 1574
+    },
+    {
+      "variant": "core",
+      "signal": "2023-11-16",
+      "latest_label_end": "2023-11-16",
+      "n_train": 1585
+    },
+    {
+      "variant": "core",
+      "signal": "2023-12-04",
+      "latest_label_end": "2023-12-04",
+      "n_train": 1596
+    },
+    {
+      "variant": "core",
+      "signal": "2023-12-19",
+      "latest_label_end": "2023-12-19",
+      "n_train": 1607
+    },
+    {
+      "variant": "core",
+      "signal": "2024-01-05",
+      "latest_label_end": "2024-01-05",
+      "n_train": 1618
+    },
+    {
+      "variant": "core",
+      "signal": "2024-01-23",
+      "latest_label_end": "2024-01-23",
+      "n_train": 1629
+    },
+    {
+      "variant": "core",
+      "signal": "2024-02-07",
+      "latest_label_end": "2024-02-07",
+      "n_train": 1640
+    },
+    {
+      "variant": "core",
+      "signal": "2024-02-23",
+      "latest_label_end": "2024-02-23",
+      "n_train": 1651
+    },
+    {
+      "variant": "core",
+      "signal": "2024-03-11",
+      "latest_label_end": "2024-03-11",
+      "n_train": 1662
+    },
+    {
+      "variant": "core",
+      "signal": "2024-03-26",
+      "latest_label_end": "2024-03-26",
+      "n_train": 1673
+    },
+    {
+      "variant": "core",
+      "signal": "2024-04-11",
+      "latest_label_end": "2024-04-11",
+      "n_train": 1684
+    },
+    {
+      "variant": "core",
+      "signal": "2024-04-26",
+      "latest_label_end": "2024-04-26",
+      "n_train": 1695
+    },
+    {
+      "variant": "core",
+      "signal": "2024-05-13",
+      "latest_label_end": "2024-05-13",
+      "n_train": 1706
+    },
+    {
+      "variant": "core",
+      "signal": "2024-05-29",
+      "latest_label_end": "2024-05-29",
+      "n_train": 1717
+    },
+    {
+      "variant": "core",
+      "signal": "2024-06-13",
+      "latest_label_end": "2024-06-13",
+      "n_train": 1728
+    },
+    {
+      "variant": "core",
+      "signal": "2024-07-01",
+      "latest_label_end": "2024-07-01",
+      "n_train": 1739
+    },
+    {
+      "variant": "core",
+      "signal": "2024-07-17",
+      "latest_label_end": "2024-07-17",
+      "n_train": 1750
+    },
+    {
+      "variant": "core",
+      "signal": "2024-08-01",
+      "latest_label_end": "2024-08-01",
+      "n_train": 1761
+    },
+    {
+      "variant": "core",
+      "signal": "2024-08-16",
+      "latest_label_end": "2024-08-16",
+      "n_train": 1772
+    },
+    {
+      "variant": "core",
+      "signal": "2024-09-03",
+      "latest_label_end": "2024-09-03",
+      "n_train": 1783
+    },
+    {
+      "variant": "core",
+      "signal": "2024-09-18",
+      "latest_label_end": "2024-09-18",
+      "n_train": 1794
+    },
+    {
+      "variant": "core",
+      "signal": "2024-10-03",
+      "latest_label_end": "2024-10-03",
+      "n_train": 1805
+    },
+    {
+      "variant": "core",
+      "signal": "2024-10-18",
+      "latest_label_end": "2024-10-18",
+      "n_train": 1816
+    },
+    {
+      "variant": "core",
+      "signal": "2024-11-04",
+      "latest_label_end": "2024-11-04",
+      "n_train": 1827
+    },
+    {
+      "variant": "core",
+      "signal": "2024-11-19",
+      "latest_label_end": "2024-11-19",
+      "n_train": 1838
+    },
+    {
+      "variant": "core",
+      "signal": "2024-12-05",
+      "latest_label_end": "2024-12-05",
+      "n_train": 1849
+    },
+    {
+      "variant": "core",
+      "signal": "2024-12-20",
+      "latest_label_end": "2024-12-20",
+      "n_train": 1860
+    },
+    {
+      "variant": "core",
+      "signal": "2025-01-08",
+      "latest_label_end": "2025-01-08",
+      "n_train": 1871
+    },
+    {
+      "variant": "core",
+      "signal": "2025-01-27",
+      "latest_label_end": "2025-01-27",
+      "n_train": 1882
+    },
+    {
+      "variant": "core",
+      "signal": "2025-02-11",
+      "latest_label_end": "2025-02-11",
+      "n_train": 1893
+    },
+    {
+      "variant": "core",
+      "signal": "2025-02-27",
+      "latest_label_end": "2025-02-27",
+      "n_train": 1904
+    },
+    {
+      "variant": "core",
+      "signal": "2025-03-14",
+      "latest_label_end": "2025-03-14",
+      "n_train": 1915
+    },
+    {
+      "variant": "core",
+      "signal": "2025-03-31",
+      "latest_label_end": "2025-03-31",
+      "n_train": 1926
+    },
+    {
+      "variant": "core",
+      "signal": "2025-04-15",
+      "latest_label_end": "2025-04-15",
+      "n_train": 1937
+    },
+    {
+      "variant": "core",
+      "signal": "2025-05-01",
+      "latest_label_end": "2025-05-01",
+      "n_train": 1948
+    },
+    {
+      "variant": "core",
+      "signal": "2025-05-16",
+      "latest_label_end": "2025-05-16",
+      "n_train": 1959
+    },
+    {
+      "variant": "core",
+      "signal": "2025-06-03",
+      "latest_label_end": "2025-06-03",
+      "n_train": 1970
+    },
+    {
+      "variant": "core",
+      "signal": "2025-06-18",
+      "latest_label_end": "2025-06-18",
+      "n_train": 1981
+    },
+    {
+      "variant": "core",
+      "signal": "2025-07-07",
+      "latest_label_end": "2025-07-07",
+      "n_train": 1992
+    },
+    {
+      "variant": "core",
+      "signal": "2025-07-22",
+      "latest_label_end": "2025-07-22",
+      "n_train": 2003
+    },
+    {
+      "variant": "core",
+      "signal": "2025-08-06",
+      "latest_label_end": "2025-08-06",
+      "n_train": 2014
+    },
+    {
+      "variant": "core",
+      "signal": "2025-08-21",
+      "latest_label_end": "2025-08-21",
+      "n_train": 2025
+    },
+    {
+      "variant": "core",
+      "signal": "2025-09-08",
+      "latest_label_end": "2025-09-08",
+      "n_train": 2036
+    },
+    {
+      "variant": "core",
+      "signal": "2025-09-23",
+      "latest_label_end": "2025-09-23",
+      "n_train": 2047
+    },
+    {
+      "variant": "core",
+      "signal": "2025-10-08",
+      "latest_label_end": "2025-10-08",
+      "n_train": 2058
+    },
+    {
+      "variant": "core",
+      "signal": "2025-10-23",
+      "latest_label_end": "2025-10-23",
+      "n_train": 2069
+    },
+    {
+      "variant": "core",
+      "signal": "2025-11-07",
+      "latest_label_end": "2025-11-07",
+      "n_train": 2080
+    },
+    {
+      "variant": "core",
+      "signal": "2025-11-24",
+      "latest_label_end": "2025-11-24",
+      "n_train": 2091
+    },
+    {
+      "variant": "core",
+      "signal": "2025-12-10",
+      "latest_label_end": "2025-12-10",
+      "n_train": 2102
+    },
+    {
+      "variant": "core",
+      "signal": "2025-12-26",
+      "latest_label_end": "2025-12-26",
+      "n_train": 2113
+    },
+    {
+      "variant": "core",
+      "signal": "2026-01-13",
+      "latest_label_end": "2026-01-13",
+      "n_train": 2124
+    },
+    {
+      "variant": "core",
+      "signal": "2026-01-29",
+      "latest_label_end": "2026-01-29",
+      "n_train": 2135
+    },
+    {
+      "variant": "core",
+      "signal": "2026-02-13",
+      "latest_label_end": "2026-02-13",
+      "n_train": 2146
+    },
+    {
+      "variant": "core",
+      "signal": "2026-03-03",
+      "latest_label_end": "2026-03-03",
+      "n_train": 2157
+    },
+    {
+      "variant": "core",
+      "signal": "2026-03-18",
+      "latest_label_end": "2026-03-18",
+      "n_train": 2168
+    },
+    {
+      "variant": "core",
+      "signal": "2026-04-02",
+      "latest_label_end": "2026-04-02",
+      "n_train": 2179
+    },
+    {
+      "variant": "core",
+      "signal": "2026-04-20",
+      "latest_label_end": "2026-04-20",
+      "n_train": 2190
+    },
+    {
+      "variant": "core",
+      "signal": "2026-05-05",
+      "latest_label_end": "2026-05-05",
+      "n_train": 2201
+    },
+    {
+      "variant": "core",
+      "signal": "2026-05-20",
+      "latest_label_end": "2026-05-20",
+      "n_train": 2212
+    },
+    {
+      "variant": "core",
+      "signal": "2026-06-05",
+      "latest_label_end": "2026-06-05",
+      "n_train": 2223
+    },
+    {
+      "variant": "core",
+      "signal": "2026-06-23",
+      "latest_label_end": "2026-06-23",
+      "n_train": 2234
+    },
+    {
+      "variant": "core",
+      "signal": "2026-07-09",
+      "latest_label_end": "2026-07-09",
+      "n_train": 2245
+    },
+    {
+      "variant": "core",
+      "signal": "2026-07-24",
+      "latest_label_end": "2026-07-24",
+      "n_train": 2256
+    },
+    {
+      "variant": "core",
+      "signal": "2026-08-10",
+      "latest_label_end": "2026-08-10",
+      "n_train": 2267
+    },
+    {
+      "variant": "core",
+      "signal": "2026-08-25",
+      "latest_label_end": "2026-08-25",
+      "n_train": 2278
+    },
+    {
+      "variant": "core",
+      "signal": "2026-09-10",
+      "latest_label_end": "2026-09-10",
+      "n_train": 2289
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-01-03",
+      "latest_label_end": "2023-01-03",
+      "n_train": 1365
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-01-19",
+      "latest_label_end": "2023-01-19",
+      "n_train": 1376
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-02-03",
+      "latest_label_end": "2023-02-03",
+      "n_train": 1387
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-02-21",
+      "latest_label_end": "2023-02-21",
+      "n_train": 1398
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-03-08",
+      "latest_label_end": "2023-03-08",
+      "n_train": 1409
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-03-23",
+      "latest_label_end": "2023-03-23",
+      "n_train": 1420
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-04-10",
+      "latest_label_end": "2023-04-10",
+      "n_train": 1431
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-04-25",
+      "latest_label_end": "2023-04-25",
+      "n_train": 1442
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-05-10",
+      "latest_label_end": "2023-05-10",
+      "n_train": 1453
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-05-25",
+      "latest_label_end": "2023-05-25",
+      "n_train": 1464
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-06-12",
+      "latest_label_end": "2023-06-12",
+      "n_train": 1475
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-06-28",
+      "latest_label_end": "2023-06-28",
+      "n_train": 1486
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-07-14",
+      "latest_label_end": "2023-07-14",
+      "n_train": 1497
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-07-31",
+      "latest_label_end": "2023-07-31",
+      "n_train": 1508
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-08-15",
+      "latest_label_end": "2023-08-15",
+      "n_train": 1519
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-08-30",
+      "latest_label_end": "2023-08-30",
+      "n_train": 1530
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-09-15",
+      "latest_label_end": "2023-09-15",
+      "n_train": 1541
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-10-02",
+      "latest_label_end": "2023-10-02",
+      "n_train": 1552
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-10-17",
+      "latest_label_end": "2023-10-17",
+      "n_train": 1563
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-11-01",
+      "latest_label_end": "2023-11-01",
+      "n_train": 1574
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-11-16",
+      "latest_label_end": "2023-11-16",
+      "n_train": 1585
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-12-04",
+      "latest_label_end": "2023-12-04",
+      "n_train": 1596
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2023-12-19",
+      "latest_label_end": "2023-12-19",
+      "n_train": 1607
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-01-05",
+      "latest_label_end": "2024-01-05",
+      "n_train": 1618
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-01-23",
+      "latest_label_end": "2024-01-23",
+      "n_train": 1629
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-02-07",
+      "latest_label_end": "2024-02-07",
+      "n_train": 1640
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-02-23",
+      "latest_label_end": "2024-02-23",
+      "n_train": 1651
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-03-11",
+      "latest_label_end": "2024-03-11",
+      "n_train": 1662
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-03-26",
+      "latest_label_end": "2024-03-26",
+      "n_train": 1673
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-04-11",
+      "latest_label_end": "2024-04-11",
+      "n_train": 1684
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-04-26",
+      "latest_label_end": "2024-04-26",
+      "n_train": 1695
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-05-13",
+      "latest_label_end": "2024-05-13",
+      "n_train": 1706
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-05-29",
+      "latest_label_end": "2024-05-29",
+      "n_train": 1717
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-06-13",
+      "latest_label_end": "2024-06-13",
+      "n_train": 1728
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-07-01",
+      "latest_label_end": "2024-07-01",
+      "n_train": 1739
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-07-17",
+      "latest_label_end": "2024-07-17",
+      "n_train": 1750
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-08-01",
+      "latest_label_end": "2024-08-01",
+      "n_train": 1761
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-08-16",
+      "latest_label_end": "2024-08-16",
+      "n_train": 1772
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-09-03",
+      "latest_label_end": "2024-09-03",
+      "n_train": 1783
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-09-18",
+      "latest_label_end": "2024-09-18",
+      "n_train": 1794
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-10-03",
+      "latest_label_end": "2024-10-03",
+      "n_train": 1805
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-10-18",
+      "latest_label_end": "2024-10-18",
+      "n_train": 1816
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-11-04",
+      "latest_label_end": "2024-11-04",
+      "n_train": 1827
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-11-19",
+      "latest_label_end": "2024-11-19",
+      "n_train": 1838
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-12-05",
+      "latest_label_end": "2024-12-05",
+      "n_train": 1849
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2024-12-20",
+      "latest_label_end": "2024-12-20",
+      "n_train": 1860
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-01-08",
+      "latest_label_end": "2025-01-08",
+      "n_train": 1871
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-01-27",
+      "latest_label_end": "2025-01-27",
+      "n_train": 1882
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-02-11",
+      "latest_label_end": "2025-02-11",
+      "n_train": 1893
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-02-27",
+      "latest_label_end": "2025-02-27",
+      "n_train": 1904
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-03-14",
+      "latest_label_end": "2025-03-14",
+      "n_train": 1915
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-03-31",
+      "latest_label_end": "2025-03-31",
+      "n_train": 1926
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-04-15",
+      "latest_label_end": "2025-04-15",
+      "n_train": 1937
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-05-01",
+      "latest_label_end": "2025-05-01",
+      "n_train": 1948
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-05-16",
+      "latest_label_end": "2025-05-16",
+      "n_train": 1959
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-06-03",
+      "latest_label_end": "2025-06-03",
+      "n_train": 1970
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-06-18",
+      "latest_label_end": "2025-06-18",
+      "n_train": 1981
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-07-07",
+      "latest_label_end": "2025-07-07",
+      "n_train": 1992
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-07-22",
+      "latest_label_end": "2025-07-22",
+      "n_train": 2003
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-08-06",
+      "latest_label_end": "2025-08-06",
+      "n_train": 2014
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-08-21",
+      "latest_label_end": "2025-08-21",
+      "n_train": 2025
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-09-08",
+      "latest_label_end": "2025-09-08",
+      "n_train": 2036
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-09-23",
+      "latest_label_end": "2025-09-23",
+      "n_train": 2047
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-10-08",
+      "latest_label_end": "2025-10-08",
+      "n_train": 2058
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-10-23",
+      "latest_label_end": "2025-10-23",
+      "n_train": 2069
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-11-07",
+      "latest_label_end": "2025-11-07",
+      "n_train": 2080
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-11-24",
+      "latest_label_end": "2025-11-24",
+      "n_train": 2091
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-12-10",
+      "latest_label_end": "2025-12-10",
+      "n_train": 2102
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2025-12-26",
+      "latest_label_end": "2025-12-26",
+      "n_train": 2113
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-01-13",
+      "latest_label_end": "2026-01-13",
+      "n_train": 2124
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-01-29",
+      "latest_label_end": "2026-01-29",
+      "n_train": 2135
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-02-13",
+      "latest_label_end": "2026-02-13",
+      "n_train": 2146
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-03-03",
+      "latest_label_end": "2026-03-03",
+      "n_train": 2157
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-03-18",
+      "latest_label_end": "2026-03-18",
+      "n_train": 2168
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-04-02",
+      "latest_label_end": "2026-04-02",
+      "n_train": 2179
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-04-20",
+      "latest_label_end": "2026-04-20",
+      "n_train": 2190
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-05-05",
+      "latest_label_end": "2026-05-05",
+      "n_train": 2201
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-05-20",
+      "latest_label_end": "2026-05-20",
+      "n_train": 2212
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-06-05",
+      "latest_label_end": "2026-06-05",
+      "n_train": 2223
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-06-23",
+      "latest_label_end": "2026-06-23",
+      "n_train": 2234
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-07-09",
+      "latest_label_end": "2026-07-09",
+      "n_train": 2245
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-07-24",
+      "latest_label_end": "2026-07-24",
+      "n_train": 2256
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-08-10",
+      "latest_label_end": "2026-08-10",
+      "n_train": 2267
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-08-25",
+      "latest_label_end": "2026-08-25",
+      "n_train": 2278
+    },
+    {
+      "variant": "core_plus_v3",
+      "signal": "2026-09-10",
+      "latest_label_end": "2026-09-10",
+      "n_train": 2289
+    }
+  ],
+  "input_sha256": {
+    "研究记录/2026-09-30-AAOI-AVGO盘中最新因子/results.json": "8519569322904da8cfa2a87f09a2e0fd62070bf08756a21f4e36e57ba6863bee",
+    "研究记录/2026-10-01-换仓独立筛选/raw/AAOI-daily.json": "5501293dc8e587413c69e35693464b2504a6dca8f20cb57b467592880be52c15",
+    "研究记录/2026-10-01-换仓独立筛选/raw/QQQ-daily.json": "b3f52f646fddafb771b1e29eba90fbcc41c07a867bb39885f8544a4e57ea8d48",
+    "研究记录/2026-10-01-换仓独立筛选/raw/COHR-daily.json": "04f4fc84da90ee6d46d0431ef4b916e6ad173392a0d545836725fe70a09e3395",
+    "研究记录/2026-10-01-换仓独立筛选/raw/LITE-daily.json": "e020555bb9a209447c8f907996369fe9378beccaa50b75fd4d4da2e9bef0898f"
+  },
+  "current_quote": {
+    "price": 105.27,
+    "previous_close": 99.26,
+    "observed_at": "2026-10-01T16:04:36+00:00"
+  },
+  "intraday": {
+    "asof": "2026-10-01T16:04:37.371731+00:00",
+    "quote_observed_at": "2026-10-01T16:04:36+00:00",
+    "source_quote_age_seconds": 1.371731,
+    "newer_quote_metadata_excluded": false,
+    "uses_completed_minutes_only": true,
+    "current_win_probability": null,
+    "standalone_buy_veto": false,
+    "fitted_into_daily_forecast": false,
+    "available": true,
+    "last_completed_bar": "2026-10-01T12:03:00-04:00",
+    "completed_bar_close": 105.6050033569336,
+    "bar_approx_vwap": 103.31067916409398,
+    "distance_vwap": 0.02220800609775697,
+    "return30m": 0.006528833396329814,
+    "volume30m_to_previous30m": 0.5737677318603105,
+    "local5m_low_improved": true,
+    "relative_return30m_pp": {
+      "QQQ": 0.5685391916875338,
+      "SOXX": 0.4544262326946713
+    },
+    "status": "price_repair_observed",
+    "execution_data_usable": true,
+    "completed_bar_age_seconds": 37.371731,
+    "latest30m_coverage": 1.0,
+    "same_clock_volume": {
+      "same_clock_rvol30": 1.824451573115811,
+      "reference_sessions": 20,
+      "minute_coverage": 1.0,
+      "window_start": "2026-10-01T11:30:00-04:00",
+      "window_end_exclusive": "2026-10-01T12:00:00-04:00",
+      "available": true,
+      "uses_today_in_reference": false,
+      "method": "six completed5m buckets / preceding20 valid sessions median, at least5 sessions"
+    },
+    "volume_pressure_is_institutional_flow": false,
+    "neckline_confirmation_required_for_left_entry": false
+  },
+  "yesterday_completed_structure": {
+    "candidate": true,
+    "left_date": "2026-09-16",
+    "right_date": "2026-09-28",
+    "left_low": 94.0,
+    "right_low": 93.62000274658203,
+    "neckline": 110.73999786376953,
+    "right_pivot_confirmed": false,
+    "breakout_confirmed": false,
+    "bottom_gap_ATR": -0.04670210111404772,
+    "neckline_prominence_ATR": 2.0807161126744416,
+    "recovery_from_right_low_ATR": 0.866452575925946,
+    "right_position": 2509,
+    "active": true,
+    "phase": "provisional",
+    "right_age_bars": 1,
+    "support": 93.62000274658203
+  },
+  "yesterday_completed_features": {
+    "return20": -0.0651871493482461,
+    "distance_ma200": -0.06502477457276967,
+    "ATR14/close": 0.0808246768838438,
+    "relative_return20_QQQ": -0.09472281347811107,
+    "volume_ratio5_20": 1.0021760606122447,
+    "w_active": 1.0,
+    "support_distance_ATR": 0.866452575925946,
+    "neckline_headroom_ATR": 1.2376145873055195,
+    "bottom_symmetry_ATR": 0.04670210111404772,
+    "volume_pressure5": -0.27450179342290526,
+    "relative_return20_optical": -0.12316759928299714
+  },
+  "original_decision_daily_cutoff": "2026-09-29",
+  "current_completed_daily_cutoff": "2026-09-30",
+  "current_completed_structure": {
+    "candidate": true,
+    "left_date": "2026-09-16",
+    "right_date": "2026-09-28",
+    "left_low": 94.0,
+    "right_low": 93.62000274658203,
+    "neckline": 110.73999786376953,
+    "right_pivot_confirmed": true,
+    "breakout_confirmed": false,
+    "bottom_gap_ATR": -0.04670210111404772,
+    "neckline_prominence_ATR": 2.0807161126744416,
+    "recovery_from_right_low_ATR": 0.866452575925946,
+    "right_position": 2509,
+    "active": true,
+    "phase": "confirmed",
+    "right_age_bars": 2,
+    "support": 93.62000274658203
+  },
+  "current_completed_features": {
+    "return20": -0.03994580982492457,
+    "distance_ma200": -0.08080675320286235,
+    "ATR14/close": 0.08175934404120735,
+    "relative_return20_QQQ": -0.08535025872225699,
+    "volume_ratio5_20": 0.9787764953336435,
+    "w_active": 1.0,
+    "support_distance_ATR": 0.6949721133831156,
+    "neckline_headroom_ATR": 1.4145882545732467,
+    "bottom_symmetry_ATR": 0.04682402887708941,
+    "volume_pressure5": -0.16399847422581568,
+    "relative_return20_optical": -0.12781985988775668
+  },
+  "model_direction_weight": 0,
+  "model_buy_veto": false,
+  "certified_current_probability": null,
+  "unseen_audit_passed": false,
+  "automatic_order": false,
+  "validation": {
+    "feature_prefix_invariance": true,
+    "train_labels_mature": true,
+    "evaluation_windows_nonoverlapping": true,
+    "today_excluded": true
+  },
+  "decision": {
+    "model_status": "model_abstains",
+    "direction_weight": 0,
+    "model_buy_veto": false,
+    "certified_current_win_probability": null,
+    "left_setup_state": "confirmed",
+    "left_entry_requires_neckline_breakout": false,
+    "intraday_weakness_alone_vetoes_left_entry": false,
+    "current_price_old93_110_plan": {
+      "entry": 105.27,
+      "stop": 93,
+      "target": 110,
+      "risk_pct": 0.11655742376745508,
+      "reward_pct": 0.04493207941483807,
+      "reward_risk": 0.38549307253463777,
+      "ideal_binary_breakeven_with_cost": 0.7341494117647056,
+      "actual_expected_return": null,
+      "risk_budget_shares_formula": "floor(allowed_loss / (entry - stop))",
+      "gap_slippage_can_exceed_budget": true,
+      "note": "Geometry alone proves neither positive expectation nor a universal entry threshold; binary breakeven excludes timeouts and gaps."
+    },
+    "user_loss_budget_fraction": 0.05,
+    "full_position_old_stop_within_budget": false,
+    "ideal_budget_position_fraction_cap": 0.4217365594757921,
+    "cap_is_not_recommendation_and_excludes_gap_overshoot": true,
+    "entry_decision": "assess_left_structure_and_execution_risk_separately",
+    "automatic_order": false
+  },
+  "yesterday_intraday_replay": {
+    "asof": "2026-09-30T17:27:01+00:00",
+    "quote_observed_at": "2026-09-30T17:27:01+00:00",
+    "source_quote_age_seconds": 0.0,
+    "newer_quote_metadata_excluded": false,
+    "uses_completed_minutes_only": true,
+    "current_win_probability": null,
+    "standalone_buy_veto": false,
+    "fitted_into_daily_forecast": false,
+    "available": true,
+    "last_completed_bar": "2026-09-30T13:26:00-04:00",
+    "completed_bar_close": 97.4800033569336,
+    "bar_approx_vwap": 98.897407399499,
+    "distance_vwap": -0.014332064710652737,
+    "return30m": -0.007331910526311658,
+    "volume30m_to_previous30m": 0.9446355437551731,
+    "local5m_low_improved": false,
+    "relative_return30m_pp": {},
+    "status": "price_repair_not_jointly_confirmed",
+    "execution_data_usable": true,
+    "completed_bar_age_seconds": 1.0,
+    "latest30m_coverage": 1.0,
+    "same_clock_volume": {
+      "same_clock_rvol30": 0.8291037280854406,
+      "reference_sessions": 20,
+      "minute_coverage": 1.0,
+      "window_start": "2026-09-30T12:55:00-04:00",
+      "window_end_exclusive": "2026-09-30T13:25:00-04:00",
+      "available": true,
+      "uses_today_in_reference": false,
+      "method": "six completed5m buckets / preceding20 valid sessions median, at least5 sessions"
+    },
+    "volume_pressure_is_institutional_flow": false,
+    "neckline_confirmation_required_for_left_entry": false
+  }
+}

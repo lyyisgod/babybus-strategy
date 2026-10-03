@@ -1,0 +1,119 @@
+{
+  "decision_at": "2026-09-30T13:28:07.461273+00:00",
+  "target": "current actual entry -> regular-session sale today net profit >=5%",
+  "relative_first": "FSLY",
+  "relative_first_interpretation": "highest exploratory path classifier output among investigable candidate subset, not verified unique best stock in market",
+  "absolute_buy_gate_passed": false,
+  "immediate_recommendation": "Do not open/add solely to force same-day5% profit; no certified positive-expectancy setup found",
+  "conditional_speculative_plan_unbacktested": {
+    "symbol": "FSLY",
+    "regular_open_confirmation": "completed regular5minute close above25.87 and current relative return stronger than QQQ; verify actual quote spread",
+    "maximum_entry_price": 26.0,
+    "target_formula": "actual entry *1.055; costs must be <=0.5% for net5%",
+    "stop_formula": "actual entry *0.97; gap/slippage may exceed3%",
+    "exit_deadline": "2026-09-30 16:00 ET",
+    "do_not_raise_limit_to_chase": true,
+    "historical31pct_not_applicable_to_this_new_trigger": true,
+    "position_shares": null,
+    "missing_risk_budget_and_option_contracts": true
+  },
+  "snapshot": [
+    {
+      "symbol": "FSLY",
+      "price": 25.61,
+      "observed_at": "2026-09-30T09:24:31-04:00",
+      "regular_reference": 25.48,
+      "change_pct": 0.5102040816326481,
+      "high": 25.87,
+      "low": 25.2,
+      "bid_ask": null
+    },
+    {
+      "symbol": "CIFR",
+      "price": 16.92,
+      "observed_at": "2026-09-30T09:25:14-04:00",
+      "regular_reference": 16.51,
+      "change_pct": 2.4833434282253153,
+      "high": 16.99,
+      "low": 16.42,
+      "bid_ask": null
+    },
+    {
+      "symbol": "AEHR",
+      "price": 102.385,
+      "observed_at": "2026-09-30T09:24:40-04:00",
+      "regular_reference": 100.78,
+      "change_pct": 1.5925778924389844,
+      "high": 102.5,
+      "low": 99.0,
+      "bid_ask": null
+    },
+    {
+      "symbol": "AAOI",
+      "price": 102.1,
+      "observed_at": "2026-09-30T09:25:27-04:00",
+      "regular_reference": 100.67,
+      "change_pct": 1.4204827654713315,
+      "high": 102.3,
+      "low": 100.0,
+      "bid_ask": null
+    },
+    {
+      "symbol": "HOOD",
+      "price": 122.41,
+      "observed_at": "2026-09-30T09:25:24-04:00",
+      "regular_reference": 116.22,
+      "change_pct": 5.326105661676128,
+      "high": 122.99,
+      "low": 116.22,
+      "bid_ask": null
+    },
+    {
+      "symbol": "AVGO",
+      "price": 358.52,
+      "observed_at": "2026-09-30T09:25:25-04:00",
+      "regular_reference": 355.1,
+      "change_pct": 0.9631089833849416,
+      "high": 359.16,
+      "low": 354.02,
+      "bid_ask": null
+    },
+    {
+      "symbol": "QQQ",
+      "price": 740.75,
+      "observed_at": "2026-09-30T09:25:24-04:00",
+      "regular_reference": 737.93,
+      "change_pct": 0.38215006843467236,
+      "high": 741.95,
+      "low": 735.64,
+      "bid_ask": null
+    }
+  ],
+  "model_outputs_not_certified": {
+    "FSLY": 0.20428650318628236,
+    "AEHR": 0.2014425056239363,
+    "CIFR": 0.16250202575174766,
+    "NBIS": 0.16066170780874395,
+    "AAOI": 0.1592499166286901,
+    "MSTR": 0.15249591429323053,
+    "VKTX": 0.1508016169601688,
+    "HOOD": 0.1507906411379027,
+    "NVTS": 0.14865957913092195,
+    "WULF": 0.14378901848013248,
+    "RCAT": 0.14337375579228823,
+    "LUNR": 0.14304194597257075,
+    "AVGO": 0.12220290584763237,
+    "MDB": 0.11159182798383657,
+    "SMR": null,
+    "BE": null,
+    "JBL": null
+  },
+  "cash_last_screenshot": 5156.59,
+  "existing_AVGO_stock": 120,
+  "financing_user_confirmed": 0,
+  "current_new_trade_user_reported": null,
+  "agent_executed_trade": false,
+  "today_outcome": null,
+  "opportunity_score": null,
+  "opportunity_score_coverage": "insufficient PB/IV/EPS revision full-pool and actual bid-ask; volatility rank is separate from unified opportunity score"
+}

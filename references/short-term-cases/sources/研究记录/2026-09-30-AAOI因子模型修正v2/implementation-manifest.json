@@ -1,0 +1,13 @@
+{
+  "files_sha256": {
+    "src/analysis/short_term_factors.py": "2a5ff4a58377b37a6e81f69df86a78c3a9c07feb8ac27562230a51a6f704be91",
+    "tools/aaoi_factor_repair.py": "0dfba1e5f4d4fa1f73473c7f0a9f296955a73e6edc0c1feb41fcbe21d28b9be7",
+    "tools/forecast_evidence.py": "3a01bc101c56b0d593b76c222bc1e6399a9da250711389807d2319b217e09532",
+    "tests/test_short_term_factors.py": "b1559fe2f5a00e5c4126cefdb8c0f98d00b24bd8d5f6efc89fda0258198c8508",
+    "tests/test_aaoi_factor_repair.py": "a965ef8f334b81ff587de007c5055644288dd2fcf10e3bb7ee1f3d144f03f48a",
+    "tests/test_forecast_evidence.py": "978c25779b8b9783ecb0ddf202e3b2035d3870ddff43071809e08835c970d647"
+  },
+  "related_tests_passed": 16,
+  "original_evidence_files_unchanged": 85,
+  "prediction_edge_passed": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "AAOI",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-22T21:04:59.637410+00:00",
+    "sha256": "f5c6e06d61105fd7dc2d29fce22aaa4004ac22ad379d748a516f96f8c6e66dea"
+  },
+  {
+    "symbol": "UMAC",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UMAC?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-22T21:04:59.619732+00:00",
+    "sha256": "89f37580167a8e7d5c9b972f3c3bfcbe0acc4dc1f3d51373c1c3b757778f13a0"
+  },
+  {
+    "symbol": "CRWV",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-22T21:04:59.621845+00:00",
+    "sha256": "84c8a3c98da1ec0bd60cdb17ba4b4f5815949012d7ef7748f7cbb8d3540f7653"
+  },
+  {
+    "symbol": "BE",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-22T21:04:59.637128+00:00",
+    "sha256": "d54187edf3f1c907169db04ba08cd0a6b04949c6c5a1f3c73b62d5f5ed0e530d"
+  },
+  {
+    "symbol": "NBIS",
+    "interval": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "fetched_at": "2026-09-22T21:04:59.636011+00:00",
+    "sha256": "309b25675be9eb21d4a75d13ad1ac910a807b8ea7b47c49065ddd0be6a18d2a1"
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "symbol": "VICR",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.2030535069021741,
+    "p_three_session_net8": 0.15936211771647837,
+    "expected_three_session_net": -0.0037047015745587733,
+    "rsi2": 99.45945070244584,
+    "return3_pct": 24.00757756586387,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ALAB",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.13324384146177823,
+    "p_three_session_net8": 0.10407256400099187,
+    "expected_three_session_net": -0.006571400101070584,
+    "rsi2": 98.4429400732514,
+    "return3_pct": 23.811144051577582,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "MSTR",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.11774123070758556,
+    "p_three_session_net8": 0.08264503973370524,
+    "expected_three_session_net": -0.011759860637443248,
+    "rsi2": 89.19970886850979,
+    "return3_pct": 26.525521233311665,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "AAOI",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.11321714400730847,
+    "p_three_session_net8": 0.08476902046180856,
+    "expected_three_session_net": -0.0011219965148739136,
+    "rsi2": 67.17114344507638,
+    "return3_pct": 9.116869940838356,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "SMTC",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.1063531481925731,
+    "p_three_session_net8": 0.08365430299017232,
+    "expected_three_session_net": 0.0009058139490582279,
+    "rsi2": 37.31779933289873,
+    "return3_pct": -2.1662273738510263,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "SNDK",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.10258291220061085,
+    "p_three_session_net8": 0.07782837310374932,
+    "expected_three_session_net": -0.001744226439519726,
+    "rsi2": 91.72115553556905,
+    "return3_pct": 16.888733325908056,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "COHR",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.10243817652702501,
+    "p_three_session_net8": 0.07664434684860114,
+    "expected_three_session_net": -0.0022104830882446213,
+    "rsi2": 44.96997441050123,
+    "return3_pct": 4.86857325739305,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "NBIS",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.10116149239178131,
+    "p_three_session_net8": 0.07219705623945921,
+    "expected_three_session_net": 0.0012927765259285297,
+    "rsi2": 96.11643095279956,
+    "return3_pct": 8.31689030100602,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "BE",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.1009096572628553,
+    "p_three_session_net8": 0.07840791197534766,
+    "expected_three_session_net": 0.004331175989030524,
+    "rsi2": 69.73854479553103,
+    "return3_pct": -1.5066287360010033,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ASTS",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.10019057895272367,
+    "p_three_session_net8": 0.07486164488617607,
+    "expected_three_session_net": -0.0018982668313930287,
+    "rsi2": 78.17402651023093,
+    "return3_pct": 1.5627484556589355,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CRDO",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.09841883513098723,
+    "p_three_session_net8": 0.07227375702381127,
+    "expected_three_session_net": -0.006363106271502512,
+    "rsi2": 98.3659307110021,
+    "return3_pct": 14.448735547455428,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CIEN",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.09373780460424776,
+    "p_three_session_net8": 0.06679477138692592,
+    "expected_three_session_net": 0.00042460591713431987,
+    "rsi2": 96.50608133084943,
+    "return3_pct": 7.061727685866015,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "LITE",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.08935432050402721,
+    "p_three_session_net8": 0.06209773553591346,
+    "expected_three_session_net": 0.0013421011492389502,
+    "rsi2": 65.72503812005421,
+    "return3_pct": 5.8258075012570965,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CRWV",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.08562609389582307,
+    "p_three_session_net8": 0.06026954206496924,
+    "expected_three_session_net": -0.0017580710373183545,
+    "rsi2": 86.1759348284422,
+    "return3_pct": 8.612925787898806,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "WDC",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.0852674104310897,
+    "p_three_session_net8": 0.0630553264824531,
+    "expected_three_session_net": -0.00030468242829940486,
+    "rsi2": 96.29606817214206,
+    "return3_pct": 9.609080957727967,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "IOVA",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.0851923130887118,
+    "p_three_session_net8": 0.06540668730694854,
+    "expected_three_session_net": -0.003405796236783075,
+    "rsi2": 94.76895667811041,
+    "return3_pct": 6.187623325692515,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "INTC",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.08199695930420865,
+    "p_three_session_net8": 0.0657872108022683,
+    "expected_three_session_net": -0.0024848610740787827,
+    "rsi2": 98.36740142275588,
+    "return3_pct": 13.841909132511221,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "RKLB",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.08055608367407907,
+    "p_three_session_net8": 0.06075732391889304,
+    "expected_three_session_net": -0.0030620716525004837,
+    "rsi2": 86.5121086630571,
+    "return3_pct": 6.133889237435142,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ABCL",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07882810687187639,
+    "p_three_session_net8": 0.056382383657165615,
+    "expected_three_session_net": -0.00036841620477691753,
+    "rsi2": 82.4309811542838,
+    "return3_pct": -0.6284361868248767,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "IREN",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07833343147614082,
+    "p_three_session_net8": 0.05664896244002433,
+    "expected_three_session_net": -0.0003243531993373412,
+    "rsi2": 97.35527212768577,
+    "return3_pct": 11.660532999544394,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ONTO",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07664303941764809,
+    "p_three_session_net8": 0.05666774449460743,
+    "expected_three_session_net": -0.00447899208647953,
+    "rsi2": 96.07929700500749,
+    "return3_pct": 13.51037833228752,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "MRVL",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07529561228976055,
+    "p_three_session_net8": 0.055426131448264276,
+    "expected_three_session_net": -0.0023934753935115627,
+    "rsi2": 97.95443958012773,
+    "return3_pct": 8.971586367150074,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "COIN",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07373552986415187,
+    "p_three_session_net8": 0.05257317263461716,
+    "expected_three_session_net": -0.006571100494471598,
+    "rsi2": 89.98504448669388,
+    "return3_pct": 15.57740180109317,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "PBF",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07313236334642988,
+    "p_three_session_net8": 0.05177289288770518,
+    "expected_three_session_net": 0.000631409590479842,
+    "rsi2": 9.89034950355311,
+    "return3_pct": -7.413168674474835,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "FN",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07288424127131558,
+    "p_three_session_net8": 0.053962397839356455,
+    "expected_three_session_net": -0.002349143449807545,
+    "rsi2": 83.95178251205873,
+    "return3_pct": 6.006503611964975,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "TER",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07159341695396235,
+    "p_three_session_net8": 0.05309959727533214,
+    "expected_three_session_net": -0.004161201367174053,
+    "rsi2": 97.17348010335263,
+    "return3_pct": 12.901763353049823,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "STX",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07116889680693866,
+    "p_three_session_net8": 0.05074323592888918,
+    "expected_three_session_net": 0.0004783980090064116,
+    "rsi2": 97.42515379998937,
+    "return3_pct": 14.531896612390405,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "HOOD",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07102147630689341,
+    "p_three_session_net8": 0.049667561587384564,
+    "expected_three_session_net": -0.0021745225557392167,
+    "rsi2": 91.87246972702665,
+    "return3_pct": 13.14998885570613,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "KLAC",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.07007453523883338,
+    "p_three_session_net8": 0.05346527433368643,
+    "expected_three_session_net": -0.005627745333439498,
+    "rsi2": 97.20578260908984,
+    "return3_pct": 11.445148588986376,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "LRCX",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.0682527682912233,
+    "p_three_session_net8": 0.050314310076378224,
+    "expected_three_session_net": -0.005573798850897403,
+    "rsi2": 96.9237276911313,
+    "return3_pct": 15.465446613218514,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CLS",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.06728070883150605,
+    "p_three_session_net8": 0.049268740029290076,
+    "expected_three_session_net": 0.0010120436712541727,
+    "rsi2": 97.46661428046914,
+    "return3_pct": 7.9256815490653665,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "VRT",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.06562052021344499,
+    "p_three_session_net8": 0.04739825182524404,
+    "expected_three_session_net": -0.0013408757149269096,
+    "rsi2": 92.17575957098795,
+    "return3_pct": 4.95672737936228,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "TEAM",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.06468940139397174,
+    "p_three_session_net8": 0.04581439432570372,
+    "expected_three_session_net": -0.006110419331220161,
+    "rsi2": 24.487199256907843,
+    "return3_pct": -2.015272896386533,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "AMAT",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.06264221983655693,
+    "p_three_session_net8": 0.046832415257178815,
+    "expected_three_session_net": -0.0056802917053303675,
+    "rsi2": 96.0673407703804,
+    "return3_pct": 13.191183124992744,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "AMPL",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.06088581751947699,
+    "p_three_session_net8": 0.042775124551376234,
+    "expected_three_session_net": -0.004261275892341477,
+    "rsi2": 28.654772156637975,
+    "return3_pct": -4.851557247907323,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CAMT",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.058377764865237915,
+    "p_three_session_net8": 0.04247506869635523,
+    "expected_three_session_net": -0.002229040129239492,
+    "rsi2": 94.65544635174788,
+    "return3_pct": 4.958042828935549,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "AMD",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.05748316321548372,
+    "p_three_session_net8": 0.043703969536574544,
+    "expected_three_session_net": -0.002079505846346544,
+    "rsi2": 99.06233777974991,
+    "return3_pct": 14.434311544768619,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "RNG",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.056090972841447824,
+    "p_three_session_net8": 0.041119244840047156,
+    "expected_three_session_net": -0.003425390309827716,
+    "rsi2": 88.0259621432595,
+    "return3_pct": 6.6194231859323605,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "MU",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.05608936068782156,
+    "p_three_session_net8": 0.0409431961494754,
+    "expected_three_session_net": -0.0005734518474778873,
+    "rsi2": 98.68625963473161,
+    "return3_pct": 12.139133931425828,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "GEV",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.05072137104632888,
+    "p_three_session_net8": 0.036011128352518594,
+    "expected_three_session_net": -0.0021689369901507936,
+    "rsi2": 90.60843336888567,
+    "return3_pct": 2.740751929533314,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CDNA",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.05059732205890948,
+    "p_three_session_net8": 0.036528280107418855,
+    "expected_three_session_net": -0.0004785203737141461,
+    "rsi2": 95.81152203980909,
+    "return3_pct": 4.071486641250344,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ATRC",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.04924654596728456,
+    "p_three_session_net8": 0.03512913212121309,
+    "expected_three_session_net": -0.003753971750583644,
+    "rsi2": 79.09536621644479,
+    "return3_pct": -0.49052284517833167,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "VST",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.047931498205359614,
+    "p_three_session_net8": 0.03207744959387276,
+    "expected_three_session_net": -0.002071254731451537,
+    "rsi2": 31.83787151374659,
+    "return3_pct": -2.034022270922975,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "CEG",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.04164491177709126,
+    "p_three_session_net8": 0.028360079591567715,
+    "expected_three_session_net": -0.0031613520508305885,
+    "rsi2": 68.12110318790093,
+    "return3_pct": 0.2511429576737001,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "PLTR",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.04150860123817928,
+    "p_three_session_net8": 0.02916101554342362,
+    "expected_three_session_net": -0.0044756284295174725,
+    "rsi2": 99.10796253202103,
+    "return3_pct": 4.964820544299964,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "AVGO",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.038891460799197655,
+    "p_three_session_net8": 0.027088446472229407,
+    "expected_three_session_net": -0.0026143031479788897,
+    "rsi2": 94.70929268285381,
+    "return3_pct": 5.155145307849085,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "ETN",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.03876812717719752,
+    "p_three_session_net8": 0.027252542108830526,
+    "expected_three_session_net": -0.003424562349655891,
+    "rsi2": 96.981419069972,
+    "return3_pct": 8.066721894346696,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "NVDA",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.03417056890927545,
+    "p_three_session_net8": 0.023260459726516153,
+    "expected_three_session_net": -0.00138881223987766,
+    "rsi2": 97.49987735075632,
+    "return3_pct": 4.344852256045462,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  },
+  {
+    "symbol": "TSM",
+    "signal_date": "2026-09-22",
+    "p_two_session_net5": 0.032444930392411746,
+    "p_three_session_net8": 0.022905897550261296,
+    "expected_three_session_net": -0.0030482391127926826,
+    "rsi2": 97.3879233670264,
+    "return3_pct": 5.052756412620685,
+    "note": "Fixed Sep 21 coefficients; next regular open through second/third regular close, not overnight entry or tomorrow intraday high"
+  }
+]

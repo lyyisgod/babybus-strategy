@@ -1,0 +1,10 @@
+{
+  "wilson_boundary": true,
+  "nonoverlap": true,
+  "labels_mature": true,
+  "fullregular78bars": true,
+  "raw_hashes": true,
+  "investment_probability_validated": false,
+  "conditional_Babybus_probability": null,
+  "fullsession_endpoint_monotonicity": true
+}

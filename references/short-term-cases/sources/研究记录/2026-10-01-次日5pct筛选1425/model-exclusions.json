@@ -1,0 +1,369 @@
+[
+  {
+    "symbol": "ALAB",
+    "pre_5m_bars": 56,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "ONTO",
+    "pre_5m_bars": 12,
+    "expected": 59,
+    "prior_full_clock_refs": 55,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "CAMT",
+    "pre_5m_bars": 2,
+    "expected": 59,
+    "prior_full_clock_refs": 11,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete",
+      "fewer_than20_full_prior_clock_volume_refs"
+    ]
+  },
+  {
+    "symbol": "VICR",
+    "pre_5m_bars": 41,
+    "expected": 59,
+    "prior_full_clock_refs": 38,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "ASML",
+    "pre_5m_bars": 58,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "MTSI",
+    "pre_5m_bars": 22,
+    "expected": 59,
+    "prior_full_clock_refs": 51,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "ACMR",
+    "pre_5m_bars": 25,
+    "expected": 59,
+    "prior_full_clock_refs": 44,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "TSEM",
+    "pre_5m_bars": 50,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "FN",
+    "pre_5m_bars": 52,
+    "expected": 59,
+    "prior_full_clock_refs": 57,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "KGS",
+    "pre_5m_bars": 36,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "RDW",
+    "pre_5m_bars": 58,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "WDAY",
+    "pre_5m_bars": 53,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "NET",
+    "pre_5m_bars": 53,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "ZS",
+    "pre_5m_bars": 44,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "MDB",
+    "pre_5m_bars": 58,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "RBRK",
+    "pre_5m_bars": 51,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "AMPL",
+    "pre_5m_bars": 21,
+    "expected": 59,
+    "prior_full_clock_refs": 58,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "RNG",
+    "pre_5m_bars": 49,
+    "expected": 59,
+    "prior_full_clock_refs": 58,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "FSLY",
+    "pre_5m_bars": 58,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "RBLX",
+    "pre_5m_bars": 58,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "DUOL",
+    "pre_5m_bars": 11,
+    "expected": 59,
+    "prior_full_clock_refs": 51,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "CDNA",
+    "pre_5m_bars": 49,
+    "expected": 59,
+    "prior_full_clock_refs": 46,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "VERA",
+    "pre_5m_bars": 31,
+    "expected": 59,
+    "prior_full_clock_refs": 56,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "AZO",
+    "pre_5m_bars": 53,
+    "expected": 59,
+    "prior_full_clock_refs": 58,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "THO",
+    "pre_5m_bars": 28,
+    "expected": 59,
+    "prior_full_clock_refs": 29,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "MLKN",
+    "pre_5m_bars": 4,
+    "expected": 59,
+    "prior_full_clock_refs": 16,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete",
+      "fewer_than20_full_prior_clock_volume_refs"
+    ]
+  },
+  {
+    "symbol": "FERG",
+    "pre_5m_bars": 38,
+    "expected": 59,
+    "prior_full_clock_refs": 56,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "KBH",
+    "pre_5m_bars": 32,
+    "expected": 59,
+    "prior_full_clock_refs": 55,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "BILI",
+    "pre_5m_bars": 49,
+    "expected": 59,
+    "prior_full_clock_refs": 58,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "ATRC",
+    "pre_5m_bars": 38,
+    "expected": 59,
+    "prior_full_clock_refs": 41,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "NTNX",
+    "pre_5m_bars": 40,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "LEU",
+    "pre_5m_bars": 29,
+    "expected": 59,
+    "prior_full_clock_refs": 44,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "AVAV",
+    "pre_5m_bars": 41,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "BKSY",
+    "pre_5m_bars": 18,
+    "expected": 59,
+    "prior_full_clock_refs": 58,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "MIRM",
+    "pre_5m_bars": 8,
+    "expected": 59,
+    "prior_full_clock_refs": 16,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete",
+      "fewer_than20_full_prior_clock_volume_refs"
+    ]
+  },
+  {
+    "symbol": "CRSP",
+    "pre_5m_bars": 37,
+    "expected": 59,
+    "prior_full_clock_refs": 57,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m"
+    ]
+  },
+  {
+    "symbol": "AEHR",
+    "pre_5m_bars": 50,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "current_feature_clock_less_than90pct_complete_5m",
+      "last_fixed_feature_bar_not_complete"
+    ]
+  },
+  {
+    "symbol": "POET",
+    "pre_5m_bars": 57,
+    "expected": 59,
+    "prior_full_clock_refs": 59,
+    "reasons": [
+      "last_fixed_feature_bar_not_complete"
+    ]
+  }
+]

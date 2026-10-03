@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "daily-raw_hashes": true,
+    "live-raw_hashes": true,
+    "shortlist-raw_hashes": true,
+    "final-raw_hashes": true,
+    "tsla-daily-raw_hashes": true,
+    "mature_only": true,
+    "entry_clock": true,
+    "double_cost": true,
+    "nonoverlap": true,
+    "all_path_replay": true,
+    "quote_and_bar_time": true,
+    "factor_prefix": true,
+    "all_factors": true,
+    "original_early_report_preserved": true
+  },
+  "path_trades": 135,
+  "investment_effectiveness_verified": false,
+  "current_probability_certified": false
+}

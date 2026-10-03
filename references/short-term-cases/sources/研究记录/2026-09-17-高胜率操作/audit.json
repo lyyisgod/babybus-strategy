@@ -1,0 +1,24 @@
+{
+  "raw_responses_verified": 38,
+  "protocol_unchanged": true,
+  "locked_shortlist": [
+    "AMAT",
+    "LRCX"
+  ],
+  "checks": [
+    {
+      "symbol": "AMAT",
+      "n": 17,
+      "wins": 11,
+      "passed_high_confidence_gate": false
+    },
+    {
+      "symbol": "LRCX",
+      "n": 20,
+      "wins": 14,
+      "passed_high_confidence_gate": false
+    }
+  ],
+  "formal_recommendation": "No new position: none meets all predeclared gates",
+  "orders_submitted": false
+}

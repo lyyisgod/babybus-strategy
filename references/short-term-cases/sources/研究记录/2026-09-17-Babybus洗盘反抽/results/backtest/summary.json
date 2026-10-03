@@ -1,0 +1,219 @@
+[
+  {
+    "variant": "full_10bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 10.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "full_15bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 15.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "full_20bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 20.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "full_30bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 30.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "fundamental_15bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 15.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "technical_15bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 15.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  },
+  {
+    "variant": "macro_15bps",
+    "status": "not_evaluable_missing_pit_evidence",
+    "closed_trades": 0,
+    "evidence_days": 0,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "avg_hold_sessions": null,
+    "total_return": null,
+    "max_drawdown": null,
+    "turnover": null,
+    "dilution_exposures": null,
+    "open_positions": 0,
+    "slippage_bps": 15.0,
+    "commission_bps": 1,
+    "return_1d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_3d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    },
+    "return_5d_distribution": {
+      "n": 0,
+      "mean": null,
+      "p10_p50_p90": null
+    }
+  }
+]

@@ -1,0 +1,2949 @@
+{
+  "protocol": {
+    "frozen_at": "2026-09-30T18:01:28.732813+00:00",
+    "decision_date": "2026-09-30",
+    "target_date": "2026-10-14",
+    "horizon": 10,
+    "endpoint_definition": "10 subsequent full Nasdaq equity sessions, excludes Sep30 remainder, gross terminal close return; Oct12 equities open",
+    "training_label": "ln(close[t+10]/close[t]) divided by current rv20*sqrt(10)",
+    "historical_signal": "completed regular closing daily bar",
+    "current_query": "Sep30 partial OHLC and last quote, proxy only; cannot calibrate exact intraday entry probability",
+    "features": [
+      "return5",
+      "return20",
+      "distance_ma20",
+      "distance_ma200",
+      "RSI14/100",
+      "ATR14/close",
+      "distance_low20"
+    ],
+    "models": {
+      "ridge": {
+        "lambda": 100,
+        "scale": "training-only median and IQR, standardized feature clipping +/-5",
+        "target_clip_train": [
+          -3,
+          3
+        ],
+        "intercept": "unpenalized"
+      },
+      "knn": {
+        "n": 32,
+        "selection": "equal Euclidean distance in same training-only scale; signal spacing >=11 sessions",
+        "point": "median volatility-normalized terminal log return"
+      },
+      "primary_point": "equal 50/50 ridge and knn median, predefined; no weight selection by evaluation",
+      "baseline": "zero log return"
+    },
+    "evaluation": {
+      "start": "2023-01-01",
+      "frequency_sessions": 11,
+      "training_maturity": "all labels end on or before completed query signal date; expanding fit",
+      "no_hyperparameter_search": true,
+      "not_untouched_audit": true,
+      "metrics": [
+        "MAE_log",
+        "RMSE_log",
+        "direction_accuracy",
+        "per_year",
+        "normalized empirical residual bands"
+      ]
+    },
+    "prediction_bands": "equal ensemble log point plus 2023-2026 walk-forward empirical normalized residual quantiles [.1,.25,.5,.75,.9] times current rv20*sqrt10; reference bands, no certified coverage",
+    "analogue_paths": "same32 neighbors; 1..10 sessions close/high/low paths volatility-rescaled to current rv20; separate raw historical counts and path-stop outcomes; no assert daily ordering",
+    "execution_context": {
+      "stop": 93,
+      "target": 110,
+      "cost": 0.002,
+      "double_cost": 0.004,
+      "stop_gap": "actual open",
+      "target_gap": "limit",
+      "samebar": "stop first",
+      "current_remaining_day": "not modeled; might trigger stop before first full future session"
+    },
+    "limitations": [
+      "single named survivor ticker and regime changes",
+      "current partial-bar vs historical full-close proxy mismatch",
+      "no current option term structure or order book",
+      "future announcements unknown",
+      "no calibrated objective probability"
+    ],
+    "input_hashes": {
+      "AVGO-live.json": "0fb9722998cb59ac03547d0b7cefcf43ea2039ac3cc2bbd8ad81c597b65c3db8",
+      "SMH-daily.json": "ad4193f59622e18b240c2bcd963ffed271ab77d93f14225a318775a1878ca61a",
+      "SOXX-daily.json": "85ac41ce55a3fd2b5c648c582431d51050dbaee60531b585c7d514f361e5c82e",
+      "AAOI-daily.json": "61625aaf52c6673dd59f8af58c74489b1da645b6ac59464297e55ed925d4f7d1",
+      "AVGO-options.json": "6d26db4ae9857fb76de2f35d106fd5c8059f8a6d7548850ebc2a9960def62f62",
+      "LITE-daily.json": "192f5ce6fad0d50513d1433d7949410c1d49430df843f4ad7b889b136a85905d",
+      "AAOI-live.json": "d39daf57d668addaf29b759a83ee777a4ddff813bd3270c49f525e88fecee166",
+      "AVGO-daily.json": "5e6cd4ee61029256b2ce6380968230713a017e0f7d7744845c3379ea4d8549d3",
+      "AAOI-options.json": "46ae3d743720e8b1a107057511ecea2bf5aab61fba44231f33962ecf5b7f773d",
+      "QQQ-daily.json": "2a3a956f035c510fd8e83818993125464dea440ffbfe335a53378e2fa06e6fc9",
+      "COHR-daily.json": "2eec10c3924a27cf38489312088aa0d6bde8a4f1fc0226220d28d19b17377817"
+    },
+    "symbols": [
+      "AAOI",
+      "AVGO"
+    ],
+    "quotes": {
+      "AAOI": {
+        "price": 99.185,
+        "epoch": 1790791280
+      },
+      "AVGO": {
+        "price": 353.505,
+        "epoch": 1790791287
+      }
+    },
+    "scope": "Same10-session models for both named stocks; latest supplementary price/volume, benchmark RS, beta, volatility, options and macro diagnostic factors kept outside historical model, no hand-adjusted odds",
+    "model_source": "研究记录/2026-09-30-AAOI十交易日走势/protocol.json",
+    "options": "Delayed public Cboe; own30calendar-day ATM IV via nearest strike valid call+put average and totalvariance interpolation between expiries; label proxy, no yearly IV percentile",
+    "AVGO_diagnostic_thresholds": {
+      "terminal_gross": [
+        0,
+        0.05,
+        0.1
+      ],
+      "intraperiod_high": 0.05,
+      "intraperiod_low": -0.05,
+      "not_trade_stop_target": true
+    },
+    "macro_method": "20 Nasdaq sessions prior, dates aligned with Yahoo QQQ complete session index; latest observation/availability logged; macro diagnostics not historic regression input",
+    "quote_refresh_preserves_parameters": true,
+    "previous_protocol": "snapshot-1353/protocol.json"
+  },
+  "symbols": {
+    "AAOI": {
+      "factors": {
+        "price": 99.185,
+        "quote_time": "2026-09-30T14:01:20-04:00",
+        "day_change": -0.014751149259515928,
+        "open": 101.5,
+        "high": 104.25,
+        "low": 96.41010284423828,
+        "opening_gap_vs_prior_close": 0.008244778445925638,
+        "return3": -0.02184419617896749,
+        "return5": -0.018553310942904355,
+        "return20": -0.04067123913794557,
+        "rsi2": 41.636488908661114,
+        "rsi14": 43.87059470395658,
+        "atr14_partial": 8.115425579749266,
+        "atr14_last_complete": 8.136620073902153,
+        "rv20_annual": 0.6572792054925973,
+        "ma": {
+          "5": 99.82099963378906,
+          "10": 101.90649896240234,
+          "20": 102.2012494354248,
+          "30": 106.17550006103515,
+          "50": 111.13990010375977,
+          "60": 111.41524992879232,
+          "200": 107.98562519340514
+        },
+        "ma20_slope5": -0.021655893210196786,
+        "low20_complete": 93.62000274658203,
+        "high20_complete": 116.9000015258789,
+        "volume20_mean_complete": 6861745.0,
+        "intraday": {
+          "bar_approx_vwap": 98.87721977150761,
+          "volume": 3799627,
+          "last_completed_nonzero_bar": "2026-09-30T14:00:00-04:00",
+          "bars": 271
+        },
+        "distance_vwap": 0.0031127516449556136,
+        "relative": {
+          "QQQ": {
+            "day_excess_pp": -2.2502571997433995,
+            "ret20_excess_pp": -9.15586742831338,
+            "beta60_completed": 4.428323578962794,
+            "corr60_completed": 0.7012733654378596
+          },
+          "SOXX": {
+            "day_excess_pp": -1.5138851144556154,
+            "ret20_excess_pp": -17.52877824212298,
+            "beta60_completed": 2.0643089292294667,
+            "corr60_completed": 0.8009433856489884
+          }
+        },
+        "LRCX_strict_gate": {
+          "above_ma200": false,
+          "rsi2_le20": false,
+          "negative3day": true,
+          "passed": false
+        }
+      },
+      "options": {
+        "retrieved_from_manifest": "2026-09-30T18:01:28.728341+00:00",
+        "provider_timestamp_assumed_utc": "2026-09-30T17:31:20+00:00",
+        "underlying_last_trade_local": "2026-09-30T13:16:19",
+        "delayed_underlying": 97.68,
+        "delayed_bid": 97.61,
+        "delayed_ask": 97.75,
+        "provider_iv30": 0.84197,
+        "provider_iv30_rv20_ratio": 1.2809929067647687,
+        "own_atm30_proxy": 0.8443939661302389,
+        "own_proxy_ivrv": 1.2846807856904716,
+        "own_proxy_not_original_score": true,
+        "annual_iv_percentile": null,
+        "bracket": [
+          {
+            "expiry": "261023",
+            "days": 23.10324074074074,
+            "strike": 98.0,
+            "atm_iv": 0.8307,
+            "straddle_mid": 16.3,
+            "straddle_bid": 15.600000000000001,
+            "straddle_ask": 17.0,
+            "put25_iv": 0.7958,
+            "call25_iv": 0.9058,
+            "skew_pp": -11.00000000000001
+          },
+          {
+            "expiry": "261030",
+            "days": 30.10324074074074,
+            "strike": 98.0,
+            "atm_iv": 0.84455,
+            "straddle_mid": 18.9,
+            "straddle_bid": 18.0,
+            "straddle_ask": 19.799999999999997,
+            "put25_iv": 0.8134,
+            "call25_iv": 0.8694,
+            "skew_pp": -5.599999999999994
+          }
+        ],
+        "term_points": [
+          {
+            "expiry": "261009",
+            "days": 9.103240740740741,
+            "strike": 98.0,
+            "atm_iv": 0.84135,
+            "straddle_mid": 10.5,
+            "straddle_bid": 9.8,
+            "straddle_ask": 11.2,
+            "put25_iv": 0.8002,
+            "call25_iv": 0.8823,
+            "skew_pp": -8.209999999999996
+          },
+          {
+            "expiry": "261016",
+            "days": 16.10324074074074,
+            "strike": 98.0,
+            "atm_iv": 0.8226,
+            "straddle_mid": 13.5,
+            "straddle_bid": 12.9,
+            "straddle_ask": 14.1,
+            "put25_iv": 0.8064,
+            "call25_iv": 0.866,
+            "skew_pp": -5.959999999999999
+          },
+          {
+            "expiry": "261023",
+            "days": 23.10324074074074,
+            "strike": 98.0,
+            "atm_iv": 0.8307,
+            "straddle_mid": 16.3,
+            "straddle_bid": 15.600000000000001,
+            "straddle_ask": 17.0,
+            "put25_iv": 0.7958,
+            "call25_iv": 0.9058,
+            "skew_pp": -11.00000000000001
+          },
+          {
+            "expiry": "261030",
+            "days": 30.10324074074074,
+            "strike": 98.0,
+            "atm_iv": 0.84455,
+            "straddle_mid": 18.9,
+            "straddle_bid": 18.0,
+            "straddle_ask": 19.799999999999997,
+            "put25_iv": 0.8134,
+            "call25_iv": 0.8694,
+            "skew_pp": -5.599999999999994
+          },
+          {
+            "expiry": "261106",
+            "days": 37.14490740740741,
+            "strike": 98.0,
+            "atm_iv": 0.98815,
+            "straddle_mid": 24.5,
+            "straddle_bid": 22.0,
+            "straddle_ask": 27.0,
+            "put25_iv": 0.9556,
+            "call25_iv": 1.0548,
+            "skew_pp": -9.919999999999995
+          },
+          {
+            "expiry": "261120",
+            "days": 51.14490740740741,
+            "strike": 100.0,
+            "atm_iv": 0.9596,
+            "straddle_mid": 28.200000000000003,
+            "straddle_bid": 27.5,
+            "straddle_ask": 28.9,
+            "put25_iv": 0.939,
+            "call25_iv": 0.9993,
+            "skew_pp": -6.030000000000002
+          },
+          {
+            "expiry": "261218",
+            "days": 79.1449074074074,
+            "strike": 100.0,
+            "atm_iv": 0.9097,
+            "straddle_mid": 33.1,
+            "straddle_bid": 32.7,
+            "straddle_ask": 33.5,
+            "put25_iv": 0.8999,
+            "call25_iv": 0.9594,
+            "skew_pp": -5.949999999999999
+          }
+        ],
+        "provider_iv_14calendar_day_scale_pct": 16.48975500337203
+      },
+      "forecast": {
+        "prices": {
+          "ridge": 97.98129894737346,
+          "knn": 96.75555837951845,
+          "ensemble": 97.36649983646143
+        },
+        "center_return": -0.018334427217205983,
+        "residual_reference_quantiles": {
+          "p10": 84.66091009047175,
+          "p25": 92.05339720510815,
+          "p50": 96.88021145700904,
+          "p75": 110.43753812016966,
+          "p90": 126.40385709873594
+        },
+        "evaluation": {
+          "ridge": {
+            "n": 85,
+            "mae_log": 0.2252605972000757,
+            "rmse_log": 0.29806487594976033,
+            "directional_accuracy": 0.4588235294117647
+          },
+          "knn": {
+            "n": 85,
+            "mae_log": 0.2102112512748504,
+            "rmse_log": 0.28842770293081277,
+            "directional_accuracy": 0.5294117647058824
+          },
+          "ensemble": {
+            "n": 85,
+            "mae_log": 0.21033482054783553,
+            "rmse_log": 0.28679911486286314,
+            "directional_accuracy": 0.49411764705882355
+          },
+          "zero": {
+            "n": 85,
+            "mae_log": 0.2002979739739853,
+            "rmse_log": 0.26699780931864986,
+            "directional_accuracy": null
+          }
+        },
+        "evaluation_by_year": {
+          "2023": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.2840613361054233,
+              "rmse_log": 0.37292366508633845,
+              "directional_accuracy": 0.30434782608695654
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.27725434224952633,
+              "rmse_log": 0.3658486637340267,
+              "directional_accuracy": 0.5652173913043478
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.2738791951824035,
+              "rmse_log": 0.36537703449769415,
+              "directional_accuracy": 0.4782608695652174
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.2643841496307075,
+              "rmse_log": 0.34461845097329347,
+              "directional_accuracy": null
+            }
+          },
+          "2024": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.17698453513121057,
+              "rmse_log": 0.223520987858347,
+              "directional_accuracy": 0.6086956521739131
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.16809363397949112,
+              "rmse_log": 0.23038841154531126,
+              "directional_accuracy": 0.5652173913043478
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.1658079804996041,
+              "rmse_log": 0.21953815841774937,
+              "directional_accuracy": 0.6956521739130435
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.16500464573076876,
+              "rmse_log": 0.21298048401167388,
+              "directional_accuracy": null
+            }
+          },
+          "2025": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.2043108422540827,
+              "rmse_log": 0.26899526919239747,
+              "directional_accuracy": 0.6521739130434783
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.1815947780040567,
+              "rmse_log": 0.22939523806349144,
+              "directional_accuracy": 0.5217391304347826
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.18666489885764428,
+              "rmse_log": 0.239609202637616,
+              "directional_accuracy": 0.4782608695652174
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.1765165450162853,
+              "rmse_log": 0.21257677735705083,
+              "directional_accuracy": null
+            }
+          },
+          "2026": {
+            "ridge": {
+              "n": 16,
+              "mae_log": 0.24024664698249729,
+              "rmse_log": 0.31020231261158016,
+              "directional_accuracy": 0.1875
+            },
+            "knn": {
+              "n": 16,
+              "mae_log": 0.21551706318759853,
+              "rmse_log": 0.31241322399834864,
+              "directional_accuracy": 0.4375
+            },
+            "ensemble": {
+              "n": 16,
+              "mae_log": 0.21702262700962677,
+              "rmse_log": 0.305372557989283,
+              "directional_accuracy": 0.25
+            },
+            "zero": {
+              "n": 16,
+              "mae_log": 0.19309405994376466,
+              "rmse_log": 0.2789827755381941,
+              "directional_accuracy": null
+            }
+          }
+        },
+        "evaluation_rows": [
+          {
+            "signal_date": "2023-01-03",
+            "label_end": "2023-01-18",
+            "actual_log_return": 0.23161813255424152,
+            "risk_scale": 0.12540981994660153,
+            "ridge": -0.024893076739505825,
+            "knn": -0.026006544030301747,
+            "ensemble": -0.025449810384903782,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-01-19",
+            "label_end": "2023-02-02",
+            "actual_log_return": 0.20818506036917375,
+            "risk_scale": 0.1699844366778325,
+            "ridge": -0.045369964086886316,
+            "knn": -0.07950403996222806,
+            "ensemble": -0.06243700202455718,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-02-03",
+            "label_end": "2023-02-17",
+            "actual_log_return": 0.036367609480340964,
+            "risk_scale": 0.16172271220524684,
+            "ridge": -0.05898960918481026,
+            "knn": -0.059664322217065004,
+            "ensemble": -0.05932696570093763,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-02-21",
+            "label_end": "2023-03-07",
+            "actual_log_return": 0.010969020852107304,
+            "risk_scale": 0.12686091003979083,
+            "ridge": -0.05223561562477154,
+            "knn": -0.024549141323745326,
+            "ensemble": -0.038392378474258436,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-03-08",
+            "label_end": "2023-03-22",
+            "actual_log_return": -0.17384695441752376,
+            "risk_scale": 0.1601859975857116,
+            "ridge": -0.0737689705763523,
+            "knn": -0.041045267814897,
+            "ensemble": -0.05740711919562465,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-03-23",
+            "label_end": "2023-04-06",
+            "actual_log_return": -0.13935548739676948,
+            "risk_scale": 0.1551746487443222,
+            "ridge": -0.06397437566832684,
+            "knn": -0.006069072622058777,
+            "ensemble": -0.035021724145192806,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-04-10",
+            "label_end": "2023-04-24",
+            "actual_log_return": -0.03203932227516341,
+            "risk_scale": 0.2863953214465802,
+            "ridge": -0.04738515250068813,
+            "knn": -0.06290340579032173,
+            "ensemble": -0.05514427914550493,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-04-25",
+            "label_end": "2023-05-09",
+            "actual_log_return": -0.11034807891517066,
+            "risk_scale": 0.1460174298722174,
+            "ridge": -0.026327552826045496,
+            "knn": -0.02107305337461748,
+            "ensemble": -0.023700303100331492,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-05-10",
+            "label_end": "2023-05-24",
+            "actual_log_return": -0.04987184834626782,
+            "risk_scale": 0.13988674902822032,
+            "ridge": -0.01217067743292147,
+            "knn": -0.02464283060861411,
+            "ensemble": -0.01840675402076779,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-05-25",
+            "label_end": "2023-06-09",
+            "actual_log_return": 0.6066551610902938,
+            "risk_scale": 0.14076331936344985,
+            "ridge": -0.031592464987706945,
+            "knn": -0.027445145022202213,
+            "ensemble": -0.029518805004954577,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-06-12",
+            "label_end": "2023-06-27",
+            "actual_log_return": 0.3880911321035477,
+            "risk_scale": 0.1976390761217232,
+            "ridge": -0.08900296629266205,
+            "knn": -0.11145759975719602,
+            "ensemble": -0.10023028302492902,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-06-28",
+            "label_end": "2023-07-13",
+            "actual_log_return": 0.7236257011462502,
+            "risk_scale": 0.28340065021592936,
+            "ridge": -0.09605172745131632,
+            "knn": -0.14546044460646715,
+            "ensemble": -0.12075608602889173,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-07-14",
+            "label_end": "2023-07-28",
+            "actual_log_return": -0.3090614663600392,
+            "risk_scale": 0.33984918575340617,
+            "ridge": 0.11273584597933997,
+            "knn": -0.1449872613016962,
+            "ensemble": -0.016125707661178115,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-07-31",
+            "label_end": "2023-08-14",
+            "actual_log_return": 0.7877837431369988,
+            "risk_scale": 0.3558227172438591,
+            "ridge": -0.03853769519720295,
+            "knn": 0.0378389085833776,
+            "ensemble": -0.00034939330691267576,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-08-15",
+            "label_end": "2023-08-29",
+            "actual_log_return": -0.04777644970475473,
+            "risk_scale": 0.49038920861705676,
+            "ridge": 0.1081323621818859,
+            "knn": -0.26347885310015273,
+            "ensemble": -0.07767324545913341,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-08-30",
+            "label_end": "2023-09-14",
+            "actual_log_return": -0.444830384171551,
+            "risk_scale": 0.47463038775705296,
+            "ridge": 0.05895358800503229,
+            "knn": -0.12743441721277535,
+            "ensemble": -0.034240414603871526,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-09-15",
+            "label_end": "2023-09-29",
+            "actual_log_return": 0.10870857205781007,
+            "risk_scale": 0.26252277278956904,
+            "ridge": -0.02023830024143149,
+            "knn": 0.04314845160644902,
+            "ensemble": 0.011455075682508765,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-10-02",
+            "label_end": "2023-10-16",
+            "actual_log_return": -0.38743870836480343,
+            "risk_scale": 0.19927920749083802,
+            "ridge": -0.11416047023191009,
+            "knn": -0.08260171426623435,
+            "ensemble": -0.09838109224907222,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-10-17",
+            "label_end": "2023-10-31",
+            "actual_log_return": -0.021305775885496498,
+            "risk_scale": 0.20438905171152547,
+            "ridge": 0.0064983368014133605,
+            "knn": -0.0041638951245490455,
+            "ensemble": 0.0011672208384321575,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-11-01",
+            "label_end": "2023-11-15",
+            "actual_log_return": 0.498574751343261,
+            "risk_scale": 0.16795151333986555,
+            "ridge": -0.03630405673265852,
+            "knn": -0.07426293146781962,
+            "ensemble": -0.055283494100239076,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-11-16",
+            "label_end": "2023-12-01",
+            "actual_log_return": 0.2485393509096601,
+            "risk_scale": 0.18377874102473363,
+            "ridge": -0.014060229698287172,
+            "knn": -0.07703977009540516,
+            "ensemble": -0.04554999989684617,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-12-04",
+            "label_end": "2023-12-18",
+            "actual_log_return": 0.2993048939838638,
+            "risk_scale": 0.2512759479791073,
+            "ridge": -0.046853171015884335,
+            "knn": -0.1285480262917678,
+            "ensemble": -0.08770059865382605,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-12-19",
+            "label_end": "2024-01-04",
+            "actual_log_return": -0.21653783664118328,
+            "risk_scale": 0.2551950665452614,
+            "ridge": -0.08077818251713641,
+            "knn": -0.09166937695673227,
+            "ensemble": -0.08622377973693435,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-01-05",
+            "label_end": "2024-01-22",
+            "actual_log_return": -0.16412578364440672,
+            "risk_scale": 0.23240682429882153,
+            "ridge": -0.11600234423556544,
+            "knn": -0.08299026811641431,
+            "ensemble": -0.09949630617598988,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-01-23",
+            "label_end": "2024-02-06",
+            "actual_log_return": 0.0656411348978583,
+            "risk_scale": 0.21532049139189877,
+            "ridge": -0.04925178978485193,
+            "knn": -0.03469823045842973,
+            "ensemble": -0.04197501012164083,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-02-07",
+            "label_end": "2024-02-22",
+            "actual_log_return": 0.0618231910518999,
+            "risk_scale": 0.2163536653245267,
+            "ridge": -0.039219977529459576,
+            "knn": -0.11157599042469973,
+            "ensemble": -0.07539798397707966,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-02-23",
+            "label_end": "2024-03-08",
+            "actual_log_return": 0.04220623754897071,
+            "risk_scale": 0.3382634500719206,
+            "ridge": 0.2578746091658849,
+            "knn": 0.06406187247706051,
+            "ensemble": 0.16096824082147274,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-03-11",
+            "label_end": "2024-03-25",
+            "actual_log_return": 0.013190026534850276,
+            "risk_scale": 0.3257039776803207,
+            "ridge": 0.09904735972410247,
+            "knn": 0.020169799411781982,
+            "ensemble": 0.05960857956794224,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-03-26",
+            "label_end": "2024-04-10",
+            "actual_log_return": -0.2061488638151836,
+            "risk_scale": 0.14937753777999407,
+            "ridge": -0.007043298449863212,
+            "knn": -0.07146772962162275,
+            "ensemble": -0.039255514035742976,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-04-11",
+            "label_end": "2024-04-25",
+            "actual_log_return": -0.11087996613182564,
+            "risk_scale": 0.1094450873724268,
+            "ridge": -0.02519554099191293,
+            "knn": 0.010006515602695889,
+            "ensemble": -0.007594512694608521,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-04-26",
+            "label_end": "2024-05-10",
+            "actual_log_return": -0.05981850424134657,
+            "risk_scale": 0.11639024268816671,
+            "ridge": -0.01845938185728478,
+            "knn": -0.008796177710948901,
+            "ensemble": -0.01362777978411684,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-05-13",
+            "label_end": "2024-05-28",
+            "actual_log_return": 0.21349718350642038,
+            "risk_scale": 0.14814960013500586,
+            "ridge": 0.011550566252418178,
+            "knn": 0.00560914964645788,
+            "ensemble": 0.00857985794943803,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-05-29",
+            "label_end": "2024-06-12",
+            "actual_log_return": -0.1375940122153241,
+            "risk_scale": 0.1476138103805974,
+            "ridge": 0.00640522372365946,
+            "knn": -0.03797548247754274,
+            "ensemble": -0.01578512937694164,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-06-13",
+            "label_end": "2024-06-28",
+            "actual_log_return": -0.19649488494256367,
+            "risk_scale": 0.13061991001303855,
+            "ridge": -0.01750580246212507,
+            "knn": -0.009727135446417503,
+            "ensemble": -0.013616468954271287,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-07-01",
+            "label_end": "2024-07-16",
+            "actual_log_return": 0.3863058764869222,
+            "risk_scale": 0.12146809369645631,
+            "ridge": -0.004487857075437366,
+            "knn": 0.023884825567511633,
+            "ensemble": 0.009698484246037135,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-07-17",
+            "label_end": "2024-07-31",
+            "actual_log_return": -0.13725479161825063,
+            "risk_scale": 0.20343974560557926,
+            "ridge": 0.053436473084986974,
+            "knn": -0.06611140059008198,
+            "ensemble": -0.006337463752547502,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-08-01",
+            "label_end": "2024-08-15",
+            "actual_log_return": 0.015357669762716117,
+            "risk_scale": 0.25325501722212856,
+            "ridge": 0.08993170419248418,
+            "knn": -0.01088275690216927,
+            "ensemble": 0.03952447364515746,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-08-16",
+            "label_end": "2024-08-30",
+            "actual_log_return": 0.3153748413897669,
+            "risk_scale": 0.2731417930214552,
+            "ridge": 0.09168822123680731,
+            "knn": -0.10563809042842302,
+            "ensemble": -0.006974934595807859,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-09-03",
+            "label_end": "2024-09-17",
+            "actual_log_return": 0.10225616733538258,
+            "risk_scale": 0.22105481409295696,
+            "ridge": 0.13772418361707423,
+            "knn": -0.06680879285056265,
+            "ensemble": 0.035457695383255786,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-09-18",
+            "label_end": "2024-10-02",
+            "actual_log_return": 0.034779700171883816,
+            "risk_scale": 0.19764431156143528,
+            "ridge": 0.07073896243136096,
+            "knn": -0.03715473924913316,
+            "ensemble": 0.016792111591113903,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-10-03",
+            "label_end": "2024-10-17",
+            "actual_log_return": 0.2915492107403284,
+            "risk_scale": 0.19961241108854133,
+            "ridge": -0.0008403068468063516,
+            "knn": -0.053432841569443,
+            "ensemble": -0.027136574208124674,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-10-18",
+            "label_end": "2024-11-01",
+            "actual_log_return": -0.09779034105558886,
+            "risk_scale": 0.18382123737125056,
+            "ridge": -0.001584033347946704,
+            "knn": -0.04239487087622868,
+            "ensemble": -0.021989452112087693,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-11-04",
+            "label_end": "2024-11-18",
+            "actual_log_return": 0.5103377119623693,
+            "risk_scale": 0.15790223090560754,
+            "ridge": -0.04268057756608933,
+            "knn": -0.00745677208309111,
+            "ensemble": -0.025068674824590225,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-11-19",
+            "label_end": "2024-12-04",
+            "actual_log_return": 0.43321428266421647,
+            "risk_scale": 0.3383205153478838,
+            "ridge": -0.014435770145440886,
+            "knn": -0.12152911603453945,
+            "ensemble": -0.06798244308999017,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-12-05",
+            "label_end": "2024-12-19",
+            "actual_log_return": -0.06252971817987311,
+            "risk_scale": 0.39685534438950176,
+            "ridge": 0.2165206164113956,
+            "knn": -0.1196774062559948,
+            "ensemble": 0.04842160507770041,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-12-20",
+            "label_end": "2025-01-07",
+            "actual_log_return": -0.13693675190973323,
+            "risk_scale": 0.2908298003095535,
+            "ridge": -0.10244916354734165,
+            "knn": -0.10723718944679567,
+            "ensemble": -0.10484317649706866,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-01-08",
+            "label_end": "2025-01-24",
+            "actual_log_return": -0.053295148907753435,
+            "risk_scale": 0.2197957642985833,
+            "ridge": -0.05681477377412699,
+            "knn": -0.024605640782705437,
+            "ensemble": -0.04071020727841622,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-01-27",
+            "label_end": "2025-02-10",
+            "actual_log_return": 0.21807774482474843,
+            "risk_scale": 0.2338356303875074,
+            "ridge": 0.046506926904345165,
+            "knn": 0.0518366282061527,
+            "ensemble": 0.04917177755524894,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-02-11",
+            "label_end": "2025-02-26",
+            "actual_log_return": -0.1003858685048958,
+            "risk_scale": 0.24643218467757347,
+            "ridge": 0.022183669721994877,
+            "knn": -0.04365471684055958,
+            "ensemble": -0.010735523559282353,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-02-27",
+            "label_end": "2025-03-13",
+            "actual_log_return": -0.41528862042333653,
+            "risk_scale": 0.2080672972773425,
+            "ridge": 0.08756490487351898,
+            "knn": 0.025740951647463792,
+            "ensemble": 0.056652928260491384,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-03-14",
+            "label_end": "2025-03-28",
+            "actual_log_return": -0.2999689952849094,
+            "risk_scale": 0.37285833381480693,
+            "ridge": 0.34541174296363236,
+            "knn": -0.040518790458047266,
+            "ensemble": 0.15244647625279256,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-03-31",
+            "label_end": "2025-04-14",
+            "actual_log_return": -0.3107473702342247,
+            "risk_scale": 0.34203367056754624,
+            "ridge": 0.21427315004738506,
+            "knn": 0.06477589400244203,
+            "ensemble": 0.13952452202491356,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-04-15",
+            "label_end": "2025-04-30",
+            "actual_log_return": 0.11067389926600711,
+            "risk_scale": 0.33139642678964154,
+            "ridge": 0.3071318441091607,
+            "knn": 0.04609878643635913,
+            "ensemble": 0.17661531527275995,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-05-01",
+            "label_end": "2025-05-15",
+            "actual_log_return": 0.2490458666483216,
+            "risk_scale": 0.3499623649599426,
+            "ridge": 0.1448472304112618,
+            "knn": -0.14505879871590943,
+            "ensemble": -0.00010578415232382135,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-05-16",
+            "label_end": "2025-06-02",
+            "actual_log_return": -0.18618133001319861,
+            "risk_scale": 0.2269023392202418,
+            "ridge": 0.20288359863984068,
+            "knn": -0.016910857264218315,
+            "ensemble": 0.09298637068781118,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-06-03",
+            "label_end": "2025-06-17",
+            "actual_log_return": 0.001192633249159532,
+            "risk_scale": 0.2279456841416133,
+            "ridge": 0.04989389141069603,
+            "knn": 0.032292094971109,
+            "ensemble": 0.04109299319090252,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-06-18",
+            "label_end": "2025-07-03",
+            "actual_log_return": 0.3713367567389691,
+            "risk_scale": 0.2101739218598113,
+            "ridge": 0.017690889092788372,
+            "knn": -0.07734388180226356,
+            "ensemble": -0.0298264963547376,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-07-07",
+            "label_end": "2025-07-21",
+            "actual_log_return": 0.06550719086755785,
+            "risk_scale": 0.23357918516085352,
+            "ridge": 0.09632251922731838,
+            "knn": -0.07043914471768718,
+            "ensemble": 0.012941687254815606,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-07-22",
+            "label_end": "2025-08-05",
+            "actual_log_return": -0.20737663564538192,
+            "risk_scale": 0.15332440372523798,
+            "ridge": -0.004496981654329872,
+            "knn": 0.006792150311565972,
+            "ensemble": 0.00114758432861805,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-08-06",
+            "label_end": "2025-08-20",
+            "actual_log_return": -0.05758895073090533,
+            "risk_scale": 0.1267177216592304,
+            "ridge": -0.008230143420330951,
+            "knn": -0.005997912092006445,
+            "ensemble": -0.007114027756168699,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-08-21",
+            "label_end": "2025-09-05",
+            "actual_log_return": 0.012161986978261645,
+            "risk_scale": 0.2276887219420944,
+            "ridge": 0.023816513116819142,
+            "knn": -0.07217210371022807,
+            "ensemble": -0.02417779529670446,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-09-08",
+            "label_end": "2025-09-22",
+            "actual_log_return": 0.256520274085235,
+            "risk_scale": 0.21183947219665283,
+            "ridge": 0.006895370411757795,
+            "knn": -0.016282615896061035,
+            "ensemble": -0.00469362274215162,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-09-23",
+            "label_end": "2025-10-07",
+            "actual_log_return": 0.11039059881762198,
+            "risk_scale": 0.16918124202847631,
+            "ridge": -0.014144504575929286,
+            "knn": -0.043523971609541204,
+            "ensemble": -0.028834238092735245,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-10-08",
+            "label_end": "2025-10-22",
+            "actual_log_return": -0.07222370199548991,
+            "risk_scale": 0.196286371048033,
+            "ridge": -0.02575055819821279,
+            "knn": -0.06142741720192982,
+            "ensemble": -0.0435889877000713,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-10-23",
+            "label_end": "2025-11-06",
+            "actual_log_return": -0.07606969347911813,
+            "risk_scale": 0.26209432833521557,
+            "ridge": -0.0027169014968324154,
+            "knn": -0.09142621659522895,
+            "ensemble": -0.047071559046030685,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-11-07",
+            "label_end": "2025-11-21",
+            "actual_log_return": -0.3280374788622805,
+            "risk_scale": 0.2232891158992724,
+            "ridge": 0.011113781546117583,
+            "knn": 0.00018977807109518132,
+            "ensemble": 0.005651779808606382,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-11-24",
+            "label_end": "2025-12-09",
+            "actual_log_return": 0.3016034139041757,
+            "risk_scale": 0.19517625257121685,
+            "ridge": 0.03134758872525539,
+            "knn": 0.05168459407239128,
+            "ensemble": 0.041516091398823333,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-12-10",
+            "label_end": "2025-12-24",
+            "actual_log_return": 0.1587956102002919,
+            "risk_scale": 0.19908316910314644,
+            "ridge": 0.04439545935393839,
+            "knn": -0.04673167525945678,
+            "ensemble": -0.0011681079527591973,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-12-26",
+            "label_end": "2026-01-12",
+            "actual_log_return": -0.0974107657127179,
+            "risk_scale": 0.25530029142040156,
+            "ridge": 0.026253710669331038,
+            "knn": -0.11611160964505196,
+            "ensemble": -0.04492894948786046,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-01-13",
+            "label_end": "2026-01-28",
+            "actual_log_return": 0.2801198867530197,
+            "risk_scale": 0.2763108252550032,
+            "ridge": -0.020058899238727626,
+            "knn": -0.003701308204708719,
+            "ensemble": -0.011880103721718173,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-01-29",
+            "label_end": "2026-02-12",
+            "actual_log_return": 0.10589112583124088,
+            "risk_scale": 0.2678931330026124,
+            "ridge": -0.022053801315636806,
+            "knn": -0.08485907863390331,
+            "ensemble": -0.05345643997477006,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-02-13",
+            "label_end": "2026-03-02",
+            "actual_log_return": 0.8353704876906574,
+            "risk_scale": 0.2700833303608328,
+            "ridge": 0.005060425014593273,
+            "knn": -0.08555285576720213,
+            "ensemble": -0.04024621537630443,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-03-03",
+            "label_end": "2026-03-17",
+            "actual_log_return": -0.09927222790825257,
+            "risk_scale": 0.40158609652059396,
+            "ridge": 0.05893863069803117,
+            "knn": -0.2401811835148842,
+            "ensemble": -0.09062127640842653,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-03-18",
+            "label_end": "2026-04-01",
+            "actual_log_return": -0.07020424669300299,
+            "risk_scale": 0.41974217594808666,
+            "ridge": 0.13517817501121623,
+            "knn": -0.0748982549095111,
+            "ensemble": 0.030139960050852562,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-04-02",
+            "label_end": "2026-04-17",
+            "actual_log_return": 0.42801704240640587,
+            "risk_scale": 0.35516904514466374,
+            "ridge": -0.06948386714161778,
+            "knn": -0.12131503405230616,
+            "ensemble": -0.09539945059696196,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-04-20",
+            "label_end": "2026-05-04",
+            "actual_log_return": 0.056546461448643184,
+            "risk_scale": 0.2827321292903256,
+            "ridge": -0.05962958881766666,
+            "knn": -0.01769414897495355,
+            "ensemble": -0.038661868896310105,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-05-05",
+            "label_end": "2026-05-19",
+            "actual_log_return": -0.052527022757268456,
+            "risk_scale": 0.254700670435585,
+            "ridge": -0.07623927011736256,
+            "knn": -0.08496788573793843,
+            "ensemble": -0.0806035779276505,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-05-20",
+            "label_end": "2026-06-04",
+            "actual_log_return": 0.20514399921315854,
+            "risk_scale": 0.3245348701815024,
+            "ridge": -0.04616799606563415,
+            "knn": 0.030887375374364937,
+            "ensemble": -0.007640310345634604,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-06-05",
+            "label_end": "2026-06-22",
+            "actual_log_return": -0.033142075524540696,
+            "risk_scale": 0.3122022788771971,
+            "ridge": 0.0188800388466284,
+            "knn": -0.061286760908139094,
+            "ensemble": -0.021203361030755347,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-06-23",
+            "label_end": "2026-07-08",
+            "actual_log_return": -0.2533706404047965,
+            "risk_scale": 0.3116434606463792,
+            "ridge": 0.05000390457812627,
+            "knn": 0.06277204138630464,
+            "ensemble": 0.056387972982215456,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-07-09",
+            "label_end": "2026-07-23",
+            "actual_log_return": -0.08706347214406601,
+            "risk_scale": 0.23587066750731678,
+            "ridge": 0.054986196114575316,
+            "knn": 0.057532069972293334,
+            "ensemble": 0.05625913304343433,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-07-24",
+            "label_end": "2026-08-07",
+            "actual_log_return": 0.3032615486278374,
+            "risk_scale": 0.25621432641053893,
+            "ridge": 0.08596870792572728,
+            "knn": 0.02755812183979069,
+            "ensemble": 0.05676341488275898,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-08-10",
+            "label_end": "2026-08-24",
+            "actual_log_return": -0.2102201232719941,
+            "risk_scale": 0.3281974501017179,
+            "ridge": 0.16641063390736108,
+            "knn": -0.03444710058075907,
+            "ensemble": 0.065981766663301,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-08-25",
+            "label_end": "2026-09-09",
+            "actual_log_return": -0.04723151390020914,
+            "risk_scale": 0.32322292396513674,
+            "ridge": 0.16998965318856077,
+            "knn": 0.012591522186053732,
+            "ensemble": 0.09129058768730726,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-09-10",
+            "label_end": "2026-09-24",
+            "actual_log_return": -0.022123084525141008,
+            "risk_scale": 0.22640746418473814,
+            "ridge": 0.002503916033434641,
+            "knn": 0.05459965121418782,
+            "ensemble": 0.02855178362381123,
+            "zero": 0.0
+          }
+        ],
+        "neighbors": [
+          {
+            "signal_date": "2022-10-24",
+            "terminal_date": "2022-11-07",
+            "index": 1526
+          },
+          {
+            "signal_date": "2022-12-06",
+            "terminal_date": "2022-12-20",
+            "index": 1556
+          },
+          {
+            "signal_date": "2024-04-03",
+            "terminal_date": "2024-04-17",
+            "index": 1887
+          },
+          {
+            "signal_date": "2024-06-07",
+            "terminal_date": "2024-06-24",
+            "index": 1933
+          },
+          {
+            "signal_date": "2020-09-24",
+            "terminal_date": "2020-10-08",
+            "index": 1002
+          },
+          {
+            "signal_date": "2024-05-09",
+            "terminal_date": "2024-05-23",
+            "index": 1913
+          },
+          {
+            "signal_date": "2020-05-20",
+            "terminal_date": "2020-06-04",
+            "index": 914
+          },
+          {
+            "signal_date": "2025-06-10",
+            "terminal_date": "2025-06-25",
+            "index": 2184
+          },
+          {
+            "signal_date": "2021-03-26",
+            "terminal_date": "2021-04-12",
+            "index": 1128
+          },
+          {
+            "signal_date": "2022-12-21",
+            "terminal_date": "2023-01-06",
+            "index": 1567
+          },
+          {
+            "signal_date": "2018-08-16",
+            "terminal_date": "2018-08-30",
+            "index": 472
+          },
+          {
+            "signal_date": "2019-11-21",
+            "terminal_date": "2019-12-06",
+            "index": 791
+          },
+          {
+            "signal_date": "2023-05-23",
+            "terminal_date": "2023-06-07",
+            "index": 1671
+          },
+          {
+            "signal_date": "2023-05-04",
+            "terminal_date": "2023-05-18",
+            "index": 1658
+          },
+          {
+            "signal_date": "2021-02-25",
+            "terminal_date": "2021-03-11",
+            "index": 1107
+          },
+          {
+            "signal_date": "2018-11-21",
+            "terminal_date": "2018-12-07",
+            "index": 540
+          },
+          {
+            "signal_date": "2023-03-24",
+            "terminal_date": "2023-04-10",
+            "index": 1630
+          },
+          {
+            "signal_date": "2022-02-23",
+            "terminal_date": "2022-03-09",
+            "index": 1358
+          },
+          {
+            "signal_date": "2018-12-10",
+            "terminal_date": "2018-12-24",
+            "index": 551
+          },
+          {
+            "signal_date": "2021-05-14",
+            "terminal_date": "2021-05-28",
+            "index": 1162
+          },
+          {
+            "signal_date": "2020-08-18",
+            "terminal_date": "2020-09-01",
+            "index": 976
+          },
+          {
+            "signal_date": "2024-04-18",
+            "terminal_date": "2024-05-02",
+            "index": 1898
+          },
+          {
+            "signal_date": "2025-08-06",
+            "terminal_date": "2025-08-20",
+            "index": 2223
+          },
+          {
+            "signal_date": "2025-09-04",
+            "terminal_date": "2025-09-18",
+            "index": 2243
+          },
+          {
+            "signal_date": "2022-03-10",
+            "terminal_date": "2022-03-24",
+            "index": 1369
+          },
+          {
+            "signal_date": "2019-08-12",
+            "terminal_date": "2019-08-26",
+            "index": 719
+          },
+          {
+            "signal_date": "2022-04-01",
+            "terminal_date": "2022-04-18",
+            "index": 1385
+          },
+          {
+            "signal_date": "2019-10-22",
+            "terminal_date": "2019-11-05",
+            "index": 769
+          },
+          {
+            "signal_date": "2017-09-11",
+            "terminal_date": "2017-09-25",
+            "index": 237
+          },
+          {
+            "signal_date": "2024-11-06",
+            "terminal_date": "2024-11-20",
+            "index": 2038
+          },
+          {
+            "signal_date": "2020-06-25",
+            "terminal_date": "2020-07-10",
+            "index": 939
+          },
+          {
+            "signal_date": "2020-02-05",
+            "terminal_date": "2020-02-20",
+            "index": 841
+          }
+        ],
+        "diagnostic_counts": {
+          "n": 32,
+          "terminal_up": 14,
+          "terminal_plus5": 13,
+          "terminal_plus10": 9,
+          "high_plus5": 21,
+          "low_minus5": 21
+        },
+        "user_93_110": {
+          "path_counts": {
+            "target": 10,
+            "stop": 19,
+            "timeout": 3
+          },
+          "mean_net": -0.00561926546090007,
+          "terminal_ge110": 8,
+          "high_ge110": 13,
+          "low_le93": 20,
+          "rr": 1.7485852869846392,
+          "risk_pct": 0.06235821948883402,
+          "reward_pct": 0.10903866512073401
+        },
+        "mae_improvement_year_block_ci95": [
+          -0.01925291925141396,
+          -0.003139589536966227
+        ],
+        "mae_improvement_vs_zero": -0.010036846573850254
+      }
+    },
+    "AVGO": {
+      "factors": {
+        "price": 353.505,
+        "quote_time": "2026-09-30T14:01:27-04:00",
+        "day_change": -0.004491709591947113,
+        "open": 356.9549865722656,
+        "high": 357.8999938964844,
+        "low": 352.32000732421875,
+        "opening_gap_vs_prior_close": 0.00522382550511491,
+        "return3": 0.0019699057459130476,
+        "return5": -0.00418318903413184,
+        "return20": -0.043754038617846214,
+        "rsi2": 51.58186548143497,
+        "rsi14": 44.9956436600867,
+        "atr14_partial": 10.503009935689732,
+        "atr14_last_complete": 10.88170404056851,
+        "rv20_annual": 0.31191921332953526,
+        "ma": {
+          "5": 352.2689992675781,
+          "10": 354.84449719238285,
+          "20": 355.5002469482422,
+          "30": 358.54683211263017,
+          "50": 375.0788994384766,
+          "60": 377.01824892171226,
+          "200": 367.5135751098633
+        },
+        "ma20_slope5": -0.010382624874572088,
+        "low20_complete": 335.80999755859375,
+        "high20_complete": 372.70001220703125,
+        "volume20_mean_complete": 27507545.0,
+        "intraday": {
+          "bar_approx_vwap": 354.23138468611097,
+          "volume": 8199246,
+          "last_completed_nonzero_bar": "2026-09-30T14:00:00-04:00",
+          "bars": 271
+        },
+        "distance_vwap": -0.002050593813855972,
+        "relative": {
+          "QQQ": {
+            "day_excess_pp": -1.224313232986518,
+            "ret20_excess_pp": -9.464147376303444,
+            "beta60_completed": 1.3324888793566394,
+            "corr60_completed": 0.6576677414351547
+          },
+          "SOXX": {
+            "day_excess_pp": -0.48794114769873387,
+            "ret20_excess_pp": -17.83705819011304,
+            "beta60_completed": 0.5964186925898675,
+            "corr60_completed": 0.721229238108165
+          }
+        },
+        "LRCX_strict_gate": {
+          "above_ma200": false,
+          "rsi2_le20": false,
+          "negative3day": false,
+          "passed": false
+        }
+      },
+      "options": {
+        "retrieved_from_manifest": "2026-09-30T18:01:28.701337+00:00",
+        "provider_timestamp_assumed_utc": "2026-09-30T18:00:51+00:00",
+        "underlying_last_trade_local": "2026-09-30T13:45:49",
+        "delayed_underlying": 353.2348,
+        "delayed_bid": 353.21,
+        "delayed_ask": 353.26,
+        "provider_iv30": 0.35857,
+        "provider_iv30_rv20_ratio": 1.1495604780882134,
+        "own_atm30_proxy": 0.35848962817918445,
+        "own_proxy_ivrv": 1.1493028093798399,
+        "own_proxy_not_original_score": true,
+        "annual_iv_percentile": null,
+        "bracket": [
+          {
+            "expiry": "261023",
+            "days": 23.082743055555557,
+            "strike": 355.0,
+            "atm_iv": 0.35185,
+            "straddle_mid": 25.1,
+            "straddle_bid": 24.9,
+            "straddle_ask": 25.3,
+            "put25_iv": 0.3579,
+            "call25_iv": 0.3598,
+            "skew_pp": -0.19000000000000128
+          },
+          {
+            "expiry": "261030",
+            "days": 30.082743055555557,
+            "strike": 355.0,
+            "atm_iv": 0.35855000000000004,
+            "straddle_mid": 29.200000000000003,
+            "straddle_bid": 28.950000000000003,
+            "straddle_ask": 29.450000000000003,
+            "put25_iv": 0.3654,
+            "call25_iv": 0.3651,
+            "skew_pp": 0.030000000000002247
+          }
+        ],
+        "term_points": [
+          {
+            "expiry": "261007",
+            "days": 7.0827430555555555,
+            "strike": 352.5,
+            "atm_iv": 0.34299999999999997,
+            "straddle_mid": 13.524999999999999,
+            "straddle_bid": 13.0,
+            "straddle_ask": 14.05,
+            "put25_iv": 0.3608,
+            "call25_iv": 0.3548,
+            "skew_pp": 0.6000000000000005
+          },
+          {
+            "expiry": "261009",
+            "days": 9.082743055555556,
+            "strike": 352.5,
+            "atm_iv": 0.3527,
+            "straddle_mid": 15.775000000000002,
+            "straddle_bid": 15.5,
+            "straddle_ask": 16.05,
+            "put25_iv": 0.3538,
+            "call25_iv": 0.3581,
+            "skew_pp": -0.42999999999999705
+          },
+          {
+            "expiry": "261012",
+            "days": 12.082743055555556,
+            "strike": 352.5,
+            "atm_iv": 0.33285,
+            "straddle_mid": 17.125,
+            "straddle_bid": 16.700000000000003,
+            "straddle_ask": 17.549999999999997,
+            "put25_iv": 0.3334,
+            "call25_iv": 0.3396,
+            "skew_pp": -0.6200000000000039
+          },
+          {
+            "expiry": "261014",
+            "days": 14.082743055555556,
+            "strike": 352.5,
+            "atm_iv": 0.34309999999999996,
+            "straddle_mid": 19.049999999999997,
+            "straddle_bid": 18.35,
+            "straddle_ask": 19.75,
+            "put25_iv": 0.362,
+            "call25_iv": 0.3511,
+            "skew_pp": 1.0899999999999965
+          },
+          {
+            "expiry": "261016",
+            "days": 16.082743055555557,
+            "strike": 352.5,
+            "atm_iv": 0.3509,
+            "straddle_mid": 20.85,
+            "straddle_bid": 20.7,
+            "straddle_ask": 21.0,
+            "put25_iv": 0.355,
+            "call25_iv": 0.3576,
+            "skew_pp": -0.2599999999999991
+          },
+          {
+            "expiry": "261023",
+            "days": 23.082743055555557,
+            "strike": 355.0,
+            "atm_iv": 0.35185,
+            "straddle_mid": 25.1,
+            "straddle_bid": 24.9,
+            "straddle_ask": 25.3,
+            "put25_iv": 0.3579,
+            "call25_iv": 0.3598,
+            "skew_pp": -0.19000000000000128
+          },
+          {
+            "expiry": "261030",
+            "days": 30.082743055555557,
+            "strike": 355.0,
+            "atm_iv": 0.35855000000000004,
+            "straddle_mid": 29.200000000000003,
+            "straddle_bid": 28.950000000000003,
+            "straddle_ask": 29.450000000000003,
+            "put25_iv": 0.3654,
+            "call25_iv": 0.3651,
+            "skew_pp": 0.030000000000002247
+          },
+          {
+            "expiry": "261106",
+            "days": 37.124409722222225,
+            "strike": 355.0,
+            "atm_iv": 0.36845,
+            "straddle_mid": 33.3,
+            "straddle_bid": 32.9,
+            "straddle_ask": 33.7,
+            "put25_iv": 0.3736,
+            "call25_iv": 0.3734,
+            "skew_pp": 0.019999999999997797
+          },
+          {
+            "expiry": "261120",
+            "days": 51.124409722222225,
+            "strike": 350.0,
+            "atm_iv": 0.37070000000000003,
+            "straddle_mid": 39.224999999999994,
+            "straddle_bid": 39.05,
+            "straddle_ask": 39.4,
+            "put25_iv": 0.3744,
+            "call25_iv": 0.3792,
+            "skew_pp": -0.4799999999999971
+          },
+          {
+            "expiry": "261218",
+            "days": 79.12440972222223,
+            "strike": 350.0,
+            "atm_iv": 0.41765,
+            "straddle_mid": 54.8,
+            "straddle_bid": 54.4,
+            "straddle_ask": 55.2,
+            "put25_iv": 0.4186,
+            "call25_iv": 0.4276,
+            "skew_pp": -0.8999999999999952
+          }
+        ],
+        "provider_iv_14calendar_day_scale_pct": 7.022496587240767
+      },
+      "forecast": {
+        "prices": {
+          "ridge": 359.1812549767567,
+          "knn": 364.9489886946834,
+          "ensemble": 362.0536365814526
+        },
+        "center_return": 0.02418250542836068,
+        "residual_reference_quantiles": {
+          "p10": 342.9441377028512,
+          "p25": 352.9433700931551,
+          "p50": 361.8848007379095,
+          "p75": 375.37770558203067,
+          "p90": 393.8151791291693
+        },
+        "evaluation": {
+          "ridge": {
+            "n": 85,
+            "mae_log": 0.05811115468407552,
+            "rmse_log": 0.07817824602502153,
+            "directional_accuracy": 0.6
+          },
+          "knn": {
+            "n": 85,
+            "mae_log": 0.05825738826732072,
+            "rmse_log": 0.07920159189363714,
+            "directional_accuracy": 0.6588235294117647
+          },
+          "ensemble": {
+            "n": 85,
+            "mae_log": 0.05744999647575308,
+            "rmse_log": 0.07789718766210495,
+            "directional_accuracy": 0.6470588235294118
+          },
+          "zero": {
+            "n": 85,
+            "mae_log": 0.05823944928585681,
+            "rmse_log": 0.08006751475211317,
+            "directional_accuracy": null
+          }
+        },
+        "evaluation_by_year": {
+          "2023": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.05402659347368045,
+              "rmse_log": 0.07133285947268839,
+              "directional_accuracy": 0.5652173913043478
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.049307895501308874,
+              "rmse_log": 0.06942095376903475,
+              "directional_accuracy": 0.782608695652174
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.05097763986351603,
+              "rmse_log": 0.07010944937681092,
+              "directional_accuracy": 0.6956521739130435
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.0533602267961992,
+              "rmse_log": 0.07214941136040684,
+              "directional_accuracy": null
+            }
+          },
+          "2024": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.05097244905085641,
+              "rmse_log": 0.0726971973093277,
+              "directional_accuracy": 0.6521739130434783
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.04985874795488831,
+              "rmse_log": 0.07231388362829069,
+              "directional_accuracy": 0.6521739130434783
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.04959003277878781,
+              "rmse_log": 0.07178129111695851,
+              "directional_accuracy": 0.6086956521739131
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.05492119705309018,
+              "rmse_log": 0.07674490431697466,
+              "directional_accuracy": null
+            }
+          },
+          "2025": {
+            "ridge": {
+              "n": 23,
+              "mae_log": 0.07017328346099108,
+              "rmse_log": 0.08559006724934555,
+              "directional_accuracy": 0.6086956521739131
+            },
+            "knn": {
+              "n": 23,
+              "mae_log": 0.07120519642413746,
+              "rmse_log": 0.0897783355464159,
+              "directional_accuracy": 0.5217391304347826
+            },
+            "ensemble": {
+              "n": 23,
+              "mae_log": 0.06949078529083051,
+              "rmse_log": 0.0865863076689212,
+              "directional_accuracy": 0.6086956521739131
+            },
+            "zero": {
+              "n": 23,
+              "mae_log": 0.0703550066923829,
+              "rmse_log": 0.08691555369284609,
+              "directional_accuracy": null
+            }
+          },
+          "2026": {
+            "ridge": {
+              "n": 16,
+              "mae_log": 0.056905290654954796,
+              "rmse_log": 0.0838268703401085,
+              "directional_accuracy": 0.5625
+            },
+            "knn": {
+              "n": 16,
+              "mae_log": 0.06458285534216038,
+              "rmse_log": 0.08540175740514135,
+              "directional_accuracy": 0.6875
+            },
+            "ensemble": {
+              "n": 16,
+              "mae_log": 0.060744072998557594,
+              "rmse_log": 0.08358410004070521,
+              "directional_accuracy": 0.6875
+            },
+            "zero": {
+              "n": 16,
+              "mae_log": 0.05260720542746038,
+              "rmse_log": 0.08513851453773925,
+              "directional_accuracy": null
+            }
+          }
+        },
+        "evaluation_rows": [
+          {
+            "signal_date": "2023-01-03",
+            "label_end": "2023-01-18",
+            "actual_log_return": 0.036908900013666215,
+            "risk_scale": 0.05700013596578532,
+            "ridge": 0.006693381746561214,
+            "knn": 0.007758464852231987,
+            "ensemble": 0.0072259232993966,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-01-19",
+            "label_end": "2023-02-02",
+            "actual_log_return": 0.07283007987890146,
+            "risk_scale": 0.05972874270483659,
+            "ridge": 0.007387716032038386,
+            "knn": 0.01357984490957883,
+            "ensemble": 0.010483780470808609,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-02-03",
+            "label_end": "2023-02-17",
+            "actual_log_return": -0.0034026387141304483,
+            "risk_scale": 0.05941653981343567,
+            "ridge": 0.002197533568444113,
+            "knn": -0.004526403942917064,
+            "ensemble": -0.0011644351872364751,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-02-21",
+            "label_end": "2023-03-07",
+            "actual_log_return": 0.07231186551151803,
+            "risk_scale": 0.04688684673687664,
+            "ridge": 0.0038601359549878768,
+            "knn": 0.014458850552454383,
+            "ensemble": 0.00915949325372113,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-03-08",
+            "label_end": "2023-03-22",
+            "actual_log_return": -0.002121672841128727,
+            "risk_scale": 0.05500044567667622,
+            "ridge": 0.0031707670688936426,
+            "knn": -0.010883185992312805,
+            "ensemble": -0.003856209461709582,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-03-23",
+            "label_end": "2023-04-06",
+            "actual_log_return": -0.02629583059845692,
+            "risk_scale": 0.0552942503933954,
+            "ridge": -0.0012229352635608854,
+            "knn": -0.0009627860487704997,
+            "ensemble": -0.0010928606561656925,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-04-10",
+            "label_end": "2023-04-24",
+            "actual_log_return": 0.01133197278774916,
+            "risk_scale": 0.03867760213857066,
+            "ridge": 0.001887271575049768,
+            "knn": 0.022586802203658992,
+            "ensemble": 0.01223703688935438,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-04-25",
+            "label_end": "2023-05-09",
+            "actual_log_return": -0.0056588531915922596,
+            "risk_scale": 0.030098575034289334,
+            "ridge": 0.002906698368078708,
+            "knn": 0.009371616817659866,
+            "ensemble": 0.006139157592869286,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-05-10",
+            "label_end": "2023-05-24",
+            "actual_log_return": 0.08161985536603111,
+            "risk_scale": 0.04929968735267842,
+            "ridge": 0.00356422862125031,
+            "knn": 0.01344346625523994,
+            "ensemble": 0.008503847438245126,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-05-25",
+            "label_end": "2023-06-09",
+            "actual_log_return": 0.09897078298676676,
+            "risk_scale": 0.0700610039695236,
+            "ridge": -0.004226893456439304,
+            "knn": -0.014187128751140733,
+            "ensemble": -0.009207011103790018,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-06-12",
+            "label_end": "2023-06-27",
+            "actual_log_return": -0.008170289816530818,
+            "risk_scale": 0.10258654261111474,
+            "ridge": -0.03468356648562946,
+            "knn": -0.022819967735898724,
+            "ensemble": -0.02875176711076409,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-06-28",
+            "label_end": "2023-07-13",
+            "actual_log_return": 0.04881604682768811,
+            "risk_scale": 0.07142024738317783,
+            "ridge": -0.003059930219580324,
+            "knn": 0.006173223729674314,
+            "ensemble": 0.001556646755046995,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-07-14",
+            "label_end": "2023-07-28",
+            "actual_log_return": 0.012536659220196736,
+            "risk_scale": 0.05086845611801416,
+            "ridge": 0.0018011219734153329,
+            "knn": -0.010065570601529098,
+            "ensemble": -0.004132224314056883,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-07-31",
+            "label_end": "2023-08-14",
+            "actual_log_return": -0.05084528759756912,
+            "risk_scale": 0.04645642441236822,
+            "ridge": 0.0014513144117779527,
+            "knn": -0.004165238190613543,
+            "ensemble": -0.0013569618894177953,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-08-15",
+            "label_end": "2023-08-29",
+            "actual_log_return": 0.054745377648052866,
+            "risk_scale": 0.05661261475282229,
+            "ridge": 0.0026015965946896264,
+            "knn": 0.035196300427866666,
+            "ensemble": 0.018898948511278147,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-08-30",
+            "label_end": "2023-09-14",
+            "actual_log_return": -0.02340343766438761,
+            "risk_scale": 0.06605729530289851,
+            "ridge": 0.007129106688649382,
+            "knn": -0.0034927678496671794,
+            "ensemble": 0.0018181694194911013,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-09-15",
+            "label_end": "2023-09-29",
+            "actual_log_return": -0.025086625063713897,
+            "risk_scale": 0.07500988472386562,
+            "ridge": 0.003750082602716923,
+            "knn": 0.0034947073012445784,
+            "ensemble": 0.0036223949519807504,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-10-02",
+            "label_end": "2023-10-16",
+            "actual_log_return": 0.07787441573921147,
+            "risk_scale": 0.047872757818640685,
+            "ridge": 0.006025605405285256,
+            "knn": 0.0197404613018758,
+            "ensemble": 0.012883033353580528,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-10-17",
+            "label_end": "2023-10-31",
+            "actual_log_return": -0.04987794859645311,
+            "risk_scale": 0.061831226369480595,
+            "ridge": 0.008047735366477514,
+            "knn": -0.00041158714365131425,
+            "ensemble": 0.0038180741114130995,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-11-01",
+            "label_end": "2023-11-15",
+            "actual_log_return": 0.13415846264826914,
+            "risk_scale": 0.06337351764890034,
+            "ridge": 0.0052754635660254455,
+            "knn": 0.0017607844941257191,
+            "ensemble": 0.0035181240300755827,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-11-16",
+            "label_end": "2023-12-01",
+            "actual_log_return": -0.031279857499385694,
+            "risk_scale": 0.06316178050638845,
+            "ridge": 0.004161327368705096,
+            "knn": -0.009871760425072163,
+            "ensemble": -0.0028552165281835336,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-12-04",
+            "label_end": "2023-12-18",
+            "actual_log_return": 0.21622545259089906,
+            "risk_scale": 0.05781089179709859,
+            "ridge": 0.0026543205505119784,
+            "knn": -0.008030636184514233,
+            "ensemble": -0.002688157817001128,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2023-12-19",
+            "label_end": "2024-01-04",
+            "actual_log_return": -0.08281290351028285,
+            "risk_scale": 0.08018970121880363,
+            "ridge": -0.0001441651068861032,
+            "knn": -0.01810095481345324,
+            "ensemble": -0.009122559960169672,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-01-05",
+            "label_end": "2024-01-22",
+            "actual_log_return": 0.15115640780211206,
+            "risk_scale": 0.08180637154066962,
+            "ridge": -0.004179535752174969,
+            "knn": 0.005733332025273255,
+            "ensemble": 0.0007768981365491428,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-01-23",
+            "label_end": "2024-02-06",
+            "actual_log_return": -0.0029890042530743544,
+            "risk_scale": 0.061053505312615046,
+            "ridge": -0.0011540567399847784,
+            "knn": -0.0059995295162424585,
+            "ensemble": -0.0035767931281136182,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-02-07",
+            "label_end": "2024-02-22",
+            "actual_log_return": 0.03735078022034391,
+            "risk_scale": 0.06493734616000028,
+            "ridge": 0.001478140233630528,
+            "knn": -0.012775159238717755,
+            "ensemble": -0.005648509502543615,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-02-23",
+            "label_end": "2024-03-08",
+            "actual_log_return": 0.009481514435710948,
+            "risk_scale": 0.0644295523288606,
+            "ridge": 0.004652966364599964,
+            "knn": -0.0050608977067002885,
+            "ensemble": -0.00020396567105016258,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-03-11",
+            "label_end": "2024-03-25",
+            "actual_log_return": 0.04421643816272807,
+            "risk_scale": 0.10083323082892914,
+            "ridge": 0.01440073640537982,
+            "knn": 0.04484331858708864,
+            "ensemble": 0.029622027496234233,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-03-26",
+            "label_end": "2024-04-10",
+            "actual_log_return": -0.006873053952993119,
+            "risk_scale": 0.10204067583903427,
+            "ridge": 0.01247687590780223,
+            "knn": 0.03008290862999594,
+            "ensemble": 0.021279892268899085,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-04-11",
+            "label_end": "2024-04-25",
+            "actual_log_return": -0.06580180804687642,
+            "risk_scale": 0.06711398649846467,
+            "ridge": 0.006305498586118877,
+            "knn": -0.00540663581248612,
+            "ensemble": 0.0004494313868163786,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-04-26",
+            "label_end": "2024-05-10",
+            "actual_log_return": -0.008420323550432105,
+            "risk_scale": 0.08075900670070815,
+            "ridge": 0.009608324672628286,
+            "knn": -0.003877465401609277,
+            "ensemble": 0.002865429635509504,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-05-13",
+            "label_end": "2024-05-28",
+            "actual_log_return": 0.05451602128167494,
+            "risk_scale": 0.08016104005566216,
+            "ridge": 0.009470756009140583,
+            "knn": 0.012545415908569413,
+            "ensemble": 0.011008085958855,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-05-29",
+            "label_end": "2024-06-12",
+            "actual_log_return": 0.0726815964549931,
+            "risk_scale": 0.06521900285533644,
+            "ridge": 0.006448093975104564,
+            "knn": -0.0035185796060778983,
+            "ensemble": 0.0014647571845133331,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-06-13",
+            "label_end": "2024-06-28",
+            "actual_log_return": -0.04473855314666943,
+            "risk_scale": 0.10106897205541654,
+            "ridge": -0.003044587451040641,
+            "knn": -0.018172107320221002,
+            "ensemble": -0.010608347385630823,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-07-01",
+            "label_end": "2024-07-16",
+            "actual_log_return": 0.03179061539736575,
+            "risk_scale": 0.11735319171945026,
+            "ridge": 0.0063697626755006825,
+            "knn": -0.023262989893029377,
+            "ensemble": -0.008446613608764348,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-07-17",
+            "label_end": "2024-07-31",
+            "actual_log_return": 0.029686997397169634,
+            "risk_scale": 0.0893309308079168,
+            "ridge": 0.023681463295941403,
+            "knn": 0.05676316015983998,
+            "ensemble": 0.040222311727890696,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-08-01",
+            "label_end": "2024-08-15",
+            "actual_log_return": 0.12220198278355518,
+            "risk_scale": 0.14264143522054545,
+            "ridge": 0.03412816580441766,
+            "knn": 0.0801070118934966,
+            "ensemble": 0.05711758884895713,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-08-16",
+            "label_end": "2024-08-30",
+            "actual_log_return": -0.01765428344589594,
+            "risk_scale": 0.15224551178644702,
+            "ridge": 0.004304409957359259,
+            "knn": -0.02817493306116221,
+            "ensemble": -0.011935261551901475,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-09-03",
+            "label_end": "2024-09-17",
+            "actual_log_return": 0.06142899123224053,
+            "risk_scale": 0.1075051499734423,
+            "ridge": 0.02100723175766364,
+            "knn": 0.04193696683501184,
+            "ensemble": 0.03147209929633774,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-09-18",
+            "label_end": "2024-10-02",
+            "actual_log_return": 0.05411608527931196,
+            "risk_scale": 0.127642751610634,
+            "ridge": 0.014160262571571427,
+            "knn": 0.01955169176562764,
+            "ensemble": 0.016855977168599535,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-10-03",
+            "label_end": "2024-10-17",
+            "actual_log_return": 0.05456618878857523,
+            "risk_scale": 0.11653096444955445,
+            "ridge": 0.0037554444874688528,
+            "knn": 0.017003296216554963,
+            "ensemble": 0.010379370352011908,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-10-18",
+            "label_end": "2024-11-01",
+            "actual_log_return": -0.0629203303557109,
+            "risk_scale": 0.06408146709531135,
+            "ridge": 0.01089498464410553,
+            "knn": 0.01809212442006322,
+            "ensemble": 0.014493554532084375,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-11-04",
+            "label_end": "2024-11-18",
+            "actual_log_return": -0.01723461288799485,
+            "risk_scale": 0.06976783799897421,
+            "ridge": 0.017791206680362645,
+            "knn": 0.03926648640519909,
+            "ensemble": 0.02852884654278087,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-11-19",
+            "label_end": "2024-12-04",
+            "actual_log_return": 0.031022650322913452,
+            "risk_scale": 0.07152317696872648,
+            "ridge": 0.01876984602279514,
+            "knn": 0.02939746188366324,
+            "ensemble": 0.024083653953229194,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-12-05",
+            "label_end": "2024-12-19",
+            "actual_log_return": 0.24740257462452864,
+            "risk_scale": 0.053543690257375987,
+            "ridge": 0.008299980681981194,
+            "knn": 0.005687852823276754,
+            "ensemble": 0.006993916752628973,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2024-12-20",
+            "label_end": "2025-01-07",
+            "actual_log_return": 0.034936718398203566,
+            "risk_scale": 0.19597270664223326,
+            "ridge": -0.014439454224292363,
+            "knn": -0.04423626792076623,
+            "ensemble": -0.029337861072529302,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-01-08",
+            "label_end": "2025-01-24",
+            "actual_log_return": 0.06495816872105394,
+            "risk_scale": 0.20007160873285776,
+            "ridge": -0.0075739796559692475,
+            "knn": -0.0011614928325819557,
+            "ensemble": -0.004367736244275602,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-01-27",
+            "label_end": "2025-02-10",
+            "actual_log_return": 0.1508446049450824,
+            "risk_scale": 0.14619246791483706,
+            "ridge": 0.04315715680431676,
+            "knn": 0.1130379601295529,
+            "ensemble": 0.07809755846693484,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-02-11",
+            "label_end": "2025-02-26",
+            "actual_log_return": -0.09874523650909046,
+            "risk_scale": 0.15713954361828072,
+            "ridge": 0.013215907834272707,
+            "knn": -0.01765014105491369,
+            "ensemble": -0.002217116610320492,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-02-27",
+            "label_end": "2025-03-13",
+            "actual_log_return": -0.03309996066530104,
+            "risk_scale": 0.10488344363446069,
+            "ridge": 0.03236816569261536,
+            "knn": 0.08508652404347038,
+            "ensemble": 0.05872734486804286,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-03-14",
+            "label_end": "2025-03-28",
+            "actual_log_return": -0.1451564344924718,
+            "risk_scale": 0.12985466088324565,
+            "ridge": 0.029046012416145423,
+            "knn": 0.0586027038059436,
+            "ensemble": 0.043824358111044515,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-03-31",
+            "label_end": "2025-04-14",
+            "actual_log_return": 0.06323867345780597,
+            "risk_scale": 0.11197834395102166,
+            "ridge": 0.035674216467929766,
+            "knn": 0.0924843142581005,
+            "ensemble": 0.06407926536301513,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-04-15",
+            "label_end": "2025-04-30",
+            "actual_log_return": 0.07283388361099104,
+            "risk_scale": 0.18175470965621676,
+            "ridge": 0.018022642143048107,
+            "knn": -0.0007707162207906016,
+            "ensemble": 0.008625962961128752,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-05-01",
+            "label_end": "2025-05-15",
+            "actual_log_return": 0.16461472826108184,
+            "risk_scale": 0.1831892516524777,
+            "ridge": 0.007230218808877377,
+            "knn": -0.03711713203657902,
+            "ensemble": -0.014943456613850823,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-05-16",
+            "label_end": "2025-06-02",
+            "actual_log_return": 0.08427008847729317,
+            "risk_scale": 0.08014199889891975,
+            "ridge": 0.002152824782100912,
+            "knn": -0.013361860892694798,
+            "ensemble": -0.005604518055296943,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-06-03",
+            "label_end": "2025-06-17",
+            "actual_log_return": -0.029554562939019115,
+            "risk_scale": 0.06268145458897115,
+            "ridge": -0.0009294914696122976,
+            "knn": -0.012350575847430332,
+            "ensemble": -0.006640033658521314,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-06-18",
+            "label_end": "2025-07-03",
+            "actual_log_return": 0.09093716466976674,
+            "risk_scale": 0.06630835067272067,
+            "ridge": 0.005475682133884967,
+            "knn": 0.010288224176997122,
+            "ensemble": 0.007881953155441044,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-07-07",
+            "label_end": "2025-07-21",
+            "actual_log_return": 0.04990455314693005,
+            "risk_scale": 0.0732739026359936,
+            "ridge": 0.0020860757861574986,
+            "knn": 0.017356209457063787,
+            "ensemble": 0.009721142621610642,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-07-22",
+            "label_end": "2025-08-05",
+            "actual_log_return": 0.05019249381903892,
+            "risk_scale": 0.06258141577475053,
+            "ridge": 0.006093904060010211,
+            "knn": -0.0009470580668365509,
+            "ensemble": 0.0025734229965868297,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-08-06",
+            "label_end": "2025-08-20",
+            "actual_log_return": -0.035426414052003856,
+            "risk_scale": 0.05921069661575238,
+            "ridge": 0.003273907023284348,
+            "knn": -0.012476172716275546,
+            "ensemble": -0.004601132846495598,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-08-21",
+            "label_end": "2025-09-05",
+            "actual_log_return": 0.14530148184855476,
+            "risk_scale": 0.059729243085324714,
+            "ridge": 0.00963958727609561,
+            "knn": 0.023710587720004832,
+            "ensemble": 0.01667508749805022,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-09-08",
+            "label_end": "2025-09-22",
+            "actual_log_return": -0.020046213107621426,
+            "risk_scale": 0.08592847791264066,
+            "ridge": -0.004953573366506014,
+            "knn": -0.018891311151764997,
+            "ensemble": -0.011922442259135507,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-09-23",
+            "label_end": "2025-10-07",
+            "actual_log_return": -0.00749244270941608,
+            "risk_scale": 0.11013861003646545,
+            "ridge": 0.016788879792326145,
+            "knn": 0.02701839752876023,
+            "ensemble": 0.021903638660543186,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-10-08",
+            "label_end": "2025-10-22",
+            "actual_log_return": -0.015165097572247014,
+            "risk_scale": 0.04758868506497266,
+            "ridge": 0.0038317035356886632,
+            "knn": 0.013201330065078941,
+            "ensemble": 0.008516516800383801,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-10-23",
+            "label_end": "2025-11-06",
+            "actual_log_return": 0.032294021157177874,
+            "risk_scale": 0.09357639442968174,
+            "ridge": 0.014008823520602315,
+            "knn": 0.021677175144348783,
+            "ensemble": 0.01784299933247555,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-11-07",
+            "label_end": "2025-11-21",
+            "actual_log_return": -0.026769518686726022,
+            "risk_scale": 0.09586678879008119,
+            "ridge": 0.021381912009819915,
+            "knn": 0.03599565024124592,
+            "ensemble": 0.02868878112553292,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-11-24",
+            "label_end": "2025-12-09",
+            "actual_log_return": 0.07227886406055328,
+            "risk_scale": 0.10653226397927507,
+            "ridge": 0.007857964058631815,
+            "knn": -0.010010579844845349,
+            "ensemble": -0.0010763078931067672,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-12-10",
+            "label_end": "2025-12-24",
+            "actual_log_return": -0.16481342212412026,
+            "risk_scale": 0.10164980976017683,
+            "ridge": 0.003914286262443793,
+            "knn": -0.019988918877431504,
+            "ensemble": -0.008037316307493856,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2025-12-26",
+            "label_end": "2026-01-12",
+            "actual_log_return": 0.00022712489145976716,
+            "risk_scale": 0.11532910025497868,
+            "ridge": 0.022162021916115434,
+            "knn": 0.03815547696774181,
+            "ensemble": 0.03015874944192862,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-01-13",
+            "label_end": "2026-01-28",
+            "actual_log_return": -0.06215563092188082,
+            "risk_scale": 0.07379001170638569,
+            "ridge": 0.011527310374449894,
+            "knn": 0.012326881597165848,
+            "ensemble": 0.01192709598580787,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-01-29",
+            "label_end": "2026-02-12",
+            "actual_log_return": 0.001329513491431966,
+            "risk_scale": 0.07268608655667305,
+            "ridge": 0.017870727039264112,
+            "knn": 0.025993529654669154,
+            "ensemble": 0.02193212834696663,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-02-13",
+            "label_end": "2026-03-02",
+            "actual_log_return": -0.019721460611876452,
+            "risk_scale": 0.08962323594950326,
+            "ridge": 0.021084917842317984,
+            "knn": 0.033495737666205394,
+            "ensemble": 0.027290327754261684,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-03-03",
+            "label_end": "2026-03-17",
+            "actual_log_return": 0.023523091367148658,
+            "risk_scale": 0.08177500210181526,
+            "ridge": 0.02415064199469699,
+            "knn": 0.03787349967843815,
+            "ensemble": 0.03101207083656757,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-03-18",
+            "label_end": "2026-04-01",
+            "actual_log_return": -0.007753216391294502,
+            "risk_scale": 0.06864681649868654,
+            "ridge": 0.02043128308226882,
+            "knn": 0.030148839104125608,
+            "ensemble": 0.025290061093197216,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-04-02",
+            "label_end": "2026-04-17",
+            "actual_log_return": 0.25653933894134756,
+            "risk_scale": 0.0811902957765703,
+            "ridge": 0.019179470055327996,
+            "knn": 0.02119767621966708,
+            "ensemble": 0.02018857313749754,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-04-20",
+            "label_end": "2026-05-04",
+            "actual_log_return": 0.04134733035708312,
+            "risk_scale": 0.08857028992080149,
+            "ridge": 0.0009024827462658537,
+            "knn": -0.021239019860606147,
+            "ensemble": -0.010168268557170146,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-05-05",
+            "label_end": "2026-05-19",
+            "actual_log_return": -0.03886318097186233,
+            "risk_scale": 0.07645408671251182,
+            "ridge": 0.011185669800546713,
+            "knn": -0.012961742642914416,
+            "ensemble": -0.0008880364211838519,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-05-20",
+            "label_end": "2026-06-04",
+            "actual_log_return": 0.002748980128906993,
+            "risk_scale": 0.08033800448144057,
+            "ridge": 0.014033632939884305,
+            "knn": 0.018849743107005122,
+            "ensemble": 0.016441688023444714,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-06-05",
+            "label_end": "2026-06-22",
+            "actual_log_return": 0.016455758587716363,
+            "risk_scale": 0.1404824485489274,
+            "ridge": 0.046002081116577685,
+            "knn": 0.10214607014032996,
+            "ensemble": 0.07407407562845382,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-06-23",
+            "label_end": "2026-07-08",
+            "actual_log_return": 0.02221622140787268,
+            "risk_scale": 0.15424283261100893,
+            "ridge": 0.04153909494502309,
+            "knn": 0.09763968068409161,
+            "ensemble": 0.06958938781455735,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-07-09",
+            "label_end": "2026-07-23",
+            "actual_log_return": -0.021775563093422372,
+            "risk_scale": 0.10752407920195405,
+            "ridge": 0.013828686167599025,
+            "knn": -0.014345630885204859,
+            "ensemble": -0.0002584723588029175,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-07-24",
+            "label_end": "2026-08-07",
+            "actual_log_return": 0.1133511157211389,
+            "risk_scale": 0.08855857694031845,
+            "ridge": 0.01911724158522846,
+            "knn": 0.004783319743695807,
+            "ensemble": 0.011950280664462135,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-08-10",
+            "label_end": "2026-08-24",
+            "actual_log_return": -0.16329904947214324,
+            "risk_scale": 0.0817254290829131,
+            "ridge": 0.009304833088522986,
+            "knn": -0.034697674713729525,
+            "ensemble": -0.01269642081260327,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-08-25",
+            "label_end": "2026-09-09",
+            "actual_log_return": 0.021190094782341143,
+            "risk_scale": 0.09041675556674117,
+            "ridge": 0.03307991479642919,
+            "knn": 0.04070126247419031,
+            "ensemble": 0.036890588635309744,
+            "zero": 0.0
+          },
+          {
+            "signal_date": "2026-09-10",
+            "label_end": "2026-09-24",
+            "actual_log_return": -0.029445740591898948,
+            "risk_scale": 0.0755737346307285,
+            "ridge": 0.01885708436998779,
+            "knn": 0.034109498404420055,
+            "ensemble": 0.02648329138720392,
+            "zero": 0.0
+          }
+        ],
+        "neighbors": [
+          {
+            "signal_date": "2019-08-27",
+            "terminal_date": "2019-09-11",
+            "index": 730
+          },
+          {
+            "signal_date": "2019-10-07",
+            "terminal_date": "2019-10-21",
+            "index": 758
+          },
+          {
+            "signal_date": "2018-03-26",
+            "terminal_date": "2018-04-10",
+            "index": 372
+          },
+          {
+            "signal_date": "2022-07-15",
+            "terminal_date": "2022-07-29",
+            "index": 1456
+          },
+          {
+            "signal_date": "2022-09-14",
+            "terminal_date": "2022-09-28",
+            "index": 1498
+          },
+          {
+            "signal_date": "2018-04-27",
+            "terminal_date": "2018-05-11",
+            "index": 395
+          },
+          {
+            "signal_date": "2018-03-01",
+            "terminal_date": "2018-03-15",
+            "index": 355
+          },
+          {
+            "signal_date": "2019-09-20",
+            "terminal_date": "2019-10-04",
+            "index": 747
+          },
+          {
+            "signal_date": "2018-04-12",
+            "terminal_date": "2018-04-26",
+            "index": 384
+          },
+          {
+            "signal_date": "2021-05-17",
+            "terminal_date": "2021-06-01",
+            "index": 1163
+          },
+          {
+            "signal_date": "2019-08-09",
+            "terminal_date": "2019-08-23",
+            "index": 718
+          },
+          {
+            "signal_date": "2022-05-05",
+            "terminal_date": "2022-05-19",
+            "index": 1408
+          },
+          {
+            "signal_date": "2020-02-03",
+            "terminal_date": "2020-02-18",
+            "index": 839
+          },
+          {
+            "signal_date": "2019-07-11",
+            "terminal_date": "2019-07-25",
+            "index": 697
+          },
+          {
+            "signal_date": "2017-12-21",
+            "terminal_date": "2018-01-08",
+            "index": 309
+          },
+          {
+            "signal_date": "2018-05-18",
+            "terminal_date": "2018-06-04",
+            "index": 410
+          },
+          {
+            "signal_date": "2022-08-24",
+            "terminal_date": "2022-09-08",
+            "index": 1484
+          },
+          {
+            "signal_date": "2018-02-13",
+            "terminal_date": "2018-02-28",
+            "index": 344
+          },
+          {
+            "signal_date": "2018-10-17",
+            "terminal_date": "2018-10-31",
+            "index": 515
+          },
+          {
+            "signal_date": "2024-12-02",
+            "terminal_date": "2024-12-16",
+            "index": 2055
+          },
+          {
+            "signal_date": "2018-08-24",
+            "terminal_date": "2018-09-10",
+            "index": 478
+          },
+          {
+            "signal_date": "2022-04-18",
+            "terminal_date": "2022-05-02",
+            "index": 1395
+          },
+          {
+            "signal_date": "2018-11-13",
+            "terminal_date": "2018-11-28",
+            "index": 534
+          },
+          {
+            "signal_date": "2022-03-03",
+            "terminal_date": "2022-03-17",
+            "index": 1364
+          },
+          {
+            "signal_date": "2018-07-06",
+            "terminal_date": "2018-07-20",
+            "index": 443
+          },
+          {
+            "signal_date": "2017-12-06",
+            "terminal_date": "2017-12-20",
+            "index": 298
+          },
+          {
+            "signal_date": "2021-10-12",
+            "terminal_date": "2021-10-26",
+            "index": 1266
+          },
+          {
+            "signal_date": "2022-06-08",
+            "terminal_date": "2022-06-23",
+            "index": 1431
+          },
+          {
+            "signal_date": "2020-07-29",
+            "terminal_date": "2020-08-12",
+            "index": 962
+          },
+          {
+            "signal_date": "2018-12-07",
+            "terminal_date": "2018-12-21",
+            "index": 550
+          },
+          {
+            "signal_date": "2019-10-23",
+            "terminal_date": "2019-11-06",
+            "index": 770
+          },
+          {
+            "signal_date": "2018-01-22",
+            "terminal_date": "2018-02-05",
+            "index": 328
+          }
+        ],
+        "diagnostic_counts": {
+          "n": 32,
+          "terminal_up": 20,
+          "terminal_plus5": 12,
+          "terminal_plus10": 5,
+          "high_plus5": 20,
+          "low_minus5": 11
+        },
+        "mae_improvement_year_block_ci95": [
+          -0.004729156957196521,
+          0.004214428556114874
+        ],
+        "mae_improvement_vs_zero": 0.0007894528101037298
+      }
+    }
+  },
+  "benchmarks": {
+    "QQQ": {
+      "price": 743.65,
+      "day_change": 0.007751422737918068
+    },
+    "SOXX": {
+      "price": 567.66,
+      "day_change": 0.00038770188504022585
+    },
+    "SMH": {
+      "price": 609.23,
+      "day_change": 0.0038391423499892774
+    },
+    "COHR": {
+      "price": 286.53,
+      "day_change": -0.019438046682778598
+    },
+    "LITE": {
+      "price": 964.855,
+      "day_change": -0.008870137670646261
+    }
+  },
+  "macro": {
+    "DFII10": {
+      "available": true,
+      "date": "2026-09-28",
+      "value": 2.9,
+      "source": "https://fred.stlouisfed.org/series/DFII10",
+      "prior20_date": "2026-08-28",
+      "prior20_value": 2.42,
+      "change20_bp": 48.0,
+      "return20_pct": null
+    },
+    "BAMLH0A0HYM2": {
+      "available": true,
+      "date": "2026-09-29",
+      "value": 3.08,
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "prior20_date": "2026-08-31",
+      "prior20_value": 2.63,
+      "change20_bp": 45.000000000000014,
+      "return20_pct": null
+    },
+    "DCOILBRENTEU": {
+      "available": true,
+      "date": "2026-09-29",
+      "value": 113.96,
+      "source": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "prior20_date": "2026-08-31",
+      "prior20_value": 89.75,
+      "change20_bp": null,
+      "return20_pct": 26.97493036211698
+    },
+    "CPILFESL": {
+      "available": true,
+      "date": "2026-08-01",
+      "value": 337.765,
+      "source": "https://fred.stlouisfed.org/series/CPILFESL",
+      "core3m_annual_pct": 1.9708388578664415,
+      "change_vs_prior_month_pp": 0.33187293295595666
+    }
+  }
+}

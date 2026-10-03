@@ -1,0 +1,17 @@
+{
+  "causal_prefix_pass": true,
+  "barrier_double_touch_stop_first": true,
+  "gap_stop_arithmetic": true,
+  "nonoverlap_20sessions": true,
+  "all_source_hashes": true,
+  "daily_cutoff": "2026-09-24",
+  "signal_count": 226,
+  "not_validated": [
+    "current win probability",
+    "intraday fills",
+    "independent untouched audit"
+  ],
+  "final_quote_sha256": "ec400734971e1adfcccd3d932dec12d85530fd21f91963f04392639e06c082b0",
+  "official_previous_close_denominators": true,
+  "ignored_inconsistent_fullday_fields": true
+}

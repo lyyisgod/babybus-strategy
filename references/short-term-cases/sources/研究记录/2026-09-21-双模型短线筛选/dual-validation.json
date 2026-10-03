@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "checks": [
+    "next-open future-close label arithmetic",
+    "logistic intercept known 20% prevalence",
+    "training outcomes end before 2023",
+    "incomplete current-session daily bars excluded",
+    "chronological forward outcomes"
+  ],
+  "not_validated": [
+    "premarket execution",
+    "historical point-in-time universe and macro vintages",
+    "causal influence of news",
+    "prospective live profitability"
+  ]
+}

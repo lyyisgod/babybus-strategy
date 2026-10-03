@@ -1,0 +1,93 @@
+[
+  {
+    "symbol": "AVAV",
+    "kind": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVAV?range=2y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.951979+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "AVAV",
+    "kind": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVAV?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.951624+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "AVAV",
+    "kind": "options",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/AVAV.json",
+    "retrieved_at": "2026-09-15T02:28:28.047948+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "KTOS",
+    "kind": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS?range=2y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.966571+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "KTOS",
+    "kind": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.954437+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "KTOS",
+    "kind": "options",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/KTOS.json",
+    "retrieved_at": "2026-09-15T02:28:28.027142+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "RCAT",
+    "kind": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCAT?range=2y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.940268+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "RCAT",
+    "kind": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCAT?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:27.966185+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "RCAT",
+    "kind": "options",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/RCAT.json",
+    "retrieved_at": "2026-09-15T02:28:28.236777+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "ONDS",
+    "kind": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONDS?range=2y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:28.093690+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "ONDS",
+    "kind": "5m",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONDS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:28.093277+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "ONDS",
+    "kind": "options",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/ONDS.json",
+    "retrieved_at": "2026-09-15T02:28:28.265381+00:00",
+    "status": "ok"
+  },
+  {
+    "symbol": "SPY",
+    "kind": "1d",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=2y&interval=1d&includePrePost=false&events=div%2Csplits",
+    "retrieved_at": "2026-09-15T02:28:28.125279+00:00",
+    "status": "ok"
+  }
+]

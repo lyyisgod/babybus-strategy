@@ -1,0 +1,23 @@
+{
+  "asof": "2026-09-17T17:10:17.075422+00:00",
+  "requests": [
+    {
+      "symbol": "CLS",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/CLS?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T17:10:17.218250+00:00"
+    },
+    {
+      "symbol": "LITE",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/LITE?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T17:10:17.274971+00:00"
+    },
+    {
+      "symbol": "ALAB",
+      "kind": "intraday",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=5d&interval=5m&includePrePost=true",
+      "fetched_at": "2026-09-17T17:10:17.233387+00:00"
+    }
+  ]
+}

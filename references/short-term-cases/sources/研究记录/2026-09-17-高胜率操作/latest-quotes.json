@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "LRCX",
+    "price": 268.66,
+    "quote_time": "2026-09-17T13:32:38-04:00",
+    "fetched_at": "2026-09-17T17:32:40.206111+00:00",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX?range=1d&interval=1m"
+  },
+  {
+    "symbol": "AMAT",
+    "price": 415.28,
+    "quote_time": "2026-09-17T13:32:20-04:00",
+    "fetched_at": "2026-09-17T17:32:40.329643+00:00",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT?range=1d&interval=1m"
+  }
+]

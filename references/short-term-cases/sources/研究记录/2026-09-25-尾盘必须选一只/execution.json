@@ -1,0 +1,36 @@
+{
+  "selected": "COHR",
+  "selection_type": "forced single candidate based on current entry fit, not highest tail rank",
+  "quote": {
+    "symbol": "COHR",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR?range=5d&interval=5m&includePrePost=false",
+    "observed_at": "2026-09-25T19:45:34.507835+00:00",
+    "sha256": "296ca101136d7fff991ab62a0b2d298474e8d19275f4fecc6459e30c69cb9b44",
+    "price": 296.245,
+    "quote_at": "2026-09-25T15:45:28-04:00",
+    "vwap_5m": 295.893730937268,
+    "last_complete_bar": "2026-09-25T15:40:00-04:00",
+    "last_two_closes": [
+      296.25,
+      295.9649963378906
+    ]
+  },
+  "entry_reference_zone": [
+    295,
+    299
+  ],
+  "entry_ceiling": 301,
+  "valid_session": "2026-09-25 regular session only",
+  "initial_thesis_invalidation_close": 285.6,
+  "time_failure": "Exit if 2026-09-30 regular close fails to exceed 301.77",
+  "maximum_exit_date": "2026-10-08 close",
+  "reference_repair_levels": [
+    321.52,
+    332.86
+  ],
+  "net20_price_at_reference": 356.08648999999997,
+  "new_execution_backtested": false,
+  "current_win_probability": null,
+  "absolute_high_probability_gate_passed": false,
+  "user_execution": null
+}

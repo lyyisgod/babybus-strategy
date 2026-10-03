@@ -1,0 +1,63 @@
+{
+  "frozen_at_utc": "2026-09-30T19:30:28.825808+00:00",
+  "scope": "Named AAOI diagnostic model repair, not broad survivor-only screening",
+  "new_final_audit": false,
+  "history_evaluation_already_seen": true,
+  "fit_excludes_2026_09_30_and_later": true,
+  "objective": "same original completed-close to 10-session-close log return / RV20 sqrt10; current intraday entry NOT calibrated",
+  "evaluation": "Same original 85 nonoverlapping dates from 2023, labels maturity j+10<=signal; no choose-best deployment",
+  "variants": [
+    "reduced_core",
+    "core_plus_W_structure",
+    "core_plus_W_structure_whitened"
+  ],
+  "core_features": [
+    "return20",
+    "distance_ma200",
+    "ATR14/close",
+    "relative_return20_QQQ",
+    "volume_ratio5_20"
+  ],
+  "structure_features": [
+    "two_valley_candidate",
+    "bottom_gap_ATR",
+    "neckline_prominence_ATR",
+    "recovery_from_right_low_ATR",
+    "close_location"
+  ],
+  "geometry_definition": {
+    "lookback": 40,
+    "right_valley_search_last": 5,
+    "left_pivot_one_bar_confirmation": true,
+    "min_valley_separation": 5,
+    "max_valley_separation": 30,
+    "left_selection": "most recent earlier confirmed local minimum within separation bounds; no outcome-dependent selection",
+    "no_W": "present=0 and structure numeric slots=0 means absent pattern, not imputed unknown market factors"
+  },
+  "model": {
+    "ridge_lambda": 100,
+    "neighbors": 32,
+    "neighbor_spacing": 11,
+    "ensemble": "50% ridge + 50% KNN median",
+    "training_scale": "median/IQR, clip +/-5",
+    "whitening": "training-only 80% covariance +20% diagonal covariance; symmetric eigen inverse sqrt, no result tuned weights",
+    "target_clip_train": [
+      -3,
+      3
+    ]
+  },
+  "execution_diagnostics": "completed-minute VWAP, last30m return and relative return, last30m/previous30m volume, 5m high/low improvement, timestamps; not part of daily fit or current win probability",
+  "costs": [
+    0.002,
+    0.004
+  ],
+  "intraday_probabilities": null,
+  "change_trials": 1,
+  "all_variants_reported": true,
+  "independent_future_audit_start": "2026-10-01; no future outcomes collected yet",
+  "input_hashes": {
+    "SOXX-daily.json": "85ac41ce55a3fd2b5c648c582431d51050dbaee60531b585c7d514f361e5c82e",
+    "AAOI-daily.json": "61625aaf52c6673dd59f8af58c74489b1da645b6ac59464297e55ed925d4f7d1",
+    "QQQ-daily.json": "2a3a956f035c510fd8e83818993125464dea440ffbfe335a53378e2fa06e6fc9"
+  }
+}

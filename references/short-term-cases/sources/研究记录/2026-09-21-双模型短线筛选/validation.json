@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "checks": [
+    "Wilder flat RSI",
+    "ATR constant range",
+    "same-bar stop first",
+    "gap stop slippage",
+    "gap target order",
+    "entry-auction high excluded",
+    "segment endpoint purge",
+    "cost deduction",
+    "split-price execution and ATR unadjustment"
+  ]
+}

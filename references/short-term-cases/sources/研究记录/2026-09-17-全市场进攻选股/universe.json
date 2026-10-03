@@ -1,0 +1,44 @@
+{
+  "fixed_before_fetch": true,
+  "asof": "2026-09-17T16:43:02.331681+00:00",
+  "groups": {
+    "compute_memory": "NVDA AVGO AMD MU SNDK MRVL ALAB TSM WDC STX",
+    "connectivity_equipment": "CRDO LITE COHR AAOI AMAT LRCX KLAC ONTO CAMT TER SMTC VICR",
+    "ai_infra_power": "CLS FN VRT NBIS CRWV IREN BE GEV ETN CEG VST",
+    "other_growth": "RKLB ASTS PLTR IOVA ABCL CDNA TEAM AMPL RNG ATRC PBF"
+  },
+  "etfs": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "RSP",
+    "SMH",
+    "SOXX",
+    "IGV",
+    "XBI",
+    "XHE",
+    "XLK",
+    "XLF",
+    "XLE",
+    "XLI",
+    "XLU",
+    "XLY",
+    "XLP",
+    "XLV",
+    "XLB",
+    "XLRE",
+    "XLC",
+    "TLT",
+    "IEF",
+    "HYG",
+    "LQD"
+  ],
+  "macro": [
+    "^VIX",
+    "^TNX",
+    "DX-Y.NYB",
+    "BZ=F",
+    "GC=F"
+  ],
+  "purpose": "Purposive growth universe, not all listed equities; comparison groups not independent."
+}

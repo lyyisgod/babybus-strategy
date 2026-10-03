@@ -1,0 +1,9 @@
+{
+  "asof": "2026-09-21T12:56:30.177344+00:00",
+  "objective": "Forced one-name comparison of frozen next-day +5% target, not reversal of original no-buy decision",
+  "bootstrap_replicates": 120,
+  "seed": 9212026,
+  "resampling": "Calendar-month blocks, all stocks jointly, training <=2022 only; same fixed train feature scaling and ridge 0.01",
+  "comparison": "All 49 current stocks. No changes to model labels, weights or shortlist based on bootstrap output.",
+  "limitations": "Conditional fitting uncertainty only: excludes calibration error, new information, model misspecification and survivor universe. First-place frequency is not trade success probability."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2026-10-02-archive-APLD-IREN-Oct1",
+  "archived_at": "2026-10-02T10:40:57.036231-04:00",
+  "research_date": "2026-10-01",
+  "symbols": [
+    "APLD",
+    "IREN"
+  ],
+  "user_feedback": {
+    "at_date": "2026-10-02",
+    "quote": "兄弟你很厉害，你昨天建模分析出apld和iren，记录一下，存档一下",
+    "type": "user_recognition_not_verified_return"
+  },
+  "original_decisions": {
+    "intraday": {
+      "at": "2026-10-01T15:33:15.222981-04:00",
+      "relative_first": "APLD",
+      "price_shape_first": "IREN"
+    },
+    "twenty_session": {
+      "at": "2026-10-01T16:45:01.474395-04:00",
+      "relative_first": "APLD"
+    },
+    "overnight": {
+      "at": "2026-10-01T21:57:06.257496-04:00",
+      "relative_first": "IREN",
+      "mechanical_price_first": "CIFR"
+    }
+  },
+  "sources": [
+    "研究记录/2026-10-01-Babybus低涨幅次日机会",
+    "研究记录/2026-10-01-APLD-IREN次日风险概率",
+    "研究记录/2026-10-01-Babybus二十日候选",
+    "研究记录/2026-10-01-夜盘Babybus全面筛选"
+  ],
+  "current_probability_certified": false,
+  "actual_user_execution": null,
+  "subsequent_market_evidence": [],
+  "realized_user_return": null,
+  "market_outcome_status": "not_verified_in_this_archive_task",
+  "archive_manifest": "研究记录/2026-10-02-APLD-IREN昨日建模存档/存档清单.json",
+  "original_reports_unchanged": true
+}

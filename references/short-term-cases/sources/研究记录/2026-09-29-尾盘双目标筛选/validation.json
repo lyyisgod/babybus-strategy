@@ -1,0 +1,18 @@
+{
+  "requested": 120,
+  "received": 120,
+  "errors": [],
+  "complete_daily_date": [
+    "2026-09-28"
+  ],
+  "ranking_unchanged": true,
+  "current_daily_not_used": true,
+  "probability_certified": false,
+  "wilson_check": true,
+  "raw_hashes_checked": 124,
+  "quote_timestamps_not_future": true,
+  "ranking_hash_unchanged": true,
+  "target_and_risk_arithmetic": true,
+  "score_coverage_checked": true,
+  "mu_readthrough_present": true
+}

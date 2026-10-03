@@ -1,0 +1,28 @@
+{
+  "model_status": "model_abstains",
+  "direction_weight": 0,
+  "model_buy_veto": false,
+  "certified_current_win_probability": null,
+  "left_setup_state": "confirmed",
+  "left_entry_requires_neckline_breakout": false,
+  "intraday_weakness_alone_vetoes_left_entry": false,
+  "current_price_old93_110_plan": {
+    "entry": 105.27,
+    "stop": 93,
+    "target": 110,
+    "risk_pct": 0.11655742376745508,
+    "reward_pct": 0.04493207941483807,
+    "reward_risk": 0.38549307253463777,
+    "ideal_binary_breakeven_with_cost": 0.7341494117647056,
+    "actual_expected_return": null,
+    "risk_budget_shares_formula": "floor(allowed_loss / (entry - stop))",
+    "gap_slippage_can_exceed_budget": true,
+    "note": "Geometry alone proves neither positive expectation nor a universal entry threshold; binary breakeven excludes timeouts and gaps."
+  },
+  "user_loss_budget_fraction": 0.05,
+  "full_position_old_stop_within_budget": false,
+  "ideal_budget_position_fraction_cap": 0.4217365594757921,
+  "cap_is_not_recommendation_and_excludes_gap_overshoot": true,
+  "entry_decision": "assess_left_structure_and_execution_risk_separately",
+  "automatic_order": false
+}

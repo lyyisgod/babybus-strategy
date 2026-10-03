@@ -50,4 +50,4 @@ python3 -m venv .venv
 
 作者点位独立存于 `macro_regime/config.py`，as_of=2026-09-30，之后 63 个 NYSE 交易日有效，第 64 日作者组合永久关闭。过期不影响统计腿；MOVE 代理时作者组合关闭。AVGO/SLV/BWXT/APP 加仓参考仅展示，不进入状态机。
 
-原 v1.1 Python 文件逐字保留，SHA256 清单在 [docs/frozen_v1_1.sha256](docs/frozen_v1_1.sha256)。本仓库只包含策略源码、规则说明、格式示例和合成测试，不包含账户信息、实际交易、行情缓存或个人研究记录。
+原 v1.1 Python 文件逐字保留，SHA256 清单在 [docs/frozen_v1_1.sha256](docs/frozen_v1_1.sha256)。本仓库包含策略源码、规则说明、格式示例、合成测试，以及[历史短线案例参考](references/short-term-cases/README.md)。参考资料保留原建议、失败与事后结果，个人账户信息已脱敏；这些旧研究不计入 v1.1 的纸面 N。

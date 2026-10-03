@@ -1,0 +1,7 @@
+{
+  "asof": "2026-09-17T16:30:17.400573+00:00",
+  "errors": {},
+  "analogue_n": 36,
+  "analogue_trend_success": 8,
+  "warning": "Descriptive, survivorship and screenshot selection bias; correlated symbols. Not calibrated current-stock probabilities. Historical signal thresholds fixed before first run; high definition corrected from ATH to rolling 52w during QA. Entry gates designed after inspecting current data and not validated. No fit; cost 20 bp round trip; no stop modeled."
+}

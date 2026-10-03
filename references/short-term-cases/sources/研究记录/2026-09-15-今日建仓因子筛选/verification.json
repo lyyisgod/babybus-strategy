@@ -1,0 +1,33 @@
+{
+  "checks": "passed",
+  "numeric_checks": [
+    "RSI increasing/decreasing/flat/reference example",
+    "AUC perfect/tied",
+    "logistic monotonic synthetic/constant feature"
+  ],
+  "snapshot_count": 117,
+  "quarantined_ohlc_invalid": [
+    "OXY"
+  ],
+  "historical_large_returns_for_disclosure": [
+    {
+      "symbol": "ASTS",
+      "max_abs_daily_adjusted_return": 0.6923078024158558
+    },
+    {
+      "symbol": "IREN",
+      "max_abs_daily_adjusted_return": 0.6699219495785673
+    },
+    {
+      "symbol": "^VIX",
+      "max_abs_daily_adjusted_return": 0.7403907396600702
+    },
+    {
+      "symbol": "APLD",
+      "max_abs_daily_adjusted_return": 1.0
+    }
+  ],
+  "rows_min": 368,
+  "rows_max": 1258,
+  "probability_interpretation": "unapproved for current probability; chronological backtest reported separately"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_analog_labels": 360,
+  "checks": [
+    "nearest exact match",
+    "outcomes do not influence neighbors",
+    "no incomplete current daily bar",
+    "Thu/Fri/Mon dates and holiday exclusions",
+    "raw price return labels",
+    "fee subtraction",
+    "Brier recomputation",
+    "next trading day Sep21",
+    "NBIS predecessor absent"
+  ],
+  "limitations": "Does not establish causal edge, probability calibration or efficacy of live-Friday filters, entry band or exits."
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-01T19:33:15.222981+00:00",
+  "checks": [
+    "original config/universe unchanged: config/bb_washout_bounce.yaml",
+    "original config/universe unchanged: config/bb_universe.json",
+    "161 reused/fresh daily raw snapshots SHA256verified",
+    "6 publication snapshots SHA256verified",
+    "incomplete today/week excluded",
+    "72 complete5m bars,20prior completeclock references",
+    "independent revenue/volumegate/pricevsVWAPsanity",
+    "actual entry example target/stop numerical identity"
+  ],
+  "functional_success": true,
+  "investment_probability_validated": false
+}

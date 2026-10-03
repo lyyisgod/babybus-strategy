@@ -1,0 +1,37 @@
+{
+  "status": "model_abstains",
+  "forecast_interpretation_weight": 0,
+  "model_point_may_lead_decision": false,
+  "standalone_buy_veto": false,
+  "standalone_buy_approval": false,
+  "certified_current_win_probability": null,
+  "mae_relative_to_baseline": null,
+  "reasons": [
+    "missing_or_incomparable_evaluation",
+    "reliable_improvement_not_established",
+    "entry_time_horizon_or_execution_not_validated",
+    "no_untouched_audit"
+  ],
+  "market_direction": null,
+  "note": "Model abstention says nothing about market direction. Risk and the user trade plan require separate assessment.",
+  "classifier_evidence": {
+    "kind": "binary classifier; return MAE helper cannot be populated with Brier or netprofit",
+    "brier_baseline_minus_model_ci95": [
+      0.0033109065241097167,
+      0.006902006871292553
+    ],
+    "selected_mean_net": -0.025742780481790017,
+    "selected_mean_net_ci95": [
+      -0.03519125394021041,
+      -0.016294307023369634
+    ],
+    "model_minus_pool_net_ci95": [
+      -0.025682662980185483,
+      -0.009384223578380391
+    ],
+    "independent_signals": 15,
+    "profitability_certified": false
+  },
+  "relative_rank_is_not_live_probability": true,
+  "current_choice_basis": "Independent current price-volume and source-verified company evidence; no model probability or directional weight"
+}

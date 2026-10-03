@@ -1,0 +1,11 @@
+{
+  "target_before_stop": true,
+  "stop_before_target": true,
+  "same_bar_conservative": true,
+  "gap_below_stop": true,
+  "timeout": true,
+  "last_completed_mature_nonoverlap": true,
+  "partial_today_proxy_mature_nonoverlap": true,
+  "binary_math": true,
+  "no_current_probability_certification": true
+}

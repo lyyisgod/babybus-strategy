@@ -1,0 +1,15 @@
+{
+  "^MOVE": {
+    "observed_at": "2026-10-01T09:30:00-04:00",
+    "value": 108.12519836425781,
+    "previous_close": 110.44999694824219,
+    "change_pct": -2.104842596848411,
+    "source": "https://finance.yahoo.com/quote/^MOVE/",
+    "validation": "latest scalar closes only; full OHLC rejected by strict loader",
+    "full_history_error": "OHLCV 不合法"
+  },
+  "BTC-USD": {
+    "status": "not incorporated",
+    "reason": "missing daily bars/OHLC validation failure; crypto trades24/7; no manufactured latest daily return"
+  }
+}

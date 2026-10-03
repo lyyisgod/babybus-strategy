@@ -1,0 +1,80 @@
+[
+  {
+    "symbol": "APLD",
+    "session": "2026-10-02",
+    "open": 25.12,
+    "high": 26.85,
+    "low": 24.82,
+    "close": 25.38,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/apld/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+    "observed_date": "2026-10-03"
+  },
+  {
+    "symbol": "IREN",
+    "session": "2026-10-02",
+    "open": 41.87,
+    "high": 43.91,
+    "low": 40.95,
+    "close": 41.76,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/iren/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+    "observed_date": "2026-10-03"
+  },
+  {
+    "symbol": "COHR",
+    "session": "2026-10-02",
+    "open": 316.57,
+    "high": 338.36,
+    "low": 315.43,
+    "close": 337.04,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/cohr/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+    "observed_date": "2026-10-03"
+  },
+  {
+    "symbol": "SCHL",
+    "session": "2026-09-25",
+    "open": 29.88,
+    "high": 33.7,
+    "low": 29.88,
+    "close": 32.35,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/schl/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+    "observed_date": "2026-10-03"
+  },
+  {
+    "symbol": "LITE",
+    "session": "2026-10-02",
+    "open": 1053.26,
+    "high": 1091.61,
+    "low": 1037.24,
+    "close": 1085.42,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/lite/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "observed_date": "2026-10-03",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应"
+  },
+  {
+    "symbol": "AAOI",
+    "session": "2026-10-02",
+    "open": 110.25,
+    "high": 117.7,
+    "low": 106.32,
+    "close": 115.59,
+    "complete": true,
+    "source_url": "https://stockanalysis.com/stocks/aaoi/history/",
+    "provider": "S&P Global via StockAnalysis",
+    "observed_date": "2026-10-03",
+    "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应"
+  }
+]

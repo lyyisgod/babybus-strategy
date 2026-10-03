@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "WDAY",
+    "signal_date": "2026-09-22",
+    "close": 188.22999572753906,
+    "rsi2": 19.97445456984387,
+    "return3_pct": -5.54496342806371,
+    "atr14": 8.685989943206186,
+    "next_close_auction_ceiling": 192.57299069914217,
+    "note": "Original LRCX entry is next regular close auction and hold up to 20 sessions; not tomorrow premarket-to-intraday target"
+  },
+  {
+    "symbol": "CRM",
+    "signal_date": "2026-09-22",
+    "close": 233.27999877929688,
+    "rsi2": 3.303311128617622,
+    "return3_pct": -3.9407070552592516,
+    "atr14": 9.547883849169343,
+    "next_close_auction_ceiling": 238.05394070388155,
+    "note": "Original LRCX entry is next regular close auction and hold up to 20 sessions; not tomorrow premarket-to-intraday target"
+  },
+  {
+    "symbol": "MLKN",
+    "signal_date": "2026-09-22",
+    "close": 20.290000915527344,
+    "rsi2": 7.865885736085588,
+    "return3_pct": -4.0661877943934055,
+    "atr14": 0.8849289028199729,
+    "next_close_auction_ceiling": 20.73246536693733,
+    "note": "Original LRCX entry is next regular close auction and hold up to 20 sessions; not tomorrow premarket-to-intraday target"
+  },
+  {
+    "symbol": "FDX",
+    "signal_date": "2026-09-22",
+    "close": 295.94000244140625,
+    "rsi2": 12.34973816951144,
+    "return3_pct": -3.2496411281327187,
+    "atr14": 7.332639541344696,
+    "next_close_auction_ceiling": 299.6063222120786,
+    "note": "Original LRCX entry is next regular close auction and hold up to 20 sessions; not tomorrow premarket-to-intraday target"
+  }
+]

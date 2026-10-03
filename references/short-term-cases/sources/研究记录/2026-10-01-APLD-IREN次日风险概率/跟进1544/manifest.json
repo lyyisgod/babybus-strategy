@@ -1,0 +1,10 @@
+[
+  {
+    "symbol": "APLD",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/APLD?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T19:43:49.498411+00:00",
+    "sha256": "8decad582b756dc41e81ec0d8bd7746fce220c6715e6ecc78c62f8bf2920d4ae"
+  }
+]

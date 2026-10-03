@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-10-02-babybus-entry-add-1500",
+  "as_of": "2026-10-02T19:04:43.215078+00:00",
+  "quote_window": "15:02 EDT; AVGO additional15:03 EDT",
+  "scope": 154,
+  "strict_babybus_3day_last_completed_signals": 0,
+  "strict_daily_signal_source": "研究记录/2026-10-02-Babybus次日筛选-1438更新/strict-original/signals.csv",
+  "strict_daily_session": "2026-10-01",
+  "weekly_credit": "OFF",
+  "relative_watch_first": "AAOI",
+  "immediate_qualified_new_buy": false,
+  "reason": "creditOFF;AAOI exceeds existingcap;other washout candidates intradayweak",
+  "user_current_holding_confirmed": [
+    "AVGO"
+  ],
+  "current_avgo_shares_cost_weight_options": "unknown; prior120shares/optionsrecord not current confirmation",
+  "AVGO": {
+    "add_now": false,
+    "existing_holding_sell_signal": false,
+    "strict_three_day_excluded": true,
+    "lrcx_eligible": false,
+    "current_probability": null,
+    "watch_support": [
+      353.2,
+      354.45
+    ],
+    "nearby_upside_reference": 357.35,
+    "broader_intraday_failure_reference": 347.42,
+    "independent_tactical_watch_only": true
+  },
+  "current_probability": null,
+  "opportunity_score": null,
+  "coverage_pct": 20,
+  "actual_user_new_trade": "unknown",
+  "outcome": "unmatured",
+  "orders_placed": false
+}

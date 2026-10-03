@@ -1,0 +1,111 @@
+{
+  "frozen_at": "2026-09-30T17:55:16.970204+00:00",
+  "decision_date": "2026-09-30",
+  "target_date": "2026-10-14",
+  "horizon": 10,
+  "endpoint_definition": "10 subsequent full Nasdaq equity sessions, excludes Sep30 remainder, gross terminal close return; Oct12 equities open",
+  "training_label": "ln(close[t+10]/close[t]) divided by current rv20*sqrt(10)",
+  "historical_signal": "completed regular closing daily bar",
+  "current_query": "Sep30 partial OHLC and last quote, proxy only; cannot calibrate exact intraday entry probability",
+  "features": [
+    "return5",
+    "return20",
+    "distance_ma20",
+    "distance_ma200",
+    "RSI14/100",
+    "ATR14/close",
+    "distance_low20"
+  ],
+  "models": {
+    "ridge": {
+      "lambda": 100,
+      "scale": "training-only median and IQR, standardized feature clipping +/-5",
+      "target_clip_train": [
+        -3,
+        3
+      ],
+      "intercept": "unpenalized"
+    },
+    "knn": {
+      "n": 32,
+      "selection": "equal Euclidean distance in same training-only scale; signal spacing >=11 sessions",
+      "point": "median volatility-normalized terminal log return"
+    },
+    "primary_point": "equal 50/50 ridge and knn median, predefined; no weight selection by evaluation",
+    "baseline": "zero log return"
+  },
+  "evaluation": {
+    "start": "2023-01-01",
+    "frequency_sessions": 11,
+    "training_maturity": "all labels end on or before completed query signal date; expanding fit",
+    "no_hyperparameter_search": true,
+    "not_untouched_audit": true,
+    "metrics": [
+      "MAE_log",
+      "RMSE_log",
+      "direction_accuracy",
+      "per_year",
+      "normalized empirical residual bands"
+    ]
+  },
+  "prediction_bands": "equal ensemble log point plus 2023-2026 walk-forward empirical normalized residual quantiles [.1,.25,.5,.75,.9] times current rv20*sqrt10; reference bands, no certified coverage",
+  "analogue_paths": "same32 neighbors; 1..10 sessions close/high/low paths volatility-rescaled to current rv20; separate raw historical counts and path-stop outcomes; no assert daily ordering",
+  "execution_context": {
+    "stop": 93,
+    "target": 110,
+    "cost": 0.002,
+    "double_cost": 0.004,
+    "stop_gap": "actual open",
+    "target_gap": "limit",
+    "samebar": "stop first",
+    "current_remaining_day": "not modeled; might trigger stop before first full future session"
+  },
+  "limitations": [
+    "single named survivor ticker and regime changes",
+    "current partial-bar vs historical full-close proxy mismatch",
+    "no current option term structure or order book",
+    "future announcements unknown",
+    "no calibrated objective probability"
+  ],
+  "input_hashes": {
+    "AVGO-live.json": "88c20c73d7b5deee826445d8a40a23856bba0023a7bc591506a80fae34b4f2d0",
+    "SMH-daily.json": "79e68d20486a74669d068bf3452bb73605057e9ea4a1358c5f26100c7996de0f",
+    "SOXX-daily.json": "5895f3877b72a6c0e2a666170c264d353b7daabdeeca7726a8f422682ad44790",
+    "AAOI-daily.json": "0097960487b3f3d7f7059338889a01bc9a70ef6b07230c9ce4e8bac5de0460f8",
+    "AVGO-options.json": "13518b4d7de7950d54378ac8c57228c28a653ed7e260cf7afbc3329c2621c8cc",
+    "LITE-daily.json": "643e976e5712eb7079a6ac326343b73177fcccee4300eaaecd37e8d36038a9bd",
+    "AAOI-live.json": "56825dee3c24c3022e896e7b33f50c8ae9e1c1ccf723fdd4f6da9f45571d3850",
+    "AVGO-daily.json": "08e7a7a6374c1229370303df2bb590db2e2f73dece723bfe6480954ff4e66909",
+    "AAOI-options.json": "46ae3d743720e8b1a107057511ecea2bf5aab61fba44231f33962ecf5b7f773d",
+    "QQQ-daily.json": "524b81d7951cb8a07e4213855af6d859c473d55a211171eb95f4da41cc270520",
+    "COHR-daily.json": "eaac5afad900434b337b5fa9663b83ef3f00d5cce027476cab2a7ac8d6a08c34"
+  },
+  "symbols": [
+    "AAOI",
+    "AVGO"
+  ],
+  "quotes": {
+    "AAOI": {
+      "price": 98.92,
+      "epoch": 1790790834
+    },
+    "AVGO": {
+      "price": 353.43,
+      "epoch": 1790790834
+    }
+  },
+  "scope": "Same10-session models for both named stocks; latest supplementary price/volume, benchmark RS, beta, volatility, options and macro diagnostic factors kept outside historical model, no hand-adjusted odds",
+  "model_source": "研究记录/2026-09-30-AAOI十交易日走势/protocol.json",
+  "options": "Delayed public Cboe; own30calendar-day ATM IV via nearest strike valid call+put average and totalvariance interpolation between expiries; label proxy, no yearly IV percentile",
+  "AVGO_diagnostic_thresholds": {
+    "terminal_gross": [
+      0,
+      0.05,
+      0.1
+    ],
+    "intraperiod_high": 0.05,
+    "intraperiod_low": -0.05,
+    "not_trade_stop_target": true
+  },
+  "macro_method": "20 Nasdaq sessions prior, dates aligned with Yahoo QQQ complete session index; latest observation/availability logged; macro diagnostics not historic regression input"
+}

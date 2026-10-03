@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-10-02T19:03:12.888671+00:00",
+  "requested": 154,
+  "fresh_rows": 154,
+  "errors": {},
+  "hashchecks": {
+    "研究记录/2026-10-02-Babybus建仓加仓-1500更新/live-raw": true,
+    "研究记录/2026-10-02-Babybus次日筛选-1438更新/daily-raw": true,
+    "研究记录/2026-10-02-Babybus次日筛选-1438更新/shortlist-raw": true
+  },
+  "daily_unchanged_since_completed_session": true,
+  "partial_bars_excluded": true,
+  "same_clock_reference_uses_only_prior_sessions": true,
+  "statistical_validation": false,
+  "orders_placed": false,
+  "avgo_history_hashes": true,
+  "strict_completed_signals_verified": 0,
+  "zero_volume_proxy_vwap": null,
+  "corrected_zero_volume_no_false_boolean": true
+}

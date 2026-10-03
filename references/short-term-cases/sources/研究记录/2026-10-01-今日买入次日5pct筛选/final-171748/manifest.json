@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "COHR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COHR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.707675+00:00",
+    "sha256": "2b90723703212b18166243aa938a674a6dc10d3d57753f8ca5a93140dec3b72c"
+  },
+  {
+    "symbol": "LITE",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LITE?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.753573+00:00",
+    "sha256": "41cfe469c6644c628c1f589c2108a73089051e67fa4037d90b83af6721caee51"
+  },
+  {
+    "symbol": "AAOI",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAOI?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.706905+00:00",
+    "sha256": "b6fcbef942709840cee75577203e4b2acd83a1545fa2476f0842ffbdc02a31f3"
+  },
+  {
+    "symbol": "VICR",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VICR?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.712677+00:00",
+    "sha256": "84bc0aabd9425ec4236728712a85e4bd1a7421dcdd14d94f37d33741666bb6e8"
+  },
+  {
+    "symbol": "CRDO",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRDO?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.906753+00:00",
+    "sha256": "63a820420877d015f7da2f421ebc0501577a0b01b26ec439a595e0389100a085"
+  },
+  {
+    "symbol": "VKTX",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VKTX?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.906929+00:00",
+    "sha256": "a9681b342127ff45e25373f37768fd2d33621fa91d67374495eaab59f16eeb8f"
+  },
+  {
+    "symbol": "WULF",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WULF?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.919767+00:00",
+    "sha256": "7e29d7fa55efbd3ee098b37a1bd34e84a63e2f122b819184aa5b68d0a1e6e236"
+  },
+  {
+    "symbol": "QQQ",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:48.918600+00:00",
+    "sha256": "3bfcd7375f4a732fedca3c794a511f4835cd6273bea218402f413ba8c43fc25d"
+  },
+  {
+    "symbol": "SOXX",
+    "mode": "live",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXX?range=1d&interval=1m&includePrePost=true",
+    "ok": true,
+    "fetched_at": "2026-10-01T17:17:49.023057+00:00",
+    "sha256": "f457784008214a49307740b1024005fc3c5e6c64a6fc48c0a97e433d75a2572a"
+  }
+]

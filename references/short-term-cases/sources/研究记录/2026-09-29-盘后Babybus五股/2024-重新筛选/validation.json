@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "frozen_coefficient_sha256": "7c838b708caffed1a285d40396e011fd2e27d0c4ce06eea3e8f925aae50aff56",
+  "loaded": 121,
+  "eligible": 117,
+  "errors": [],
+  "checks": [
+    "all stock daily features end Sep29",
+    "feature prefix causality for six selected/event names",
+    "frozen model fingerprint unchanged",
+    "finite calibrated ensemble scores",
+    "nested targets"
+  ],
+  "not_validated": [
+    "live overnight executable quotes",
+    "next-day event outcome",
+    "current-night entry probability"
+  ]
+}

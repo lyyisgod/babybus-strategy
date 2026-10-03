@@ -1,0 +1,2397 @@
+{
+  "audit_id": "2026-10-03-published-next-session-picks-audit",
+  "as_of": "2026-10-03T08:10:08-04:00",
+  "scope": "本地已保存的美股隔夜/下一常规盘相对首选，非全部未保存对话；备选、不同持有期和缺证案例分列。",
+  "protocol": {
+    "unit": "同一股票、同一目标常规交易日合并；不同股票/目标交易日各计一次",
+    "selection": "原文显式综合/单一/量价首选；包括未过绝对买入门槛的相对首选，不据结果删除失败",
+    "reference": "该股票成为该目标盘首选时的第一份已定位报告报价；保留后续报价及假设限价敏感度",
+    "IREN_reference": "下午40.18为形态首选、夜盘40.81为综合首选；主表采用后者，前者另列",
+    "thresholds_pct": [
+      5,
+      10
+    ],
+    "formula": "目标常规盘high或close / 原推荐报价 - 1",
+    "excluded_from_main_rate": [
+      "仅备选观察篮子",
+      "旧收盘/日期不明且未取得当晚报价",
+      "10–20日等不同期限",
+      "当时主要劝等待的错失机会",
+      "目标盘未到期",
+      "原始推荐未定位"
+    ],
+    "execution": "不推定已成交、止盈先于止损、已扣费用或实际赚到；本统计不验证策略未来胜率",
+    "market_data": "10/1及以前用保存Yahoo完整日表；10/2必须用本次浏览已收盘日表，不用昨天盘中日K"
+  },
+  "summary_primary": {
+    "n": 16,
+    "touch5": {
+      "hits": 7,
+      "misses": 9,
+      "rate_pct": 43.75
+    },
+    "touch10": {
+      "hits": 2,
+      "misses": 14,
+      "rate_pct": 12.5
+    },
+    "close5": {
+      "hits": 5,
+      "misses": 11,
+      "rate_pct": 31.25
+    },
+    "close10": {
+      "hits": 1,
+      "misses": 15,
+      "rate_pct": 6.25
+    }
+  },
+  "summary_secondary": {
+    "n": 15,
+    "touch5": {
+      "hits": 5,
+      "misses": 10,
+      "rate_pct": 33.333333333333336
+    },
+    "touch10": {
+      "hits": 1,
+      "misses": 14,
+      "rate_pct": 6.666666666666667
+    },
+    "close5": {
+      "hits": 4,
+      "misses": 11,
+      "rate_pct": 26.666666666666668
+    },
+    "close10": {
+      "hits": 1,
+      "misses": 14,
+      "rate_pct": 6.666666666666667
+    }
+  },
+  "summary_primary_plus_secondary": {
+    "n": 31,
+    "touch5": {
+      "hits": 12,
+      "misses": 19,
+      "rate_pct": 38.70967741935484
+    },
+    "touch10": {
+      "hits": 3,
+      "misses": 28,
+      "rate_pct": 9.67741935483871
+    },
+    "close5": {
+      "hits": 9,
+      "misses": 22,
+      "rate_pct": 29.032258064516128
+    },
+    "close10": {
+      "hits": 2,
+      "misses": 29,
+      "rate_pct": 6.451612903225806
+    }
+  },
+  "coverage": {
+    "discovery_shortlist_documents": 142,
+    "recorded_cases": 38,
+    "matured_primary": 16,
+    "pending_primary": 2,
+    "secondary": 15,
+    "missing_entry_quote": 2,
+    "original_not_located": 1,
+    "limits": "检索本地资料不能保证涵盖所有历史对话；没有逐笔买卖成交记录。"
+  },
+  "cases": [
+    {
+      "case_id": "2026-09-09-WDC-primary",
+      "symbol": "WDC",
+      "decision_date": "2026-09-09",
+      "target_session": "2026-09-10",
+      "reference_price": 487.24,
+      "source_report": "研究输出/2026-09-09-次日建仓/今日建仓与次日弹性.md",
+      "selection_role": "primary",
+      "original_advice": "隔夜战术观察首选；低吸区477–481，当前价不追。",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "quote_time_note": "原文11:24–11:26快照，分钟截到11:25",
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": -3.285855020113293,
+        "close_return_pct": -5.399802971841394,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 466.61,
+        "high": 471.23,
+        "low": 456.75,
+        "close": 460.93,
+        "symbol": "WDC",
+        "session": "2026-09-10",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/WDC.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949796
+      },
+      "previous_session_close": 482.28,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": -2.2912001327029863,
+        "close_return_pct": -4.426888944181795,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-17-LITE-primary",
+      "symbol": "LITE",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-17",
+      "reference_price": 929,
+      "source_report": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "selection_role": "primary",
+      "original_advice": "00:13夜盘研究，目标是尚未开盘的9/17，不能错算9/18；参考为前晚盘后末笔，非当前夜盘可执行价。",
+      "entry_cap": 928,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "quote_time_note": "原文9/16约19:58–20:00盘后，已逾4小时",
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 1.7222820236813874,
+        "close_return_pct": -3.809472551130244,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 934.88,
+        "high": 945.0,
+        "low": 886.1,
+        "close": 893.61,
+        "symbol": "LITE",
+        "session": "2026-09-17",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LITE",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/LITE.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949793
+      },
+      "previous_session_close": 919.4,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 2.7844246247552773,
+        "close_return_pct": -2.8050902762671304,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 1.8318965517241326,
+        "close_return_pct": -3.705818965517238,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-18-NBIS-primary",
+      "symbol": "NBIS",
+      "decision_date": "2026-09-18",
+      "target_session": "2026-09-21",
+      "reference_price": 220.725,
+      "source_report": "研究记录/2026-09-18-Babybus周末交易/周末交易结论.md",
+      "selection_role": "primary",
+      "original_advice": "周末战术首选；220–222小额条件买入。",
+      "entry_cap": 222,
+      "quote_at": "2026-09-18T13:56:02-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.808358817533145,
+        "close_return_pct": 5.470608222901818,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 225.96,
+        "high": 237.96,
+        "low": 221.3,
+        "close": 232.8,
+        "symbol": "NBIS",
+        "session": "2026-09-21",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/NBIS.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 223.54,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 6.450747069875651,
+        "close_return_pct": 4.142435358325147,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 7.189189189189182,
+        "close_return_pct": 4.86486486486486,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-21-VICR-primary",
+      "symbol": "VICR",
+      "decision_date": "2026-09-21",
+      "target_session": "2026-09-22",
+      "reference_price": 228.56,
+      "source_report": "研究记录/2026-09-21-双模型短线筛选/必须选一只/选择与执行.md",
+      "selection_role": "primary",
+      "original_advice": "盘前强制单选，允许限价≤230；用户明确未买。盘后252的新一轮推荐合并保留，不能说252买入也涨17%。",
+      "entry_cap": 230,
+      "quote_at": "2026-09-21T08:43:06-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+          "reference_price": 252,
+          "quote_at": "2026-09-21T16:52:32-04:00",
+          "entry_cap": 255,
+          "note": "盘后新的财务催化观察首选；回踩244–248方案，250–255不视为高置信买点"
+        }
+      ],
+      "actual_purchase": "user_confirmed_did_not_buy",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 17.54025201260061,
+        "close_return_pct": 17.40462023101155,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": true
+      },
+      "outcome_bar": {
+        "open": 241.04,
+        "high": 268.65,
+        "low": 229.2,
+        "close": 268.34,
+        "symbol": "VICR",
+        "session": "2026-09-22",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/VICR.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949764
+      },
+      "previous_session_close": 223.9,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 19.986601161232677,
+        "close_return_pct": 19.84814649397051,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": true
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 16.804347826086953,
+        "close_return_pct": 16.66956521739129,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": true
+      },
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+          "reference_price": 252,
+          "quote_at": "2026-09-21T16:52:32-04:00",
+          "entry_cap": 255,
+          "note": "盘后新的财务催化观察首选；回踩244–248方案，250–255不视为高置信买点",
+          "outcome": {
+            "high_return_pct": 6.607142857142856,
+            "close_return_pct": 6.48412698412697,
+            "touch5": true,
+            "close5": true,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-21-AAOI-primary",
+      "symbol": "AAOI",
+      "decision_date": "2026-09-21",
+      "target_session": "2026-09-22",
+      "reference_price": 109.63,
+      "source_report": "研究记录/2026-09-21-排除VICR必选一只/唯一选择与执行.md",
+      "selection_role": "primary",
+      "original_advice": "排除VICR后的相对首选；随后用户排除AAOI，保留此次选择。",
+      "entry_cap": 110,
+      "quote_at": "2026-09-21T17:08:25-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 1.0124965794034546,
+        "close_return_pct": -2.398978381829786,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 106.93,
+        "high": 110.74,
+        "low": 103.9,
+        "close": 107.0,
+        "symbol": "AAOI",
+        "session": "2026-09-22",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949790
+      },
+      "previous_session_close": 108.67,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 1.904849544492504,
+        "close_return_pct": -1.536762675991532,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 0.6727272727272693,
+        "close_return_pct": -2.7272727272727226,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-21-CRDO-primary",
+      "symbol": "CRDO",
+      "decision_date": "2026-09-21",
+      "target_session": "2026-09-22",
+      "reference_price": 186.78,
+      "source_report": "研究记录/2026-09-21-排除VICR必选一只/排除AAOI/CRDO选择.md",
+      "selection_role": "primary",
+      "original_advice": "排除AAOI/VICR后的综合首选；高置信门槛未过。",
+      "entry_cap": 188,
+      "quote_at": "2026-09-21T17:18:33-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 3.8655102259342433,
+        "close_return_pct": 3.09454973765928,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 183.68,
+        "high": 194.0,
+        "low": 183.17,
+        "close": 192.56,
+        "symbol": "CRDO",
+        "session": "2026-09-22",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/CRDO.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 187.27,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 3.5937416564318925,
+        "close_return_pct": 2.8247984193944475,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 3.1914893617021267,
+        "close_return_pct": 2.4255319148936083,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-21-ALAB-primary",
+      "symbol": "ALAB",
+      "decision_date": "2026-09-21",
+      "target_session": "2026-09-22",
+      "reference_price": 340.32,
+      "source_report": "研究记录/2026-09-21-排除VICR必选一只/恢复原模型/ALAB条件首选.md",
+      "selection_role": "primary",
+      "original_advice": "恢复原模型后的相对首选；夜盘/次晨刷新合并保留，不重复计数。",
+      "entry_cap": 342,
+      "quote_at": "2026-09-21T17:26:42-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+          "reference_price": 344.74,
+          "note": "21:42更新；不支持按344.74追买"
+        },
+        {
+          "source_report": "研究记录/2026-09-22-盘前下跌与AVGO/机会筛选/筛选结论.md",
+          "reference_price": 334.75,
+          "quote_at": "2026-09-22T08:45:18-04:00",
+          "note": "相同目标交易日的盘前刷新；仍非绝对买入确认"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 8.471438645980257,
+        "close_return_pct": 6.799482839680304,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 335.0,
+        "high": 369.15,
+        "low": 335.0,
+        "close": 363.46,
+        "symbol": "ALAB",
+        "session": "2026-09-22",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/ALAB.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949788
+      },
+      "previous_session_close": 340.74,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 8.337735516816336,
+        "close_return_pct": 6.66784058226213,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 7.938596491228056,
+        "close_return_pct": 6.274853801169589,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+          "reference_price": 344.74,
+          "note": "21:42更新；不支持按344.74追买",
+          "outcome": {
+            "high_return_pct": 7.080698497418325,
+            "close_return_pct": 5.430179265533441,
+            "touch5": true,
+            "close5": true,
+            "touch10": false,
+            "close10": false
+          }
+        },
+        {
+          "source_report": "研究记录/2026-09-22-盘前下跌与AVGO/机会筛选/筛选结论.md",
+          "reference_price": 334.75,
+          "quote_at": "2026-09-22T08:45:18-04:00",
+          "note": "相同目标交易日的盘前刷新；仍非绝对买入确认",
+          "outcome": {
+            "high_return_pct": 10.276325616131432,
+            "close_return_pct": 8.57654966392829,
+            "touch5": true,
+            "close5": true,
+            "touch10": true,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-22-VICR-primary",
+      "symbol": "VICR",
+      "decision_date": "2026-09-22",
+      "target_session": "2026-09-23",
+      "reference_price": 268.9,
+      "source_report": "研究记录/2026-09-22-隔夜至次日爆发/筛选结论.md",
+      "selection_role": "primary",
+      "original_advice": "相对首选，明确今晚/明早不买；按选股结果仍计入，失败也不因买入门槛失败删除。",
+      "entry_cap": null,
+      "quote_at": "2026-09-22T16:59:07-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+          "reference_price": 268.05,
+          "quote_at": "2026-09-22T19:59:00-04:00",
+          "note": "21:58夜盘更新仍第一，绝对门槛失败"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 6.150985496467087,
+        "close_return_pct": 5.303086649312028,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 266.5,
+        "high": 285.44,
+        "low": 261.94,
+        "close": 283.16,
+        "symbol": "VICR",
+        "session": "2026-09-23",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/VICR.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949764
+      },
+      "previous_session_close": 268.34,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 6.372512484161885,
+        "close_return_pct": 5.522844152940309,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+          "reference_price": 268.05,
+          "quote_at": "2026-09-22T19:59:00-04:00",
+          "note": "21:58夜盘更新仍第一，绝对门槛失败",
+          "outcome": {
+            "high_return_pct": 6.4875955978362265,
+            "close_return_pct": 5.637008020891621,
+            "touch5": true,
+            "close5": true,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-22-AAOI-primary",
+      "symbol": "AAOI",
+      "decision_date": "2026-09-22",
+      "target_session": "2026-09-23",
+      "reference_price": 106.9,
+      "source_report": "研究记录/2026-09-22-隔夜至次日爆发/非暴涨候选复筛.md",
+      "selection_role": "primary",
+      "original_advice": "排除近期暴涨后的唯一相对首选；明确不买。",
+      "entry_cap": null,
+      "quote_at": "2026-09-22T17:04:08-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+          "reference_price": 106.93,
+          "quote_at": "2026-09-22T17:10:57-04:00",
+          "note": "盘后复核仍未过绝对买入门槛"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 0.3928905519176684,
+        "close_return_pct": -5.463049579045842,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 106.6,
+        "high": 107.32,
+        "low": 100.42,
+        "close": 101.06,
+        "symbol": "AAOI",
+        "session": "2026-09-23",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949790
+      },
+      "previous_session_close": 107.0,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 0.29906542056075125,
+        "close_return_pct": -5.5514018691588785,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+          "reference_price": 106.93,
+          "quote_at": "2026-09-22T17:10:57-04:00",
+          "note": "盘后复核仍未过绝对买入门槛",
+          "outcome": {
+            "high_return_pct": 0.36472458617786696,
+            "close_return_pct": -5.489572617600302,
+            "touch5": false,
+            "close5": false,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-22-UMAC-primary",
+      "symbol": "UMAC",
+      "decision_date": "2026-09-22",
+      "target_session": "2026-09-23",
+      "reference_price": 24.102,
+      "source_report": "研究记录/2026-09-22-隔夜至次日爆发/强制单选-未大涨-UMAC.md",
+      "selection_role": "primary",
+      "original_advice": "进一步收紧未大涨条件后的强制单选；未过买入门槛。",
+      "entry_cap": null,
+      "quote_at": "2026-09-22T17:20:24-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 2.3981412330926766,
+        "close_return_pct": -5.858434984648575,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 23.82,
+        "high": 24.68,
+        "low": 22.62,
+        "close": 22.69,
+        "symbol": "UMAC",
+        "session": "2026-09-23",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/UMAC",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/UMAC.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949795
+      },
+      "previous_session_close": 24.03,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 2.704952143154382,
+        "close_return_pct": -5.576362879733665,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-24-SCHL-primary",
+      "symbol": "SCHL",
+      "decision_date": "2026-09-24",
+      "target_session": "2026-09-25",
+      "reference_price": 34.92,
+      "source_report": "研究记录/2026-09-24-次日涨5未暴涨筛选/研究结论.md",
+      "selection_role": "primary",
+      "original_advice": "财报前相对首选；绝对门槛未过，次日财报后下跌。",
+      "entry_cap": 35,
+      "quote_at": "2026-09-24T12:13:00-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": -3.4936998854524615,
+        "close_return_pct": -7.359679266895758,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "symbol": "SCHL",
+        "session": "2026-09-25",
+        "open": 29.88,
+        "high": 33.7,
+        "low": 29.88,
+        "close": 32.35,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/schl/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+        "observed_date": "2026-10-03"
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": -3.7142857142857033,
+        "close_return_pct": -7.571428571428562,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-28-AAOI-primary",
+      "symbol": "AAOI",
+      "decision_date": "2026-09-28",
+      "target_session": "2026-09-28",
+      "reference_price": 98.65,
+      "source_report": "研究记录/2026-09-28-夜盘次日暴涨筛选/研究结论.md",
+      "selection_role": "primary",
+      "original_advice": "周一01:35夜盘研究，目标为同日尚未开盘的周一常规盘；相对第一，明确不新增。",
+      "entry_cap": null,
+      "quote_at": "2026-09-28T01:31:16-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 3.831728332488593,
+        "close_return_pct": -1.8550430816016372,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 100.09,
+        "high": 102.43,
+        "low": 93.62,
+        "close": 96.82,
+        "symbol": "AAOI",
+        "session": "2026-09-28",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949790
+      },
+      "previous_session_close": 101.4,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 1.0157790927021626,
+        "close_return_pct": -4.516765285996072,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-09-29-ALAB-primary",
+      "symbol": "ALAB",
+      "decision_date": "2026-09-29",
+      "target_session": "2026-09-30",
+      "reference_price": 360.21,
+      "source_report": "研究记录/2026-09-29-尾盘双目标筛选/研究结论.md",
+      "selection_role": "primary",
+      "original_advice": "尾盘双目标首选，次日目标与20日目标分开；夜盘多次更新合并。",
+      "entry_cap": null,
+      "quote_at": "2026-09-29T15:14:00-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+          "reference_price": 361.39,
+          "entry_cap": 362.4,
+          "note": "盘后Babybus五股综合首选"
+        },
+        {
+          "source_report": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+          "reference_price": 359.58,
+          "entry_cap": 362.4,
+          "note": "20:24重新筛选仍首选"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 0.7745481802281962,
+        "close_return_pct": -1.1770911412786855,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 359.71,
+        "high": 363.0,
+        "low": 343.38,
+        "close": 355.97,
+        "symbol": "ALAB",
+        "session": "2026-09-30",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/ALAB.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949788
+      },
+      "previous_session_close": 357.84,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 1.4419852448021464,
+        "close_return_pct": -0.5225799239883644,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+          "reference_price": 361.39,
+          "entry_cap": 362.4,
+          "note": "盘后Babybus五股综合首选",
+          "outcome": {
+            "high_return_pct": 0.4455020891557693,
+            "close_return_pct": -1.4997647970336647,
+            "touch5": false,
+            "close5": false,
+            "touch10": false,
+            "close10": false
+          }
+        },
+        {
+          "source_report": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+          "reference_price": 359.58,
+          "entry_cap": 362.4,
+          "note": "20:24重新筛选仍首选",
+          "outcome": {
+            "high_return_pct": 0.9511096278992159,
+            "close_return_pct": -1.0039490516713823,
+            "touch5": false,
+            "close5": false,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-10-01-COHR-primary",
+      "symbol": "COHR",
+      "decision_date": "2026-10-01",
+      "target_session": "2026-10-02",
+      "reference_price": 318.51,
+      "source_report": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "selection_role": "primary",
+      "original_advice": "13:17条件性投机相对首选；14:28再次选择合并。",
+      "entry_cap": 320.1,
+      "quote_at": "2026-10-01T13:17:41-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+          "reference_price": 317.285,
+          "entry_cap": 318.73,
+          "quote_at": "2026-10-01T14:28:10-04:00",
+          "note": "14:25筛选最终执行容差318.73；旧阶段318.87留在原文"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 6.232143417789082,
+        "close_return_pct": 5.817713729553242,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "symbol": "COHR",
+        "session": "2026-10-02",
+        "open": 316.57,
+        "high": 338.36,
+        "low": 315.43,
+        "close": 337.04,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/cohr/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+        "observed_date": "2026-10-03"
+      },
+      "previous_session_close": 319.19,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 6.005827250227136,
+        "close_return_pct": 5.592280459914156,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 5.704467353951892,
+        "close_return_pct": 5.292096219931275,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+          "reference_price": 317.285,
+          "entry_cap": 318.73,
+          "quote_at": "2026-10-01T14:28:10-04:00",
+          "note": "14:25筛选最终执行容差318.73；旧阶段318.87留在原文",
+          "outcome": {
+            "high_return_pct": 6.642293206423244,
+            "close_return_pct": 6.226263453992464,
+            "touch5": true,
+            "close5": true,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-10-01-APLD-primary",
+      "symbol": "APLD",
+      "decision_date": "2026-10-01",
+      "target_session": "2026-10-02",
+      "reference_price": 24.235,
+      "source_report": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+      "selection_role": "primary",
+      "original_advice": "低涨幅次日综合观察首选；启动确认未满足。24.50仅计划成交示例，不能当真实成交。",
+      "entry_cap": null,
+      "quote_at": "2026-10-01T15:31:08-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+          "reference_price": 24.155,
+          "quote_at": "2026-10-01T15:43:44-04:00",
+          "note": "15:44跟进"
+        },
+        {
+          "source_report": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+          "reference_price": 24.5,
+          "note": "假设执行价格敏感度，非真实报价/成交"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 10.790179492469587,
+        "close_return_pct": 4.724571900144414,
+        "touch5": true,
+        "close5": false,
+        "touch10": true,
+        "close10": false
+      },
+      "outcome_bar": {
+        "symbol": "APLD",
+        "session": "2026-10-02",
+        "open": 25.12,
+        "high": 26.85,
+        "low": 24.82,
+        "close": 25.38,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/apld/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+        "observed_date": "2026-10-03"
+      },
+      "previous_session_close": 24.16,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 11.134105960264895,
+        "close_return_pct": 5.049668874172175,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+          "reference_price": 24.155,
+          "quote_at": "2026-10-01T15:43:44-04:00",
+          "note": "15:44跟进",
+          "outcome": {
+            "high_return_pct": 11.157110329124409,
+            "close_return_pct": 5.071413785965628,
+            "touch5": true,
+            "close5": true,
+            "touch10": true,
+            "close10": false
+          }
+        },
+        {
+          "source_report": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+          "reference_price": 24.5,
+          "note": "假设执行价格敏感度，非真实报价/成交",
+          "outcome": {
+            "high_return_pct": 9.591836734693882,
+            "close_return_pct": 3.591836734693876,
+            "touch5": true,
+            "close5": false,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-10-01-IREN-primary",
+      "symbol": "IREN",
+      "decision_date": "2026-10-01",
+      "target_session": "2026-10-02",
+      "reference_price": 40.81,
+      "source_report": "研究记录/2026-10-01-夜盘Babybus全面筛选/筛选结论与夜盘条件计划.txt",
+      "selection_role": "primary",
+      "original_advice": "夜盘综合首选；此前下午40.18是价格形态首选，单列版本。两次同股同目标盘合并。",
+      "entry_cap": 41,
+      "quote_at": "2026-10-01T19:59:44-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+          "reference_price": 40.18,
+          "quote_at": "2026-10-01T15:31:08-04:00",
+          "note": "下午价格形态首选，非该轮综合首选"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.596177407498139,
+        "close_return_pct": 2.3278608184268412,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "symbol": "IREN",
+        "session": "2026-10-02",
+        "open": 41.87,
+        "high": 43.91,
+        "low": 40.95,
+        "close": 41.76,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/iren/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应",
+        "observed_date": "2026-10-03"
+      },
+      "previous_session_close": 40.65,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 8.019680196801971,
+        "close_return_pct": 2.73062730627307,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": {
+        "high_return_pct": 7.09756097560974,
+        "close_return_pct": 1.8536585365853675,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "version_sensitivities": [
+        {
+          "source_report": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+          "reference_price": 40.18,
+          "quote_at": "2026-10-01T15:31:08-04:00",
+          "note": "下午价格形态首选，非该轮综合首选",
+          "outcome": {
+            "high_return_pct": 9.28322548531606,
+            "close_return_pct": 3.932304629168737,
+            "touch5": true,
+            "close5": false,
+            "touch10": false,
+            "close10": false
+          }
+        }
+      ],
+      "audit_status": "matured_primary_selection"
+    },
+    {
+      "case_id": "2026-10-02-APLD-primary",
+      "symbol": "APLD",
+      "decision_date": "2026-10-02",
+      "target_session": "2026-10-05",
+      "reference_price": 26.82,
+      "source_report": "研究记录/2026-10-02-Babybus今日至下个交易日/筛选结论与条件计划.txt",
+      "selection_role": "primary",
+      "original_advice": "周五早盘首选，目标周一；不追26.82，回踩25.80–26.10方案。当日跌破25.05失效线，旧方案已失效，但周一次日结果仍未到期。",
+      "entry_cap": 26.1,
+      "quote_at": "2026-10-02T10:09:40-04:00",
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": false,
+      "reference_outcome": null,
+      "audit_status": "pending"
+    },
+    {
+      "case_id": "2026-10-02-AAOI-primary",
+      "symbol": "AAOI",
+      "decision_date": "2026-10-02",
+      "target_session": "2026-10-05",
+      "reference_price": 114.791,
+      "source_report": "研究记录/2026-10-02-Babybus次日筛选-1438更新/筛选结论与条件计划.txt",
+      "selection_role": "primary",
+      "original_advice": "14:38更新综合首选；当时已高于114.50上限，不追。周一结果未到期。",
+      "entry_cap": 114.5,
+      "quote_at": "2026-10-02T14:40:00-04:00",
+      "versions": [
+        {
+          "source_report": "研究记录/2026-10-02-Babybus建仓加仓-1500更新/建仓加仓判断.txt",
+          "reference_price": 115.035,
+          "entry_cap": 114.5,
+          "note": "15:00更新，仍超上限；不是新增成交"
+        }
+      ],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": false,
+      "reference_outcome": null,
+      "audit_status": "pending"
+    },
+    {
+      "case_id": "2026-09-21-WDC-secondary",
+      "symbol": "WDC",
+      "decision_date": "2026-09-21",
+      "target_session": "2026-09-22",
+      "reference_price": 447.5759,
+      "source_report": "研究记录/2026-09-21-排除VICR必选一只/低追价备选/观察结论.md",
+      "selection_role": "secondary",
+      "original_advice": "用户不愿追CRDO后的低追价观察备选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 6.024475401825713,
+        "close_return_pct": 3.803623027960179,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 440.05,
+        "high": 474.54,
+        "low": 438.0,
+        "close": 464.6,
+        "symbol": "WDC",
+        "session": "2026-09-22",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WDC",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/WDC.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949796
+      },
+      "previous_session_close": 448.17,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 5.8839279737599615,
+        "close_return_pct": 3.6660195907802784,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-09-DDOG-secondary",
+      "symbol": "DDOG",
+      "decision_date": "2026-09-09",
+      "target_session": "2026-09-10",
+      "reference_price": 225.17,
+      "source_report": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "selection_role": "secondary",
+      "original_advice": "宽松形态初筛顺位1，方案是9/10触发后才买，非9/9立即入场；只存日表收盘参考",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 1.070302438157844,
+        "close_return_pct": -1.532175689479054,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 221.34,
+        "high": 227.58,
+        "low": 219.31,
+        "close": 221.72,
+        "symbol": "DDOG",
+        "session": "2026-09-10",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DDOG",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/DDOG.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949784
+      },
+      "previous_session_close": 225.27,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 1.0254361432947112,
+        "close_return_pct": -1.5758867137213195,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-09-MRVL-secondary",
+      "symbol": "MRVL",
+      "decision_date": "2026-09-09",
+      "target_session": "2026-09-10",
+      "reference_price": 235.01,
+      "source_report": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "selection_role": "secondary",
+      "original_advice": "形态初筛顺位2，下一常规盘条件观察",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": -0.22126718011998836,
+        "close_return_pct": -3.425386153780685,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 228.03,
+        "high": 234.49,
+        "low": 226.15,
+        "close": 226.96,
+        "symbol": "MRVL",
+        "session": "2026-09-10",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/MRVL.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949793
+      },
+      "previous_session_close": 235.01,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": -0.22126718011998836,
+        "close_return_pct": -3.425386153780685,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-09-MU-secondary",
+      "symbol": "MU",
+      "decision_date": "2026-09-09",
+      "target_session": "2026-09-10",
+      "reference_price": 1027.77,
+      "source_report": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "selection_role": "secondary",
+      "original_advice": "形态初筛顺位3，下一常规盘条件观察",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": -2.799264426865933,
+        "close_return_pct": -4.899928972435463,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 997.0,
+        "high": 999.0,
+        "low": 973.5,
+        "close": 977.41,
+        "symbol": "MU",
+        "session": "2026-09-10",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/MU.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949794
+      },
+      "previous_session_close": 1027.77,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": -2.799264426865933,
+        "close_return_pct": -4.899928972435463,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-09-AMD-secondary",
+      "symbol": "AMD",
+      "decision_date": "2026-09-09",
+      "target_session": "2026-09-10",
+      "reference_price": 521.1,
+      "source_report": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "selection_role": "secondary",
+      "original_advice": "形态研究的趋势备选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": -0.9153713298791,
+        "close_return_pct": -3.3582805603530996,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 509.07,
+        "high": 516.33,
+        "low": 502.81,
+        "close": 503.6,
+        "symbol": "AMD",
+        "session": "2026-09-10",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AMD.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949791
+      },
+      "previous_session_close": 521.1,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": -0.9153713298791,
+        "close_return_pct": -3.3582805603530996,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-17-ALAB-secondary",
+      "symbol": "ALAB",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-17",
+      "reference_price": 274.7,
+      "source_report": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "量价次选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 6.996723698580287,
+        "close_return_pct": 6.86567164179106,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 279.09,
+        "high": 293.92,
+        "low": 278.25,
+        "close": 293.56,
+        "symbol": "ALAB",
+        "session": "2026-09-17",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/ALAB.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949788
+      },
+      "previous_session_close": 269.18,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 9.19087599375883,
+        "close_return_pct": 9.057136488594985,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-17-VICR-secondary",
+      "symbol": "VICR",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-17",
+      "reference_price": 204,
+      "source_report": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "新催化单独观察，已在盘后涨10.92%，不能累计冒充买入后涨幅",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.362745098039225,
+        "close_return_pct": 6.073529411764689,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 206.55,
+        "high": 219.02,
+        "low": 206.55,
+        "close": 216.39,
+        "symbol": "VICR",
+        "session": "2026-09-17",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VICR",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/VICR.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949764
+      },
+      "previous_session_close": 183.91,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 19.09085965961612,
+        "close_return_pct": 17.66081235386874,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": true
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-17-CRDO-secondary",
+      "symbol": "CRDO",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-17",
+      "reference_price": 166.3,
+      "source_report": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "主题回踩备选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 2.1046301864100947,
+        "close_return_pct": 1.1725796752856121,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 168.65,
+        "high": 169.8,
+        "low": 163.52,
+        "close": 168.25,
+        "symbol": "CRDO",
+        "session": "2026-09-17",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/CRDO.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 161.49,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 5.1458294631246515,
+        "close_return_pct": 4.1860177100749185,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-17-WULF-secondary",
+      "symbol": "WULF",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-17",
+      "reference_price": 15.618,
+      "source_report": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "高弹性备选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.760276603918537,
+        "close_return_pct": 5.455243949289268,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 16.47,
+        "high": 16.83,
+        "low": 15.77,
+        "close": 16.47,
+        "symbol": "WULF",
+        "session": "2026-09-17",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WULF",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/WULF.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949796
+      },
+      "previous_session_close": 15.39,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 9.356725146198809,
+        "close_return_pct": 7.017543859649122,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-29-NBIS-secondary",
+      "symbol": "NBIS",
+      "decision_date": "2026-09-29",
+      "target_session": "2026-09-30",
+      "reference_price": 239.8,
+      "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "盘后五股观察第二",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 4.453711426188489,
+        "close_return_pct": -1.6346955796497142,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 243.65,
+        "high": 250.48,
+        "low": 235.06,
+        "close": 235.88,
+        "symbol": "NBIS",
+        "session": "2026-09-30",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/NBIS.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 237.35,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 5.531914893617018,
+        "close_return_pct": -0.619338529597635,
+        "touch5": true,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-29-CRDO-secondary",
+      "symbol": "CRDO",
+      "decision_date": "2026-09-29",
+      "target_session": "2026-09-30",
+      "reference_price": 193.8,
+      "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "盘后五股观察第三",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 0.9081527347781115,
+        "close_return_pct": 0.5108359133126905,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 192.56,
+        "high": 195.56,
+        "low": 186.81,
+        "close": 194.79,
+        "symbol": "CRDO",
+        "session": "2026-09-30",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/CRDO.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 192.35,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 1.6688328567715072,
+        "close_return_pct": 1.2685209253964214,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-29-COHR-secondary",
+      "symbol": "COHR",
+      "decision_date": "2026-09-29",
+      "target_session": "2026-09-30",
+      "reference_price": 294.02,
+      "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "盘后五股观察第四",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 1.8638187878375678,
+        "close_return_pct": -2.112101217604234,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 294.66,
+        "high": 299.5,
+        "low": 282.25,
+        "close": 287.81,
+        "symbol": "COHR",
+        "session": "2026-09-30",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/COHR",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/COHR.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949792
+      },
+      "previous_session_close": 292.21,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 2.4947811505424244,
+        "close_return_pct": -1.505766400876074,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-29-AAOI-secondary",
+      "symbol": "AAOI",
+      "decision_date": "2026-09-29",
+      "target_session": "2026-09-30",
+      "reference_price": 101.31,
+      "source_report": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "selection_role": "secondary",
+      "original_advice": "五股中量价弹性第一，但非综合首选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 2.9019840094758553,
+        "close_return_pct": -2.0234922515052767,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 101.9,
+        "high": 104.25,
+        "low": 96.41,
+        "close": 99.26,
+        "symbol": "AAOI",
+        "session": "2026-09-30",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949790
+      },
+      "previous_session_close": 100.67,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 3.556173636634541,
+        "close_return_pct": -1.4006158736465601,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-10-01-LITE-secondary",
+      "symbol": "LITE",
+      "decision_date": "2026-10-01",
+      "target_session": "2026-10-02",
+      "reference_price": 1044.115,
+      "source_report": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "selection_role": "secondary",
+      "original_advice": "COHR比较候选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 4.548828433649543,
+        "close_return_pct": 3.9559818602357133,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "symbol": "LITE",
+        "session": "2026-10-02",
+        "open": 1053.26,
+        "high": 1091.61,
+        "low": 1037.24,
+        "close": 1085.42,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/lite/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "observed_date": "2026-10-03",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应"
+      },
+      "previous_session_close": 1045.78,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 4.382374878081419,
+        "close_return_pct": 3.7904721834420396,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-10-01-AAOI-secondary",
+      "symbol": "AAOI",
+      "decision_date": "2026-10-01",
+      "target_session": "2026-10-02",
+      "reference_price": 104.9,
+      "source_report": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "selection_role": "secondary",
+      "original_advice": "COHR比较候选",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 12.20209723546235,
+        "close_return_pct": 10.190657769304101,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": true
+      },
+      "outcome_bar": {
+        "symbol": "AAOI",
+        "session": "2026-10-02",
+        "open": 110.25,
+        "high": 117.7,
+        "low": 106.32,
+        "close": 115.59,
+        "complete": true,
+        "source_url": "https://stockanalysis.com/stocks/aaoi/history/",
+        "provider": "S&P Global via StockAnalysis",
+        "observed_date": "2026-10-03",
+        "capture_method": "web.run历史行情表；人工逐字段转录；不是网页原始响应"
+      },
+      "previous_session_close": 107.32,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 9.672008945210585,
+        "close_return_pct": 7.705926202012692,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "secondary"
+    },
+    {
+      "case_id": "2026-09-07-AMD-missing_entry_quote",
+      "symbol": "AMD",
+      "decision_date": "2026-09-07",
+      "target_session": "2026-09-08",
+      "reference_price": 477.57,
+      "source_report": "量化参考/BABYBUS-夜盘研究-2026-09-07.md",
+      "selection_role": "missing_entry_quote",
+      "original_advice": "综合条件首选，但价格只有9/4收盘，9/7当晚买价未取得；仅计算旧收盘参考情景，不计主命中率。",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.284795946144018,
+        "close_return_pct": 5.898611721841829,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 488.92,
+        "high": 512.36,
+        "low": 486.57,
+        "close": 505.74,
+        "symbol": "AMD",
+        "session": "2026-09-08",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AMD.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949791
+      },
+      "previous_session_close": 477.57,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 7.284795946144018,
+        "close_return_pct": 5.898611721841829,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "missing_entry_quote"
+    },
+    {
+      "case_id": "2026-09-07-MU-missing_entry_quote",
+      "symbol": "MU",
+      "decision_date": "2026-09-07",
+      "target_session": "2026-09-08",
+      "reference_price": null,
+      "source_report": "量化参考/夜盘扫描-2026-09-07-报告.md",
+      "selection_role": "missing_entry_quote",
+      "original_advice": "折价回落优先研究，网页1014.910日期不明，不能作为9/7夜盘买价；不计主命中率。",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": null,
+      "outcome_bar": {
+        "open": 1036.4,
+        "high": 1041.07,
+        "low": 997.62,
+        "close": 1000.26,
+        "symbol": "MU",
+        "session": "2026-09-08",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/MU.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949794
+      },
+      "previous_session_close": 1016.59,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 2.4080504431481575,
+        "close_return_pct": -1.6063506428353636,
+        "touch5": false,
+        "close5": false,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "missing_entry_quote"
+    },
+    {
+      "case_id": "2026-09-17-LRCX-different_horizon",
+      "symbol": "LRCX",
+      "decision_date": "2026-09-17",
+      "target_session": "2026-09-18",
+      "reference_price": 268.66,
+      "source_report": "研究记录/2026-09-17-高胜率操作/研究结论.md",
+      "selection_role": "different_horizon",
+      "original_advice": "原推荐最长20日策略；用户认可案例可作次日价格旁证，不能计隔夜策略命中率。",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 7.299188565473069,
+        "close_return_pct": 7.23963373780987,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 274.41,
+        "high": 288.27,
+        "low": 272.64,
+        "close": 288.11,
+        "symbol": "LRCX",
+        "session": "2026-09-18",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/LRCX.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949791
+      },
+      "previous_session_close": 269.31,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 7.040213879915336,
+        "close_return_pct": 6.980802792321117,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "different_horizon"
+    },
+    {
+      "case_id": "2026-09-30-AAOI-missed_entry_advice",
+      "symbol": "AAOI",
+      "decision_date": "2026-09-30",
+      "target_session": "2026-10-01",
+      "reference_price": 97.781,
+      "source_report": "研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+      "selection_role": "missed_entry_advice",
+      "original_advice": "原建议以等待/不值得正常仓位为主，已保存失误复盘；次日大涨记为错失，不算我筛选推荐的命中。原目标10日，成交未知。",
+      "entry_cap": null,
+      "quote_at": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": true,
+      "reference_outcome": {
+        "high_return_pct": 10.737259794847652,
+        "close_return_pct": 9.75547396733516,
+        "touch5": true,
+        "close5": true,
+        "touch10": true,
+        "close10": false
+      },
+      "outcome_bar": {
+        "open": 99.67,
+        "high": 108.28,
+        "low": 97.77,
+        "close": 107.32,
+        "symbol": "AAOI",
+        "session": "2026-10-01",
+        "complete": true,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAOI",
+        "source_file": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+        "provider": "Yahoo Chart archive",
+        "archive_market_time": 1790949790
+      },
+      "previous_session_close": 99.26,
+      "target_day_outcome_vs_previous_close": {
+        "high_return_pct": 9.087245617570016,
+        "close_return_pct": 8.120088656054802,
+        "touch5": true,
+        "close5": true,
+        "touch10": false,
+        "close10": false
+      },
+      "entry_cap_sensitivity": null,
+      "version_sensitivities": [],
+      "audit_status": "missed_entry_advice"
+    },
+    {
+      "case_id": "WDAY-original-not-located",
+      "symbol": "WDAY",
+      "decision_date": null,
+      "target_session": null,
+      "reference_price": null,
+      "source_report": "研究记录/2026-09-21-隔夜至次日爆发/prior-audit.md",
+      "selection_role": "original_not_located",
+      "original_advice": "用户认可历史案例；原始推荐时间与价格未定位，不能编造或替换为WDC。",
+      "entry_cap": null,
+      "versions": [],
+      "actual_purchase": "unknown",
+      "realized_user_return": null,
+      "target_session_complete": false,
+      "reference_outcome": null,
+      "audit_status": "original_not_located"
+    }
+  ],
+  "input_manifest": [
+    {
+      "path": "研究输出/2026-09-09-次日建仓/今日建仓与次日弹性.md",
+      "sha256": "169c65a8341084f8eec51ddd71e9a09a37130fcbd2ce816747b4170be7afe246"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/WDC.json",
+      "sha256": "6a895d3db0c63568c97dce8c59715a72a1f0f6ae17912391d05ba4e1dd233791"
+    },
+    {
+      "path": "研究记录/2026-09-17-夜盘次日爆发/研究结论.md",
+      "sha256": "2e914e35d9ed0b6249814c2f443ab28dfb2b5b9cf4ca0c31f3ee39c7b4c307e8"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/LITE.json",
+      "sha256": "fdfebe7f15ae006018cc1c1daac30429dd80ee67e6cf0d364537604e5080b25a"
+    },
+    {
+      "path": "研究记录/2026-09-18-Babybus周末交易/周末交易结论.md",
+      "sha256": "713e3005629dd3fe9c9b41bb79ec8f4b5584ffbddccb270880e748f62721f05c"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/NBIS.json",
+      "sha256": "f1048d25c65c341b1be6b71da65ce84ee2527cc4523378fc3399d612ba4df05e"
+    },
+    {
+      "path": "研究记录/2026-09-21-双模型短线筛选/必须选一只/选择与执行.md",
+      "sha256": "5742bfa00ae6530e3882b1a8010eedcb32ed9033d64d158e8c9f7df0f91e082a"
+    },
+    {
+      "path": "研究记录/2026-09-21-隔夜至次日爆发/筛选结论.md",
+      "sha256": "b8e4197e371129ae0b053cd51c550623c0b6c56d766586f168d3d4344b3e026f"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/VICR.json",
+      "sha256": "fec1393865f6be8849b384ff4dbec51dbe9b78eb895327914901e7feaf3d395f"
+    },
+    {
+      "path": "研究记录/2026-09-21-排除VICR必选一只/唯一选择与执行.md",
+      "sha256": "87adeee04c07f17299d42427bb8837960da4d0250fb6067df61982cd53d51896"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AAOI.json",
+      "sha256": "f37dd26601e8f5294725ef78300a92a8fb911d6faf8460ce1452cd3886c10cda"
+    },
+    {
+      "path": "研究记录/2026-09-21-排除VICR必选一只/排除AAOI/CRDO选择.md",
+      "sha256": "08ff8cf3fb47c92688af047c8b59f1e9d2b4df12b1d5d1786cda1b0d098fbc19"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/CRDO.json",
+      "sha256": "47d117ffe5bea114d3be49a7bb99d38afa3cebee841c58ff2f31915b1dc6b32f"
+    },
+    {
+      "path": "研究记录/2026-09-21-排除VICR必选一只/恢复原模型/ALAB条件首选.md",
+      "sha256": "63a4b3f73b57d113bc731f1818dc030887e53d2d991f51069e4487c8fcd1f601"
+    },
+    {
+      "path": "研究记录/2026-09-21-夜盘重新建模/研究结论.md",
+      "sha256": "6c2ffef5271a8eaf3492dfee084089cccbcaf61584ee7aa4a114ef5e90aeaa4e"
+    },
+    {
+      "path": "研究记录/2026-09-22-盘前下跌与AVGO/机会筛选/筛选结论.md",
+      "sha256": "3e7c818fdff7d108ce217c34407123a8cea732e8686651cd7e68629a3e59e9cb"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/ALAB.json",
+      "sha256": "57c2752011a1ea9d6c99dde1358c9af86da98bd250bd10bd8afedeec0a1a382e"
+    },
+    {
+      "path": "研究记录/2026-09-22-隔夜至次日爆发/筛选结论.md",
+      "sha256": "1f16ac088c92993562662bbcec77dc71f05b9634196669833ce5fe12ac9116e7"
+    },
+    {
+      "path": "研究记录/2026-09-22-隔夜至次日爆发/2158-夜盘更新.md",
+      "sha256": "9f7b109ed649c71b67ca353897db91ac54e988cd6a77231d20964b012770477e"
+    },
+    {
+      "path": "研究记录/2026-09-22-隔夜至次日爆发/非暴涨候选复筛.md",
+      "sha256": "5699cb358f53b822598ec0676de5783db783e195e074a108fc07a218c0e2aa29"
+    },
+    {
+      "path": "研究记录/2026-09-22-隔夜至次日爆发/盘后新事件与买入门槛复核.md",
+      "sha256": "84d719a55ff7273ab9768696fa47ec5b4255a6ceb1f061230932a2db7aed0052"
+    },
+    {
+      "path": "研究记录/2026-09-22-隔夜至次日爆发/强制单选-未大涨-UMAC.md",
+      "sha256": "9413893d3692f339fa3d4cadd5587ccaa4803e985bb7b52cafca3343e3bddc0d"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/UMAC.json",
+      "sha256": "4751652e94f523ab752e34988ef406054eb37645789e60171fb675db1fe6d9b0"
+    },
+    {
+      "path": "研究记录/2026-09-24-次日涨5未暴涨筛选/研究结论.md",
+      "sha256": "e83a3ab82162715b56855b6483af3da3dbbd31624cfbfd5ece1f8bc67ab1a1ec"
+    },
+    {
+      "path": "研究记录/2026-10-03-次日暴涨推荐复盘/已收盘行情核验.json",
+      "sha256": "b7d2eb88e5f013d276a9f35d410b70603fd3367bc330547aab1aa959ee688880"
+    },
+    {
+      "path": "研究记录/2026-09-28-夜盘次日暴涨筛选/研究结论.md",
+      "sha256": "d7d38e453912e65d0436020611a3ec22003590aea7f2b0664a7d06ef13c369f0"
+    },
+    {
+      "path": "研究记录/2026-09-29-尾盘双目标筛选/研究结论.md",
+      "sha256": "687c6b010403845ab36348e0b12620b4554e7666158d2f888dbf05459c8468ed"
+    },
+    {
+      "path": "研究记录/2026-09-29-盘后Babybus五股/研究结论.md",
+      "sha256": "3912ad494bb629179644d560a13e73650cabcbb803734e7e5da29f23274bd177"
+    },
+    {
+      "path": "研究记录/2026-09-29-盘后Babybus五股/2024-重新筛选/研究结论.md",
+      "sha256": "a12e18615cfafa3edd1b0b18e723bb3120a03f34dab6d72c1db2796f2b509081"
+    },
+    {
+      "path": "研究记录/2026-10-01-今日买入次日5pct筛选/筛选结论与条件计划.txt",
+      "sha256": "774cb6e885e7875b203204ab83b95bda815af1b8af91b13051ea5851c8dc1b49"
+    },
+    {
+      "path": "研究记录/2026-10-01-次日5pct筛选1425/筛选结论与条件计划.txt",
+      "sha256": "ba439af2d4228b765e952dc2a9a537a399dca31ff012c23d7b1b129a20bf1a2b"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/COHR.json",
+      "sha256": "22939dc67f2e3d0f9d5715ca25cddee7af2668f4c06a8b41ce0ca554eed31f17"
+    },
+    {
+      "path": "研究记录/2026-10-01-Babybus低涨幅次日机会/筛选结论与观察条件.txt",
+      "sha256": "29fa2b958fe925a936880d301699080ca0f082774225f4167d5ca856cc04f913"
+    },
+    {
+      "path": "研究记录/2026-10-01-APLD-IREN次日风险概率/跟进1544/APLD潜力更新.txt",
+      "sha256": "068466fdc2cf4953975830807b0894231e7c160e83657ada3bc77d7f3b6cb84c"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/APLD.json",
+      "sha256": "74f4b8a9de90438fcaf2d1fcbf2206c93fb79ad084c915cac22312ff95218383"
+    },
+    {
+      "path": "研究记录/2026-10-01-夜盘Babybus全面筛选/筛选结论与夜盘条件计划.txt",
+      "sha256": "a2ff1312fab2ae38c06644ed026745021af2d3459232ac16b83d2cfc53ff12c1"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/IREN.json",
+      "sha256": "823d715d43544a9a963ef4fb2b425184d1752b0cf57e830d4762a00201810e60"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/筛选结论与条件计划.txt",
+      "sha256": "2428b8ff74fd81e083728ad1f51156d52d096328e21cad7f5195b9d78f89be1c"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus次日筛选-1438更新/筛选结论与条件计划.txt",
+      "sha256": "78f55cc989f3b7c0ab93c1eb91fc0a973539909e353137fbeaa4a005a31aaa8d"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus建仓加仓-1500更新/建仓加仓判断.txt",
+      "sha256": "1b0b8d89d966bf28eb0bda5a28dfded8f949f1dd39de36cbf9b8dd3d956af913"
+    },
+    {
+      "path": "研究记录/2026-09-21-排除VICR必选一只/低追价备选/观察结论.md",
+      "sha256": "5f9b86e903d37b56437773a8cf7ca38e91b9fb4c1acd50c390dcafa1048c7ac2"
+    },
+    {
+      "path": "研究记录/2026-09-09-暴涨前形态筛选/研究与交易观察.md",
+      "sha256": "4f8337df4897d75952224152088fb7fdc34746c3b4d0d3a4ed5b8b702f4b6084"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/DDOG.json",
+      "sha256": "30fe7e935f1b4b7f3b3c47a97ab21a1eb9fbe37697cbcf0664f542a66681ca27"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/MRVL.json",
+      "sha256": "a7c27a27719a7faa49ca7c1df03cfc7248826ddb25b27c70279d9eab18cfd67e"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/MU.json",
+      "sha256": "a2d61e882b786df200de2ce6d9f4031da6a1b36614339699d1baea883f62505f"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/AMD.json",
+      "sha256": "c136bebcb72d28767e860c7c231d4337351c1c65c0d01eacc9d18cd892919345"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/WULF.json",
+      "sha256": "cd25f55c8d864902fd4edc85ad5c1c0c8a6cc1c3b24e1aa877f714db2e3be259"
+    },
+    {
+      "path": "量化参考/BABYBUS-夜盘研究-2026-09-07.md",
+      "sha256": "d11b1663bd6ee8c6c0887ebc587db51fb549920e792afad6e3766446172cf284"
+    },
+    {
+      "path": "量化参考/夜盘扫描-2026-09-07-报告.md",
+      "sha256": "f230b12652bdac25d4a21a518e948ac7314b270307f5280cdf3d2bcf290a8586"
+    },
+    {
+      "path": "研究记录/2026-09-17-高胜率操作/研究结论.md",
+      "sha256": "dd337ebb3576114f747046b0a1eb04942631898cb71fbb61f6ee05003cabbf2e"
+    },
+    {
+      "path": "研究记录/2026-10-02-Babybus今日至下个交易日/daily-raw/LRCX.json",
+      "sha256": "ec70d5d7e758a0c666d651913fc6ee4eb0c58b771fac23f4f6f65bf1ccf632a9"
+    },
+    {
+      "path": "研究记录/2026-09-30-AAOI建议失误复盘/复盘与修正.txt",
+      "sha256": "582e45bb0c6ffaab69ad8be1ea8b9318c6c2018c543973ea80428535d48f9b6b"
+    },
+    {
+      "path": "研究记录/2026-09-21-隔夜至次日爆发/prior-audit.md",
+      "sha256": "2ba8b75f4196141b0ab6ca32849d637552765bdbdff5867c823a35c3033c72f9"
+    },
+    {
+      "path": "研究记录/2026-10-03-次日暴涨推荐复盘/案例输入.json",
+      "sha256": "b7c9e3e0d34b9a83a72ba8199e7707dc20e3e56d064e8709d3d2c32f2fa6338c"
+    },
+    {
+      "path": "研究记录/2026-10-03-次日暴涨推荐复盘/audit.py",
+      "sha256": "3dad00382cfb4b0a0715d862eebacb517d7854d58d2a7482c24b56d17bd326b9"
+    }
+  ],
+  "validation": {
+    "duplicate_primary_keys": false,
+    "calendar_dates_verified": true,
+    "all_primary_bars_complete": true,
+    "threshold_boundary_checks": true,
+    "independent_hit_count_agrees": true,
+    "unknown_execution_not_imputed": true
+  }
+}

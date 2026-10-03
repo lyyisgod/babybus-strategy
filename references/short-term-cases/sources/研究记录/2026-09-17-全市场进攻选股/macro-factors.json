@@ -1,0 +1,20 @@
+{
+  "real_yield_change_bp": {
+    "source": "https://fred.stlouisfed.org/series/DFII10",
+    "date": "2026-09-15",
+    "latest": 2.62,
+    "base_date": "2026-08-17",
+    "base": 2.44,
+    "change_bp": 18.000000000000014,
+    "available_at": "2026-09-16T16:16:00-04:00"
+  },
+  "hy_oas_change_bp": {
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "date": "2026-09-16",
+    "latest": 2.7,
+    "base_date": "2026-08-18",
+    "base": 2.75,
+    "change_bp": -4.999999999999982,
+    "available_at": "2026-09-17T10:18:00-04:00"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "known beta=2/alpha=0/R2=1 regression passed",
+    "76 daily histories end at completed 2026-09-16 session",
+    "all OHLC relations and unique dates passed",
+    "nominal yield percentage-level to bp conversion passed",
+    "XHE inconsistent opening/gap suppressed",
+    "macro stock-session metrics suppressed",
+    "dilution and scenario arithmetic passed"
+  ],
+  "warnings": [
+    "XHE intraday provider opening/range conflict excluded; unaffected candidates unchanged"
+  ],
+  "tnx_change_bp": -6.300004196167031,
+  "smh_since_open_pct": 0.023197563255905607,
+  "candidate_count": 47,
+  "source_chart_responses": 152,
+  "note": "Functional checks only; no calibrated return model or strategy profitability validation.",
+  "macro_20_trading_day_checks": {
+    "DFII10": {
+      "latest": "2026-09-15",
+      "base_trading_date": "2026-08-17",
+      "change_bp": 18.000000000000014,
+      "calendar": "Yahoo SPY trading session dates; avoids non-session FRED rows"
+    },
+    "BAMLH0A0HYM2": {
+      "latest": "2026-09-16",
+      "base_trading_date": "2026-08-18",
+      "change_bp": -4.999999999999982,
+      "calendar": "Yahoo SPY trading session dates; avoids non-session FRED rows"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "symbol": "MDB",
+    "published_date": "2026-09-29",
+    "exact_publication_time_unverified": true,
+    "facts": "MongoDB9.0 released; Atlas Infinite and Atlas Agent Engine announced. Product release is not confirmed EPS raise.",
+    "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-launches-mongodb-9-0-the-best-version-ever-built-and-atlas-infinite-for-ai-scale-demand"
+  },
+  {
+    "symbol": "MDB",
+    "published_date": "2026-09-28",
+    "facts": "CEO CJ Desai stepped down; Dev Ittycheria appointed interim. CEO transition remains an independent risk.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/pressreleasedatedseptemb.htm"
+  },
+  {
+    "symbol": "HOOD",
+    "published_date": "2026-09-29",
+    "facts": "Announced Robinhood Agents and planned weekend equities trading early next year; not already launched today.",
+    "url": "https://robinhood.com/us/en/newsroom/hood-summit-2026/"
+  },
+  {
+    "symbol": "IOVA",
+    "published_date": "2026-09-29",
+    "facts": "Revenue guidance410–420m vs350–370m; midpoint +15.28%; released yesterday, not new intraday today.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926111583/tm2626507d1_ex99-1.htm"
+  },
+  {
+    "symbol": "JBL",
+    "published_date": "2026-09-30",
+    "facts": "Official schedule confirms 08:30 earnings call; current actual result original text inaccessibleHTTP403. Do not claim beat/miss or raise.",
+    "url": "https://investors.jabil.com/news/news-details/2026/Jabil-Announces-Date-for-Fourth-Quarter-and-Fiscal-Year-2026-Earnings-Release-and-Investor-Briefing/default.aspx"
+  }
+]

@@ -1,0 +1,7 @@
+numpy>=1.26
+pandas>=2.2
+yfinance>=0.2.54
+pyarrow>=17
+requests>=2.32
+exchange-calendars>=4.13.2
+pytest>=8

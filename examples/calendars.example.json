@@ -1,0 +1,17 @@
+{
+  "US": {
+    "last_close": "2026-10-02",
+    "open_for_target": false,
+    "target_session": "2026-10-05",
+    "next_open": "2026-10-05",
+    "source": null
+  },
+  "CN": {
+    "last_close": "2026-09-30",
+    "open_for_target": false,
+    "target_session": "2026-10-05",
+    "next_open": "2026-10-08",
+    "source": null
+  },
+  "example_only": true
+}

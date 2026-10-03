@@ -1,0 +1,54 @@
+{
+  "statements": [
+    {
+      "date": "2026-07-29",
+      "series": "FOMC target range decision",
+      "action": "HOLD",
+      "target_range_pct": [
+        3.5,
+        3.75
+      ],
+      "unit": "percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "original_text": "maintain the target range",
+      "verified": false
+    },
+    {
+      "date": "2026-09-16",
+      "series": "FOMC target range decision",
+      "action": "HIKE",
+      "target_range_pct": [
+        3.75,
+        4.0
+      ],
+      "change_bp": 25,
+      "unit": "percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "original_text": "raise the target range",
+      "verified": false
+    }
+  ],
+  "next_meeting_probs": {
+    "meeting_date": "2026-10-28",
+    "series": "CME FedWatch federal funds futures implied next-meeting probabilities",
+    "source_name": "CME FedWatch",
+    "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+    "verified": false,
+    "market_date": "2026-10-02",
+    "data_asof": "2026-10-03T01:42:40-05:00",
+    "probabilities": {
+      "cut": 0.0,
+      "hold": 0.779,
+      "hike": 0.221
+    },
+    "unit": "fraction",
+    "target_probabilities": {
+      "350-375": 0.0,
+      "375-400": 0.779,
+      "400-425": 0.221
+    },
+    "verification": "CME native embedded FedWatch UI: meeting 28 Oct 2026; 1 DAY column explicitly dated 2 OCT 2026. NOW column matches. Page data time explicitly 3 Oct 2026 01:42:40 CT. No futures intraday quote used."
+  },
+  "fomc_calendar_source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "example_only": true
+}

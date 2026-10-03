@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "babybus-strategy"
+version = "1.1.0"
+description = "Daily macro regime v1.1 and a separate evidence-gated research selection layer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26", "pandas>=2.2", "yfinance>=0.2.54", "pyarrow>=17",
+  "requests>=2.32", "exchange-calendars>=4.13.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+babybus-macro = "macro_regime.snapshot:main"
+babybus-select = "macro_selection.snapshot:main"
+
+[tool.setuptools.packages.find]
+include = ["macro_regime*", "macro_selection*"]
+
+[tool.setuptools.package-data]
+macro_regime = ["README.md", "requirements.txt"]
+macro_selection = ["README.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

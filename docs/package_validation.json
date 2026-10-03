@@ -1,0 +1,12 @@
+{
+  "macro_engine": "v1.1",
+  "strategy_test_count": 221,
+  "tests_passed": true,
+  "macro_source_unchanged": true,
+  "wheel_build_success": true,
+  "wheel_install_and_cli_help_verified": true,
+  "wheel_sha256": "36f2a77259a1b06a486f83d33747ac2eccd7e5e13051aa653376a536f295bcf0",
+  "verified_at": "2026-10-03T19:14:50.376862+00:00",
+  "paper_N": 0,
+  "validation_kind": "software_rules_not_investment_effectiveness"
+}

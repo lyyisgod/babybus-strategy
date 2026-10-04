@@ -21,7 +21,7 @@ babybus-macro = "macro_regime.snapshot:main"
 babybus-select = "macro_selection.snapshot:main"
 
 [tool.setuptools.packages.find]
-include = ["macro_regime*", "macro_selection*"]
+include = ["macro_regime*", "macro_selection*", "macro_engine*"]
 
 [tool.setuptools.package-data]
 macro_regime = ["README.md", "requirements.txt"]

@@ -1,0 +1,3584 @@
+{
+  "_fixture": {
+    "synthetic": true,
+    "target_sessions": [
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14"
+    ],
+    "expected_method": "manually specified rule outcomes; never produced from decide()",
+    "scenario_scope": "independent policy/account scenarios on ten consecutive genuine XNYS sessions",
+    "official_source_urls": "synthetic path identifiers used to exercise the official-domain contract; no source fetched"
+  },
+  "cases": [
+    {
+      "id": "day01",
+      "asof": "2026-10-01",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "UTIL1",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY",
+            "nominal": 2000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "UTIL2",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY",
+            "nominal": 2000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "UTIL3",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY",
+            "nominal": 2000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "UTIL4",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY",
+            "nominal": 2000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "UTIL5",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY",
+            "nominal": 2000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": [
+          {
+            "symbol": "TLT",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "LONG_TREASURY"
+          },
+          {
+            "symbol": "UTIL6",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "UTILITY"
+          }
+        ]
+      },
+      "policy_statements": [
+        {
+          "date": "2026-09-30",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-30.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "HOLD",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": true,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "core_not_down",
+            "metrics": {
+              "dip_unit": 0,
+              "down_candle": false
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "TLT",
+            "market": "US",
+            "reason": "new_satellite_at_252_high"
+          },
+          {
+            "symbol": "UTIL1",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          },
+          {
+            "symbol": "UTIL2",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          },
+          {
+            "symbol": "UTIL3",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          },
+          {
+            "symbol": "UTIL4",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          },
+          {
+            "symbol": "UTIL5",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          },
+          {
+            "symbol": "UTIL6",
+            "market": "US",
+            "reason": "sixth_industry_name"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 60,
+          "move_pct": 50.0,
+          "move_observations": 311
+        },
+        "trace": {
+          "asof": "2026-10-01",
+          "gross": 0.7,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [],
+          "reason": [
+            "no_eligible_add"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-09-30"
+          },
+          "coverage": {
+            "input_names": 8,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 7,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 1,
+              "industry_cap": 1,
+              "new_high": 1,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-01",
+            "observed_session": "2026-10-01",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day02",
+      "asof": "2026-10-02",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "PAUSE",
+        "action": "CORE_ADD",
+        "size_unit": 0.25,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "可执行",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.25,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 61,
+          "move_pct": 50.0,
+          "move_observations": 312
+        },
+        "trace": {
+          "asof": "2026-10-02",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "ledger_core_frozen_dip_ordinal"
+          ],
+          "policy": {
+            "regime": "PAUSE",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-02"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-02",
+            "observed_session": "2026-10-02",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day03",
+      "asof": "2026-10-05",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "FIRST_CUT",
+        "action": "CORE_EXIT_WINDOW",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": false,
+          "allow_new_satellite": false
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.25,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "metal_clock_HOLD_FIRST_CUT"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 62,
+          "move_pct": 50.0,
+          "move_observations": 313
+        },
+        "trace": {
+          "asof": "2026-10-05",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "HOLD_FIRST_CUT",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "first_cut_equity_exit_window_metals_hold"
+          ],
+          "policy": {
+            "regime": "FIRST_CUT",
+            "cut_index": 1,
+            "last_statement_date": "2026-10-05"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 1
+            }
+          },
+          "macro": {
+            "asof": "2026-10-05",
+            "observed_session": "2026-10-05",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day04",
+      "asof": "2026-10-06",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "EASING",
+        "action": "PRECIOUS_METALS_EXIT",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": false,
+          "allow_new_satellite": false
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.25,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "metal_clock_EXIT_SECOND_CUT"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 63,
+          "move_pct": 50.0,
+          "move_observations": 314
+        },
+        "trace": {
+          "asof": "2026-10-06",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "EXIT_SECOND_CUT",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "second_cut_metals_exit"
+          ],
+          "policy": {
+            "regime": "EASING",
+            "cut_index": 2,
+            "last_statement_date": "2026-10-06"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 1
+            }
+          },
+          "macro": {
+            "asof": "2026-10-06",
+            "observed_session": "2026-10-06",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day05",
+      "asof": "2026-10-07",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "EASING",
+        "action": "PRECIOUS_METALS_OBSERVE",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": false,
+          "allow_new_satellite": false
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.25,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "metal_clock_OBSERVE_THIRD_PLUS"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "WATCH",
+          "move_proxy": false,
+          "author_combo": true,
+          "stat_combo": true,
+          "author_ixg_weak": true,
+          "author_move_high": true,
+          "stat_ixg_weak": true,
+          "stat_move_high": true,
+          "pair": true,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 1,
+          "clear_streak": 0,
+          "move_pct": 99.84126984126983,
+          "move_observations": 315
+        },
+        "trace": {
+          "asof": "2026-10-07",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "OBSERVE_THIRD_PLUS",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "easing_no_new_equity_core"
+          ],
+          "policy": {
+            "regime": "EASING",
+            "cut_index": 3,
+            "last_statement_date": "2026-10-07"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 1
+            }
+          },
+          "macro": {
+            "asof": "2026-10-07",
+            "observed_session": "2026-10-07",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day06",
+      "asof": "2026-10-08",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 120000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-08",
+          "action": "HIKE",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-08.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "DELEVER_TO_1X",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": 1.0,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "TRIGGER",
+          "move_proxy": false,
+          "author_combo": true,
+          "stat_combo": true,
+          "author_ixg_weak": true,
+          "author_move_high": true,
+          "stat_ixg_weak": true,
+          "stat_move_high": true,
+          "pair": true,
+          "pair_prev": true,
+          "trigger_on": true,
+          "pair_streak": 2,
+          "clear_streak": 0,
+          "move_pct": 99.68354430379746,
+          "move_observations": 316
+        },
+        "trace": {
+          "asof": "2026-10-08",
+          "gross": 1.4,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "confirmed_pressure_gross_gt_1"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-08"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 0,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 2,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-08",
+            "observed_session": "2026-10-08",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day07",
+      "asof": "2026-10-09",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-08",
+          "action": "HIKE",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-08.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "CORE_ADD_NO_MARGIN",
+        "size_unit": 0.5,
+        "constraints": {
+          "allow_margin": false,
+          "max_gross": 1.0,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "可执行",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.5,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "TRIGGER",
+          "move_proxy": false,
+          "author_combo": true,
+          "stat_combo": true,
+          "author_ixg_weak": true,
+          "author_move_high": true,
+          "stat_ixg_weak": true,
+          "stat_move_high": true,
+          "pair": true,
+          "pair_prev": true,
+          "trigger_on": true,
+          "pair_streak": 3,
+          "clear_streak": 0,
+          "move_pct": 99.52681388012618,
+          "move_observations": 317
+        },
+        "trace": {
+          "asof": "2026-10-09",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "ledger_core_frozen_dip_ordinal"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-08"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-09",
+            "observed_session": "2026-10-09",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day08",
+      "asof": "2026-10-12",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-08",
+          "action": "HIKE",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-08.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {
+        "MOVE": [
+          "2026-10-12"
+        ]
+      },
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "HOLD",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": true,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "core_not_down",
+            "metrics": {
+              "dip_unit": 0,
+              "down_candle": false
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": true,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 47,
+          "move_pct": 0.16778523489932887,
+          "move_observations": 298
+        },
+        "trace": {
+          "asof": "2026-10-12",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "no_eligible_add"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-08"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 1,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-12",
+            "observed_session": "2026-10-12",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "treasury_closed"
+            },
+            "move": {
+              "proxy": true
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day09",
+      "asof": "2026-10-13",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": 10000.0,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-08",
+          "action": "HIKE",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-08.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [
+        "COREX"
+      ],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "HOLD",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": true,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": true,
+          "allow_new_satellite": true
+        },
+        "cores": [],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "reason": "consensus_missing"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 2,
+          "move_pct": 49.529780564263326,
+          "move_observations": 319
+        },
+        "trace": {
+          "asof": "2026-10-13",
+          "gross": 0.8,
+          "budget_ready": true,
+          "book_reasons": [],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "no_eligible_add"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-08"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 0,
+            "satellites": 0,
+            "rejects": 2,
+            "blocked": {
+              "membership": 0,
+              "consensus": 1,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-13",
+            "observed_session": "2026-10-13",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    },
+    {
+      "id": "day10",
+      "asof": "2026-10-14",
+      "raw_facts": "raw_facts.json",
+      "book": {
+        "nav": 100000.0,
+        "budget": null,
+        "positions": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "nominal": 60000.0,
+            "opened_on": "2026-09-30"
+          },
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "role": "SATELLITE",
+            "industry": "PRECIOUS_METALS",
+            "nominal": 20000.0,
+            "opened_on": "2026-09-30"
+          }
+        ],
+        "watchlist": []
+      },
+      "policy_statements": [
+        {
+          "date": "2025-03-03",
+          "action": "HIKE",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-03-03.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-10-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-10-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-11-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-11-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2025-12-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2025-12-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-01-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-01-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-02-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-02-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-03-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-03-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-04-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-04-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-05-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-05-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-06-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-06-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-07-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-07-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-08-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-08-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-09-01",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-09-01.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-02",
+          "action": "HOLD",
+          "target_range": [
+            4.25,
+            4.5
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-02.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-05",
+          "action": "CUT",
+          "target_range": [
+            4.0,
+            4.25
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-05.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-06",
+          "action": "CUT",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-06.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-07",
+          "action": "CUT",
+          "target_range": [
+            3.5,
+            3.75
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-07.htm",
+          "verified": true
+        },
+        {
+          "date": "2026-10-08",
+          "action": "HIKE",
+          "target_range": [
+            3.75,
+            4.0
+          ],
+          "source": "https://www.federalreserve.gov/synthetic/golden/2026-10-08.htm",
+          "verified": true
+        }
+      ],
+      "omit_publications": {},
+      "omit_consensus": [],
+      "expected_projection": {
+        "regime": "HIKING",
+        "action": "OBSERVE",
+        "size_unit": 0.0,
+        "constraints": {
+          "allow_margin": true,
+          "max_gross": null,
+          "max_cores": 1,
+          "max_industry_names": 5,
+          "max_names": 16,
+          "satellite_suggested_nominal_cap": 0.02,
+          "allow_new_core": false,
+          "allow_new_satellite": false
+        },
+        "cores": [
+          {
+            "symbol": "COREX",
+            "market": "US",
+            "role": "CORE",
+            "industry": "SEMICONDUCTOR",
+            "status": "观察",
+            "reason": "closed_dip_with_same_fiscal_consensus",
+            "metrics": {
+              "dip_unit": 0.25,
+              "down_candle": true
+            },
+            "consensus": {
+              "revision": 0.0,
+              "fiscal_period": "FY2027"
+            }
+          }
+        ],
+        "satellites": [],
+        "rejects": [
+          {
+            "symbol": "SLV",
+            "market": "US",
+            "reason": "satellite_not_oversold"
+          }
+        ],
+        "surge": [],
+        "stress": {
+          "state": "NONE",
+          "move_proxy": false,
+          "author_combo": false,
+          "stat_combo": false,
+          "author_ixg_weak": false,
+          "author_move_high": false,
+          "stat_ixg_weak": false,
+          "stat_move_high": false,
+          "pair": false,
+          "pair_prev": false,
+          "trigger_on": false,
+          "pair_streak": 0,
+          "clear_streak": 3,
+          "move_pct": 49.53125,
+          "move_observations": 320
+        },
+        "trace": {
+          "asof": "2026-10-14",
+          "gross": 0.8,
+          "budget_ready": false,
+          "book_reasons": [
+            "missing_or_invalid_budget"
+          ],
+          "metal_clock": "DIP_ALLOWED",
+          "metal_holdings": [
+            "SLV"
+          ],
+          "reason": [
+            "missing_or_invalid_budget"
+          ],
+          "policy": {
+            "regime": "HIKING",
+            "cut_index": 0,
+            "last_statement_date": "2026-10-08"
+          },
+          "coverage": {
+            "input_names": 2,
+            "cores": 1,
+            "satellites": 0,
+            "rejects": 1,
+            "blocked": {
+              "membership": 0,
+              "consensus": 0,
+              "five_day_gain": 0,
+              "not_down": 0,
+              "industry_cap": 0,
+              "new_high": 0,
+              "deleveraging": 0,
+              "metal_clock": 0
+            }
+          },
+          "macro": {
+            "asof": "2026-10-14",
+            "observed_session": "2026-10-14",
+            "asof_is_session": true,
+            "divergence": "NONE",
+            "publication_deltas": {
+              "oas_delta5": 0.0,
+              "dgs10_delta5": 0.0
+            },
+            "yield_calendar": {
+              "yield_stable": false,
+              "dgs10_status": "published"
+            },
+            "move": {
+              "proxy": false
+            }
+          },
+          "paper_n": 0,
+          "size_kind": "ordinal_not_nav_fraction"
+        }
+      }
+    }
+  ]
+}

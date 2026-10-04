@@ -1,0 +1,366 @@
+{
+  "version": "A-share-factor-mapping-v1.1",
+  "saved_at": "2026-10-04T03:54:52.082262+00:00",
+  "purpose": "20–40交易日主升浪研究的中国指标字典与适配边界",
+  "status": "research_specification_only_not_runtime_config",
+  "enabled_in_current_runtime": false,
+  "original_US_weights_not_transplanted": true,
+  "weights": null,
+  "opportunity_score": null,
+  "calibrated_probability": null,
+  "mappings": [
+    {
+      "us_factor": "real_yield_change_bp",
+      "china_indicator": "10年中债国债收益率20日变化；DR007相对7日逆回购政策利率；通胀预期单列",
+      "definition": "优先单独使用名义国债利率与资金利率。国债减同期CPI仅为事后实际利率代理，不能当TIPS/预期通胀实际利率。",
+      "source": "https://www.chinabond.com.cn/ ; https://www.chinamoney.com.cn/chinese/index.html ; https://www.pbc.gov.cn/",
+      "role": "environment",
+      "formula": {
+        "cgb10y_change20_bp": "(yield_t_pct-yield_t_minus20_pct)*100",
+        "funding_spread_bp": "(DR007_pct-policy_7day_reverse_repo_pct)*100"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "hy_oas_change_bp",
+      "china_indicator": "同期限中债AA/AA+产业债到期收益率减国债收益率及20日变化",
+      "definition": "按信用评级/行业/期限固定序列；不能把地方债/理财收益率当高收益OAS，也不直接等价美国HY。",
+      "source": "https://www.chinabond.com.cn/",
+      "role": "environment",
+      "formula": {
+        "credit_spread_bp": "(fixed_rating_tenor_industry_yield_pct-matched_cgb_yield_pct)*100",
+        "change20_bp": "spread_t-spread_t_minus20"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "eps_revision_breadth",
+      "china_indicator": "固定股票池同财年EPS预测30日上修净广度；公司正式业绩预告修正、收入指引与订单为单列证据",
+      "definition": "Choice/Wind等点时一致预期可供正式序列；公告同比增长不是EPS上修；不能拿券商买入评级冒充。",
+      "source": "https://www.cninfo.com.cn/ ; https://www.sse.com.cn/ ; https://www.szse.cn/",
+      "role": "core",
+      "formula": {
+        "net_revision_breadth_pp": "100*(up_count-down_count)/valid_comparable_company_count",
+        "comparison": "same forecast fiscal year and source; 30-calendar-day endpoints"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "fcf_margin_change_pp",
+      "china_indicator": "TTM(经营现金净流量-购建固定资产/无形资产/其他长期资产支付现金)/营业收入及同比变化",
+      "definition": "中国会计准则现金口径；理财净赎回、收购子公司金额与融资流入不作为正常自由现金流；并列扣非利润、应收、存货变化。",
+      "source": "https://www.cninfo.com.cn/",
+      "role": "core",
+      "formula": {
+        "fcf_margin": "TTM(consolidated_CFO-cash_PPE_intangible_other_long_asset_purchases)/TTM_revenue",
+        "change_yoy_pp": "100*(margin_t-margin_t_minus1year)"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "net_leverage_percentile",
+      "china_indicator": "融资余额/自由流通市值、20日融资净买入、252日经验分位；板块ETF份额20日变化单列",
+      "definition": "公开融资仅覆盖两融股票及券商申报范围；不是对冲基金净杠杆，ETF份额也不是全市场机构仓位。",
+      "source": "https://www.sse.com.cn/market/othersdata/margin/detail/ ; https://www.szse.cn/",
+      "role": "risk_context",
+      "formula": {
+        "financing_ratio": "financing_balance/free_float_market_cap",
+        "p252": "100*(count_less+0.5*count_equal)/valid_count",
+        "net_buy20": "sum(financing_purchases-financing_repayments,20_sessions)",
+        "etf_units_change20": "units_t/units_t_minus20-1"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "gross_leverage_percentile",
+      "china_indicator": "无可靠公开等价项；与融资拥挤度合并，另列筹码供给风险",
+      "definition": "不得创造A股PB总杠杆，也不将融资和两融余额重复赋权。解禁、减持和质押在独立筹码风险字段记录。",
+      "source": "https://www.sse.com.cn/services/tradingservice/margin/",
+      "role": "merged_not_scored",
+      "formula": null,
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false,
+      "merged_into": "net_leverage_percentile"
+    },
+    {
+      "us_factor": "iv_percentile",
+      "china_indicator": "沪深300/中证500/创业板ETF期权恒定30日ATM隐波分位；单股用RV20/ATR作不同代理",
+      "definition": "指数/ETF期权30日ATM年化IV按相邻到期总方差插值；不取得匹配期权链就留空。单股ATR/RV另列，不代填个股IV。",
+      "source": "https://www.sse.com.cn/assortment/options/ ; https://www.szse.cn/",
+      "role": "risk_context",
+      "formula": {
+        "constant_30day_iv": "interpolate total variance across maturities enclosing 30 days at ATM",
+        "p252": "100*(count_less+0.5*count_equal)/valid_count"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "iv_rv_ratio",
+      "china_indicator": "同一指数/ETF的30日ATM IV除20日RV",
+      "definition": "同一标的、同一时点、同为年化小数；RV=0或缺匹配期权链则null；不得将指数IV除以个股RV。",
+      "source": "https://www.sse.com.cn/assortment/options/",
+      "role": "risk_context",
+      "formula": {
+        "iv_rv": "annualized_ATM_IV30/(sample_std(daily_log_return,20_sessions)*sqrt(252))"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "relative_return_20d_pp",
+      "china_indicator": "个股对沪深300、个股对固定同业、目标板块对非重叠对照池的20日超额收益，三项分别计算",
+      "definition": "固定成分、权重和生效时间，以一致总回报序列计算；前复权价格仅作为标明身份的代理；单位为百分点。",
+      "source": "https://www.csindex.com.cn/ ; https://quotes.sina.cn/ ; https://web.ifzq.gtimg.cn/",
+      "role": "core",
+      "formula": {
+        "stock_vs_csi300_pp": "100*(stock_return20-CSI300_return20)",
+        "stock_vs_peers_pp": "100*(stock_return20-fixed_peer_basket_return20)",
+        "sector_vs_control_pp": "100*(sector_return20-nonoverlapping_control_basket_return20)"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "breakout_breadth_pct",
+      "china_indicator": "固定行业池收盘突破此前20日最高价、且量>=此前20日均量1.2倍的比例；MA60上方比例",
+      "definition": "高点与均量窗口均排除当天；分母为有足够历史的有效固定池成员，同时报告缺失/停牌与全池覆盖；前复权价格和未调整成交量分别核验。",
+      "source": "https://quotes.sina.cn/ ; https://web.ifzq.gtimg.cn/",
+      "role": "core",
+      "formula": {
+        "volume_breakout_fraction": "count(close_t>max(high_t_minus20:high_t_minus1) and volume_t>=1.2*mean(volume_t_minus20:volume_t_minus1))/valid_fixed_pool_count",
+        "above_ma60_fraction": "count(close_t>MA60_t)/valid_fixed_pool_count"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "verified_catalyst_count",
+      "china_indicator": "已发布业绩修正/重大订单/药品获批/重组里程碑，以及未来10自然日经官方核实重大事件",
+      "definition": "未来10自然日官方确认事件去重计数；已发布订单和业绩修正独立保存，不能重复计为未来事件。参会、临床申请、获批和商业化收入分别记录。",
+      "source": "https://www.cninfo.com.cn/ ; https://www.nmpa.gov.cn/ ; https://www.gov.cn/",
+      "role": "core",
+      "formula": {
+        "future_event_count": "count(unique official verified material events in next10_calendar_days)",
+        "published_evidence": "separate backlog, order, approvals, earnings/guidance updates with available_at"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "us_factor": "capex_revision_pct",
+      "china_indicator": "下游客户同财年资本开支或公司已公布产能投资计划的可比指引中点变化",
+      "definition": "固定下游客户集、同一财年、币种统一且有可比指引。供应商自身capex另列；扩产结合订单、合同负债、利用率及现金回报核验。",
+      "source": "https://www.cninfo.com.cn/",
+      "role": "core",
+      "formula": {
+        "customer_capex_revision_pct": "100*(sum(comparable_current_guidance_midpoints)/sum(comparable_previous_guidance_midpoints)-1)"
+      },
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    }
+  ],
+  "a_share_supplements": [
+    {
+      "factor_id": "trend_platform",
+      "name": "趋势与平台位置",
+      "role": "core",
+      "fields": [
+        "close_vs_MA20_MA60_MA200",
+        "MA20_slope5",
+        "MA60_slope10",
+        "distance_to_prior60_high"
+      ],
+      "definition": "区分趋势、蓄势与反弹，前高窗口排除当天",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "factor_id": "breakout_quality",
+      "name": "突破质量",
+      "role": "core",
+      "fields": [
+        "breakout_distance",
+        "volume_vs_prior20_average",
+        "close_location_in_day_range",
+        "platform_retention_after_breakout"
+      ],
+      "definition": "突破后平台保持只能在后续交易发生时使用；零振幅收盘位置null",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "factor_id": "extension_drawdown",
+      "name": "追价与回撤",
+      "role": "risk_context",
+      "fields": [
+        "extension_vs_MA20",
+        "Wilder_RSI14",
+        "ATR14_over_close",
+        "rolling_max_drawdown"
+      ],
+      "definition": "超买不自动做空，波动低不自动看多",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "factor_id": "float_supply",
+      "name": "流通筹码供给",
+      "role": "independent_risk",
+      "fields": [
+        "free_float_market_cap",
+        "turnover",
+        "future_unlock_fraction",
+        "announced_reduction_plan",
+        "pledge_fraction"
+      ],
+      "definition": "解禁不等于实际卖出；减持按公告首次可知时点",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "factor_id": "earnings_conversion",
+      "name": "盈利兑现质量",
+      "role": "core",
+      "fields": [
+        "order_growth",
+        "recurring_income_growth",
+        "CFO_growth",
+        "receivables_growth",
+        "inventory_growth",
+        "capacity_utilization"
+      ],
+      "definition": "合并重述与同比/环比/相对年初分开；订单不等于已确认收入",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    },
+    {
+      "factor_id": "execution_feasibility",
+      "name": "交易可执行性",
+      "role": "independent_risk",
+      "fields": [
+        "amount_traded",
+        "suspension",
+        "price_limit_state",
+        "spread_depth",
+        "impact_cost",
+        "T_plus_1"
+      ],
+      "definition": "涨停买不到、跌停无法退出、未成交保留，限制按当期板块/ST规则核验",
+      "weight": null,
+      "calibrated": false,
+      "enabled_in_current_runtime": false
+    }
+  ],
+  "input_metadata": [
+    "observed_at",
+    "available_at",
+    "fetched_at",
+    "timezone",
+    "source",
+    "series_id",
+    "unit",
+    "definition_version",
+    "verification_status",
+    "missing_reason",
+    "exchange_calendar",
+    "adjustment_basis"
+  ],
+  "missing_policy": "null with reason; no zero/50 imputation; insufficient evidence produces no total score",
+  "percentile": {
+    "window_sessions": 252,
+    "minimum_valid_observations": 200,
+    "range": [
+      0,
+      100
+    ],
+    "method": "100*(less+0.5*equal)/valid_count; one source and definition"
+  },
+  "units": {
+    "yield_raw": "percent",
+    "yield_change": "basis_points",
+    "relative_return": "percentage_points",
+    "margin_change": "percentage_points",
+    "IV_RV": "annualized_decimal"
+  },
+  "point_in_time": {
+    "cutoff": "available_at<=decision_time",
+    "no_final_revision_backfill": true,
+    "fixed_universe_and_calendar": true,
+    "current_constituents_not_historical_constituents": true,
+    "same_fiscal_year_consensus": true
+  },
+  "financial_rules": {
+    "consolidated_statements": true,
+    "TTM": "current_YTD+previous_FY-previous_comparable_YTD",
+    "halfyear_not_TTM": true,
+    "restatements_and_mergers_separate": true,
+    "adjusted_company_FCF_not_statutory_proxy": true
+  },
+  "strategy_paths": {
+    "mainwave": "orders/earnings, sector participation, relative strength, confirmed breakout, supply/execution risks",
+    "LRCX_rebound": "close>SMA200 and Wilder_RSI2<=20 and return3<0; evaluated separately",
+    "WDAY": "original parameters unknown; no substitution"
+  },
+  "research_targets": [
+    {
+      "sessions": 10,
+      "net_close_return": 0.1
+    },
+    {
+      "sessions": 20,
+      "net_close_return": 0.2
+    },
+    {
+      "sessions": 40,
+      "net_close_return": 0.3
+    }
+  ],
+  "validation_required": [
+    "freeze target/features/entry/exit/cost before evaluation",
+    "chronological train/validation and future independent audit",
+    "purge immature outcomes",
+    "compare simple RS and equal weight baselines",
+    "test incremental factors and correlation",
+    "preserve failures/nonfills/limit-down exits and coverage",
+    "distinguish implementation correctness from investment efficacy"
+  ],
+  "china_specific_risks": [
+    "T+1新增持仓不可当日卖出",
+    "主板/创业板/科创板分别核验价格限制与申报单位",
+    "ST、停牌、退市、异常交易监管、解禁、减持与股权质押",
+    "北向数据按实际披露频率，不编造实时净流入；公开持仓已转季度口径",
+    "跨行业估值与成长可见度；涨停买不到/跌停无法退出",
+    "没有账户风险预算，不给全账户最优股数"
+  ],
+  "interpretation_limits": [
+    "orders/guidance/ratings are not consensus EPS revisions",
+    "low financing percentile does not prove future buyback demand",
+    "low IV gives no price direction",
+    "capex revision does not prove earnings or cash improvement",
+    "new fields do not directly adjust probability before independent validation"
+  ],
+  "current_engine_boundary": "本数据字典未被macro_regime/macro_selection导入；冻结v1.1与CSI300选择层的运行规则未修改"
+}

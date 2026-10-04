@@ -1,5 +1,7 @@
 8db1a50c7d38f37cfa415327640c400ea2894e492449ee4e7f17474627f6bb4e  .gitignore
-8a322e6dff7588a9f5260c41a4452429837fa6a9cd1d77be9b582e33daf0bb1a  README.md
+7d89f4f28115324122912d06dbdb9d142cf844655286fd63c8b267d165acb591  README.md
+3d011d5270fa4c4a0dc5d9b50375621f6a617a6051d5043bee5fcdadd90b754b  docs/a-share-factor-mapping.json
+4bfdb7564a8b34eb32895348d19efb5488f60b7c192e9224382dccf45d9ab40c  docs/a-share-factor-mapping.md
 336f15f753681458a70d8bdb91348999b0874e3d5c508b949aeaefd7b531d6f8  docs/frozen_v1_1.sha256
 add966ec0b521c1211efe1638203a66bceba726345fd9403bd16914a935288b3  docs/package_validation.json
 5141c42b76a2e007d42032f45b1a7e36450e9dc13cf1187b8db19d6debdc4cfa  examples/calendars.example.json
@@ -521,9 +523,9 @@ e7bd063fa7eb419ed6dc285d0daca6bc7fc81e74b7827e3232c25da825599d4b  references/sho
 c47a6df1a9d7b9dec9aa55ee33c4e3c1233d1e1c09cf3eb4826e04e1718aef4e  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/manifest-reused.json
 f6cc1431827806595658a973670663f57509132c405a3ec2866968a45905e598  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/original-bb-universe.json
 f02d34823151483f6fec31981c4e53ab1bc9ce7f0bff3b25766128373af46890  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/protocol.json
+a8fb57d3662fa00d2e86a94f45788df61507e323cdc6daed1f051f281ee30a2a  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/publication.py
 09c0d4cf5383d4081f43728753d790c17d3060a7199a262933227e0ef3b2dc8b  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/publication/manifest.json
 b3ca0aae6212f9dd9eb10f5d50b0e09a6df0583547baf414f6449de801eb50ac  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/publication/quotes-and-plan.json
-a8fb57d3662fa00d2e86a94f45788df61507e323cdc6daed1f051f281ee30a2a  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/publication.py
 fe6110aab12f750201f8e6b8a2da1a5c720ce221c7f26a22ca7ec2666f6fd710  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/strict-original/audit.json
 65e5cfcbb1c89b2636557464141d1a9a75265265f91a78dac4e9283fa08963f6  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/strict-original/rejects.csv
 ee50fef7359c4fb576cb81d401078a78f091c3cd4a9a59a61c43a9acecc89fc0  references/short-term-cases/sources/研究记录/2026-10-01-Babybus低涨幅次日机会/strict-original/signals.csv

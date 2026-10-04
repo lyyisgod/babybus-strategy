@@ -51,3 +51,7 @@ python3 -m venv .venv
 作者点位独立存于 `macro_regime/config.py`，as_of=2026-09-30，之后 63 个 NYSE 交易日有效，第 64 日作者组合永久关闭。过期不影响统计腿；MOVE 代理时作者组合关闭。AVGO/SLV/BWXT/APP 加仓参考仅展示，不进入状态机。
 
 原 v1.1 Python 文件逐字保留，SHA256 清单在 [docs/frozen_v1_1.sha256](docs/frozen_v1_1.sha256)。本仓库包含策略源码、规则说明、格式示例、合成测试，以及[历史短线案例参考](references/short-term-cases/README.md)。参考资料保留原建议、失败与事后结果，个人账户信息已脱敏；这些旧研究不计入 v1.1 的纸面 N。
+
+## A股因子映射
+
+新增[A股主升浪因子映射 v1.1](docs/a-share-factor-mapping.md)及[机器可读数据字典](docs/a-share-factor-mapping.json)：12项美股因子的中国对应口径、6项A股补充因子、数据来源、缺失处理与验证边界。机构总杠杆无可靠公开等价项，与融资拥挤度合并，筹码供给独立核验。该研究规格尚未接入运行入口，权重与暴涨概率未校准；现有冻结 v1.1 保持原定义。

@@ -478,7 +478,7 @@
       "omit_consensus": [],
       "expected_projection": {
         "regime": "PAUSE",
-        "action": "CORE_ADD",
+        "action": "CORE_ADD_NO_MARGIN",
         "size_unit": 0.25,
         "constraints": {
           "allow_margin": false,

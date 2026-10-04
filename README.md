@@ -58,7 +58,9 @@ python3 -m venv .venv
 
 ## macro_engine
 
-新规则的唯一入口为 `macro_engine.decide(book, facts, policy_statements, asof)`。返回不可变的 `Decision`，用 `to_dict()` / `to_json()` 导出 `regime、stress、constraints、action、size_unit、cores、satellites、rejects、trace、surge`；每天只有一个账户动作。冻结 v1.1 与原 `macro_selection` 的独立入口保持原行为。
+研究决策只认 `macro_engine.decide(book, facts, policy_statements, asof)`。返回不可变的 `Decision`，用 `to_dict()` / `to_json()` 导出 `regime、stress、constraints、action、size_unit、cores、satellites、rejects、trace、surge`；每天只有一个账户动作。冻结的旧入口仍可单独运行、保持原返回值，但它们不是研究出口。
+`macro_regime.snapshot`：冻结 v1.1，不产生 macro_engine 的 Decision。
+`macro_selection`：冻结 v1.1，不产生 macro_engine 的 Decision。
 
 账本指定全局唯一 CORE，所有 nominal、nav 和 budget 必须使用同一计价货币。gross 由持仓名义金额绝对值之和 / nav 计算；budget 是当日可用于增加名义金额的资金。缺 nav、budget 或任一持仓 nominal 时 `trace.execution_status="观察"`，不能标为可执行；若 gross 仍能算出且压力确认超过 1 倍，唯一动作提示仍为 DELEVER_TO_1X，不产生可执行加仓行。`opened_on` 是实际开仓日，watchlist 允许留空。引擎不按错杀分每天换 CORE。
 

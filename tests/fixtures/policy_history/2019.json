@@ -1,0 +1,96 @@
+{
+  "cycle": "2019",
+  "read_only": true,
+  "verified_on": "2026-10-04",
+  "verification": "Each date, majority policy action and target range was checked against the linked Federal Reserve statement. target_range values are percentage points; target_range_text preserves the statement range wording. This is a read-only evidence fixture, never generated or updated by tests.",
+  "statements": [
+    {
+      "date": "2018-12-19",
+      "action": "HIKE",
+      "target_range": [
+        2.25,
+        2.5
+      ],
+      "target_range_text": "2-1/4 to 2‑1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-01-30",
+      "action": "HOLD",
+      "target_range": [
+        2.25,
+        2.5
+      ],
+      "target_range_text": "2-1/4 to 2-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-03-20",
+      "action": "HOLD",
+      "target_range": [
+        2.25,
+        2.5
+      ],
+      "target_range_text": "2-1/4 to 2-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190320a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-05-01",
+      "action": "HOLD",
+      "target_range": [
+        2.25,
+        2.5
+      ],
+      "target_range_text": "2-1/4 to 2-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190501a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-06-19",
+      "action": "HOLD",
+      "target_range": [
+        2.25,
+        2.5
+      ],
+      "target_range_text": "2-1/4 to 2-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-07-31",
+      "action": "CUT",
+      "target_range": [
+        2,
+        2.25
+      ],
+      "target_range_text": "2 to 2-1/4 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190731a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-09-18",
+      "action": "CUT",
+      "target_range": [
+        1.75,
+        2
+      ],
+      "target_range_text": "1-3/4 to 2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190918a.htm",
+      "verified": true
+    },
+    {
+      "date": "2019-10-30",
+      "action": "CUT",
+      "target_range": [
+        1.5,
+        1.75
+      ],
+      "target_range_text": "1-1/2 to 1-3/4 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20191030a.htm",
+      "verified": true
+    }
+  ]
+}

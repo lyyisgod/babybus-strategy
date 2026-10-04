@@ -3,6 +3,7 @@ from collections import Counter
 from copy import deepcopy
 
 from .decision import Decision
+from .closest import closest_candidate
 from .inputs import (EvidenceError, finite, prices, price_metrics, member,
                      eps_revision, calendar_state, known)
 from .macro import macro_facts
@@ -105,6 +106,7 @@ def decide(book,facts,policy_statements,asof):
         constraints['allow_new_core']=constraints['allow_new_satellite']=False
     cores,satellites,rejects=[],[],[]
     computed={}
+    contexts={}
     calendars={m:calendar_state(facts,m,asof) for m in {'US','CN'}}
     names=account['names']; industries=account['industry_counts'].copy()
     held_symbols={p['symbol'] for p in account['held']}
@@ -113,6 +115,7 @@ def decide(book,facts,policy_statements,asof):
         if count:coverage[count]+=1
     for p in account['assets']:
         symbol,market,role=p.get('symbol'),p.get('market'),p.get('role')
+        contexts[symbol]={'names':names,'industry_names':industries[p.get('industry')]}
         cal=calendars.get(market,{})
         if role not in {'CORE','SATELLITE','BALLAST'} or market not in {'US','CN'} or not symbol or not p.get('industry'):
             reject(p,'unsupported_book_asset');continue
@@ -220,7 +223,7 @@ def decide(book,facts,policy_statements,asof):
     else:
         eligible=[p for p in cores if p['status']=='候选']
         if eligible:
-            action='CORE_ADD_NO_MARGIN' if pressure else 'CORE_ADD'
+            action='CORE_ADD_NO_MARGIN' if pressure or regime=='PAUSE' else 'CORE_ADD'
             size=eligible[0]['metrics']['dip_unit'];eligible[0]['status']='可执行'
             reason=['ledger_core_frozen_dip_ordinal']
         elif satellites:
@@ -256,5 +259,12 @@ def decide(book,facts,policy_statements,asof):
            'fedwatch_label':deepcopy(facts.get('fedwatch')) if isinstance(facts.get('fedwatch'),dict)
                             and known(facts['fedwatch'],asof) else None,
            'paper_n':0,'size_kind':'ordinal_not_nav_fraction'}
+    trace['closest']=closest_candidate(
+        account,facts,asof,regime=regime,macro=macro,calendars=calendars,clock=clock,
+        contexts=contexts,computed=computed,cores=cores,satellites=satellites,
+        metal_symbols=METALS,max_industry_names=MAX_INDUSTRY_NAMES,
+        satellite_cap=SATELLITE_NOMINAL_CAP,book=book)
+    if trace['closest'] is None:
+        trace['reason']=['empty_book']
     return Decision(regime,macro['stress'],constraints,action,tuple(cores),tuple(satellites),
                     tuple(rejects),trace,size)

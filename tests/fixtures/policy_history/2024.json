@@ -1,0 +1,140 @@
+{
+  "cycle": "2024",
+  "read_only": true,
+  "verified_on": "2026-10-04",
+  "verification": "Each date, majority policy action and target range was checked against the linked Federal Reserve statement. target_range values are percentage points; target_range_text preserves the statement range wording. This is a read-only evidence fixture, never generated or updated by tests.",
+  "statements": [
+    {
+      "date": "2023-07-26",
+      "action": "HIKE",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+      "verified": true
+    },
+    {
+      "date": "2023-09-20",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230920a.htm",
+      "verified": true
+    },
+    {
+      "date": "2023-11-01",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231101a.htm",
+      "verified": true
+    },
+    {
+      "date": "2023-12-13",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-01-31",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-03-20",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-05-01",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-06-12",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-07-31",
+      "action": "HOLD",
+      "target_range": [
+        5.25,
+        5.5
+      ],
+      "target_range_text": "5-1/4 to 5-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-09-18",
+      "action": "CUT",
+      "target_range": [
+        4.75,
+        5
+      ],
+      "target_range_text": "4-3/4 to 5 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-11-07",
+      "action": "CUT",
+      "target_range": [
+        4.5,
+        4.75
+      ],
+      "target_range_text": "4-1/2 to 4-3/4 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+      "verified": true
+    },
+    {
+      "date": "2024-12-18",
+      "action": "CUT",
+      "target_range": [
+        4.25,
+        4.5
+      ],
+      "target_range_text": "4-1/4 to 4-1/2 percent",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+      "verified": true
+    }
+  ]
+}

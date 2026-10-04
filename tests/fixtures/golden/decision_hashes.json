@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "hash_algorithm": "sha256",
+  "update_reason": "closest only",
+  "baseline_stage": "after PAUSE action rename, before closest",
+  "cases": [
+    {
+      "id": "day01",
+      "asof": "2026-10-01",
+      "baseline_sha256": "d471632c6f12b1cad9fc835b7ea33d3269a477c4ea2ee8aeddfa2e53ad8d3ed8",
+      "sha256": "d4aa96e77058d40840dd2c2052891e4da1edfde85facbfd33734979d69ebc14a"
+    },
+    {
+      "id": "day02",
+      "asof": "2026-10-02",
+      "baseline_sha256": "a938f4a05a59f188c5197eca8ad0764f817fc26e1ea4be5aa9d2974efb360601",
+      "sha256": "50b0a82300e628c79f21f9bd79f8b5039d04c412fb225f90b4ccd96455e6e32d"
+    },
+    {
+      "id": "day03",
+      "asof": "2026-10-05",
+      "baseline_sha256": "dea65be48ab29d4833ccad5756272d5500b1a832a22b1849fb348363fa44d66c",
+      "sha256": "c5f70e89001234110cea1125e08a96af35b6b0c9701b8659e94d6b655b9f6515"
+    },
+    {
+      "id": "day04",
+      "asof": "2026-10-06",
+      "baseline_sha256": "dc5010e5cec45cd39b3713233007913e3ff268ba36baecddaad3b1b2fe4176b1",
+      "sha256": "90ab9fdac8fb1ea628b9c2ee9aa6fe6362315ebd30ad69e2d6366a1f4a25f7dc"
+    },
+    {
+      "id": "day05",
+      "asof": "2026-10-07",
+      "baseline_sha256": "e6800487d2516aeef69800c942238f41d6dbe8f5c7d29898d5903a774ed39dca",
+      "sha256": "a0a026be5216fd2aeb45b5a9ffbf78ebc6a376a03d9dfd8637174754a42d20cd"
+    },
+    {
+      "id": "day06",
+      "asof": "2026-10-08",
+      "baseline_sha256": "acff64d06ee04cab83225ace5ca97f186ff079d1148d8bf083f6c8d224c6b34c",
+      "sha256": "6120993b8f6f369b146e20cfe8d3a3270b4fc26be255a1362db0d8cb12c468e4"
+    },
+    {
+      "id": "day07",
+      "asof": "2026-10-09",
+      "baseline_sha256": "2b028af5d87ef9da15577369fc10c999d35bb90d286008e8571277746f45792a",
+      "sha256": "a7c7f0ac5f64b73b3c53d680bb022a297e257616f384835830b3aade1f8c259c"
+    },
+    {
+      "id": "day08",
+      "asof": "2026-10-12",
+      "baseline_sha256": "8c50a1c4504b5f1f2b5a13e7cf4ab6cfb8c444a1e1bd0f69d20bfc672ae20c86",
+      "sha256": "b51b3f0ce32f3f12e7fccdc0d3f295ff460a70ae54aaed17fa231c5235454822"
+    },
+    {
+      "id": "day09",
+      "asof": "2026-10-13",
+      "baseline_sha256": "76e09808f130c31329251e86cc054b439b88fd7f0d999db56c188a04588fadbb",
+      "sha256": "14a1d92c27ace01cba4a59110de69acf7750c06b48e882ac2ab4d25bee5d0f1f"
+    },
+    {
+      "id": "day10",
+      "asof": "2026-10-14",
+      "baseline_sha256": "5ab22dc3479b499548c0240f6b06d7059fb9ebe3a1dfe9e6486ed6757f6ee7d7",
+      "sha256": "8aceba7a2a4a910b018cb55476474d9ad2f02c096d6f10b258c3a9796aa38d59"
+    }
+  ]
+}
